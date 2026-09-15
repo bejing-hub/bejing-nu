@@ -53,43 +53,43 @@
     </div>
   </header>
 
-    <!-- ==================== STICKY CENTERED NAVIGATION BAR ==================== -->
+  <!-- ==================== STICKY CENTERED NAVIGATION BAR ==================== -->
   <nav class="main-navbar" id="mainNavbar">
     <div class="container">
       <div class="navbar-inner">
         <ul class="nav-links">
           <li class="nav-item active">
-            <a href="index.html" class="nav-link home-icon-link" title="Ana Sayfa">
+            <a href="index.html" class="nav-link home-icon-link" title="Ana Sayfa / Malper">
               <i class="fa-solid fa-house-chimney"></i>
             </a>
           </li>
           <li class="nav-item">
-            <a href="genc-kadin-bakisiya.html" class="nav-link">
+            <a href="javascript:void(0)" class="nav-link" onclick="setCategoryFilter('genc-kadin-bakisiya'); document.getElementById('articlesSection').scrollIntoView({behavior:'smooth'});">
               <span data-i18n="catGencKadin">Genç Kadın Bakışıyla</span>
             </a>
           </li>
           <li class="nav-item">
-            <a href="manin-izindekiler.html" class="nav-link">
+            <a href="javascript:void(0)" class="nav-link" onclick="setCategoryFilter('manin-izindekiler'); document.getElementById('articlesSection').scrollIntoView({behavior:'smooth'});">
               <span data-i18n="catManinIzindekiler">Ma'nın İzindekiler</span>
             </a>
           </li>
           <li class="nav-item">
-            <a href="orgulerin-kalemi.html" class="nav-link">
+            <a href="javascript:void(0)" class="nav-link" onclick="setCategoryFilter('orgulerin-kalemi'); document.getElementById('articlesSection').scrollIntoView({behavior:'smooth'});">
               <span data-i18n="catOrgulerinKalemi">Örgülerin Kalemi</span>
             </a>
           </li>
           <li class="nav-item">
-            <a href="kadin-ve-kultur.html" class="nav-link">
+            <a href="javascript:void(0)" class="nav-link" onclick="setCategoryFilter('kadin-ve-kultur'); document.getElementById('articlesSection').scrollIntoView({behavior:'smooth'});">
               <span data-i18n="catKadinVeKultur">Kadın ve Kültür</span>
             </a>
           </li>
           <li class="nav-item">
-            <a href="atolye.html" class="nav-link">
+            <a href="javascript:void(0)" class="nav-link" onclick="setCategoryFilter('atolye'); document.getElementById('articlesSection').scrollIntoView({behavior:'smooth'});">
               <span data-i18n="catAtolye">Atölye</span>
             </a>
           </li>
           <li class="nav-item">
-            <a href="kadin-kulliyati.html" class="nav-link">
+            <a href="javascript:void(0)" class="nav-link" onclick="setCategoryFilter('kadin-kulliyati'); document.getElementById('articlesSection').scrollIntoView({behavior:'smooth'});">
               <span data-i18n="catKadinKulliyati">Kadın Külliyatı</span>
             </a>
           </li>
@@ -99,6 +99,8 @@
               <span data-i18n="navVideos">Videolar</span>
             </a>
           </li>
+          
+          
         </ul>
       </div>
     </div>
@@ -139,8 +141,8 @@
       <div class="about-strip-inner">
         <span class="section-badge"><i class="fa-solid fa-feather-pointed"></i> Bêjing Medya</span>
         <h2 class="section-title" data-i18n="aboutManifestoTitle">Yayın İlkelerimiz ve Misyonumuz</h2>
-        <div class="about-strip-quote">
-          “Genç Kadınların Sesi – Dengê Jinên Ciwan”
+        <div class="about-strip-quote" id="aboutStripQuote">
+          “Genç Kadınların Sesi”
         </div>
         <p class="about-strip-text" id="aboutStripDynamicText">
           Bêjing Medya; genç kadınların özgür düşüncesini, felsefesini ve kültürel hafızasını geleceğe taşıyan bağımsız bir düşünce ve medya platformudur. Hakikatin ve sevginin izinde, örgülerin kalemiyle yazılan analizler ve haftalık video yayınlarıyla kadın aydınlanmasına ses veriyoruz.
@@ -167,8 +169,8 @@
   <section class="videos-showcase-section" id="videoShowcaseSection">
     <div class="container">
       <div class="section-header-cinema" style="text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center;">
-        <span class="section-badge"><i class="fa-solid fa-film"></i> <span data-i18n="navVideos">Videolar</span></span>
-        <h2 class="section-title-cinema" style="text-align: center;" data-i18n="videosTitle">Haftalık Videolar</h2>
+        <span class="section-badge"><i class="fa-solid fa-film"></i> Bêjing TV</span>
+        <h2 class="section-title-cinema" style="text-align: center;" data-i18n="videosTitle">Bêjing TV & Haftalık Videolar</h2>
         <p class="section-subtitle-cinema" style="text-align: center;" data-i18n="videosSubtitle">Genç kadınların sesi, söyleşiler, özel video dosyaları ve belgeseller</p>
       </div>
 
@@ -244,7 +246,7 @@
           <div class="social-box-icon"><i class="fa-brands fa-youtube"></i></div>
           <h3 class="social-box-title">YouTube</h3>
           <span class="social-box-handle">@BejingMedya</span>
-          <p class="social-box-desc">Bêjing Video haftalık video programları, söyleşiler ve belgeseller.</p>
+          <p class="social-box-desc">Bêjing TV haftalık video programları, söyleşiler ve belgeseller.</p>
           <button type="button" class="social-box-btn">Abone Ol</button>
         </a>
 
@@ -310,12 +312,12 @@
         <div style="display: flex; flex-direction: column; align-items: center;">
           <h4 class="footer-title" data-i18n="footerCategories">Kategoriler</h4>
           <ul class="footer-links-list" style="text-align: center;">
-            <li><a href="genc-kadin-bakisiya.html" data-i18n="catGencKadin">Genç Kadın Bakışıyla</a></li>
-            <li><a href="manin-izindekiler.html" data-i18n="catManinIzindekiler">Ma'nın İzindekiler</a></li>
-            <li><a href="orgulerin-kalemi.html" data-i18n="catOrgulerinKalemi">Örgülerin Kalemi</a></li>
-            <li><a href="kadin-ve-kultur.html" data-i18n="catKadinVeKultur">Kadın ve Kültür</a></li>
-            <li><a href="atolye.html" data-i18n="catAtolye">Atölye</a></li>
-            <li><a href="kadin-kulliyati.html" data-i18n="catKadinKulliyati">Kadın Külliyatı</a></li>
+            <li><a href="javascript:void(0)" onclick="setCategoryFilter('genc-kadin-bakisiya'); document.getElementById('articlesSection').scrollIntoView({behavior:'smooth'});" data-i18n="catGencKadin">Genç Kadın Bakışıyla</a></li>
+            <li><a href="javascript:void(0)" onclick="setCategoryFilter('manin-izindekiler'); document.getElementById('articlesSection').scrollIntoView({behavior:'smooth'});" data-i18n="catManinIzindekiler">Ma'nın İzindekiler</a></li>
+            <li><a href="javascript:void(0)" onclick="setCategoryFilter('orgulerin-kalemi'); document.getElementById('articlesSection').scrollIntoView({behavior:'smooth'});" data-i18n="catOrgulerinKalemi">Örgülerin Kalemi</a></li>
+            <li><a href="javascript:void(0)" onclick="setCategoryFilter('kadin-ve-kultur'); document.getElementById('articlesSection').scrollIntoView({behavior:'smooth'});" data-i18n="catKadinVeKultur">Kadın ve Kültür</a></li>
+            <li><a href="javascript:void(0)" onclick="setCategoryFilter('atolye'); document.getElementById('articlesSection').scrollIntoView({behavior:'smooth'});" data-i18n="catAtolye">Atölye</a></li>
+            <li><a href="javascript:void(0)" onclick="setCategoryFilter('kadin-kulliyati'); document.getElementById('articlesSection').scrollIntoView({behavior:'smooth'});" data-i18n="catKadinKulliyati">Kadın Külliyatı</a></li>
           </ul>
         </div>
 
@@ -354,18 +356,16 @@
       </div>
     </div>
 
-    <!-- Back to Top Button Row -->
-    <div class="footer-back-to-top-wrap">
-      <button type="button" class="back-to-top-btn" id="backToTopBtn" onclick="window.scrollTo({top:0, behavior:'smooth'})">
-        <i class="fa-solid fa-arrow-up"></i>
-        <span data-i18n="backToTop">Yukarı Çık</span>
-      </button>
-    </div>
-
-    <!-- Slim Dedicated Copyright Strip -->
-    <div class="copyright-slim-bar" style="background: #2D1307; padding: 12px 0; text-align: center; width: 100%;">
-      <div class="container" style="text-align: center; margin: 0 auto; display: flex; justify-content: center; align-items: center; width: 100%;">
-        <p data-i18n="copyright" style="text-align: center !important; margin: 0 auto !important; width: 100% !important; display: block !important; font-size: 0.82rem; color: rgba(255, 255, 255, 0.45); letter-spacing: 0.3px;">© 2026 Bêjing Medya. Tüm hakları saklıdır.</p>
+    <!-- Bottom Copyright -->
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="footer-bottom-inner" style="justify-content: center; flex-direction: column; gap: 10px; text-align: center;">
+          <p data-i18n="copyright">© 2026 Bêjing Medya. Tüm hakları saklıdır.</p>
+          <button type="button" class="back-to-top-btn" id="backToTopBtn" style="margin: 0 auto;">
+            <i class="fa-solid fa-arrow-up"></i>
+            <span data-i18n="backToTop">Yukarı Çık</span>
+          </button>
+        </div>
       </div>
     </div>
   </footer>
@@ -416,12 +416,12 @@
     </div>
     <ul class="drawer-nav-list" style="text-align: center;">
       <li><a href="index.html" class="drawer-nav-link active" onclick="closeMobileDrawer()"><i class="fa-solid fa-house"></i> <span data-i18n="navHome">Ana Sayfa</span></a></li>
-      <li><a href="genc-kadin-bakisiya.html" class="drawer-nav-link"><i class="fa-solid fa-venus"></i> <span data-i18n="catGencKadin">Genç Kadın Bakışıyla</span></a></li>
-      <li><a href="manin-izindekiler.html" class="drawer-nav-link"><i class="fa-solid fa-feather-pointed"></i> <span data-i18n="catManinIzindekiler">Ma'nın İzindekiler</span></a></li>
-      <li><a href="orgulerin-kalemi.html" class="drawer-nav-link"><i class="fa-solid fa-pen-nib"></i> <span data-i18n="catOrgulerinKalemi">Örgülerin Kalemi</span></a></li>
-      <li><a href="kadin-ve-kultur.html" class="drawer-nav-link"><i class="fa-solid fa-masks-theater"></i> <span data-i18n="catKadinVeKultur">Kadın ve Kültür</span></a></li>
-      <li><a href="atolye.html" class="drawer-nav-link"><i class="fa-solid fa-compass-drafting"></i> <span data-i18n="catAtolye">Atölye</span></a></li>
-      <li><a href="kadin-kulliyati.html" class="drawer-nav-link"><i class="fa-solid fa-book-bookmark"></i> <span data-i18n="catKadinKulliyati">Kadın Külliyatı</span></a></li>
+      <li><a href="javascript:void(0)" class="drawer-nav-link" onclick="setCategoryFilter('genc-kadin-bakisiya'); closeMobileDrawer(); document.getElementById('articlesSection').scrollIntoView({behavior:'smooth'});"><i class="fa-solid fa-venus"></i> <span data-i18n="catGencKadin">Genç Kadın Bakışıyla</span></a></li>
+      <li><a href="javascript:void(0)" class="drawer-nav-link" onclick="setCategoryFilter('manin-izindekiler'); closeMobileDrawer(); document.getElementById('articlesSection').scrollIntoView({behavior:'smooth'});"><i class="fa-solid fa-feather-pointed"></i> <span data-i18n="catManinIzindekiler">Ma'nın İzindekiler</span></a></li>
+      <li><a href="javascript:void(0)" class="drawer-nav-link" onclick="setCategoryFilter('orgulerin-kalemi'); closeMobileDrawer(); document.getElementById('articlesSection').scrollIntoView({behavior:'smooth'});"><i class="fa-solid fa-pen-nib"></i> <span data-i18n="catOrgulerinKalemi">Örgülerin Kalemi</span></a></li>
+      <li><a href="javascript:void(0)" class="drawer-nav-link" onclick="setCategoryFilter('kadin-ve-kultur'); closeMobileDrawer(); document.getElementById('articlesSection').scrollIntoView({behavior:'smooth'});"><i class="fa-solid fa-masks-theater"></i> <span data-i18n="catKadinVeKultur">Kadın ve Kültür</span></a></li>
+      <li><a href="javascript:void(0)" class="drawer-nav-link" onclick="setCategoryFilter('atolye'); closeMobileDrawer(); document.getElementById('articlesSection').scrollIntoView({behavior:'smooth'});"><i class="fa-solid fa-compass-drafting"></i> <span data-i18n="catAtolye">Atölye</span></a></li>
+      <li><a href="javascript:void(0)" class="drawer-nav-link" onclick="setCategoryFilter('kadin-kulliyati'); closeMobileDrawer(); document.getElementById('articlesSection').scrollIntoView({behavior:'smooth'});"><i class="fa-solid fa-book-bookmark"></i> <span data-i18n="catKadinKulliyati">Kadın Külliyatı</span></a></li>
       <li><a href="videos.html" class="drawer-nav-link"><i class="fa-solid fa-film"></i> <span data-i18n="navVideos">Videolar</span></a></li>
       <li><a href="about.html" class="drawer-nav-link"><i class="fa-solid fa-circle-info"></i> <span data-i18n="navAbout">Hakkımızda</span></a></li>
       <li><a href="contact.html" class="drawer-nav-link"><i class="fa-regular fa-envelope"></i> <span data-i18n="navContact">İletişim</span></a></li>

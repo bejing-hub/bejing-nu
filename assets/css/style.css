@@ -37,10 +37,10 @@
   --c-text-light: #94867D;
   --c-text-on-dark: #FBF8F5;
   
-  /* Cinema Dark (Video Section) */
-  --c-cinema-bg: #17110E;
-  --c-cinema-card: #241A15;
-  --c-cinema-border: #3A2C23;
+  /* Video Section (Warm & Light Editorial Tone) */
+  --c-cinema-bg: #FAF4EB;
+  --c-cinema-card: #FFFFFF;
+  --c-cinema-border: #E8DFD3;
 
   /* Typography Stacks */
   --font-display: 'Playfair Display', Georgia, serif;
@@ -691,13 +691,13 @@ ul, ol {
    CINEMA-GRADE VIDEO SHOWCASE (Bêjing Video & Vîdeo)
    ========================================================================== */
 .videos-showcase-section {
-  background: radial-gradient(circle at 80% 20%, #2D1910 0%, #17110E 70%);
+  background: linear-gradient(135deg, #FAF4EB 0%, #F5ECDF 100%);
   padding: 50px 0;
   margin: 30px 0;
-  color: #FFF;
+  color: var(--c-text-main);
   position: relative;
-  border-top: 2px solid var(--c-gold-dark);
-  border-bottom: 2px solid var(--c-gold-dark);
+  border-top: 2px solid var(--c-gold-light);
+  border-bottom: 2px solid var(--c-gold-light);
 }
 
 .section-header-cinema {
@@ -705,7 +705,7 @@ ul, ol {
   justify-content: space-between;
   align-items: flex-end;
   margin-bottom: 30px;
-  border-bottom: 1px solid rgba(197, 155, 63, 0.2);
+  border-bottom: 1px solid var(--c-border-gold);
   padding-bottom: 16px;
 }
 
@@ -721,7 +721,7 @@ ul, ol {
   gap: 6px;
   font-size: 0.78rem;
   font-weight: 700;
-  color: var(--c-gold-light);
+  color: var(--c-mahogany);
   letter-spacing: 1px;
   text-transform: uppercase;
 }
@@ -730,25 +730,25 @@ ul, ol {
   font-family: var(--font-display);
   font-size: 2rem;
   font-weight: 700;
-  color: #FFF;
+  color: var(--c-mahogany);
 }
 
 .section-subtitle-cinema {
   font-size: 0.92rem;
-  color: rgba(255, 255, 255, 0.65);
+  color: var(--c-text-muted);
 }
 
 .view-all-link {
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  color: var(--c-gold-bright);
+  color: var(--c-mahogany-dark);
   font-size: 0.88rem;
   font-weight: 600;
   padding: 6px 14px;
   border-radius: var(--radius-full);
-  background: rgba(197, 155, 63, 0.15);
-  border: 1px solid rgba(197, 155, 63, 0.3);
+  background: rgba(197, 155, 63, 0.2);
+  border: 1px solid rgba(197, 155, 63, 0.4);
   transition: all var(--transition-fast);
 }
 
@@ -765,20 +765,21 @@ ul, ol {
 }
 
 .video-card {
-  background: var(--c-cinema-card);
-  border: 1px solid var(--c-cinema-border);
+  background: #FFFFFF;
+  border: 1px solid var(--c-border);
   border-radius: var(--radius-md);
   overflow: hidden;
   transition: all var(--transition-normal);
   cursor: pointer;
   display: flex;
   flex-direction: column;
+  box-shadow: var(--shadow-sm);
 }
 
 .video-card:hover {
   transform: translateY(-6px);
   border-color: var(--c-gold);
-  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.5);
+  box-shadow: var(--shadow-md);
 }
 
 .video-thumb-wrap {
@@ -806,30 +807,30 @@ ul, ol {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 52px;
-  height: 52px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
-  background: rgba(197, 155, 63, 0.9);
+  background: var(--c-gold);
   color: var(--c-mahogany-dark);
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.2rem;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+  font-size: 1.15rem;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
   transition: all var(--transition-fast);
 }
 
 .video-card:hover .video-play-btn {
   background: var(--c-gold-bright);
-  transform: translate(-50%, -50%) scale(1.15);
-  box-shadow: 0 6px 22px rgba(212, 175, 55, 0.6);
+  transform: translate(-50%, -50%) scale(1.12);
+  box-shadow: 0 6px 20px rgba(212, 175, 55, 0.5);
 }
 
 .video-duration {
   position: absolute;
   bottom: 10px;
   right: 10px;
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.75);
   color: #FFF;
   font-size: 0.74rem;
   font-weight: 700;
@@ -848,7 +849,7 @@ ul, ol {
 .video-card-category {
   font-size: 0.72rem;
   font-weight: 700;
-  color: var(--c-gold-light);
+  color: var(--c-gold-dark);
   text-transform: uppercase;
   letter-spacing: 0.5px;
   margin-bottom: 6px;
@@ -859,7 +860,7 @@ ul, ol {
   font-size: 1rem;
   line-height: 1.35;
   font-weight: 600;
-  color: #FFF;
+  color: var(--c-text-main);
   margin-bottom: 10px;
   transition: color var(--transition-fast);
   display: -webkit-box;
@@ -869,7 +870,7 @@ ul, ol {
 }
 
 .video-card:hover .video-card-title {
-  color: var(--c-gold-light);
+  color: var(--c-mahogany);
 }
 
 .video-card-meta {
@@ -877,7 +878,7 @@ ul, ol {
   display: flex;
   justify-content: space-between;
   font-size: 0.76rem;
-  color: rgba(255, 255, 255, 0.55);
+  color: var(--c-text-light);
 }
 
 /* ==========================================================================
@@ -1232,7 +1233,7 @@ ul, ol {
    FOOTER (Rich 4-column luxury layout)
    ========================================================================== */
 .site-footer {
-  background: #17110E;
+  background: var(--c-mahogany-dark); /* Same color as top bar */
   color: #EDE4D6;
   border-top: 3px solid var(--c-gold);
   padding-top: 50px;
@@ -1298,7 +1299,7 @@ ul, ol {
 }
 
 .footer-bottom {
-  background: #100B09;
+  background: #2D1307;
   padding: 20px 0;
   font-size: 0.82rem;
   color: rgba(255, 255, 255, 0.55);

@@ -2649,3 +2649,28 @@ ul, ol {
   color: #17110E !important;
   box-shadow: 0 2px 8px rgba(197, 155, 63, 0.4) !important;
 }
+
+
+/* ==========================================================================
+   SLIM DEDICATED COPYRIGHT STRIP
+   ========================================================================== */
+.footer-back-to-top-wrap {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  padding: 24px 0 30px !important;
+}
+
+.copyright-slim-bar {
+  background: #0B0705 !important;
+  border-top: 1px solid rgba(255, 255, 255, 0.06) !important;
+  padding: 10px 0 !important;
+  text-align: center !important;
+}
+
+.copyright-slim-bar p {
+  margin: 0 !important;
+  font-size: 0.78rem !important;
+  color: rgba(255, 255, 255, 0.42) !important;
+  letter-spacing: 0.3px !important;
+}

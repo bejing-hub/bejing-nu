@@ -158,13 +158,26 @@ function resetSliderTimer() {
  */
 function renderAboutSection() {
   const textEl = document.getElementById("aboutStripDynamicText");
-  if (!textEl) return;
+  const quoteEl = document.getElementById("aboutStripQuote");
+  const detailsEl = document.getElementById("aboutDetailsText");
 
   const lang = getCurrentLang();
-  if (lang === "ku") {
-    textEl.textContent = "Bêjing Medya; platformeke serbixwe ya raman û medyayê ye ku ramana azad, felsefe û bîra çandî ya jinên ciwan digihîne pêşerojê. Li ser şopa heqîqet û evînê, bi analîzên pênusa keziyan û weşanên vîdeoyî yên heftane, em dibin dengê ronakbîriya jinê.";
-  } else {
-    textEl.textContent = "Bêjing Medya; genç kadınların özgür düşüncesini, felsefesini ve kültürel hafızasını geleceğe taşıyan bağımsız bir düşünce ve medya platformudur. Hakikatin ve sevginin izinde, örgülerin kalemiyle yazılan analizler ve haftalık video yayınlarıyla kadın aydınlanmasına ses veriyoruz.";
+  if (quoteEl) {
+    quoteEl.textContent = (lang === "ku") ? "“Dengê Jinên Ciwan”" : "“Genç Kadınların Sesi”";
+  }
+  if (textEl) {
+    if (lang === "ku") {
+      textEl.textContent = "Bêjing Medya; platformeke serbixwe ya raman û medyayê ye ku ramana azad, felsefe û bîra çandî ya jinên ciwan digihîne pêşerojê. Li ser şopa heqîqet û evînê, bi analîzên pênusa keziyan û weşanên vîdeoyî yên heftane, em dibin dengê ronakbîriya jinê.";
+    } else {
+      textEl.textContent = "Bêjing Medya; genç kadınların özgür düşüncesini, felsefesini ve kültürel hafızasını geleceğe taşıyan bağımsız bir düşünce ve medya platformudur. Hakikatin ve sevginin izinde, örgülerin kalemiyle yazılan analizler ve haftalık video yayınlarıyla kadın aydınlanmasına ses veriyoruz.";
+    }
+  }
+  if (detailsEl) {
+    if (lang === "ku") {
+      detailsEl.innerHTML = `<p style="margin-bottom: 12px;"><strong>Bêjing Medya</strong> li ser hîmê heqîqeta jinên ciwan û bi felsefeya jiyana azad tê avakirin. Em hewl didin bi nivîs, analîz û bernameyên xwe yên vîdeoyî bibin dengê dîrok, çand û têkoşîna jinan.</p><p>Amanca me parastina bîra civakî û pêşxistina hişmendiyeke nû ya azadiyê ye ku her jineke ciwan bikaribe xwe tê de bibîne û dengê xwe bigihîne tevahiya cîhanê.</p>`;
+    } else {
+      detailsEl.innerHTML = `<p style="margin-bottom: 12px;"><strong>Bêjing Medya</strong> genç kadınların hakikati temelinde ve özgür yaşam felsefesiyle inşa edilmektedir. Yazılarımız, analizlerimiz ve video programlarımızla kadınların tarihine, kültürüne ve mücadelesine ses olmayı hedefliyoruz.</p><p>Amacımız, toplumsal hafızayı korumak ve her genç kadının kendisini bulabileceği ve sesini tüm dünyaya duyurabileceği yeni bir özgürlük bilinci geliştirmektir.</p>`;
+    }
   }
 }
 

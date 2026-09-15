@@ -2674,3 +2674,36 @@ ul, ol {
   color: rgba(255, 255, 255, 0.42) !important;
   letter-spacing: 0.3px !important;
 }
+
+
+/* ==========================================================================
+   PERFECTLY CENTERED COPYRIGHT BAR
+   ========================================================================== */
+.copyright-slim-bar {
+  background: #0B0705 !important;
+  border-top: 1px solid rgba(255, 255, 255, 0.06) !important;
+  padding: 12px 0 !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  text-align: center !important;
+  width: 100% !important;
+}
+
+.copyright-slim-bar .container {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  text-align: center !important;
+  width: 100% !important;
+}
+
+.copyright-slim-bar p {
+  margin: 0 auto !important;
+  text-align: center !important;
+  font-size: 0.82rem !important;
+  color: rgba(255, 255, 255, 0.45) !important;
+  letter-spacing: 0.3px !important;
+  width: 100% !important;
+  display: block !important;
+}

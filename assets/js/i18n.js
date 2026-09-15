@@ -193,8 +193,12 @@ function setLanguage(lang) {
   
   // Update brand slogans dynamically
   const sloganText = (lang === "ku") ? "Dengê Jinên Ciwan" : "Genç Kadınların Sesi";
+  const sloganQuoteText = (lang === "ku") ? "“Dengê Jinên Ciwan”" : "“Genç Kadınların Sesi”";
   document.querySelectorAll(".brand-slogan-dyn, #headerBrandSlogan, #footerBrandSlogan").forEach(el => {
     el.textContent = sloganText;
+  });
+  document.querySelectorAll(".about-strip-quote, #aboutStripQuote, #aboutSloganText").forEach(el => {
+    el.textContent = sloganQuoteText;
   });
 
   window.dispatchEvent(new CustomEvent("bejing:langChange", { detail: { lang } }));

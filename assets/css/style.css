@@ -2743,3 +2743,87 @@ ul, ol {
   color: rgba(255, 255, 255, 0.45) !important;
   letter-spacing: 0.3px !important;
 }
+
+
+/* ==========================================================================
+   INTEGRATED FOOTER BACK-TO-TOP & NEW PAGE STYLES
+   ========================================================================== */
+.footer-back-to-top-wrap {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  padding: 16px 0 20px !important;
+}
+
+.back-to-top-btn {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+  color: var(--c-gold-bright) !important;
+  font-weight: 600 !important;
+  font-size: 0.84rem !important;
+  padding: 8px 18px !important;
+  border-radius: var(--radius-full) !important;
+  background: rgba(197, 155, 63, 0.1) !important;
+  border: 1px solid rgba(197, 155, 63, 0.25) !important;
+  transition: all var(--transition-fast) !important;
+  cursor: pointer !important;
+}
+.back-to-top-btn:hover {
+  background: var(--c-gold) !important;
+  color: #17110E !important;
+  transform: translateY(-2px) !important;
+}
+
+/* 404 Error Page */
+.error-page-wrap {
+  min-height: 65vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 60px 20px;
+}
+.error-code {
+  font-family: var(--font-display);
+  font-size: 6rem;
+  font-weight: 900;
+  color: var(--c-gold);
+  line-height: 1;
+  margin-bottom: 12px;
+  text-shadow: 0 4px 20px rgba(197, 155, 63, 0.2);
+}
+.error-title {
+  font-family: var(--font-display);
+  font-size: 1.8rem;
+  color: var(--c-mahogany);
+  margin-bottom: 12px;
+}
+.error-desc {
+  font-size: 1.05rem;
+  color: var(--c-text-muted);
+  max-width: 520px;
+  margin: 0 auto 28px;
+  line-height: 1.6;
+}
+
+/* Category & Search Archive Header */
+.archive-header-banner {
+  background: linear-gradient(135deg, #FAF4EB 0%, #F5ECDD 100%);
+  border-bottom: 1px solid var(--c-border-gold);
+  padding: 44px 0 36px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.archive-banner-title {
+  font-family: var(--font-display);
+  font-size: 2.2rem;
+  color: var(--c-mahogany);
+  margin: 10px 0 8px;
+}
+.archive-banner-desc {
+  font-size: 1rem;
+  color: var(--c-text-muted);
+  max-width: 600px;
+  margin: 0 auto;
+}

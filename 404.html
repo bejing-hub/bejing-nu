@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="tr-TR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>404 - Sayfa Bulunamadı | Bêjing Medya</title>
+  <link rel="icon" href="assets/images/logo.png" type="image/png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- Site Header -->
+  <header class="site-header">
+    <div class="container">
+      <div class="header-flex-row">
+        <div class="header-left-brand">
+          <a href="index.html" class="brand-wrapper" title="Bêjing Medya">
+            <img src="assets/images/logo.png" alt="Bêjing Medya Logo" class="brand-logo-img">
+            <div class="brand-divider"></div>
+            <span class="brand-slogan-text" id="headerBrandSlogan">Genç Kadınların Sesi</span>
+          </a>
+        </div>
+        <div class="header-right-wrap">
+          <a href="search.html" class="header-search-icon-btn" title="Arama"><i class="fa-solid fa-magnifying-glass"></i></a>
+          <div class="lang-switcher" style="margin: 0;">
+            <button type="button" class="lang-btn active" data-lang="tr" onclick="setLanguage('tr')">Türkçe</button>
+            <button type="button" class="lang-btn" data-lang="ku" onclick="setLanguage('ku')">Kurmancî</button>
+          </div>
+          <button type="button" class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Menüyü Aç"><i class="fa-solid fa-bars"></i></button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- 404 Error Content -->
+  <main class="error-page-wrap">
+    <div class="container">
+      <div class="error-code">404</div>
+      <h1 class="error-title" id="errorTitle">Sayfa Bulunamadı</h1>
+      <p class="error-desc" id="errorDesc">Aradığınız sayfa taşınmış, silinmiş veya geçici olarak kullanılamıyor olabilir.</p>
+      
+      <div style="display: flex; gap: 14px; justify-content: center; flex-wrap: wrap;">
+        <a href="index.html" class="telegram-pill-btn" style="padding: 12px 30px; font-size: 0.95rem;">
+          <i class="fa-solid fa-house"></i> <span id="errorHomeBtn">Ana Sayfaya Dön</span>
+        </a>
+        <a href="search.html" class="telegram-pill-btn" style="padding: 12px 28px; font-size: 0.95rem; background: var(--c-mahogany);">
+          <i class="fa-solid fa-magnifying-glass"></i> <span id="errorSearchBtn">İçerik Ara</span>
+        </a>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-back-to-top-wrap">
+        <button type="button" class="back-to-top-btn" onclick="window.scrollTo({top:0, behavior:'smooth'})">
+          <i class="fa-solid fa-arrow-up"></i>
+          <span data-i18n="backToTop">Yukarı Çık</span>
+        </button>
+      </div>
+    </div>
+    <div class="copyright-slim-bar">
+      <div class="container">
+        <p data-i18n="copyright">© 2026 Bêjing Medya. Tüm hakları saklıdır.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/i18n.js"></script>
+  <script>
+    window.addEventListener("bejing:langChange", (e) => {
+      const isKu = (e.detail.lang === 'ku');
+      document.getElementById("errorTitle").textContent = isKu ? "Rûpel Neket Dîtin" : "Sayfa Bulunamadı";
+      document.getElementById("errorDesc").textContent = isKu ? "Rûpela ku hûn lê digerin dibe ku hatibe barkirin, jêbirin an jî bi demkî nayê bikar anîn." : "Aradığınız sayfa taşınmış, silinmiş veya geçici olarak kullanılamıyor olabilir.";
+      document.getElementById("errorHomeBtn").textContent = isKu ? "Vegere Malperê" : "Ana Sayfaya Dön";
+      document.getElementById("errorSearchBtn").textContent = isKu ? "Lêgerîna Naverokê" : "İçerik Ara";
+    });
+  </script>
+</body>
+</html>

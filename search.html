@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="tr-TR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arama | Bêjing Medya</title>
+  <link rel="icon" href="assets/images/logo.png" type="image/png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- Site Header -->
+  <header class="site-header">
+    <div class="container">
+      <div class="header-flex-row">
+        <div class="header-left-brand">
+          <a href="index.html" class="brand-wrapper" title="Bêjing Medya">
+            <img src="assets/images/logo.png" alt="Bêjing Medya Logo" class="brand-logo-img">
+            <div class="brand-divider"></div>
+            <span class="brand-slogan-text" id="headerBrandSlogan">Genç Kadınların Sesi</span>
+          </a>
+        </div>
+        <div class="header-right-wrap">
+          <div class="lang-switcher" style="margin: 0;">
+            <button type="button" class="lang-btn active" data-lang="tr" onclick="setLanguage('tr')">Türkçe</button>
+            <button type="button" class="lang-btn" data-lang="ku" onclick="setLanguage('ku')">Kurmancî</button>
+          </div>
+          <button type="button" class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Menüyü Aç"><i class="fa-solid fa-bars"></i></button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Search Banner -->
+  <section class="archive-header-banner">
+    <div class="container">
+      <span class="section-badge"><i class="fa-solid fa-magnifying-glass"></i> <span id="searchBadgeTitle">Lêgerîn / Arama</span></span>
+      <h1 class="archive-banner-title" id="searchBannerTitle">Arşivde Ara</h1>
+      
+      <!-- Big Search Input -->
+      <div style="max-width: 640px; margin: 24px auto 0; position: relative;">
+        <input type="text" id="pageSearchInput" style="width: 100%; padding: 14px 20px 14px 48px; border: 2px solid var(--c-gold); border-radius: var(--radius-full); font-size: 1.05rem; outline: none; background: #FFF; box-shadow: 0 4px 16px rgba(0,0,0,0.06);" placeholder="Yazı, yazar veya konu ara..." autofocus>
+        <i class="fa-solid fa-magnifying-glass" style="position: absolute; left: 18px; top: 50%; transform: translateY(-50%); color: var(--c-gold); font-size: 1.1rem;"></i>
+      </div>
+    </div>
+  </section>
+
+  <!-- Search Results Content -->
+  <main class="content-section" style="padding-bottom: 80px;">
+    <div class="container">
+      <div style="margin-bottom: 24px; color: var(--c-text-muted); font-size: 0.95rem; text-align: center;" id="searchStatsText"></div>
+      <div class="articles-full-grid" id="searchResultsGrid"></div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top-grid">
+        <div class="footer-col-about" style="display: flex; flex-direction: column; align-items: center;">
+          <div class="footer-brand-wrap">
+            <img src="assets/images/logo.png" alt="Bêjing Medya Logo" class="footer-logo-img">
+            <div class="footer-brand-divider"></div>
+            <span class="footer-slogan-text" id="footerBrandSlogan">Genç Kadınların Sesi</span>
+          </div>
+          <p class="footer-about-text" data-i18n="footerAbout" style="text-align: center; max-width: 320px;">Bêjing Medya bağımsız medya ve düşünce platformudur.</p>
+        </div>
+        <div style="display: flex; flex-direction: column; align-items: center;">
+          <h4 class="footer-title" data-i18n="footerCategories">Kategoriler</h4>
+          <ul class="footer-links-list" style="text-align: center;">
+            <li><a href="category.html?cat=genc-kadin-bakisiya" data-i18n="catGencKadin">Genç Kadın Bakışıyla</a></li>
+            <li><a href="category.html?cat=manin-izindekiler" data-i18n="catManinIzindekiler">Ma'nın İzindekiler</a></li>
+            <li><a href="category.html?cat=orgulerin-kalemi" data-i18n="catOrgulerinKalemi">Örgülerin Kalemi</a></li>
+            <li><a href="category.html?cat=kadin-ve-kultur" data-i18n="catKadinVeKultur">Kadın ve Kültür</a></li>
+            <li><a href="category.html?cat=atolye" data-i18n="catAtolye">Atölye</a></li>
+            <li><a href="category.html?cat=kadin-kulliyati" data-i18n="catKadinKulliyati">Kadın Külliyatı</a></li>
+          </ul>
+        </div>
+        <div style="display: flex; flex-direction: column; align-items: center;">
+          <h4 class="footer-title" data-i18n="footerQuickLinks">Hızlı Bağlantılar</h4>
+          <ul class="footer-links-list" style="text-align: center;">
+            <li><a href="index.html" data-i18n="navHome">Ana Sayfa</a></li>
+            <li><a href="videos.html" data-i18n="navVideos">Videolar</a></li>
+            <li><a href="contact.html" data-i18n="navContact">İletişim</a></li>
+          </ul>
+        </div>
+        <div id="footerContactCol" style="display: flex; flex-direction: column; align-items: center;">
+          <h4 class="footer-title" data-i18n="footerContact">İletişim</h4>
+          <p style="font-size: 0.88rem; color: rgba(255,255,255,0.7); margin-bottom: 8px; text-align: center;">iletisim@bejingmedya.com</p>
+          <a href="contact.html" class="footer-contact-btn"><i class="fa-regular fa-paper-plane"></i> <span data-i18n="navContact">İletişim</span></a>
+        </div>
+      </div>
+      <div class="footer-back-to-top-wrap">
+        <button type="button" class="back-to-top-btn" onclick="window.scrollTo({top:0, behavior:'smooth'})">
+          <i class="fa-solid fa-arrow-up"></i>
+          <span data-i18n="backToTop">Yukarı Çık</span>
+        </button>
+      </div>
+    </div>
+    <div class="copyright-slim-bar">
+      <div class="container" style="text-align: center; margin: 0 auto; display: flex; justify-content: center; align-items: center; width: 100%;">
+        <p data-i18n="copyright" style="text-align: center !important; margin: 0 auto !important; width: 100% !important; display: block !important;">© 2026 Bêjing Medya. Tüm hakları saklıdır.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/i18n.js"></script>
+  <script>
+    function performPageSearch() {
+      const input = document.getElementById("pageSearchInput");
+      const q = (input.value || "").trim().toLowerCase();
+      const lang = getCurrentLang();
+      const grid = document.getElementById("searchResultsGrid");
+      const stats = document.getElementById("searchStatsText");
+      grid.innerHTML = "";
+
+      const langArticles = BEJING_ARTICLES.filter(a => a.lang === lang);
+      const results = q ? langArticles.filter(a => 
+        a.title.toLowerCase().includes(q) || 
+        (a.excerpt && a.excerpt.toLowerCase().includes(q)) || 
+        (a.author && a.author.toLowerCase().includes(q))
+      ) : langArticles;
+
+      const isKu = (lang === 'ku');
+      stats.textContent = q 
+        ? (isKu ? `Ji bo "${q}" ${results.length} encam hatin dîtin` : `"${q}" için ${results.length} sonuç bulundu`)
+        : (isKu ? `Hemû ${results.length} nivîs` : `Toplam ${results.length} yazı listeleniyor`);
+
+      results.forEach(art => {
+        const cat = BEJING_CATEGORIES[art.categoryId];
+        const catName = cat ? cat[lang] : art.categoryName;
+        const card = document.createElement("div");
+        card.className = "article-card";
+        card.innerHTML = `
+          <div class="article-card-thumb-wrap" onclick="window.location.href='article.html?id=${art.id}'" style="cursor:pointer;">
+            <img src="${art.featured_image}" alt="${art.title}" class="article-card-thumb" loading="lazy" onerror="this.src='assets/images/logo.jpg'">
+          </div>
+          <div class="article-card-body">
+            <span class="category-pill" style="align-self: flex-start; margin-bottom: 8px;">${catName}</span>
+            <h3 class="article-card-title" onclick="window.location.href='article.html?id=${art.id}'" style="cursor:pointer;">${art.title}</h3>
+            <p class="article-card-excerpt">${art.excerpt}</p>
+            <div class="article-card-footer">
+              <span><i class="fa-regular fa-clock"></i> ${art.date}</span>
+              <a href="article.html?id=${art.id}" class="read-more-link">
+                <span>${t("readMore")}</span> <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        `;
+        grid.appendChild(card);
+      });
+    }
+
+    document.addEventListener("DOMContentLoaded", () => {
+      const urlParams = new URLSearchParams(window.location.search);
+      const initialQ = urlParams.get("q") || "";
+      const input = document.getElementById("pageSearchInput");
+      input.value = initialQ;
+      input.addEventListener("input", performPageSearch);
+      performPageSearch();
+    });
+    window.addEventListener("bejing:langChange", performPageSearch);
+  </script>
+</body>
+</html>

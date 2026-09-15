@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Arama | Bêjing Medya</title>
+  <title>Örgülerin Kalemi | Bêjing Medya</title>
   <link rel="icon" href="assets/images/logo.png" type="image/png">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <link rel="stylesheet" href="assets/css/style.css">
@@ -22,6 +22,7 @@
           </a>
         </div>
         <div class="header-right-wrap">
+          <a href="search.html" class="header-search-icon-btn" title="Arama"><i class="fa-solid fa-magnifying-glass"></i></a>
           <div class="lang-switcher" style="margin: 0;">
             <button type="button" class="lang-btn active" data-lang="tr" onclick="setLanguage('tr')">Türkçe</button>
             <button type="button" class="lang-btn" data-lang="ku" onclick="setLanguage('ku')">Kurmancî</button>
@@ -32,25 +33,42 @@
     </div>
   </header>
 
-  <!-- Search Banner -->
+  <!-- Sticky Navbar -->
+  <nav class="main-navbar" id="mainNavbar">
+    <div class="container">
+      <div class="navbar-inner">
+        <ul class="nav-links">
+          <li class="nav-item"><a href="index.html" class="nav-link home-icon-link"><i class="fa-solid fa-house-chimney"></i></a></li>
+          <li class="nav-item "><a href="genc-kadin-bakisiya.html" class="nav-link"><span data-i18n="catGencKadin">Genç Kadın Bakışıyla</span></a></li>
+          <li class="nav-item "><a href="manin-izindekiler.html" class="nav-link"><span data-i18n="catManinIzindekiler">Ma'nın İzindekiler</span></a></li>
+          <li class="nav-item active"><a href="orgulerin-kalemi.html" class="nav-link"><span data-i18n="catOrgulerinKalemi">Örgülerin Kalemi</span></a></li>
+          <li class="nav-item "><a href="kadin-ve-kultur.html" class="nav-link"><span data-i18n="catKadinVeKultur">Kadın ve Kültür</span></a></li>
+          <li class="nav-item "><a href="atolye.html" class="nav-link"><span data-i18n="catAtolye">Atölye</span></a></li>
+          <li class="nav-item "><a href="kadin-kulliyati.html" class="nav-link"><span data-i18n="catKadinKulliyati">Kadın Külliyatı</span></a></li>
+          <li class="nav-item"><a href="videos.html" class="nav-link"><i class="fa-solid fa-play" style="color: var(--c-gold-bright); font-size: 0.75rem;"></i> <span data-i18n="navVideos">Videolar</span></a></li>
+          <li class="nav-item"><a href="archive.html" class="nav-link"><i class="fa-solid fa-box-archive" style="color: var(--c-gold-bright); font-size: 0.75rem;"></i> <span data-i18n="archiveTitle">Arşiv</span></a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Category Banner Header -->
   <section class="archive-header-banner">
     <div class="container">
-      <span class="section-badge"><i class="fa-solid fa-magnifying-glass"></i> <span id="searchBadgeTitle">Lêgerîn / Arama</span></span>
-      <h1 class="archive-banner-title" id="searchBannerTitle">Arşivde Ara</h1>
-      
-      <!-- Big Search Input -->
-      <div style="max-width: 640px; margin: 24px auto 0; position: relative;">
-        <input type="text" id="pageSearchInput" style="width: 100%; padding: 14px 20px 14px 48px; border: 2px solid var(--c-gold); border-radius: var(--radius-full); font-size: 1.05rem; outline: none; background: #FFF; box-shadow: 0 4px 16px rgba(0,0,0,0.06);" placeholder="Yazı, yazar veya konu ara..." autofocus>
-        <i class="fa-solid fa-magnifying-glass" style="position: absolute; left: 18px; top: 50%; transform: translateY(-50%); color: var(--c-gold); font-size: 1.1rem;"></i>
-      </div>
+      <span class="section-badge"><i class="fa-solid fa-pen-nib"></i> <span id="categoryBadge">Kategori / Kategorî</span></span>
+      <h1 class="archive-banner-title" id="pageCategoryTitle">Örgülerin Kalemi</h1>
+      <p class="archive-banner-desc" id="pageCategoryDesc">Bu kategorideki tüm araştırma, makale ve editoryal dosyalar.</p>
     </div>
   </section>
 
-  <!-- Search Results Content -->
+  <!-- Articles Grid -->
   <main class="content-section" style="padding-bottom: 80px;">
     <div class="container">
-      <div style="margin-bottom: 24px; color: var(--c-text-muted); font-size: 0.95rem; text-align: center;" id="searchStatsText"></div>
-      <div class="articles-full-grid" id="searchResultsGrid"></div>
+      <div class="articles-full-grid" id="catArticlesGrid"></div>
+      <div id="noCatArticlesMsg" style="display: none; text-align: center; padding: 60px 20px;">
+        <i class="fa-regular fa-folder-open" style="font-size: 3rem; color: var(--c-gold); margin-bottom: 16px;"></i>
+        <h3 style="font-family: var(--font-display); color: var(--c-mahogany);">Bu kategoride henüz yazı bulunmuyor.</h3>
+      </div>
     </div>
   </main>
 
@@ -64,7 +82,7 @@
             <div class="footer-brand-divider"></div>
             <span class="footer-slogan-text" id="footerBrandSlogan">Genç Kadınların Sesi</span>
           </div>
-          <p class="footer-about-text" data-i18n="footerAbout" style="text-align: center; max-width: 320px;">Bêjing Medya bağımsız medya ve düşünce platformudur.</p>
+          <p class="footer-about-text" data-i18n="footerAbout" style="text-align: center; max-width: 320px;">Bêjing Medya; genç kadın bakış açısıyla toplumsal hakikati ele alan bağımsız düşünce platformudur.</p>
         </div>
         <div style="display: flex; flex-direction: column; align-items: center;">
           <h4 class="footer-title" data-i18n="footerCategories">Kategoriler</h4>
@@ -82,6 +100,8 @@
           <ul class="footer-links-list" style="text-align: center;">
             <li><a href="index.html" data-i18n="navHome">Ana Sayfa</a></li>
             <li><a href="videos.html" data-i18n="navVideos">Videolar</a></li>
+            <li><a href="archive.html" data-i18n="archiveTitle">Tüm Arşiv</a></li>
+            <li><a href="search.html">İçerik Ara</a></li>
             <li><a href="contact.html" data-i18n="navContact">İletişim</a></li>
           </ul>
         </div>
@@ -108,29 +128,29 @@
   <script src="assets/js/data.js"></script>
   <script src="assets/js/i18n.js"></script>
   <script>
-    function performPageSearch() {
-      const input = document.getElementById("pageSearchInput");
-      const q = (input.value || "").trim().toLowerCase();
+    const TARGET_CAT = "orgulerin-kalemi";
+    function renderCategoryArticles() {
       const lang = getCurrentLang();
-      const grid = document.getElementById("searchResultsGrid");
-      const stats = document.getElementById("searchStatsText");
+      const catObj = BEJING_CATEGORIES[TARGET_CAT];
+      const catName = catObj ? catObj[lang] : "Örgülerin Kalemi";
+
+      document.title = catName + " | Bêjing Medya";
+      document.getElementById("pageCategoryTitle").textContent = catName;
+      document.getElementById("categoryBadge").textContent = (lang === 'ku') ? "Kategorî" : "Kategori";
+      document.getElementById("pageCategoryDesc").textContent = (lang === 'ku') ? "Hemû lêkolîn, nivîs û dosyayên di vê kategoriyê de." : "Bu kategorideki tüm araştırma, makale ve editoryal dosyalar.";
+
+      const filtered = BEJING_ARTICLES.filter(a => a.categoryId === TARGET_CAT && a.lang === lang);
+      const grid = document.getElementById("catArticlesGrid");
+      const noMsg = document.getElementById("noCatArticlesMsg");
       grid.innerHTML = "";
 
-      const langArticles = BEJING_ARTICLES.filter(a => a.lang === lang);
-      const results = q ? langArticles.filter(a => 
-        a.title.toLowerCase().includes(q) || 
-        (a.excerpt && a.excerpt.toLowerCase().includes(q)) || 
-        (a.author && a.author.toLowerCase().includes(q))
-      ) : langArticles;
+      if (filtered.length === 0) {
+        noMsg.style.display = "block";
+        return;
+      }
+      noMsg.style.display = "none";
 
-      const isKu = (lang === 'ku');
-      stats.textContent = q 
-        ? (isKu ? `Ji bo "${q}" ${results.length} encam hatin dîtin` : `"${q}" için ${results.length} sonuç bulundu`)
-        : (isKu ? `Hemû ${results.length} nivîs` : `Toplam ${results.length} yazı listeleniyor`);
-
-      results.forEach(art => {
-        const cat = BEJING_CATEGORIES[art.categoryId];
-        const catName = cat ? cat[lang] : art.categoryName;
+      filtered.forEach(art => {
         const card = document.createElement("div");
         card.className = "article-card";
         card.innerHTML = `
@@ -153,15 +173,8 @@
       });
     }
 
-    document.addEventListener("DOMContentLoaded", () => {
-      const urlParams = new URLSearchParams(window.location.search);
-      const initialQ = urlParams.get("q") || "";
-      const input = document.getElementById("pageSearchInput");
-      input.value = initialQ;
-      input.addEventListener("input", performPageSearch);
-      performPageSearch();
-    });
-    window.addEventListener("bejing:langChange", performPageSearch);
+    document.addEventListener("DOMContentLoaded", renderCategoryArticles);
+    window.addEventListener("bejing:langChange", renderCategoryArticles);
   </script>
 </body>
 </html>

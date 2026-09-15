@@ -10,10 +10,39 @@
 </head>
 <body>
 
-  <!-- Site Header -->
+  
+  <!-- Top Bar -->
+  <div class="top-bar">
+    <div class="container">
+      <div class="top-bar-inner">
+        <div class="top-bar-left">
+          <div class="current-date">
+            <i class="fa-regular fa-calendar-days"></i>
+            <span id="currentDateStr">2026</span>
+          </div>
+        </div>
+        <div class="top-bar-right">
+          <div class="social-links">
+            <a href="https://www.facebook.com/people/Bejing-medya/61590594643490/" target="_blank" title="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://x.com/Bejingmed" target="_blank" title="X (Twitter)"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://www.instagram.com/medyabjng" target="_blank" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.youtube.com/@BejingMedya" target="_blank" title="YouTube"><i class="fa-brands fa-youtube"></i></a>
+            <a href="http://t.me/bejingmedya" target="_blank" title="Telegram"><i class="fa-brands fa-telegram"></i></a>
+          </div>
+          <div class="lang-switcher">
+            <button type="button" class="lang-btn active" data-lang="tr" onclick="setLanguage('tr')">Türkçe</button>
+            <button type="button" class="lang-btn" data-lang="ku" onclick="setLanguage('ku')">Kurmancî</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Site Header -->
   <header class="site-header">
     <div class="container">
       <div class="header-flex-row">
+        <!-- Far Left: Brand Logo + Slogan Beside It -->
         <div class="header-left-brand">
           <a href="index.html" class="brand-wrapper" title="Bêjing Medya">
             <img src="assets/images/logo.png" alt="Bêjing Medya Logo" class="brand-logo-img">
@@ -21,13 +50,19 @@
             <span class="brand-slogan-text" id="headerBrandSlogan">Genç Kadınların Sesi</span>
           </a>
         </div>
+
+        <!-- Far Right: Search Icon + Language Switcher + Mobile Toggle -->
         <div class="header-right-wrap">
-          <a href="search.html" class="header-search-icon-btn" title="Arama"><i class="fa-solid fa-magnifying-glass"></i></a>
+          <a href="search.html" class="header-search-icon-btn" title="Arama / Lêgerîn" aria-label="Arama">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </a>
           <div class="lang-switcher" style="margin: 0;">
             <button type="button" class="lang-btn active" data-lang="tr" onclick="setLanguage('tr')">Türkçe</button>
             <button type="button" class="lang-btn" data-lang="ku" onclick="setLanguage('ku')">Kurmancî</button>
           </div>
-          <button type="button" class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Menüyü Aç"><i class="fa-solid fa-bars"></i></button>
+          <button type="button" class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Menüyü Aç">
+            <i class="fa-solid fa-bars"></i>
+          </button>
         </div>
       </div>
     </div>
@@ -38,19 +73,105 @@
     <div class="container">
       <div class="navbar-inner">
         <ul class="nav-links">
-          <li class="nav-item"><a href="index.html" class="nav-link home-icon-link"><i class="fa-solid fa-house-chimney"></i></a></li>
-          <li class="nav-item "><a href="genc-kadin-bakisiya.html" class="nav-link"><span data-i18n="catGencKadin">Genç Kadın Bakışıyla</span></a></li>
-          <li class="nav-item "><a href="manin-izindekiler.html" class="nav-link"><span data-i18n="catManinIzindekiler">Ma'nın İzindekiler</span></a></li>
-          <li class="nav-item "><a href="orgulerin-kalemi.html" class="nav-link"><span data-i18n="catOrgulerinKalemi">Örgülerin Kalemi</span></a></li>
-          <li class="nav-item "><a href="kadin-ve-kultur.html" class="nav-link"><span data-i18n="catKadinVeKultur">Kadın ve Kültür</span></a></li>
-          <li class="nav-item active"><a href="atolye.html" class="nav-link"><span data-i18n="catAtolye">Atölye</span></a></li>
-          <li class="nav-item "><a href="kadin-kulliyati.html" class="nav-link"><span data-i18n="catKadinKulliyati">Kadın Külliyatı</span></a></li>
-          <li class="nav-item"><a href="videos.html" class="nav-link"><i class="fa-solid fa-play" style="color: var(--c-gold-bright); font-size: 0.75rem;"></i> <span data-i18n="navVideos">Videolar</span></a></li>
-          <li class="nav-item"><a href="archive.html" class="nav-link"><i class="fa-solid fa-box-archive" style="color: var(--c-gold-bright); font-size: 0.75rem;"></i> <span data-i18n="archiveTitle">Arşiv</span></a></li>
+          <li class="nav-item ">
+            <a href="index.html" class="nav-link home-icon-link" title="Ana Sayfa">
+              <i class="fa-solid fa-house-chimney"></i>
+            </a>
+          </li>
+          <li class="nav-item ">
+            <a href="genc-kadin-bakisiya.html" class="nav-link">
+              <span data-i18n="catGencKadin">Genç Kadın Bakışıyla</span>
+            </a>
+          </li>
+          <li class="nav-item ">
+            <a href="manin-izindekiler.html" class="nav-link">
+              <span data-i18n="catManinIzindekiler">Ma'nın İzindekiler</span>
+            </a>
+          </li>
+          <li class="nav-item ">
+            <a href="orgulerin-kalemi.html" class="nav-link">
+              <span data-i18n="catOrgulerinKalemi">Örgülerin Kalemi</span>
+            </a>
+          </li>
+          <li class="nav-item ">
+            <a href="kadin-ve-kultur.html" class="nav-link">
+              <span data-i18n="catKadinVeKultur">Kadın ve Kültür</span>
+            </a>
+          </li>
+          <li class="nav-item active">
+            <a href="atolye.html" class="nav-link">
+              <span data-i18n="catAtolye">Atölye</span>
+            </a>
+          </li>
+          <li class="nav-item ">
+            <a href="kadin-kulliyati.html" class="nav-link">
+              <span data-i18n="catKadinKulliyati">Kadın Külliyatı</span>
+            </a>
+          </li>
+          <li class="nav-item ">
+            <a href="videos.html" class="nav-link">
+              <i class="fa-solid fa-play" style="color: var(--c-gold-bright); font-size: 0.75rem;"></i>
+              <span data-i18n="navVideos">Videolar</span>
+            </a>
+          </li>
+          <li class="nav-item ">
+            <a href="archive.html" class="nav-link">
+              <i class="fa-solid fa-box-archive" style="color: var(--c-gold-bright); font-size: 0.75rem;"></i>
+              <span data-i18n="archiveTitle">Arşiv</span>
+            </a>
+          </li>
+          <li class="nav-item ">
+            <a href="about.html" class="nav-link">
+              <span data-i18n="navAbout">Hakkımızda</span>
+            </a>
+          </li>
+          <li class="nav-item ">
+            <a href="contact.html" class="nav-link">
+              <span data-i18n="navContact">İletişim</span>
+            </a>
+          </li>
         </ul>
       </div>
     </div>
   </nav>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-drawer" id="mobileDrawer">
+    <div class="drawer-header" style="flex-direction: column; align-items: center; gap: 10px; position: relative;">
+      <button type="button" id="drawerCloseBtn" style="color: #FFF; font-size: 1.3rem; position: absolute; top: 16px; right: 16px;">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <img src="assets/images/logo.png" alt="Bêjing Medya" class="drawer-logo" style="max-height: 52px;">
+      <span class="brand-slogan-dyn" style="color: var(--c-gold-bright); font-family: var(--font-display); font-size: 0.95rem; font-weight: 700;">Genç Kadınların Sesi</span>
+    </div>
+    <ul class="drawer-nav-list" style="text-align: center;">
+      <li><a href="index.html" class="drawer-nav-link "><i class="fa-solid fa-house"></i> <span data-i18n="navHome">Ana Sayfa</span></a></li>
+      <li><a href="genc-kadin-bakisiya.html" class="drawer-nav-link "><i class="fa-solid fa-venus"></i> <span data-i18n="catGencKadin">Genç Kadın Bakışıyla</span></a></li>
+      <li><a href="manin-izindekiler.html" class="drawer-nav-link "><i class="fa-solid fa-feather-pointed"></i> <span data-i18n="catManinIzindekiler">Ma'nın İzindekiler</span></a></li>
+      <li><a href="orgulerin-kalemi.html" class="drawer-nav-link "><i class="fa-solid fa-pen-nib"></i> <span data-i18n="catOrgulerinKalemi">Örgülerin Kalemi</span></a></li>
+      <li><a href="kadin-ve-kultur.html" class="drawer-nav-link "><i class="fa-solid fa-masks-theater"></i> <span data-i18n="catKadinVeKultur">Kadın ve Kültür</span></a></li>
+      <li><a href="atolye.html" class="drawer-nav-link active"><i class="fa-solid fa-compass-drafting"></i> <span data-i18n="catAtolye">Atölye</span></a></li>
+      <li><a href="kadin-kulliyati.html" class="drawer-nav-link "><i class="fa-solid fa-book-bookmark"></i> <span data-i18n="catKadinKulliyati">Kadın Külliyatı</span></a></li>
+      <li><a href="videos.html" class="drawer-nav-link "><i class="fa-solid fa-film"></i> <span data-i18n="navVideos">Videolar</span></a></li>
+      <li><a href="archive.html" class="drawer-nav-link "><i class="fa-solid fa-box-archive"></i> <span data-i18n="archiveTitle">Arşiv</span></a></li>
+      <li><a href="about.html" class="drawer-nav-link "><i class="fa-solid fa-circle-info"></i> <span data-i18n="navAbout">Hakkımızda</span></a></li>
+      <li><a href="contact.html" class="drawer-nav-link "><i class="fa-regular fa-envelope"></i> <span data-i18n="navContact">İletişim</span></a></li>
+    </ul>
+    <div class="drawer-footer">
+      <div style="display: flex; gap: 8px; margin-bottom: 16px;">
+        <button type="button" class="lang-btn active" data-lang="tr" onclick="setLanguage('tr')" style="flex:1; padding:8px; text-align:center;">Türkçe</button>
+        <button type="button" class="lang-btn" data-lang="ku" onclick="setLanguage('ku')" style="flex:1; padding:8px; text-align:center;">Kurmancî</button>
+      </div>
+      <div class="social-links" style="justify-content: center;">
+        <a href="https://www.facebook.com/people/Bejing-medya/61590594643490/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="https://x.com/Bejingmed" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="https://www.instagram.com/medyabjng" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.youtube.com/@BejingMedya" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+        <a href="http://t.me/bejingmedya" target="_blank"><i class="fa-brands fa-telegram"></i></a>
+      </div>
+    </div>
+  </div>
+  
 
   <!-- Category Banner Header -->
   <section class="archive-header-banner">
@@ -58,6 +179,13 @@
       <span class="section-badge"><i class="fa-solid fa-compass-drafting"></i> <span id="categoryBadge">Kategori / Kategorî</span></span>
       <h1 class="archive-banner-title" id="pageCategoryTitle">Atölye</h1>
       <p class="archive-banner-desc" id="pageCategoryDesc">Bu kategorideki tüm araştırma, makale ve editoryal dosyalar.</p>
+      
+      <!-- Language Filter Tabs for Category -->
+      <div style="display: flex; justify-content: center; gap: 10px; margin-top: 20px;">
+        <button type="button" class="filter-btn active" id="filterAllBtn" onclick="setLangCatFilter('all', this)">Hepsi / Hemû</button>
+        <button type="button" class="filter-btn" id="filterTrBtn" onclick="setLangCatFilter('tr', this)">Türkçe</button>
+        <button type="button" class="filter-btn" id="filterKuBtn" onclick="setLangCatFilter('ku', this)">Kurmancî</button>
+      </div>
     </div>
   </section>
 
@@ -72,18 +200,25 @@
     </div>
   </main>
 
-  <!-- Footer -->
+  
+  <!-- Luxury Editorial Footer -->
   <footer class="site-footer">
     <div class="container">
       <div class="footer-top-grid">
+        
+        <!-- About Column with New Logo & Dynamic Slogan -->
         <div class="footer-col-about" style="display: flex; flex-direction: column; align-items: center;">
           <div class="footer-brand-wrap">
             <img src="assets/images/logo.png" alt="Bêjing Medya Logo" class="footer-logo-img">
             <div class="footer-brand-divider"></div>
             <span class="footer-slogan-text" id="footerBrandSlogan">Genç Kadınların Sesi</span>
           </div>
-          <p class="footer-about-text" data-i18n="footerAbout" style="text-align: center; max-width: 320px;">Bêjing Medya; genç kadın bakış açısıyla toplumsal hakikati ele alan bağımsız düşünce platformudur.</p>
+          <p class="footer-about-text" data-i18n="footerAbout" style="text-align: center; max-width: 320px;">
+            Bêjing Medya; genç kadınların özgür düşüncesini, felsefesini ve kültürel hafızasını geleceğe taşıyan bağımsız bir düşünce ve medya platformudur.
+          </p>
         </div>
+
+        <!-- Categories Column -->
         <div style="display: flex; flex-direction: column; align-items: center;">
           <h4 class="footer-title" data-i18n="footerCategories">Kategoriler</h4>
           <ul class="footer-links-list" style="text-align: center;">
@@ -95,40 +230,103 @@
             <li><a href="kadin-kulliyati.html" data-i18n="catKadinKulliyati">Kadın Külliyatı</a></li>
           </ul>
         </div>
+
+        <!-- Quick Links Column -->
         <div style="display: flex; flex-direction: column; align-items: center;">
           <h4 class="footer-title" data-i18n="footerQuickLinks">Hızlı Bağlantılar</h4>
           <ul class="footer-links-list" style="text-align: center;">
             <li><a href="index.html" data-i18n="navHome">Ana Sayfa</a></li>
             <li><a href="videos.html" data-i18n="navVideos">Videolar</a></li>
-            <li><a href="archive.html" data-i18n="archiveTitle">Tüm Arşiv</a></li>
-            <li><a href="search.html">İçerik Ara</a></li>
+            <li><a href="archive.html" data-i18n="archiveTitle">Arşiv</a></li>
+            <li><a href="search.html">Arama</a></li>
+            <li><a href="about.html" data-i18n="navAbout">Hakkımızda</a></li>
             <li><a href="contact.html" data-i18n="navContact">İletişim</a></li>
+            <li><a href="http://t.me/bejingmedya" target="_blank" data-i18n="telegramTitle">Telegram Kanalı</a></li>
           </ul>
         </div>
+
+        <!-- Contact Column -->
         <div id="footerContactCol" style="display: flex; flex-direction: column; align-items: center;">
           <h4 class="footer-title" data-i18n="footerContact">İletişim</h4>
-          <p style="font-size: 0.88rem; color: rgba(255,255,255,0.7); margin-bottom: 8px; text-align: center;">iletisim@bejingmedya.com</p>
-          <a href="contact.html" class="footer-contact-btn"><i class="fa-regular fa-paper-plane"></i> <span data-i18n="navContact">İletişim</span></a>
+          <p style="font-size: 0.88rem; color: rgba(255,255,255,0.7); margin-bottom: 8px; text-align: center;">
+            <i class="fa-regular fa-envelope" style="color: var(--c-gold); margin-right: 8px;"></i>
+            iletisim@bejingmedya.com
+          </p>
+          <a href="contact.html" class="footer-contact-btn">
+            <i class="fa-regular fa-paper-plane"></i>
+            <span data-i18n="navContact">İletişim</span>
+          </a>
+          <div class="lang-switcher" style="display: inline-flex; margin-top: 10px;">
+            <button type="button" class="lang-btn active" data-lang="tr" onclick="setLanguage('tr')">Türkçe</button>
+            <button type="button" class="lang-btn" data-lang="ku" onclick="setLanguage('ku')">Kurmancî</button>
+          </div>
         </div>
-      </div>
-      <div class="footer-back-to-top-wrap">
-        <button type="button" class="back-to-top-btn" onclick="window.scrollTo({top:0, behavior:'smooth'})">
-          <i class="fa-solid fa-arrow-up"></i>
-          <span data-i18n="backToTop">Yukarı Çık</span>
-        </button>
+
       </div>
     </div>
-    <div class="copyright-slim-bar">
+
+    <!-- Back to Top Button Row -->
+    <div class="footer-back-to-top-wrap">
+      <button type="button" class="back-to-top-btn" id="backToTopBtn" onclick="window.scrollTo({top:0, behavior:'smooth'})">
+        <i class="fa-solid fa-arrow-up"></i>
+        <span data-i18n="backToTop">Yukarı Çık</span>
+      </button>
+    </div>
+
+    <!-- Slim Dedicated Copyright Strip -->
+    <div class="copyright-slim-bar" style="background: #2D1307; padding: 12px 0; text-align: center; width: 100%;">
       <div class="container" style="text-align: center; margin: 0 auto; display: flex; justify-content: center; align-items: center; width: 100%;">
-        <p data-i18n="copyright" style="text-align: center !important; margin: 0 auto !important; width: 100% !important; display: block !important;">© 2026 Bêjing Medya. Tüm hakları saklıdır.</p>
+        <p data-i18n="copyright" style="text-align: center !important; margin: 0 auto !important; width: 100% !important; display: block !important; font-size: 0.82rem; color: rgba(255, 255, 255, 0.45); letter-spacing: 0.3px;">© 2026 Bêjing Medya. Tüm hakları saklıdır.</p>
       </div>
     </div>
   </footer>
+  
 
+  
   <script src="assets/js/data.js"></script>
   <script src="assets/js/i18n.js"></script>
   <script>
+    function updateBrandSlogans() {
+      const lang = (typeof getCurrentLang === 'function') ? getCurrentLang() : 'tr';
+      const sloganText = (lang === 'ku') ? 'Dengê Jinên Ciwan' : 'Genç Kadınların Sesi';
+      const hSlogan = document.getElementById("headerBrandSlogan");
+      const fSlogan = document.getElementById("footerBrandSlogan");
+      const dSlogans = document.querySelectorAll(".brand-slogan-dyn");
+      if (hSlogan) hSlogan.textContent = sloganText;
+      if (fSlogan) fSlogan.textContent = sloganText;
+      dSlogans.forEach(el => el.textContent = sloganText);
+
+      // Update date
+      const dateEl = document.getElementById("currentDateStr");
+      if (dateEl) {
+        const now = new Date();
+        const opts = { year: 'numeric', month: 'long', day: 'numeric' };
+        dateEl.textContent = now.toLocaleDateString(lang === 'ku' ? 'ku' : 'tr-TR', opts);
+      }
+    }
+    window.addEventListener("bejing:langChange", updateBrandSlogans);
+    document.addEventListener("DOMContentLoaded", () => {
+      updateBrandSlogans();
+      const mToggle = document.getElementById("mobileMenuToggle");
+      const mDrawer = document.getElementById("mobileDrawer");
+      const dClose = document.getElementById("drawerCloseBtn");
+      if (mToggle && mDrawer) mToggle.onclick = () => mDrawer.classList.add("active");
+      if (dClose && mDrawer) dClose.onclick = () => mDrawer.classList.remove("active");
+    });
+  </script>
+  
+
+  <script>
     const TARGET_CAT = "atolye";
+    let activeLangFilter = 'all';
+
+    function setLangCatFilter(langF, btn) {
+      activeLangFilter = langF;
+      document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+      if (btn) btn.classList.add('active');
+      renderCategoryArticles();
+    }
+
     function renderCategoryArticles() {
       const lang = getCurrentLang();
       const catObj = BEJING_CATEGORIES[TARGET_CAT];
@@ -139,7 +337,11 @@
       document.getElementById("categoryBadge").textContent = (lang === 'ku') ? "Kategorî" : "Kategori";
       document.getElementById("pageCategoryDesc").textContent = (lang === 'ku') ? "Hemû lêkolîn, nivîs û dosyayên di vê kategoriyê de." : "Bu kategorideki tüm araştırma, makale ve editoryal dosyalar.";
 
-      const filtered = BEJING_ARTICLES.filter(a => a.categoryId === TARGET_CAT && a.lang === lang);
+      let filtered = BEJING_ARTICLES.filter(a => a.categoryId === TARGET_CAT);
+      if (activeLangFilter !== 'all') {
+        filtered = filtered.filter(a => a.lang === activeLangFilter);
+      }
+
       const grid = document.getElementById("catArticlesGrid");
       const noMsg = document.getElementById("noCatArticlesMsg");
       grid.innerHTML = "";
@@ -154,14 +356,14 @@
         const card = document.createElement("div");
         card.className = "article-card";
         card.innerHTML = `
-          <div class="article-card-thumb-wrap" onclick="window.location.href='article.html?id=${art.id}'" style="cursor:pointer;">
+          <div class="article-card-thumb-wrap" onclick="window.location.href='article.html?id=${art.id}'" style="cursor:pointer; position: relative;">
             <img src="${art.featured_image}" alt="${art.title}" class="article-card-thumb" loading="lazy" onerror="this.src='assets/images/logo.jpg'">
+            <span class="category-pill" style="position: absolute; top: 12px; left: 12px; z-index: 2;">${catName} (${art.lang.toUpperCase()})</span>
           </div>
-          <div class="article-card-body">
-            <span class="category-pill" style="align-self: flex-start; margin-bottom: 8px;">${catName}</span>
+          <div class="article-card-body" style="text-align: center;">
             <h3 class="article-card-title" onclick="window.location.href='article.html?id=${art.id}'" style="cursor:pointer;">${art.title}</h3>
-            <p class="article-card-excerpt">${art.excerpt}</p>
-            <div class="article-card-footer">
+            <p class="article-card-excerpt" style="text-align: center;">${art.excerpt}</p>
+            <div class="article-card-footer" style="justify-content: center; gap: 16px;">
               <span><i class="fa-regular fa-clock"></i> ${art.date}</span>
               <a href="article.html?id=${art.id}" class="read-more-link">
                 <span>${t("readMore")}</span> <i class="fa-solid fa-arrow-right"></i>

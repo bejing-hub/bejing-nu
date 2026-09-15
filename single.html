@@ -147,7 +147,7 @@
     </div>
   </header>
 
-  <!-- Sticky Navbar -->
+  <!-- Sticky Navbar (Clean & Uncluttered: Home, 6 Categories, Videos) -->
   <nav class="main-navbar" id="mainNavbar">
     <div class="container">
       <div class="navbar-inner">
@@ -191,22 +191,6 @@
             <a href="videos.html" class="nav-link">
               <i class="fa-solid fa-play" style="color: var(--c-gold-bright); font-size: 0.75rem;"></i>
               <span data-i18n="navVideos">Videolar</span>
-            </a>
-          </li>
-          <li class="nav-item ">
-            <a href="archive.html" class="nav-link">
-              <i class="fa-solid fa-box-archive" style="color: var(--c-gold-bright); font-size: 0.75rem;"></i>
-              <span data-i18n="archiveTitle">Arşiv</span>
-            </a>
-          </li>
-          <li class="nav-item ">
-            <a href="about.html" class="nav-link">
-              <span data-i18n="navAbout">Hakkımızda</span>
-            </a>
-          </li>
-          <li class="nav-item ">
-            <a href="contact.html" class="nav-link">
-              <span data-i18n="navContact">İletişim</span>
             </a>
           </li>
         </ul>
@@ -258,7 +242,6 @@
         <!-- Injected via JavaScript -->
       </article>
 
-      <!-- Related Articles Section -->
       <section style="max-width: 880px; margin: 40px auto 0;">
         <h3 style="font-family: var(--font-display); color: var(--c-mahogany); font-size: 1.5rem; margin-bottom: 20px; text-align: center;">
           İlgili Yazılar / Nivîsên Têkildar
@@ -404,7 +387,6 @@
       let article = BEJING_ARTICLES.find(a => a.id === id);
 
       if (!article) {
-        // Fallback to latest article if no ID
         article = BEJING_ARTICLES[0];
       }
 
@@ -451,7 +433,6 @@
         </div>
       `;
 
-      // Render Related
       const related = BEJING_ARTICLES.filter(a => a.categoryId === article.categoryId && a.id !== article.id).slice(0, 3);
       const relGrid = document.getElementById("relatedArticlesGrid");
       if (relGrid) {

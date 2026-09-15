@@ -14,7 +14,7 @@ Bu proje, **Bêjing Medya** (Genç Kadınların Sesi / Dengê Jinên Ciwan) içi
    - Sayfa yenilenmesine gerek kalmadan tek tıkla tüm arayüz, menüler, sloganlar ve içerikler anında iki dil arasında geçiş yapar.
    - Tercih `localStorage` üzerinde saklanır.
 
-3. **Gelişmiş Medya & Video Altyapısı (Bêjing TV):**
+3. **Gelişmiş Medya & Video Altyapısı (Bêjing Video):**
    - Sinematik koyu temalı video vitrini.
    - Iframe tabanlı açılır video oynatıcı modalı (YouTube, vb.).
 

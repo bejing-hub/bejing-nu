@@ -141,7 +141,7 @@ function startSliderTimer() {
   if (sliderAutoTimer) clearInterval(sliderAutoTimer);
   sliderAutoTimer = setInterval(() => {
     showSlide(currentSlideIndex + 1);
-  }, 3000);
+  }, 2000);
 }
 
 function stopSliderTimer() {

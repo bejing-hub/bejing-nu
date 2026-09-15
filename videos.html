@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="tr-TR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bêjing Medya | Video Arşivi</title>
+  <link rel="icon" href="assets/images/logo.png" type="image/jpeg">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body style="background: #17110E; color: #FFF;">
+
+  <!-- Top Bar -->
+  <div class="top-bar" style="background: #100B09;">
+    <div class="container">
+      <div class="top-bar-inner">
+        <div class="top-bar-left">
+          <a href="index.html" style="color: var(--c-gold-soft); font-weight: 600; display: flex; align-items: center; gap: 8px;">
+            <i class="fa-solid fa-arrow-left"></i> <span data-i18n="navHome">Ana Sayfa</span>
+          </a>
+        </div>
+        <div class="top-bar-right">
+          <div class="lang-switcher">
+            <button type="button" class="lang-btn active" data-lang="tr" onclick="setLanguage('tr')">Türkçe</button>
+            <button type="button" class="lang-btn" data-lang="ku" onclick="setLanguage('ku')">Kurmancî</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="site-header" style="background: #1D1512; border-bottom-color: var(--c-cinema-border);">
+    <div class="container">
+      <div class="header-inner">
+        <a href="index.html" class="brand-wrapper" title="Bêjing Medya">
+          <img src="assets/images/logo.png" alt="Bêjing Medya Logo" class="brand-logo-img">
+          <div class="brand-divider"></div>
+          <span class="brand-slogan-text" id="headerBrandSlogan">Genç Kadınların Sesi</span>
+        </a>
+        <a href="https://www.youtube.com/@BejingMedya" target="_blank" class="telegram-pill-btn" style="background: #CC0000;">
+          <i class="fa-brands fa-youtube"></i>
+          <span>YouTube Abone Ol</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main style="padding: 50px 0 90px;">
+    <div class="container">
+      <div style="margin-bottom: 36px; border-bottom: 1px solid rgba(197, 155, 63, 0.2); padding-bottom: 24px; display: flex; justify-content: space-between; align-items: flex-end; flex-wrap: wrap; gap: 20px;">
+        <div>
+          <span class="section-badge"><i class="fa-solid fa-film"></i> Bêjing TV</span>
+          <h1 class="section-title-cinema" data-i18n="videosPageTitle">Bêjing Video Arşivi</h1>
+          <p class="section-subtitle-cinema" data-i18n="videosSubtitle">Genç kadınların sesi, söyleşiler, özel dosyalar ve belgeseller</p>
+        </div>
+
+        <div style="display: flex; gap: 10px;">
+          <button type="button" class="filter-btn active" id="filterVidAll" onclick="filterVideos('all', this)" style="border-color: var(--c-cinema-border); color: #FFF;">Hepsi / Hemû</button>
+          <button type="button" class="filter-btn" id="filterVidTr" onclick="filterVideos('tr', this)" style="border-color: var(--c-cinema-border); color: #FFF;">Türkçe</button>
+          <button type="button" class="filter-btn" id="filterVidKu" onclick="filterVideos('ku', this)" style="border-color: var(--c-cinema-border); color: #FFF;">Kurmancî</button>
+        </div>
+      </div>
+
+      <div class="videos-grid" id="allVideosGrid" style="grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));">
+        <!-- Injected dynamically -->
+      </div>
+    </div>
+  </main>
+
+  <!-- Video Lightbox Modal -->
+  <div class="modal-overlay" id="videoModalOverlay">
+    <div class="modal-container video-modal-container">
+      <button type="button" class="modal-close-btn" id="videoModalClose"><i class="fa-solid fa-xmark"></i></button>
+      <div class="video-frame-wrap">
+        <iframe id="videoIframe" src="" allowfullscreen></iframe>
+      </div>
+      <div class="video-modal-info">
+        <h3 class="video-modal-title" id="videoModalTitle">Video</h3>
+        <p id="videoModalDesc" style="color: rgba(255,255,255,0.7); margin-bottom: 16px;"></p>
+        <a id="videoModalArticleLink" href="#" class="telegram-pill-btn" style="background: var(--c-mahogany); display: inline-flex;">
+          <i class="fa-solid fa-book-open"></i> <span data-i18n="readRelatedArticle">İlgili Yazıyı Oku</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <footer class="site-footer" style="background: #100B09; border-top-color: var(--c-cinema-border);">
+    <div style="text-align: center; padding: 24px 0 12px;"><img src="assets/images/logo.png" alt="Bêjing Medya Logo" style="max-height: 60px;"><div id="footerBrandSlogan" style="font-family: var(--font-display); font-size: 1.15rem; font-weight: 700; color: var(--c-gold-bright); margin-top: 6px;">Genç Kadınların Sesi</div></div>\n<div class="footer-bottom">
+      <div class="container" style="text-align: center;">
+        <p data-i18n="copyright">© 2026 Bêjing Medya. Tüm hakları saklıdır.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/i18n.js"></script>
+  <script>
+    let activeVidFilter = 'all';
+
+    function filterVideos(langFilter, btn) {
+      activeVidFilter = langFilter;
+      document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+      if (btn) btn.classList.add('active');
+      renderArchiveVideos();
+    }
+
+    function renderArchiveVideos() {
+      const grid = document.getElementById("allVideosGrid");
+      if (!grid) return;
+      const lang = getCurrentLang();
+      grid.innerHTML = "";
+
+      let list = BEJING_VIDEOS;
+      if (activeVidFilter !== 'all') {
+        list = BEJING_VIDEOS.filter(v => v.lang === activeVidFilter);
+      }
+
+      list.forEach(v => {
+        const cat = BEJING_CATEGORIES[v.categoryId];
+        const catTitle = cat ? cat[lang] : v.categoryName;
+
+        const card = document.createElement("div");
+        card.className = "video-card";
+        card.onclick = () => openVideo(v.id);
+        card.innerHTML = `
+          <div class="video-thumb-wrap">
+            <img src="${v.thumbnail}" alt="${v.title}" class="video-thumb" loading="lazy" onerror="this.src='${v.image}'">
+            <div class="video-play-btn"><i class="fa-solid fa-play"></i></div>
+            <div class="video-duration">${v.duration}</div>
+          </div>
+          <div class="video-card-body">
+            <span class="video-card-category">${catTitle} (${v.lang.toUpperCase()})</span>
+            <h4 class="video-card-title">${v.title}</h4>
+            <div class="video-card-meta">
+              <span><i class="fa-regular fa-clock"></i> ${v.date}</span>
+              <span><i class="fa-solid fa-eye"></i> ${v.views}</span>
+            </div>
+          </div>
+        `;
+        grid.appendChild(card);
+      });
+    }
+
+    function openVideo(videoId) {
+      const video = BEJING_VIDEOS.find(v => v.id === videoId);
+      if (!video) return;
+
+      document.getElementById("videoIframe").src = video.videoUrl + "?autoplay=1";
+      document.getElementById("videoModalTitle").textContent = video.title;
+      document.getElementById("videoModalDesc").textContent = video.desc;
+      
+      const artLink = document.getElementById("videoModalArticleLink");
+      if (artLink) {
+        artLink.href = 'article.html?id=' + video.articleId;
+      }
+
+      document.getElementById("videoModalOverlay").classList.add("active");
+      document.body.style.overflow = "hidden";
+    }
+
+    function closeVideo() {
+      document.getElementById("videoIframe").src = "";
+      document.getElementById("videoModalOverlay").classList.remove("active");
+      document.body.style.overflow = "";
+    }
+
+    document.getElementById("videoModalClose").onclick = closeVideo;
+    document.getElementById("videoModalOverlay").onclick = (e) => {
+      if (e.target === document.getElementById("videoModalOverlay")) closeVideo();
+    };
+
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape") closeVideo();
+    });
+
+    document.addEventListener("DOMContentLoaded", renderArchiveVideos);
+    window.addEventListener("bejing:langChange", renderArchiveVideos);
+  </script>
+<script>
+        function updateSloganDynamic() {
+          const lang = (typeof getCurrentLang === 'function') ? getCurrentLang() : "tr";
+          const s = (lang === "ku") ? "Dengê Jinên Ciwan" : "Genç Kadınların Sesi";
+          const h = document.getElementById("headerBrandSlogan");
+          const f = document.getElementById("footerBrandSlogan");
+          if (h) h.textContent = s;
+          if (f) f.textContent = s;
+        }
+        window.addEventListener("bejing:langChange", updateSloganDynamic);
+        document.addEventListener("DOMContentLoaded", updateSloganDynamic);
+      </script>
+      </body>
+</html>

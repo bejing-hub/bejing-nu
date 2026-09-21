@@ -95,6 +95,27 @@ const BEJING_QUOTES = [
 
 const BEJING_ARTICLES = [
   {
+    "id": 4118,
+    "slug": "bir-annenin-yureginde-dinmeyen-korku",
+    "lang": "tr",
+    "title": "Bir Annenin Yüreğinde Dinmeyen Korku",
+    "date": "21.09.2026",
+    "isoDate": "2026-09-21T17:30:00",
+    "author": "Amara Deniz",
+    "categoryId": "orgulerin-kalemi",
+    "categoryName": "Örgülerin Kalemi",
+    "featured_image": "assets/media/articles/tr_4118_featured_image.jpg",
+    "excerpt": "Ağustos aylarının son demleriydi. Üzüm ve incir zamanlarının kavurucu sıcaklığı vardı. Hepimiz yaşamın kendi meşgalesi içindeydik; gelecek haberlerden habersiz, yarının ne getireceğini bilmeden… Yürekleri umudun tohumlarıyla yeşertirken, özgürlüğün savaşçıları misafir olacaktı bu topraklara...",
+    "content": "<p>Ağustos aylarının son demleriydi. Üzüm ve incir zamanlarının kavurucu sıcaklığı vardı. Hepimiz yaşamın kendi meşgalesi içindeydik; gelecek haberlerden habersiz, yarının ne getireceğini bilmeden…</p><p>Yürekleri umudun tohumlarıyla yeşertirken, özgürlüğün savaşçıları misafir olacaktı bu topraklara. Haberleriyle annelerin kapısını çalacak, her bir annenin en güzel, en yiğit evladı, ölümün dahi anlamını aşarak yaşamı büyüten bir mirasa dönüşecekti. Ardından taziyeleri kurulacaktı. Ve içimde tarif edemediğim derin bir heyecan vardı.</p><p>Evet, Nasıl olacaktı.? Neler yapılacaktı.? Onları layığıyla karşılayabilecek miydik.?</p><p>Kafamda sayısız soruyla Mardin&#8217;in Nusaybin ilçesindeyim. Derin bir heyecanla taziye alanına girdim. Fakat karşılaştığım manzara alışılmış bir taziyeden çok farklıydı. İnsanlar ağlarken bile alkışlıyor, zılgıtlar yükseliyor, acının içinden başka bir duygu doğuyordu. Eskiden insanların şehit taziyelerine gelmekten korktuğu zamanlarla bugün arasında büyük bir fark vardı. Mekâna sığmayan bir kitle, gözlere sığmayacak kadar derin bir anlam ve yüreklere sığmayacak kadar büyük bir hakikat vardı. Her şehirde, her anmada aynı ruh devam ediyordu.</p><p>Bu katıldığım ikinci taziyeydi. Fakat bu kez gözüm başka bir yerdeydi: Annelerde…</p><p>Her şehidin fotoğrafının arkasında bir anne vardı. Gelen misafirleri başları dik karşılıyor, acılarını sessiz bir vakarla taşıyorlardı. O an düşündüm: Devrim ateşi yalnızca yakmıyordu; bazen bir annenin yüreğinde yeniden can buluyordu. Sinevizyon gösterimleri hazırlanmıştı. Anneler yine en ön sıralarda, evlatlarının görüntülerini izliyordu. Gözlerinde kelimelerin tarif edemeyeceği bir derinlik vardı. Her fotoğrafın ardından alkışlar, zılgıtlar ve “Şehîd namirin” sloganı yükseliyor; sesler göğe, göklerden de insanların yüreklerine ulaşıyordu.</p><figure class=\"article-body-figure\" style=\"text-align: center; margin: 30px 0;\"><img src=\"assets/media/articles/tr_4118_body_1.jpg\" alt=\"Şehîd Namirin\" style=\"max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);\"></figure><p>Anma programı sona erdiğinde her aile, evladının fotoğrafını kucaklayıp götürmeye başladı. Etrafıma bakıyor, anneleri izliyordum. Tam o sırada bir ses duydum:</p><p><strong>“Kanî keça min li ku ye..?”</strong></p><p>Döndüm. Bir anne, şehidin fotoğrafını arıyordu. O an anladım ki “Şehîd namirin” yalnızca bir slogan değildi. Bir hakikatin kendisiydi. Çünkü o anne aslında bir fotoğraf aramıyordu. Karşısında, kendisine yaşama umudu veren; yürüttüğü mücadeleyle yaşamı daha anlamlı ve yaşanabilir kılan, artık yüreğinde sonsuza kadar var olacak kızını arıyordu.</p><p>Fotoğraflar birer birer bulunuyor, anneler evlatlarının suretlerini kucaklarına alarak yürümeye devam ediyordu. Fakat mekândan çıkarken başka bir manzara dikkatimi çekti. Bir anne, üzerinden çıkardığı ceketiyle evladının fotoğrafını kapatmıştı. Başka bir anne ise fotoğrafın yüzünü herkese dönük taşıyordu. Bir süre düşündüm.</p><p>Ceketiyle fotoğrafını örten anne korkuyor muydu.? Yoksa fotoğrafını herkese dönük taşıyan anne daha mı cesurdu.?</p><p>Sonra bir arkadaşımın söylediği bir söz geldi aklıma: <em>“Cesaret, korkusuz olmak değil; korkuya rağmen kendi yolunda yürüyebilmektir.”</em> Belki de mesele tam olarak buydu.</p><p>Çünkü cesaret, korkunun hiç olmadığı yerde doğmaz. Asıl cesaret, insanın korkusuyla birlikte yürüyebilmesidir. O anne fotoğrafı ceketiyle örterken belki korkuyordu. Diğer anne fotoğrafı herkesin görebileceği şekilde taşırken belki onun da içinde aynı korku vardı. Ama ikisi de yürüyordu. Biri korkusunu saklayarak, diğeri korkusunu görünür kılarak… Ve ikisi de kendi hakikatinin yolunda ilerliyordu.</p><figure class=\"article-body-figure\" style=\"text-align: center; margin: 30px 0;\"><img src=\"assets/media/articles/tr_4118_body_2.jpg\" alt=\"Gulan Botan Anması\" style=\"max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);\"></figure><p>O gün anladım ki annelerin yüreğinde dinmeyen korku, onların cesaretinin karşıtı değildi. Belki de cesaret tam olarak o korkunun içinden doğuyordu. Çünkü insan bazen korkar, titrer, susar, evladının fotoğrafını göğsüne bastırır… Ama yine de yürür. Ve belki de bütün mesele budur: Korkuya rağmen yürüyebilmek.!</p><p>Herkes, kendi kalbinin attığı yerde, bütün “rağmenlere” rağmen yolun yolcularını ağırlıyor ve yürüyordu. Çünkü bazı yollar korkunun bittiği yerde değil; korkuya rağmen atılan ilk adımda başlar.</p>",
+    "readTime": {
+      "tr": "5 dk okuma",
+      "ku": "5 xulek xwendin",
+      "minutes": 5
+    },
+    "youtube_videos": [],
+    "views": 120
+  },
+  {
     "id": 4117,
     "slug": "askin-bilinci-ve-kurt-gercekligi-i",
     "lang": "tr",

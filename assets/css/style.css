@@ -10,8 +10,8 @@
 :root {
   /* --- Brand Color Palette from Logo (#7D6650) --- */
   --c-mahogany: #7D6650;
-  --c-mahogany-dark: #5A4736;
-  --c-mahogany-light: #9B826B;
+  --c-mahogany-dark: #4A3C2F;
+  --c-mahogany-light: #9B856F;
   --c-terracotta: #7D6650;
   --c-copper: #8E7660;
   --c-brown-earth: #7D6650;
@@ -48,9 +48,9 @@
   --font-body: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
 
   /* Elevations & Shadows */
-  --shadow-sm: 0 2px 8px rgba(92, 44, 22, 0.05);
-  --shadow-md: 0 8px 24px rgba(92, 44, 22, 0.08);
-  --shadow-lg: 0 16px 40px rgba(92, 44, 22, 0.12);
+  --shadow-sm: 0 2px 8px rgba(125, 102, 80, 0.05);
+  --shadow-md: 0 8px 24px rgba(125, 102, 80, 0.08);
+  --shadow-lg: 0 16px 40px rgba(125, 102, 80, 0.12);
   --shadow-gold: 0 4px 20px rgba(197, 155, 63, 0.25);
 
   /* Radii */
@@ -326,7 +326,7 @@ ul, ol {
   position: sticky;
   top: 0;
   z-index: 40;
-  box-shadow: 0 6px 18px rgba(92, 44, 22, 0.16);
+  box-shadow: 0 6px 18px rgba(125, 102, 80, 0.16);
   transition: all var(--transition-normal);
 }
 
@@ -918,7 +918,7 @@ ul, ol {
   background: var(--c-mahogany);
   color: #FFF;
   border-color: var(--c-mahogany);
-  box-shadow: 0 4px 12px rgba(92, 44, 22, 0.25);
+  box-shadow: 0 4px 12px rgba(125, 102, 80, 0.25);
 }
 
 /* Main Layout with Sidebar */
@@ -1299,7 +1299,7 @@ ul, ol {
 }
 
 .footer-bottom {
-  background: #2D1307;
+  background: #3A2E24;
   padding: 20px 0;
   font-size: 0.82rem;
   color: rgba(255, 255, 255, 0.55);
@@ -2136,7 +2136,7 @@ ul, ol {
   height: 68px;
   width: auto;
   object-fit: contain;
-  filter: drop-shadow(0 2px 8px rgba(92, 44, 22, 0.08));
+  filter: drop-shadow(0 2px 8px rgba(125, 102, 80, 0.08));
 }
 .brand-slogan-text {
   font-family: var(--font-display);
@@ -2281,7 +2281,7 @@ ul, ol {
   width: auto !important;
   max-width: 240px !important;
   object-fit: contain !important;
-  filter: drop-shadow(0 2px 6px rgba(92, 44, 22, 0.08)) !important;
+  filter: drop-shadow(0 2px 6px rgba(125, 102, 80, 0.08)) !important;
 }
 
 .brand-divider {
@@ -2427,7 +2427,7 @@ ul, ol {
   width: auto !important;
   max-width: 250px !important;
   object-fit: contain !important;
-  filter: drop-shadow(0 2px 6px rgba(92, 44, 22, 0.08)) !important;
+  filter: drop-shadow(0 2px 6px rgba(125, 102, 80, 0.08)) !important;
 }
 
 .brand-divider {
@@ -2474,7 +2474,7 @@ ul, ol {
   color: #FFFFFF !important;
   border-color: var(--c-mahogany) !important;
   transform: translateY(-2px) !important;
-  box-shadow: 0 4px 14px rgba(92, 44, 22, 0.25) !important;
+  box-shadow: 0 4px 14px rgba(125, 102, 80, 0.25) !important;
 }
 
 @media (max-width: 850px) {
@@ -2525,7 +2525,7 @@ ul, ol {
   color: #FFFFFF !important;
   border-color: var(--c-mahogany) !important;
   transform: translateY(-2px) !important;
-  box-shadow: 0 4px 12px rgba(92, 44, 22, 0.2) !important;
+  box-shadow: 0 4px 12px rgba(125, 102, 80, 0.2) !important;
 }
 
 .footer-contact-btn {
@@ -2571,7 +2571,7 @@ ul, ol {
   border-radius: var(--radius-full) !important;
   padding: 3px 5px !important;
   gap: 5px !important;
-  box-shadow: 0 2px 10px rgba(92, 44, 22, 0.08) !important;
+  box-shadow: 0 2px 10px rgba(125, 102, 80, 0.08) !important;
 }
 
 .site-header .lang-btn {
@@ -2588,12 +2588,12 @@ ul, ol {
 
 /* Inactive Türkçe: Bold Mahogany Brown */
 .site-header .lang-btn[data-lang="tr"] {
-  color: #5C2C16 !important;
+  color: #7D6650 !important;
   background: transparent !important;
 }
 .site-header .lang-btn[data-lang="tr"]:hover {
-  background: rgba(92, 44, 22, 0.1) !important;
-  color: #3B1B0C !important;
+  background: rgba(125, 102, 80, 0.1) !important;
+  color: #5A4736 !important;
 }
 
 /* Inactive Kurmancî: Vibrant Ochre Gold */
@@ -2608,9 +2608,9 @@ ul, ol {
 
 /* Active Türkçe */
 .site-header .lang-btn[data-lang="tr"].active {
-  background: #5C2C16 !important;
+  background: #7D6650 !important;
   color: #FFFFFF !important;
-  box-shadow: 0 3px 10px rgba(92, 44, 22, 0.3) !important;
+  box-shadow: 0 3px 10px rgba(125, 102, 80, 0.3) !important;
 }
 
 /* Active Kurmancî */
@@ -2663,7 +2663,7 @@ ul, ol {
 }
 
 .copyright-slim-bar {
-  background: #0B0705 !important;
+  background: #2E241C !important;
   border-top: 1px solid rgba(255, 255, 255, 0.06) !important;
   padding: 10px 0 !important;
   text-align: center !important;
@@ -2681,7 +2681,7 @@ ul, ol {
    PERFECTLY CENTERED COPYRIGHT BAR
    ========================================================================== */
 .copyright-slim-bar {
-  background: #0B0705 !important;
+  background: #2E241C !important;
   border-top: 1px solid rgba(255, 255, 255, 0.06) !important;
   padding: 12px 0 !important;
   display: flex !important;
@@ -2714,7 +2714,7 @@ ul, ol {
    UNCOMPROMISED DEAD-CENTER COPYRIGHT FOR BOTH KURDISH & TURKISH
    ========================================================================== */
 .copyright-slim-bar {
-  background: #0B0705 !important;
+  background: #2E241C !important;
   border-top: 1px solid rgba(255, 255, 255, 0.06) !important;
   padding: 12px 0 !important;
   width: 100% !important;

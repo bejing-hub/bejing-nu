@@ -8,12 +8,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,900;1,400;1,600;1,700&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap');
 
 :root {
-  /* --- Brand Color Palette from Logo --- */
-  --c-mahogany: #5C2C16;
-  --c-mahogany-dark: #3F1B0B;
-  --c-mahogany-light: #7A3F24;
-  --c-terracotta: #6E3416;
-  --c-copper: #8C461C;
+  /* --- Brand Color Palette from Logo (#7D6650) --- */
+  --c-mahogany: #7D6650;
+  --c-mahogany-dark: #5A4736;
+  --c-mahogany-light: #9B826B;
+  --c-terracotta: #7D6650;
+  --c-copper: #8E7660;
   --c-brown-earth: #7D6650;
   
   /* Gold Accent from 'Bêjing' Typography */
@@ -1761,7 +1761,7 @@ ul, ol {
 .slider-overlay {
   position: absolute;
   top: 0; left: 0; width: 100%; height: 100%;
-  background: linear-gradient(180deg, rgba(30, 15, 8, 0.25) 0%, rgba(30, 15, 8, 0.7) 45%, rgba(15, 8, 4, 0.95) 100%);
+  background: linear-gradient(180deg, rgba(125, 102, 80, 0.4) 0%, rgba(90, 71, 54, 0.78) 45%, rgba(65, 50, 38, 0.96) 100%);
   z-index: 2;
 }
 .slider-content {
@@ -1812,7 +1812,7 @@ ul, ol {
   width: 54px;
   height: 54px;
   border-radius: 50%;
-  background: rgba(92, 44, 22, 0.9);
+  background: rgba(125, 102, 80, 0.92);
   backdrop-filter: blur(8px);
   color: #FFF;
   border: 2px solid var(--c-gold);

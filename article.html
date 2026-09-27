@@ -344,10 +344,11 @@
         videoWrap.innerHTML = "";
       }
 
-      // Clean duplicate video embeds from article content so each article has exactly one video player
+      // Clean all duplicate video embeds, iframes, and raw video links from article content so each article has strictly one single video player
       let cleanContent = article.content || "";
-      cleanContent = cleanContent.replace(/<figure[^>]*class="[^"]*wp-block-embed[^"]*"[^>]*>[\s\S]*?<\/figure>/gi, "");
-      cleanContent = cleanContent.replace(/<iframe[^>]*src="[^"]*youtube[^"]*"[^>]*><\/iframe>/gi, "");
+      cleanContent = cleanContent.replace(/<figure[^>]*wp-block-embed[^>]*>[\s\S]*?<\/figure>/gi, "");
+      cleanContent = cleanContent.replace(/<iframe[^>]*src=["'][^"']*(?:youtube|youtu\.be|vimeo)[^"']*["'][^>]*>[\s\S]*?<\/iframe>/gi, "");
+      cleanContent = cleanContent.replace(/<p[^>]*>\s*https?:\/\/(?:www\.)?(?:youtube\.com\/watch\?v=|youtu\.be\/)[\w\-]+[\s\S]*?<\/p>/gi, "");
 
       document.getElementById("articleBody").innerHTML = cleanContent;
 

@@ -344,7 +344,12 @@
         videoWrap.innerHTML = "";
       }
 
-      document.getElementById("articleBody").innerHTML = article.content;
+      // Clean duplicate video embeds from article content so each article has exactly one video player
+      let cleanContent = article.content || "";
+      cleanContent = cleanContent.replace(/<figure[^>]*class="[^"]*wp-block-embed[^"]*"[^>]*>[\s\S]*?<\/figure>/gi, "");
+      cleanContent = cleanContent.replace(/<iframe[^>]*src="[^"]*youtube[^"]*"[^>]*><\/iframe>/gi, "");
+
+      document.getElementById("articleBody").innerHTML = cleanContent;
 
       const relatedGrid = document.getElementById("relatedArticlesGrid");
       relatedGrid.innerHTML = "";

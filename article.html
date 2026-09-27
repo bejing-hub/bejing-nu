@@ -268,15 +268,19 @@
   </main>
 
   <footer class="site-footer">
-    <div style="text-align: center; padding: 24px 0 12px;"><img src="assets/images/logo.png" alt="Bêjing Medya Logo" style="max-height: 60px;"><div id="footerBrandSlogan" style="font-family: var(--font-display); font-size: 1.15rem; font-weight: 700; color: var(--c-gold-bright); margin-top: 6px;">Genç Kadınların Sesi</div></div>\n<div class="footer-bottom">
+    <div style="text-align: center; padding: 24px 0 12px;">
+      <img src="assets/images/logo.png" alt="Bêjing Medya Logo" style="max-height: 60px;">
+      <div id="footerBrandSlogan" style="font-family: var(--font-display); font-size: 1.15rem; font-weight: 700; color: var(--c-gold-bright); margin-top: 6px;">Genç Kadınların Sesi</div>
+    </div>
+    <div class="footer-bottom">
       <div class="container" style="text-align: center;">
         <p data-i18n="copyright">© 2026 Bêjing Medya. Tüm hakları saklıdır.</p>
       </div>
     </div>
   </footer>
 
-  <script src="assets/js/data.js?v=2"></script>
-  <script src="assets/js/i18n.js?v=2"></script>
+  <script src="assets/js/data.js?v=4"></script>
+  <script src="assets/js/i18n.js?v=4"></script>
   <script>
     let currentFontSize = 1.15;
 
@@ -346,9 +350,13 @@
 
       // Clean all duplicate video embeds, iframes, and raw video links from article content so each article has strictly one single video player
       let cleanContent = article.content || "";
-      cleanContent = cleanContent.replace(/<figure[^>]*wp-block-embed[^>]*>[\s\S]*?<\/figure>/gi, "");
-      cleanContent = cleanContent.replace(/<iframe[^>]*src=["'][^"']*(?:youtube|youtu\.be|vimeo)[^"']*["'][^>]*>[\s\S]*?<\/iframe>/gi, "");
-      cleanContent = cleanContent.replace(/<p[^>]*>\s*https?:\/\/(?:www\.)?(?:youtube\.com\/watch\?v=|youtu\.be\/)[\w\-]+[\s\S]*?<\/p>/gi, "");
+      cleanContent = cleanContent.replace(/<figure[\s\S]*?<\/figure>/gi, function(match) {
+        if (/youtube|youtu\.be|vimeo|embed|video/i.test(match)) return "";
+        return match;
+      });
+      cleanContent = cleanContent.replace(/<iframe[\s\S]*?<\/iframe>/gi, "");
+      cleanContent = cleanContent.replace(/<p[^>]*>\s*https?:\/\/(?:www\.)?(?:youtube\.com|youtu\.be)[\s\S]*?<\/p>/gi, "");
+      cleanContent = cleanContent.replace(/(?:https?:\/\/)?(?:www\.)?(?:youtube\.com\/watch\?v=|youtu\.be\/)[\w\-]+/gi, "");
 
       document.getElementById("articleBody").innerHTML = cleanContent;
 

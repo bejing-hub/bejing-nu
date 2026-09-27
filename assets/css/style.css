@@ -10,10 +10,10 @@
 :root {
   /* --- Brand Color Palette from Logo (#7D6650) --- */
   --c-mahogany: #7D6650;
-  --c-mahogany-dark: #4A3C2F;
-  --c-mahogany-light: #9B856F;
+  --c-mahogany-dark: #7D6650;
+  --c-mahogany-light: #9B826B;
   --c-terracotta: #7D6650;
-  --c-copper: #8E7660;
+  --c-copper: #7D6650;
   --c-brown-earth: #7D6650;
   
   /* Gold Accent from 'Bêjing' Typography */
@@ -2827,4 +2827,70 @@ ul, ol {
   color: var(--c-text-muted);
   max-width: 600px;
   margin: 0 auto;
+}
+
+
+/* ==========================================================================
+   OFFICIAL #7D6650 BRAND COLOR OVERRIDE
+   ========================================================================== */
+:root {
+  --c-mahogany: #7D6650 !important;
+  --c-mahogany-dark: #65513F !important;
+  --c-mahogany-light: #9B826B !important;
+  --c-terracotta: #7D6650 !important;
+  --c-copper: #7D6650 !important;
+  --c-brown-earth: #7D6650 !important;
+}
+
+.top-bar {
+  background: #7D6650 !important;
+}
+
+.main-navbar {
+  background: #7D6650 !important;
+  border-top: 2px solid var(--c-gold) !important;
+  border-bottom: 2px solid #65513F !important;
+}
+
+.site-footer {
+  background: #7D6650 !important;
+  border-top: 3px solid var(--c-gold) !important;
+}
+
+.footer-bottom {
+  background: #65513F !important;
+}
+
+.copyright-slim-bar {
+  background: #504031 !important;
+}
+
+.category-pill {
+  background: #7D6650 !important;
+  color: #FFFFFF !important;
+}
+
+.telegram-pill-btn {
+  background: #7D6650 !important;
+  color: #FFFFFF !important;
+}
+.telegram-pill-btn:hover {
+  background: #65513F !important;
+}
+
+.article-page-title,
+.section-title,
+.about-quote {
+  color: #7D6650 !important;
+}
+
+.article-video-container {
+  background: #7D6650 !important;
+  border: 1px solid rgba(197, 155, 63, 0.4) !important;
+}
+
+.site-header .lang-btn[data-lang="tr"].active,
+.site-header .lang-btn[data-lang="ku"].active {
+  background: #7D6650 !important;
+  color: #FFFFFF !important;
 }

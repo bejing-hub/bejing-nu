@@ -96,6 +96,7 @@ const BEJING_QUOTES = [
 const BEJING_ARTICLES = [
   {
     "id": 9999,
+    "lang": "tr",
     "categoryId": "orgulerin-kalemi",
     "title": "Aşkın Bilinci ve Kürt Gerçekliği -II-",
     "image": "http://bejingmedya.com/wp-content/uploads/2026/09/Ekran-goruntusu-2026-09-26-133202.png",

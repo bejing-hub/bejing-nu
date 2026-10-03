@@ -11,7 +11,7 @@
   /* --- Brand Color Palette from Logo (#7D6650) --- */
   --c-mahogany: #7D6650;
   --c-mahogany-dark: #7D6650;
-  --c-mahogany-light: #9B826B;
+  --c-mahogany-light: #7D6650;
   --c-terracotta: #7D6650;
   --c-copper: #7D6650;
   --c-brown-earth: #7D6650;
@@ -2837,8 +2837,8 @@ ul, ol {
    ========================================================================== */
 :root {
   --c-mahogany: #7D6650 !important;
-  --c-mahogany-dark: #665240 !important;
-  --c-mahogany-light: #9B826B !important;
+  --c-mahogany-dark: #7D6650 !important;
+  --c-mahogany-light: #7D6650 !important;
   --c-terracotta: #7D6650 !important;
   --c-copper: #7D6650 !important;
   --c-brown-earth: #7D6650 !important;

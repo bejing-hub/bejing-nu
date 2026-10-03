@@ -2830,65 +2830,100 @@ ul, ol {
 }
 
 
+
+
 /* ==========================================================================
-   OFFICIAL #7D6650 BRAND COLOR OVERRIDE
+   OFFICIAL #7D6650 BRAND COLOR OVERRIDE (MATCHING bejingmedya.com)
    ========================================================================== */
 :root {
   --c-mahogany: #7D6650 !important;
-  --c-mahogany-dark: #65513F !important;
+  --c-mahogany-dark: #665240 !important;
   --c-mahogany-light: #9B826B !important;
   --c-terracotta: #7D6650 !important;
   --c-copper: #7D6650 !important;
   --c-brown-earth: #7D6650 !important;
+  --pri-color: #7D6650 !important;
 }
 
+/* 1. Top Bar (mg-head-detail) */
 .top-bar {
   background: #7D6650 !important;
+  border-bottom: none !important;
+}
+.top-bar a, .top-bar span, .top-bar i {
+  color: #FFFFFF !important;
 }
 
+/* 2. Site Header (Logo Area) */
+.site-header {
+  background: #FFFFFF !important;
+  border-bottom: 1px solid #E8DFD3 !important;
+}
+.site-header .brand-slogan-text {
+  color: #7D6650 !important;
+}
+
+/* 3. Main Navbar (navbar-wp) */
 .main-navbar {
   background: #7D6650 !important;
-  border-top: 2px solid var(--c-gold) !important;
-  border-bottom: 2px solid #65513F !important;
+  border-top: none !important;
+  border-bottom: none !important;
+}
+.main-navbar .nav-link {
+  color: #FFFFFF !important;
+}
+.main-navbar .nav-link:hover, .main-navbar .nav-item.active .nav-link {
+  background: rgba(0,0,0,0.1) !important;
 }
 
+/* 4. Footer */
 .site-footer {
-  background: #7D6650 !important;
-  border-top: 3px solid var(--c-gold) !important;
+  background: #121026 !important; /* Original dark footer from Newsup theme */
+  border-top: 3px solid #7D6650 !important;
 }
-
 .footer-bottom {
-  background: #65513F !important;
+  background: #090818 !important; /* Darker bottom for main footer area */
 }
-
+/* Copyright Bar matching mg-footer-copyright */
 .copyright-slim-bar {
-  background: #504031 !important;
+  background: #7D6650 !important;
+  color: #FFFFFF !important;
+}
+.copyright-slim-bar p, .copyright-slim-bar [data-i18n="copyright"] {
+  color: #FFFFFF !important;
+  opacity: 1 !important;
 }
 
+/* 5. Primary Theme Elements (Buttons, Pills, Borders) */
 .category-pill {
   background: #7D6650 !important;
   color: #FFFFFF !important;
 }
-
 .telegram-pill-btn {
   background: #7D6650 !important;
   color: #FFFFFF !important;
 }
 .telegram-pill-btn:hover {
-  background: #65513F !important;
+  background: #665240 !important;
 }
-
 .article-page-title,
 .section-title,
+.section-title-cinema,
 .about-quote {
   color: #7D6650 !important;
 }
-
 .article-video-container {
-  background: #7D6650 !important;
-  border: 1px solid rgba(197, 155, 63, 0.4) !important;
+  background: #17110E !important; /* Restore dark background for video container */
+  border: 1px solid #7D6650 !important;
+}
+.article-video-container i.fa-youtube {
+  color: #FF0000 !important;
+}
+.article-video-container strong {
+  color: #FFFFFF !important;
 }
 
+/* 6. Language Switcher */
 .site-header .lang-btn[data-lang="tr"].active,
 .site-header .lang-btn[data-lang="ku"].active {
   background: #7D6650 !important;

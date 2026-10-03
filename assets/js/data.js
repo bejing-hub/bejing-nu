@@ -2380,7 +2380,7 @@ const BEJING_VIDEOS = [
     "categoryName": "Şopdarên Ma",
     "date": "05.09.2026",
     "duration": "8:15",
-    "thumbnail": "https://img.youtube.com/vi/7nFPXRcA72A/hqdefault.jpg",
+    "thumbnail": "assets/media/articles/ku_4111_featured_image.jpg",
     "image": "assets/media/articles/ku_4111_featured_image.jpg",
     "views": 2222
   },
@@ -2399,7 +2399,7 @@ const BEJING_VIDEOS = [
     "categoryName": "Jin û Çand",
     "date": "01.09.2026",
     "duration": "9:40",
-    "thumbnail": "https://img.youtube.com/vi/HZOfLumVhoc/hqdefault.jpg",
+    "thumbnail": "assets/media/articles/ku_4093_featured_image.png",
     "image": "assets/media/articles/ku_4093_featured_image.png",
     "views": 2870
   },
@@ -2418,7 +2418,7 @@ const BEJING_VIDEOS = [
     "categoryName": "Atolye",
     "date": "18.08.2026",
     "duration": "16:48",
-    "thumbnail": "https://img.youtube.com/vi/nfK5COQMqD0/hqdefault.jpg",
+    "thumbnail": "assets/media/articles/ku_4071_featured_image.png",
     "image": "assets/media/articles/ku_4071_featured_image.png",
     "views": 984
   },
@@ -2437,7 +2437,7 @@ const BEJING_VIDEOS = [
     "categoryName": "Atolye",
     "date": "11.08.2026",
     "duration": "14:16",
-    "thumbnail": "https://img.youtube.com/vi/70guqKT-2mM/hqdefault.jpg",
+    "thumbnail": "assets/media/articles/ku_4049_featured_image.png",
     "image": "assets/media/articles/ku_4049_featured_image.png",
     "views": 3882
   },
@@ -2456,7 +2456,7 @@ const BEJING_VIDEOS = [
     "categoryName": "Şopdarên Ma",
     "date": "05.08.2026",
     "duration": "12:51",
-    "thumbnail": "https://img.youtube.com/vi/9IjhUBKdA34/hqdefault.jpg",
+    "thumbnail": "assets/media/articles/ku_3961_featured_image.png",
     "image": "assets/media/articles/ku_3961_featured_image.png",
     "views": 3696
   },
@@ -2494,7 +2494,7 @@ const BEJING_VIDEOS = [
     "categoryName": "Atolye",
     "date": "21.07.2026",
     "duration": "12:15",
-    "thumbnail": "https://img.youtube.com/vi/5DPFlXRp-8I/hqdefault.jpg",
+    "thumbnail": "assets/media/articles/ku_3904_featured_image.jpg",
     "image": "assets/media/articles/ku_3904_featured_image.jpg",
     "views": 2541
   },
@@ -2513,7 +2513,7 @@ const BEJING_VIDEOS = [
     "categoryName": "Şopdarên Ma",
     "date": "07.07.2026",
     "duration": "14:41",
-    "thumbnail": "https://img.youtube.com/vi/QKfeNZjUsaU/hqdefault.jpg",
+    "thumbnail": "assets/media/articles/ku_3814_featured_image.png",
     "image": "assets/media/articles/ku_3814_featured_image.png",
     "views": 1391
   },
@@ -2532,7 +2532,7 @@ const BEJING_VIDEOS = [
     "categoryName": "Jin û Çand",
     "date": "20.06.2026",
     "duration": "13:45",
-    "thumbnail": "https://img.youtube.com/vi/4cABetsFub8/hqdefault.jpg",
+    "thumbnail": "assets/media/articles/ku_3631_featured_image.jpg",
     "image": "assets/media/articles/ku_3631_featured_image.jpg",
     "views": 3197
   },
@@ -2551,7 +2551,7 @@ const BEJING_VIDEOS = [
     "categoryName": "Şopdarên Ma",
     "date": "18.06.2026",
     "duration": "10:16",
-    "thumbnail": "https://img.youtube.com/vi/BRNTlMMRym8/hqdefault.jpg",
+    "thumbnail": "assets/media/articles/ku_3469_featured_image.png",
     "image": "assets/media/articles/ku_3469_featured_image.png",
     "views": 2679
   },
@@ -2570,7 +2570,7 @@ const BEJING_VIDEOS = [
     "categoryName": "Atolye",
     "date": "18.06.2026",
     "duration": "17:03",
-    "thumbnail": "https://img.youtube.com/vi/e-HldHvU5GQ/hqdefault.jpg",
+    "thumbnail": "assets/media/articles/ku_3463_featured_image.png",
     "image": "assets/media/articles/ku_3463_featured_image.png",
     "views": 1621
   },
@@ -2589,7 +2589,7 @@ const BEJING_VIDEOS = [
     "categoryName": "Atolye",
     "date": "17.06.2026",
     "duration": "8:42",
-    "thumbnail": "https://img.youtube.com/vi/1DEfNu9X2c4/hqdefault.jpg",
+    "thumbnail": "assets/media/articles/ku_3455_featured_image.png",
     "image": "assets/media/articles/ku_3455_featured_image.png",
     "views": 3450
   },
@@ -2608,7 +2608,7 @@ const BEJING_VIDEOS = [
     "categoryName": "Jin û Çand",
     "date": "17.06.2026",
     "duration": "6:29",
-    "thumbnail": "https://img.youtube.com/vi/be54twihvRc/hqdefault.jpg",
+    "thumbnail": "assets/media/articles/ku_3398_featured_image.png",
     "image": "assets/media/articles/ku_3398_featured_image.png",
     "views": 1279
   },
@@ -2627,7 +2627,7 @@ const BEJING_VIDEOS = [
     "categoryName": "Atolye",
     "date": "17.06.2026",
     "duration": "18:38",
-    "thumbnail": "https://img.youtube.com/vi/_4pL0J1UfJ0/hqdefault.jpg",
+    "thumbnail": "assets/media/articles/ku_3389_featured_image.png",
     "image": "assets/media/articles/ku_3389_featured_image.png",
     "views": 3296
   },
@@ -2646,7 +2646,7 @@ const BEJING_VIDEOS = [
     "categoryName": "Atolye",
     "date": "16.06.2026",
     "duration": "16:52",
-    "thumbnail": "https://img.youtube.com/vi/SmRabHqE1sQ/hqdefault.jpg",
+    "thumbnail": "assets/media/articles/ku_3325_featured_image.webp",
     "image": "assets/media/articles/ku_3325_featured_image.webp",
     "views": 2142
   },
@@ -2665,7 +2665,7 @@ const BEJING_VIDEOS = [
     "categoryName": "Şopdarên Ma",
     "date": "15.06.2026",
     "duration": "19:11",
-    "thumbnail": "https://img.youtube.com/vi/ZuG6fjoBvpg/hqdefault.jpg",
+    "thumbnail": "assets/media/articles/ku_3133_featured_image.png",
     "image": "assets/media/articles/ku_3133_featured_image.png",
     "views": 4026
   },
@@ -2684,7 +2684,7 @@ const BEJING_VIDEOS = [
     "categoryName": "Jin û Çand",
     "date": "15.06.2026",
     "duration": "9:10",
-    "thumbnail": "https://img.youtube.com/vi/EnoJuyiDyDI/hqdefault.jpg",
+    "thumbnail": "assets/media/articles/ku_3127_featured_image.jpeg",
     "image": "assets/media/articles/ku_3127_featured_image.jpeg",
     "views": 3744
   },
@@ -2703,7 +2703,7 @@ const BEJING_VIDEOS = [
     "categoryName": "Şopdarên Ma",
     "date": "15.06.2026",
     "duration": "13:09",
-    "thumbnail": "https://img.youtube.com/vi/o-fkBQigk1M/hqdefault.jpg",
+    "thumbnail": "assets/media/articles/ku_3122_featured_image.png",
     "image": "assets/media/articles/ku_3122_featured_image.png",
     "views": 910
   },
@@ -2760,7 +2760,7 @@ const BEJING_VIDEOS = [
     "categoryName": "Atolye",
     "date": "15.05.2026",
     "duration": "9:48",
-    "thumbnail": "https://img.youtube.com/vi/8LfoTnJ6hGs/hqdefault.jpg",
+    "thumbnail": "assets/media/articles/ku_3138_featured_image.png",
     "image": "assets/media/articles/ku_3138_featured_image.png",
     "views": 2928
   },
@@ -2779,7 +2779,7 @@ const BEJING_VIDEOS = [
     "categoryName": "Atölye",
     "date": "12.06.2026",
     "duration": "19:10",
-    "thumbnail": "https://img.youtube.com/vi/u1Ge0dL7DB8/hqdefault.jpg",
+    "thumbnail": "assets/media/articles/tr_1_featured_image.png",
     "image": "assets/media/articles/tr_1_featured_image.png",
     "views": 1160
   },
@@ -2798,7 +2798,7 @@ const BEJING_VIDEOS = [
     "categoryName": "Atölye",
     "date": "11.08.2026",
     "duration": "14:21",
-    "thumbnail": "https://img.youtube.com/vi/pSg5_bEW2g8/hqdefault.jpg",
+    "thumbnail": "assets/media/articles/tr_4038_featured_image.png",
     "image": "assets/media/articles/tr_4038_featured_image.png",
     "views": 3720
   },
@@ -2817,7 +2817,7 @@ const BEJING_VIDEOS = [
     "categoryName": "Atölye",
     "date": "10.05.2026",
     "duration": "14:35",
-    "thumbnail": "https://img.youtube.com/vi/MVuuWv5WrhA/hqdefault.jpg",
+    "thumbnail": "assets/media/articles/tr_3238_featured_image.png",
     "image": "assets/media/articles/tr_3238_featured_image.png",
     "views": 1852
   },
@@ -2855,28 +2855,9 @@ const BEJING_VIDEOS = [
     "categoryName": "Ma'nın İzindekiler",
     "date": "05.08.2026",
     "duration": "14:58",
-    "thumbnail": "https://img.youtube.com/vi/Z25Nenla7xM/hqdefault.jpg",
+    "thumbnail": "assets/media/articles/tr_3965_featured_image.png",
     "image": "assets/media/articles/tr_3965_featured_image.png",
     "views": 904
-  },
-  {
-    "id": "4099_v1",
-    "articleId": 4099,
-    "articleTitle": "Mührünü tarihe vurmuş Kürt Kadın sanatçılarından; Eyşeşan",
-    "lang": "tr",
-    "videoId": "HZOfLumVhoc",
-    "embedUrl": "https://www.youtube.com/embed/HZOfLumVhoc",
-    "videoUrl": "https://www.youtube.com/embed/HZOfLumVhoc",
-    "watchUrl": "https://www.youtube.com/watch?v=HZOfLumVhoc",
-    "title": "Mührünü tarihe vurmuş Kürt Kadın sanatçılarından; Eyşeşan",
-    "desc": "Eyşeşan, sesiyle Kürt kültürünü günümüze kadar taşımıştır. Tarih ve gelenek açısından çok anlamlı bir mirası bütün kadınlara ve topluma bırakmıştır. Kürt toplum...",
-    "categoryId": "kadin-ve-kultur",
-    "categoryName": "Kadın ve Kültür",
-    "date": "01.09.2026",
-    "duration": "11:04",
-    "thumbnail": "https://img.youtube.com/vi/HZOfLumVhoc/hqdefault.jpg",
-    "image": "assets/media/articles/tr_4099_featured_image.png",
-    "views": 1201
   },
   {
     "id": "3183_v1",
@@ -2893,28 +2874,9 @@ const BEJING_VIDEOS = [
     "categoryName": "Bi Nêrîna Jinên Ciwan",
     "date": "01.05.2026",
     "duration": "10:27",
-    "thumbnail": "https://img.youtube.com/vi/smNjkW37-hY/hqdefault.jpg",
+    "thumbnail": "assets/media/articles/ku_3183_featured_image.png",
     "image": "assets/media/articles/ku_3183_featured_image.png",
     "views": 3634
-  },
-  {
-    "id": "4064_v1",
-    "articleId": 4064,
-    "articleTitle": "Diyalektik;",
-    "lang": "tr",
-    "videoId": "nfK5COQMqD0",
-    "embedUrl": "https://www.youtube.com/embed/nfK5COQMqD0",
-    "videoUrl": "https://www.youtube.com/embed/nfK5COQMqD0",
-    "watchUrl": "https://www.youtube.com/watch?v=nfK5COQMqD0",
-    "title": "Diyalektik;",
-    "desc": "Diyalektik Kürtçede hala ödülü iki rakamının karşılığı olan “du” kelime kökünden gelir. “Du” Avrupa’da “diya” olur, kökü Aryendir. Zerdüştlükteki karanlık-aydın...",
-    "categoryId": "atolye",
-    "categoryName": "Atölye",
-    "date": "18.08.2026",
-    "duration": "9:01",
-    "thumbnail": "https://img.youtube.com/vi/nfK5COQMqD0/hqdefault.jpg",
-    "image": "assets/media/articles/tr_4064_featured_image.png",
-    "views": 2717
   },
   {
     "id": "3920_v1",
@@ -2931,7 +2893,7 @@ const BEJING_VIDEOS = [
     "categoryName": "Atölye",
     "date": "28.07.2026",
     "duration": "12:00",
-    "thumbnail": "https://img.youtube.com/vi/v8aaf1_J4N4/hqdefault.jpg",
+    "thumbnail": "assets/media/articles/tr_3920_featured_image.png",
     "image": "assets/media/articles/tr_3920_featured_image.png",
     "views": 2294
   },
@@ -2950,7 +2912,7 @@ const BEJING_VIDEOS = [
     "categoryName": "Kadın Külliyatı",
     "date": "27.07.2026",
     "duration": "15:31",
-    "thumbnail": "https://img.youtube.com/vi/uZOO0CvADEY/hqdefault.jpg",
+    "thumbnail": "assets/media/articles/tr_3912_featured_image.png",
     "image": "assets/media/articles/tr_3912_featured_image.png",
     "views": 2586
   },
@@ -2969,7 +2931,7 @@ const BEJING_VIDEOS = [
     "categoryName": "Atölye",
     "date": "21.07.2026",
     "duration": "6:15",
-    "thumbnail": "https://img.youtube.com/vi/1RnZJsmi9BU/hqdefault.jpg",
+    "thumbnail": "assets/media/articles/tr_3897_featured_image.jpg",
     "image": "assets/media/articles/tr_3897_featured_image.jpg",
     "views": 910
   },
@@ -2988,7 +2950,7 @@ const BEJING_VIDEOS = [
     "categoryName": "Genç Kadın Bakışıyla",
     "date": "19.07.2026",
     "duration": "11:45",
-    "thumbnail": "https://img.youtube.com/vi/I8RMU3nZyyE/hqdefault.jpg",
+    "thumbnail": "assets/media/articles/tr_3863_featured_image.png",
     "image": "assets/media/articles/tr_3863_featured_image.png",
     "views": 995
   },
@@ -3007,7 +2969,7 @@ const BEJING_VIDEOS = [
     "categoryName": "Atölye",
     "date": "15.07.2026",
     "duration": "10:56",
-    "thumbnail": "https://img.youtube.com/vi/ryTLq-AI-Lk/hqdefault.jpg",
+    "thumbnail": "assets/media/articles/tr_3841_featured_image.jpg",
     "image": "assets/media/articles/tr_3841_featured_image.jpg",
     "views": 1225
   },
@@ -3026,7 +2988,7 @@ const BEJING_VIDEOS = [
     "categoryName": "Atölye",
     "date": "01.07.2026",
     "duration": "16:49",
-    "thumbnail": "https://img.youtube.com/vi/8dsX97YBrvE/hqdefault.jpg",
+    "thumbnail": "assets/media/articles/tr_3753_featured_image.png",
     "image": "assets/media/articles/tr_3753_featured_image.png",
     "views": 1872
   },
@@ -3064,7 +3026,7 @@ const BEJING_VIDEOS = [
     "categoryName": "Atölye",
     "date": "24.06.2026",
     "duration": "10:09",
-    "thumbnail": "https://img.youtube.com/vi/Ibcoto75mjc/hqdefault.jpg",
+    "thumbnail": "assets/media/articles/tr_3703_featured_image.png",
     "image": "assets/media/articles/tr_3703_featured_image.png",
     "views": 3851
   },
@@ -3083,7 +3045,7 @@ const BEJING_VIDEOS = [
     "categoryName": "Atölye",
     "date": "22.06.2026",
     "duration": "18:12",
-    "thumbnail": "https://img.youtube.com/vi/o5XBJBXG5Q4/hqdefault.jpg",
+    "thumbnail": "assets/media/articles/tr_3654_featured_image.png",
     "image": "assets/media/articles/tr_3654_featured_image.png",
     "views": 1697
   },
@@ -3102,7 +3064,7 @@ const BEJING_VIDEOS = [
     "categoryName": "Şopdarên Ma",
     "date": "22.06.2026",
     "duration": "12:15",
-    "thumbnail": "https://img.youtube.com/vi/c7n_7zT1TLE/hqdefault.jpg",
+    "thumbnail": "assets/media/articles/tr_3671_featured_image.png",
     "image": "assets/media/articles/tr_3671_featured_image.png",
     "views": 1664
   },
@@ -3121,7 +3083,7 @@ const BEJING_VIDEOS = [
     "categoryName": "Genç Kadın Bakışıyla",
     "date": "18.06.2026",
     "duration": "15:48",
-    "thumbnail": "https://img.youtube.com/vi/d2cHXoY0ALQ/hqdefault.jpg",
+    "thumbnail": "assets/media/articles/tr_3499_featured_image.png",
     "image": "assets/media/articles/tr_3499_featured_image.png",
     "views": 1340
   },
@@ -3140,7 +3102,7 @@ const BEJING_VIDEOS = [
     "categoryName": "Atölye",
     "date": "18.06.2026",
     "duration": "16:15",
-    "thumbnail": "https://img.youtube.com/vi/5fptC8BbLfM/hqdefault.jpg",
+    "thumbnail": "assets/media/articles/tr_3476_featured_image.png",
     "image": "assets/media/articles/tr_3476_featured_image.png",
     "views": 2894
   },
@@ -3159,7 +3121,7 @@ const BEJING_VIDEOS = [
     "categoryName": "Atölye",
     "date": "16.06.2026",
     "duration": "8:31",
-    "thumbnail": "https://img.youtube.com/vi/smoyn6rj_XI/hqdefault.jpg",
+    "thumbnail": "assets/media/articles/tr_3339_featured_image.png",
     "image": "assets/media/articles/tr_3339_featured_image.png",
     "views": 3905
   },
@@ -3178,7 +3140,7 @@ const BEJING_VIDEOS = [
     "categoryName": "Atölye",
     "date": "16.06.2026",
     "duration": "10:36",
-    "thumbnail": "https://img.youtube.com/vi/FScAKk9WSpI/hqdefault.jpg",
+    "thumbnail": "assets/media/articles/tr_3311_featured_image.webp",
     "image": "assets/media/articles/tr_3311_featured_image.webp",
     "views": 3364
   },
@@ -3197,7 +3159,7 @@ const BEJING_VIDEOS = [
     "categoryName": "Atölye",
     "date": "15.06.2026",
     "duration": "7:58",
-    "thumbnail": "https://img.youtube.com/vi/vGIKwYVn6gY/hqdefault.jpg",
+    "thumbnail": "assets/media/articles/tr_3114_featured_image.png",
     "image": "assets/media/articles/tr_3114_featured_image.png",
     "views": 1928
   },
@@ -3216,7 +3178,7 @@ const BEJING_VIDEOS = [
     "categoryName": "Atölye",
     "date": "13.06.2026",
     "duration": "17:01",
-    "thumbnail": "https://img.youtube.com/vi/-SZmYmJFaxo/hqdefault.jpg",
+    "thumbnail": "assets/media/articles/tr_2973_featured_image.png",
     "image": "assets/media/articles/tr_2973_featured_image.png",
     "views": 3064
   },
@@ -3235,7 +3197,7 @@ const BEJING_VIDEOS = [
     "categoryName": "Atölye",
     "date": "13.06.2026",
     "duration": "8:02",
-    "thumbnail": "https://img.youtube.com/vi/bodsJvStYLI/hqdefault.jpg",
+    "thumbnail": "assets/media/articles/tr_2904_featured_image.png",
     "image": "assets/media/articles/tr_2904_featured_image.png",
     "views": 2413
   },
@@ -3254,7 +3216,7 @@ const BEJING_VIDEOS = [
     "categoryName": "Genç Kadın Bakışıyla",
     "date": "20.05.2026",
     "duration": "9:44",
-    "thumbnail": "https://img.youtube.com/vi/9JRFrwwDGdY/hqdefault.jpg",
+    "thumbnail": "assets/media/articles/tr_3275_featured_image.jpg",
     "image": "assets/media/articles/tr_3275_featured_image.jpg",
     "views": 3936
   },
@@ -3273,7 +3235,7 @@ const BEJING_VIDEOS = [
     "categoryName": "Ma'nın İzindekiler",
     "date": "28.04.2026",
     "duration": "12:06",
-    "thumbnail": "https://img.youtube.com/vi/M0FPwwVAH_M/hqdefault.jpg",
+    "thumbnail": "assets/media/articles/tr_3248_featured_image.png",
     "image": "assets/media/articles/tr_3248_featured_image.png",
     "views": 1775
   }

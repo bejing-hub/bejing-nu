@@ -1233,9 +1233,9 @@ ul, ol {
    FOOTER (Rich 4-column luxury layout)
    ========================================================================== */
 .site-footer {
-  background: var(--c-mahogany-dark); /* Same color as top bar */
-  color: #EDE4D6;
-  border-top: 3px solid var(--c-gold);
+  background: #7D6650 !important;
+  color: #FFFFFF;
+  border-top: none;
   padding-top: 50px;
 }
 
@@ -2157,10 +2157,11 @@ ul, ol {
   gap: 8px;
 }
 .footer-logo-img {
-  height: 72px;
+  height: 80px;
   width: auto;
   object-fit: contain;
-  filter: drop-shadow(0 4px 14px rgba(0, 0, 0, 0.25));
+  background: transparent !important;
+  padding: 0 !important;
 }
 .footer-slogan-text {
   font-family: var(--font-display);
@@ -2311,13 +2312,11 @@ ul, ol {
   margin-bottom: 20px !important;
 }
 .footer-logo-img {
-  height: 74px !important;
-  width: auto !important;
-  object-fit: contain !important;
-  background: #FFFFFF !important;
-  padding: 4px 10px !important;
-  border-radius: 6px !important;
-  box-shadow: 0 4px 16px rgba(0,0,0,0.2) !important;
+  height: 80px;
+  width: auto;
+  object-fit: contain;
+  background: transparent !important;
+  padding: 0 !important;
 }
 .footer-brand-divider {
   width: 2px !important;
@@ -2878,11 +2877,13 @@ ul, ol {
 
 /* 4. Footer */
 .site-footer {
-  background: #121026 !important; /* Original dark footer from Newsup theme */
-  border-top: 3px solid #7D6650 !important;
+  background: #7D6650 !important;
+  color: #FFFFFF;
+  border-top: none;
+  padding-top: 50px;
 }
 .footer-bottom {
-  background: #090818 !important; /* Darker bottom for main footer area */
+  background: #65513F !important; /* Darker bottom for main footer area */
 }
 /* Copyright Bar matching mg-footer-copyright */
 .copyright-slim-bar {

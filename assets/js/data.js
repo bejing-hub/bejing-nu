@@ -1,193 +1,193 @@
-/**
-
- * Bêjing Medya - Complete Published Archive & Video Store
-
- * Auto-generated with 92 Full Articles & 48+ Videos
-
- * Total Articles: 92 (Kurdish: 35, Turkish: 57)
-
- */
-
-
-
-const BEJING_CATEGORIES = {
-
-  "genc-kadin-bakisiya": {
-
-    "id": "genc-kadin-bakisiya",
-
-    "tr": "Genç Kadın Bakışıyla",
-
-    "ku": "Bi Nêrîna Jinên Ciwan",
-
-    "slug": "genc-kadin-bakisiya",
-
-    "icon": "fa-solid fa-venus",
-
-    "color": "#6E3416"
-
-  },
-
-  "manin-izindekiler": {
-
-    "id": "manin-izindekiler",
-
-    "tr": "Ma'nın İzindekiler",
-
-    "ku": "Şopdarên Ma",
-
-    "slug": "manin-izindekiler",
-
-    "icon": "fa-solid fa-feather-pointed",
-
-    "color": "#8C461C"
-
-  },
-
-  "orgulerin-kalemi": {
-
-    "id": "orgulerin-kalemi",
-
-    "tr": "Örgülerin Kalemi",
-
-    "ku": "Pênusa Keziyan",
-
-    "slug": "orgulerin-kalemi",
-
-    "icon": "fa-solid fa-pen-nib",
-
-    "color": "#B37D28"
-
-  },
-
-  "kadin-ve-kultur": {
-
-    "id": "kadin-ve-kultur",
-
-    "tr": "Kadın ve Kültür",
-
-    "ku": "Jin û Çand",
-
-    "slug": "kadin-ve-kultur",
-
-    "icon": "fa-solid fa-masks-theater",
-
-    "color": "#5C2C16"
-
-  },
-
-  "atolye": {
-
-    "id": "atolye",
-
-    "tr": "Atölye",
-
-    "ku": "Atolye",
-
-    "slug": "atolye",
-
-    "icon": "fa-solid fa-compass-drafting",
-
-    "color": "#7D5230"
-
-  },
-
-  "kadin-kulliyati": {
-
-    "id": "kadin-kulliyati",
-
-    "tr": "Kadın Külliyatı",
-
-    "ku": "Kûlliyata Jin",
-
-    "slug": "kadin-kulliyati",
-
-    "icon": "fa-solid fa-book-bookmark",
-
-    "color": "#4A2511"
-
-  }
-
-};
-
-
-
-const BEJING_BREAKING = {
-
-  "tr": [
-
-    "Aşkın Bilinci Ve Kürt Gerçekliği – Kadın felsefesi ve özgür yaşam arayışı",
-
-    "Mührünü tarihe vurmuş Kürt Kadın sanatçılarından: Eyşeşan",
-
-    "Bêjing Medya yeni yayın dönemiyle kadın hakikatini ve kültürünü derinlemesine inceliyor",
-
-    "Atölye ve Kadın Külliyatı serilerimiz haftalık yeni analizlerle yayında"
-
-  ],
-
-  "ku": [
-
-    "Hişmendiya Evînê Û Rastiya Kurd – Felsefeya jinê û lêgerîna jiyana azad",
-
-    "Yek jî hunermenda Kurd ya ku mohra xwe lî dîrokê xîstîye: Eyşeşan",
-
-    "Bêjing Medya di serdema nû ya weşanê de heqîqet û çanda jinê kûr vedikole",
-
-    "Rêze-nivîsên me yên Atolye û Kûlliyata Jinê bi analîzên nû yên heftane li ser xetê ne"
-
-  ]
-
-};
-
-
-
-const BEJING_QUOTES = [
-
-  {
-
-    "text": {
-
-      "tr": "Hakikat aşktır, aşk ise özgür yaşamdır. Özgürleşmemiş bir zihinde sevgi yeşermez; sevgi ancak zincirlerin kırıldığı yerde anlam bulur.",
-
-      "ku": "Heqîqet evîn e, evîn jî jiyana azad e. Di mejiyekî ku azad nebûye de hezkirin şên nabe; hezkirin tenê li wir watedar dibe ku zincîr tên perçiqandin."
-
-    },
-
-    "author": {
-
-      "tr": "Bêjing Medya İncelemeleri",
-
-      "ku": "Lêkolînên Bêjing Medyayê"
-
-    }
-
-  },
-
-  {
-
-    "text": {
-
-      "tr": "Kadın hakikati ile aşkın buluştuğu zemin, köleliğin reddedildiği ve özgür iradenin filizlendiği andır.",
-
-      "ku": "Zemîna ku heqîqeta jinê û evîn lê digihîjin hev, ew gav e ku koledarî tê redkirin û îradeya azad şax dide."
-
-    },
-
-    "author": {
-
-      "tr": "Örgülerin Kalemi",
-
-      "ku": "Pênusa Keziyan"
-
-    }
-
-  }
-
-];
-
-
-
+/**
+
+ * Bêjing Medya - Complete Published Archive & Video Store
+
+ * Auto-generated with 92 Full Articles & 48+ Videos
+
+ * Total Articles: 92 (Kurdish: 35, Turkish: 57)
+
+ */
+
+
+
+const BEJING_CATEGORIES = {
+
+  "genc-kadin-bakisiya": {
+
+    "id": "genc-kadin-bakisiya",
+
+    "tr": "Genç Kadın Bakışıyla",
+
+    "ku": "Bi Nêrîna Jinên Ciwan",
+
+    "slug": "genc-kadin-bakisiya",
+
+    "icon": "fa-solid fa-venus",
+
+    "color": "#6E3416"
+
+  },
+
+  "manin-izindekiler": {
+
+    "id": "manin-izindekiler",
+
+    "tr": "Ma'nın İzindekiler",
+
+    "ku": "Şopdarên Ma",
+
+    "slug": "manin-izindekiler",
+
+    "icon": "fa-solid fa-feather-pointed",
+
+    "color": "#8C461C"
+
+  },
+
+  "orgulerin-kalemi": {
+
+    "id": "orgulerin-kalemi",
+
+    "tr": "Örgülerin Kalemi",
+
+    "ku": "Pênusa Keziyan",
+
+    "slug": "orgulerin-kalemi",
+
+    "icon": "fa-solid fa-pen-nib",
+
+    "color": "#B37D28"
+
+  },
+
+  "kadin-ve-kultur": {
+
+    "id": "kadin-ve-kultur",
+
+    "tr": "Kadın ve Kültür",
+
+    "ku": "Jin û Çand",
+
+    "slug": "kadin-ve-kultur",
+
+    "icon": "fa-solid fa-masks-theater",
+
+    "color": "#5C2C16"
+
+  },
+
+  "atolye": {
+
+    "id": "atolye",
+
+    "tr": "Atölye",
+
+    "ku": "Atolye",
+
+    "slug": "atolye",
+
+    "icon": "fa-solid fa-compass-drafting",
+
+    "color": "#7D5230"
+
+  },
+
+  "kadin-kulliyati": {
+
+    "id": "kadin-kulliyati",
+
+    "tr": "Kadın Külliyatı",
+
+    "ku": "Kûlliyata Jin",
+
+    "slug": "kadin-kulliyati",
+
+    "icon": "fa-solid fa-book-bookmark",
+
+    "color": "#4A2511"
+
+  }
+
+};
+
+
+
+const BEJING_BREAKING = {
+
+  "tr": [
+
+    "Aşkın Bilinci Ve Kürt Gerçekliği – Kadın felsefesi ve özgür yaşam arayışı",
+
+    "Mührünü tarihe vurmuş Kürt Kadın sanatçılarından: Eyşeşan",
+
+    "Bêjing Medya yeni yayın dönemiyle kadın hakikatini ve kültürünü derinlemesine inceliyor",
+
+    "Atölye ve Kadın Külliyatı serilerimiz haftalık yeni analizlerle yayında"
+
+  ],
+
+  "ku": [
+
+    "Hişmendiya Evînê Û Rastiya Kurd – Felsefeya jinê û lêgerîna jiyana azad",
+
+    "Yek jî hunermenda Kurd ya ku mohra xwe lî dîrokê xîstîye: Eyşeşan",
+
+    "Bêjing Medya di serdema nû ya weşanê de heqîqet û çanda jinê kûr vedikole",
+
+    "Rêze-nivîsên me yên Atolye û Kûlliyata Jinê bi analîzên nû yên heftane li ser xetê ne"
+
+  ]
+
+};
+
+
+
+const BEJING_QUOTES = [
+
+  {
+
+    "text": {
+
+      "tr": "Hakikat aşktır, aşk ise özgür yaşamdır. Özgürleşmemiş bir zihinde sevgi yeşermez; sevgi ancak zincirlerin kırıldığı yerde anlam bulur.",
+
+      "ku": "Heqîqet evîn e, evîn jî jiyana azad e. Di mejiyekî ku azad nebûye de hezkirin şên nabe; hezkirin tenê li wir watedar dibe ku zincîr tên perçiqandin."
+
+    },
+
+    "author": {
+
+      "tr": "Bêjing Medya İncelemeleri",
+
+      "ku": "Lêkolînên Bêjing Medyayê"
+
+    }
+
+  },
+
+  {
+
+    "text": {
+
+      "tr": "Kadın hakikati ile aşkın buluştuğu zemin, köleliğin reddedildiği ve özgür iradenin filizlendiği andır.",
+
+      "ku": "Zemîna ku heqîqeta jinê û evîn lê digihîjin hev, ew gav e ku koledarî tê redkirin û îradeya azad şax dide."
+
+    },
+
+    "author": {
+
+      "tr": "Örgülerin Kalemi",
+
+      "ku": "Pênusa Keziyan"
+
+    }
+
+  }
+
+];
+
+
+
 const BEJING_ARTICLES = [
     {
         "id": 9999,
@@ -218,7 +218,9 @@ const BEJING_ARTICLES = [
         "excerpt": "Qumrîkê ser zinaran,\nBelê, delala ser zinaran\nKulîlka di nava daran\nBelê, kulîlka di nava daran\nXulam çavên reş belek,\nQumrîkê dan neyaran....",
         "content": "<p>Qumrîkê ser zinaran,\nBelê, delala ser zinaran\nKulîlka di nava daran\nBelê, kulîlka di nava daran\nXulam çavên reş belek,\nQumrîkê dan neyaran.</p><p>Qela Qumriyê, di navbera bajarê Zaxo û Amêdiyê, li başûrê welat disekine. Li milê xwe yê bakûr Qileban û Colemêrg disekine. Ango di navbera bakûr û başûrê welat de ye. Mirov li ber re derbas bibe, mirov dibîne ku li ser girekê mezin û bilind cihê xwe digre. Dema mirov ji jêr ve dinêre, pir bilind xuya dike, ji qeleyekê zêdetir wekî kevirekî pir mezin xuya dike. Lê ji jor ve mêze kirin û nêzbûyîn, dihêle ku mirov şeklê wê bi zelalî bibîne. Mirov li dora wê bimeşe, mirov rû bi rûyê avek sar a kaniyê tê, di heman demê de bi dehan darên gûzan dibîne.</p><p>Bi tenê lê mêze kirin têrê nake, li aliyekî ji ber ku bi sedan şer di dîroka me Kurdan de li wir hatin jiyan kirin, dîwarên qelê kêmek xirabe û rûxiya ne. Hem xaniyên xirabe yên şêniyên herêmê ku di pêvajoya rejîma BAAS de ji aliyê leşkerên Saddam Hussein ve hatine xirab kirin.</p><p>Di heman demê de, hîna jî hem biryargeh hem dîwarên mangeyên nexweşxaneya Dr. Şivan (Sait Kırmızıtoprak) diyar in ku li heman cihî, li nêzî gundê Dêşêşê, girêdayî herêma Berwarî Bala bi hevalên xwe ji hêla çeteyên malbata Barzanî ve tê qetil kirin. Qela Qumriyê ewqasî bilind e, ku dema ku tu diçe cihê herî jorîn ê qelê, tu hemû çiyayên Metîna dibînî. Xwezî zimanekê qelê hebûya ku şahîdiya xwe anîba ser ziman. Gelo, çend lehengên Kurdan li ber xwe dane? Tê gotin ku berî hezar salan hatiye çêkirin.</p><p>&nbsp;</p><p>&nbsp;</p><br><br><div style=\"position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:8px;\"><iframe style=\"position:absolute;top:0;left:0;width:100%;height:100%;\" src=\"https://www.youtube.com/embed/BiKi8JPOclc\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe></div>",
         "youtube_videos": [
-            "https://www.youtube.com/watch?v=BiKi8JPOclc"
+            {
+                "embed_url": "https://www.youtube.com/embed/BiKi8JPOclc"
+            }
         ],
         "views": 420
     },
@@ -2490,1759 +2492,1759 @@ const BEJING_ARTICLES = [
         ],
         "views": 646
     }
-];
-
-
-
-const BEJING_VIDEOS = [
-
-  {
-
-    "id": "4111_v1",
-
-    "articleId": 4111,
-
-    "articleTitle": "Jina Dilêr Tûfegul",
-
-    "lang": "ku",
-
-    "videoId": "7nFPXRcA72A",
-
-    "embedUrl": "https://www.youtube.com/embed/7nFPXRcA72A",
-
-    "videoUrl": "https://www.youtube.com/embed/7nFPXRcA72A",
-
-    "watchUrl": "https://www.youtube.com/watch?v=7nFPXRcA72A",
-
-    "title": "Jina Dilêr Tûfegul",
-
-    "desc": "Rojhelatê Kurdistanê gelek jinên bi nav û deng derketine ku di civaka Kurd de xwedî rolek girîng bûne. Bi taybetî herêma Xorasanê ku xwedî dewlemendiyek berfire...",
-
-    "categoryId": "manin-izindekiler",
-
-    "categoryName": "Şopdarên Ma",
-
-    "date": "05.09.2026",
-
-    "duration": "8:15",
-
-    "thumbnail": "assets/media/articles/ku_4111_featured_image.jpg",
-
-    "image": "assets/media/articles/ku_4111_featured_image.jpg",
-
-    "views": 2222
-
-  },
-
-  {
-
-    "id": "4093_v1",
-
-    "articleId": 4093,
-
-    "articleTitle": "Yek jî hunermenda Kurd ya ku mohra xwe lî dîrokê xîstîye; Eyşeşan",
-
-    "lang": "ku",
-
-    "videoId": "HZOfLumVhoc",
-
-    "embedUrl": "https://www.youtube.com/embed/HZOfLumVhoc",
-
-    "videoUrl": "https://www.youtube.com/embed/HZOfLumVhoc",
-
-    "watchUrl": "https://www.youtube.com/watch?v=HZOfLumVhoc",
-
-    "title": "Yek jî hunermenda Kurd ya ku mohra xwe lî dîrokê xîstîye; Eyşeşan",
-
-    "desc": "Eyşeşan bi dengê xwe çanda kurdi heya rojameya iro aniye. Weke dîrokû kevneşopiyek pir bi wate ji hemu jinanû civakê re histiye. Civaka kürd jî xwedî li ve mira...",
-
-    "categoryId": "kadin-ve-kultur",
-
-    "categoryName": "Jin û Çand",
-
-    "date": "01.09.2026",
-
-    "duration": "9:40",
-
-    "thumbnail": "assets/media/articles/ku_4093_featured_image.png",
-
-    "image": "assets/media/articles/ku_4093_featured_image.png",
-
-    "views": 2870
-
-  },
-
-  {
-
-    "id": "4071_v1",
-
-    "articleId": 4071,
-
-    "articleTitle": "Diyalektîk",
-
-    "lang": "ku",
-
-    "videoId": "nfK5COQMqD0",
-
-    "embedUrl": "https://www.youtube.com/embed/nfK5COQMqD0",
-
-    "videoUrl": "https://www.youtube.com/embed/nfK5COQMqD0",
-
-    "watchUrl": "https://www.youtube.com/watch?v=nfK5COQMqD0",
-
-    "title": "Diyalektîk",
-
-    "desc": "Diyalektîk bi Kurmancî di peyva “du” de ku em hîn jî wekî beramberê hejmara dudu bikar tînin, ji kokê tê. “Du” li Ewropayê dibe “diya”, koka wê Aryenî ye. Di Ze...",
-
-    "categoryId": "atolye",
-
-    "categoryName": "Atolye",
-
-    "date": "18.08.2026",
-
-    "duration": "16:48",
-
-    "thumbnail": "assets/media/articles/ku_4071_featured_image.png",
-
-    "image": "assets/media/articles/ku_4071_featured_image.png",
-
-    "views": 984
-
-  },
-
-  {
-
-    "id": "4049_v1",
-
-    "articleId": 4049,
-
-    "articleTitle": "BÊJÎNG MEDYA",
-
-    "lang": "ku",
-
-    "videoId": "70guqKT-2mM",
-
-    "embedUrl": "https://www.youtube.com/embed/70guqKT-2mM",
-
-    "videoUrl": "https://www.youtube.com/embed/70guqKT-2mM",
-
-    "watchUrl": "https://www.youtube.com/watch?v=70guqKT-2mM",
-
-    "title": "BÊJÎNG MEDYA",
-
-    "desc": "Îro reng, raman, axaftin û ceribandinên jinên ciwan pir caran nayên dîtin. Lê jinên ciwan kevirên bingehîn ên civakê ne. Di her qadê de ji bo jiyanê difikirin, ...",
-
-    "categoryId": "atolye",
-
-    "categoryName": "Atolye",
-
-    "date": "11.08.2026",
-
-    "duration": "14:16",
-
-    "thumbnail": "assets/media/articles/ku_4049_featured_image.png",
-
-    "image": "assets/media/articles/ku_4049_featured_image.png",
-
-    "views": 3882
-
-  },
-
-  {
-
-    "id": "3961_v1",
-
-    "articleId": 3961,
-
-    "articleTitle": "Ala têkoşîn li hemberî zilmê û Manîfestoya berxwedanê",
-
-    "lang": "ku",
-
-    "videoId": "9IjhUBKdA34",
-
-    "embedUrl": "https://www.youtube.com/embed/9IjhUBKdA34",
-
-    "videoUrl": "https://www.youtube.com/embed/9IjhUBKdA34",
-
-    "watchUrl": "https://www.youtube.com/watch?v=9IjhUBKdA34",
-
-    "title": "Ala têkoşîn li hemberî zilmê û Manîfestoya berxwedanê",
-
-    "desc": "Zoya, partîzana ku di 18 saliya xwe de li hemberî dagirkirina Naziyan manîfestoya berxwedanê dinivîse. Ew di 18 saliya xwe de bû biriqînek cîhanî a berxwedanê k...",
-
-    "categoryId": "manin-izindekiler",
-
-    "categoryName": "Şopdarên Ma",
-
-    "date": "05.08.2026",
-
-    "duration": "12:51",
-
-    "thumbnail": "assets/media/articles/ku_3961_featured_image.png",
-
-    "image": "assets/media/articles/ku_3961_featured_image.png",
-
-    "views": 3696
-
-  },
-
-  {
-
-    "id": "3954_v1",
-
-    "articleId": 3954,
-
-    "articleTitle": "Hunermend, Helbestvan; Şêrko Bêkes",
-
-    "lang": "ku",
-
-    "videoId": "bLp6_nwfqrg",
-
-    "embedUrl": "https://www.youtube.com/embed/bLp6_nwfqrg",
-
-    "videoUrl": "https://www.youtube.com/embed/bLp6_nwfqrg",
-
-    "watchUrl": "https://www.youtube.com/watch?v=bLp6_nwfqrg",
-
-    "title": "Hunermend, Helbestvan; Şêrko Bêkes",
-
-    "desc": "Şêrko Bêkes, kurê Xatûn Şefîqe Seîd û helbestvanê navdar ê Kurd Fayeq Bêkes bû. Ew di 2’ê Gulanê 1940’an de li taxa Goyjeyê ya bajarê Silêmaniyê ji dayik bû. Di...",
-
-    "categoryId": "atolye",
-
-    "categoryName": "Atolye",
-
-    "date": "01.08.2026",
-
-    "duration": "14:48",
-
-    "thumbnail": "https://img.youtube.com/vi/bLp6_nwfqrg/hqdefault.jpg",
-
-    "image": "https://img.youtube.com/vi/bLp6_nwfqrg/hqdefault.jpg",
-
-    "views": 1183
-
-  },
-
-  {
-
-    "id": "3904_v1",
-
-    "articleId": 3904,
-
-    "articleTitle": "“Di Vê Serdema Ku Bi Bêwatehiyê Tê Nîşankirin De, Divê Manifesto Bixwe Bibe Wate.“",
-
-    "lang": "ku",
-
-    "videoId": "5DPFlXRp-8I",
-
-    "embedUrl": "https://www.youtube.com/embed/5DPFlXRp-8I",
-
-    "videoUrl": "https://www.youtube.com/embed/5DPFlXRp-8I",
-
-    "watchUrl": "https://www.youtube.com/watch?v=5DPFlXRp-8I",
-
-    "title": "“Di Vê Serdema Ku Bi Bêwatehiyê Tê Nîşankirin De, Divê Manifesto Bixwe Bibe Wate.“",
-
-    "desc": "Jineke ciwan a Enternasyonalîst Maria ji Îtalyayê, di hevpeyvîna bi Bêjing Medyayê de diyar kir ku, Manîfestoya Civaka Demokratîk û Komînal weke diyariyeke teva...",
-
-    "categoryId": "atolye",
-
-    "categoryName": "Atolye",
-
-    "date": "21.07.2026",
-
-    "duration": "12:15",
-
-    "thumbnail": "assets/media/articles/ku_3904_featured_image.jpg",
-
-    "image": "assets/media/articles/ku_3904_featured_image.jpg",
-
-    "views": 2541
-
-  },
-
-  {
-
-    "id": "3814_v1",
-
-    "articleId": 3814,
-
-    "articleTitle": "Xwedawenda Evînê – Nanaya",
-
-    "lang": "ku",
-
-    "videoId": "QKfeNZjUsaU",
-
-    "embedUrl": "https://www.youtube.com/embed/QKfeNZjUsaU",
-
-    "videoUrl": "https://www.youtube.com/embed/QKfeNZjUsaU",
-
-    "watchUrl": "https://www.youtube.com/watch?v=QKfeNZjUsaU",
-
-    "title": "Xwedawenda Evînê – Nanaya",
-
-    "desc": "Nanaya di dîroka kevnar a Mezopotamyayê de xwedawendek (xwedawenda) evînê, bedewiyê, barweriyê û bereketê bû. Ew bi taybetî li bajarên kevnar yên wekî Uruk û Ur...",
-
-    "categoryId": "manin-izindekiler",
-
-    "categoryName": "Şopdarên Ma",
-
-    "date": "07.07.2026",
-
-    "duration": "14:41",
-
-    "thumbnail": "assets/media/articles/ku_3814_featured_image.png",
-
-    "image": "assets/media/articles/ku_3814_featured_image.png",
-
-    "views": 1391
-
-  },
-
-  {
-
-    "id": "3631_v1",
-
-    "articleId": 3631,
-
-    "articleTitle": "“Jina Ciwan Sarya Ertaş mîrasa dengbêjiyê digihîne nifşên nû”",
-
-    "lang": "ku",
-
-    "videoId": "4cABetsFub8",
-
-    "embedUrl": "https://www.youtube.com/embed/4cABetsFub8",
-
-    "videoUrl": "https://www.youtube.com/embed/4cABetsFub8",
-
-    "watchUrl": "https://www.youtube.com/watch?v=4cABetsFub8",
-
-    "title": "“Jina Ciwan Sarya Ertaş mîrasa dengbêjiyê digihîne nifşên nû”",
-
-    "desc": "",
-
-    "categoryId": "kadin-ve-kultur",
-
-    "categoryName": "Jin û Çand",
-
-    "date": "20.06.2026",
-
-    "duration": "13:45",
-
-    "thumbnail": "assets/media/articles/ku_3631_featured_image.jpg",
-
-    "image": "assets/media/articles/ku_3631_featured_image.jpg",
-
-    "views": 3197
-
-  },
-
-  {
-
-    "id": "3469_v1",
-
-    "articleId": 3469,
-
-    "articleTitle": "Clara Zetkin",
-
-    "lang": "ku",
-
-    "videoId": "BRNTlMMRym8",
-
-    "embedUrl": "https://www.youtube.com/embed/BRNTlMMRym8",
-
-    "videoUrl": "https://www.youtube.com/embed/BRNTlMMRym8",
-
-    "watchUrl": "https://www.youtube.com/watch?v=BRNTlMMRym8",
-
-    "title": "Clara Zetkin",
-
-    "desc": "",
-
-    "categoryId": "manin-izindekiler",
-
-    "categoryName": "Şopdarên Ma",
-
-    "date": "18.06.2026",
-
-    "duration": "10:16",
-
-    "thumbnail": "assets/media/articles/ku_3469_featured_image.png",
-
-    "image": "assets/media/articles/ku_3469_featured_image.png",
-
-    "views": 2679
-
-  },
-
-  {
-
-    "id": "3463_v1",
-
-    "articleId": 3463,
-
-    "articleTitle": "Xweza û Wate  II – Fikra Mîtîk",
-
-    "lang": "ku",
-
-    "videoId": "e-HldHvU5GQ",
-
-    "embedUrl": "https://www.youtube.com/embed/e-HldHvU5GQ",
-
-    "videoUrl": "https://www.youtube.com/embed/e-HldHvU5GQ",
-
-    "watchUrl": "https://www.youtube.com/watch?v=e-HldHvU5GQ",
-
-    "title": "Xweza û Wate  II – Fikra Mîtîk",
-
-    "desc": "",
-
-    "categoryId": "atolye",
-
-    "categoryName": "Atolye",
-
-    "date": "18.06.2026",
-
-    "duration": "17:03",
-
-    "thumbnail": "assets/media/articles/ku_3463_featured_image.png",
-
-    "image": "assets/media/articles/ku_3463_featured_image.png",
-
-    "views": 1621
-
-  },
-
-  {
-
-    "id": "3455_v1",
-
-    "articleId": 3455,
-
-    "articleTitle": "Şoreşa Jin",
-
-    "lang": "ku",
-
-    "videoId": "1DEfNu9X2c4",
-
-    "embedUrl": "https://www.youtube.com/embed/1DEfNu9X2c4",
-
-    "videoUrl": "https://www.youtube.com/embed/1DEfNu9X2c4",
-
-    "watchUrl": "https://www.youtube.com/watch?v=1DEfNu9X2c4",
-
-    "title": "Şoreşa Jin",
-
-    "desc": "",
-
-    "categoryId": "atolye",
-
-    "categoryName": "Atolye",
-
-    "date": "17.06.2026",
-
-    "duration": "8:42",
-
-    "thumbnail": "assets/media/articles/ku_3455_featured_image.png",
-
-    "image": "assets/media/articles/ku_3455_featured_image.png",
-
-    "views": 3450
-
-  },
-
-  {
-
-    "id": "3398_v1",
-
-    "articleId": 3398,
-
-    "articleTitle": "Hûner Azadiye;",
-
-    "lang": "ku",
-
-    "videoId": "be54twihvRc",
-
-    "embedUrl": "https://www.youtube.com/embed/be54twihvRc",
-
-    "videoUrl": "https://www.youtube.com/embed/be54twihvRc",
-
-    "watchUrl": "https://www.youtube.com/watch?v=be54twihvRc",
-
-    "title": "Hûner Azadiye;",
-
-    "desc": "",
-
-    "categoryId": "kadin-ve-kultur",
-
-    "categoryName": "Jin û Çand",
-
-    "date": "17.06.2026",
-
-    "duration": "6:29",
-
-    "thumbnail": "assets/media/articles/ku_3398_featured_image.png",
-
-    "image": "assets/media/articles/ku_3398_featured_image.png",
-
-    "views": 1279
-
-  },
-
-  {
-
-    "id": "3389_v1",
-
-    "articleId": 3389,
-
-    "articleTitle": "Cudabuna MÊ Û NÊR – tiyê",
-
-    "lang": "ku",
-
-    "videoId": "_4pL0J1UfJ0",
-
-    "embedUrl": "https://www.youtube.com/embed/_4pL0J1UfJ0",
-
-    "videoUrl": "https://www.youtube.com/embed/_4pL0J1UfJ0",
-
-    "watchUrl": "https://www.youtube.com/watch?v=_4pL0J1UfJ0",
-
-    "title": "Cudabuna MÊ Û NÊR – tiyê",
-
-    "desc": "",
-
-    "categoryId": "atolye",
-
-    "categoryName": "Atolye",
-
-    "date": "17.06.2026",
-
-    "duration": "18:38",
-
-    "thumbnail": "assets/media/articles/ku_3389_featured_image.png",
-
-    "image": "assets/media/articles/ku_3389_featured_image.png",
-
-    "views": 3296
-
-  },
-
-  {
-
-    "id": "3325_v1",
-
-    "articleId": 3325,
-
-    "articleTitle": "Entegrasyona Civakî",
-
-    "lang": "ku",
-
-    "videoId": "SmRabHqE1sQ",
-
-    "embedUrl": "https://www.youtube.com/embed/SmRabHqE1sQ",
-
-    "videoUrl": "https://www.youtube.com/embed/SmRabHqE1sQ",
-
-    "watchUrl": "https://www.youtube.com/watch?v=SmRabHqE1sQ",
-
-    "title": "Entegrasyona Civakî",
-
-    "desc": "",
-
-    "categoryId": "atolye",
-
-    "categoryName": "Atolye",
-
-    "date": "16.06.2026",
-
-    "duration": "16:52",
-
-    "thumbnail": "assets/media/articles/ku_3325_featured_image.webp",
-
-    "image": "assets/media/articles/ku_3325_featured_image.webp",
-
-    "views": 2142
-
-  },
-
-  {
-
-    "id": "3133_v1",
-
-    "articleId": 3133,
-
-    "articleTitle": "Meyan Xatun;",
-
-    "lang": "ku",
-
-    "videoId": "ZuG6fjoBvpg",
-
-    "embedUrl": "https://www.youtube.com/embed/ZuG6fjoBvpg",
-
-    "videoUrl": "https://www.youtube.com/embed/ZuG6fjoBvpg",
-
-    "watchUrl": "https://www.youtube.com/watch?v=ZuG6fjoBvpg",
-
-    "title": "Meyan Xatun;",
-
-    "desc": "",
-
-    "categoryId": "manin-izindekiler",
-
-    "categoryName": "Şopdarên Ma",
-
-    "date": "15.06.2026",
-
-    "duration": "19:11",
-
-    "thumbnail": "assets/media/articles/ku_3133_featured_image.png",
-
-    "image": "assets/media/articles/ku_3133_featured_image.png",
-
-    "views": 4026
-
-  },
-
-  {
-
-    "id": "3127_v1",
-
-    "articleId": 3127,
-
-    "articleTitle": "Huner û jin: axa bêdengiyê ku dibe ziman",
-
-    "lang": "ku",
-
-    "videoId": "EnoJuyiDyDI",
-
-    "embedUrl": "https://www.youtube.com/embed/EnoJuyiDyDI",
-
-    "videoUrl": "https://www.youtube.com/embed/EnoJuyiDyDI",
-
-    "watchUrl": "https://www.youtube.com/watch?v=EnoJuyiDyDI",
-
-    "title": "Huner û jin: axa bêdengiyê ku dibe ziman",
-
-    "desc": "",
-
-    "categoryId": "kadin-ve-kultur",
-
-    "categoryName": "Jin û Çand",
-
-    "date": "15.06.2026",
-
-    "duration": "9:10",
-
-    "thumbnail": "assets/media/articles/ku_3127_featured_image.jpeg",
-
-    "image": "assets/media/articles/ku_3127_featured_image.jpeg",
-
-    "views": 3744
-
-  },
-
-  {
-
-    "id": "3122_v1",
-
-    "articleId": 3122,
-
-    "articleTitle": "Jina Serhildêr; Şahbanu Amîna Zarîa",
-
-    "lang": "ku",
-
-    "videoId": "o-fkBQigk1M",
-
-    "embedUrl": "https://www.youtube.com/embed/o-fkBQigk1M",
-
-    "videoUrl": "https://www.youtube.com/embed/o-fkBQigk1M",
-
-    "watchUrl": "https://www.youtube.com/watch?v=o-fkBQigk1M",
-
-    "title": "Jina Serhildêr; Şahbanu Amîna Zarîa",
-
-    "desc": "",
-
-    "categoryId": "manin-izindekiler",
-
-    "categoryName": "Şopdarên Ma",
-
-    "date": "15.06.2026",
-
-    "duration": "13:09",
-
-    "thumbnail": "assets/media/articles/ku_3122_featured_image.png",
-
-    "image": "assets/media/articles/ku_3122_featured_image.png",
-
-    "views": 910
-
-  },
-
-  {
-
-    "id": "3066_v1",
-
-    "articleId": 3066,
-
-    "articleTitle": "Xweza û Wate – I",
-
-    "lang": "ku",
-
-    "videoId": "e8K9c8Qqc8c",
-
-    "embedUrl": "https://www.youtube.com/embed/e8K9c8Qqc8c",
-
-    "videoUrl": "https://www.youtube.com/embed/e8K9c8Qqc8c",
-
-    "watchUrl": "https://www.youtube.com/watch?v=e8K9c8Qqc8c",
-
-    "title": "Xweza û Wate – I",
-
-    "desc": "",
-
-    "categoryId": "atolye",
-
-    "categoryName": "Atolye",
-
-    "date": "15.06.2026",
-
-    "duration": "7:31",
-
-    "thumbnail": "https://img.youtube.com/vi/e8K9c8Qqc8c/hqdefault.jpg",
-
-    "image": "https://img.youtube.com/vi/e8K9c8Qqc8c/hqdefault.jpg",
-
-    "views": 2751
-
-  },
-
-  {
-
-    "id": "3177_v1",
-
-    "articleId": 3177,
-
-    "articleTitle": "Bihara Jin War",
-
-    "lang": "ku",
-
-    "videoId": "p6zzP_IMVd4",
-
-    "embedUrl": "https://www.youtube.com/embed/p6zzP_IMVd4",
-
-    "videoUrl": "https://www.youtube.com/embed/p6zzP_IMVd4",
-
-    "watchUrl": "https://www.youtube.com/watch?v=p6zzP_IMVd4",
-
-    "title": "Bihara Jin War",
-
-    "desc": "",
-
-    "categoryId": "atolye",
-
-    "categoryName": "Atolye",
-
-    "date": "18.05.2026",
-
-    "duration": "16:25",
-
-    "thumbnail": "https://img.youtube.com/vi/p6zzP_IMVd4/hqdefault.jpg",
-
-    "image": "https://img.youtube.com/vi/p6zzP_IMVd4/hqdefault.jpg",
-
-    "views": 1675
-
-  },
-
-  {
-
-    "id": "3138_v1",
-
-    "articleId": 3138,
-
-    "articleTitle": "Çanda Satî",
-
-    "lang": "ku",
-
-    "videoId": "8LfoTnJ6hGs",
-
-    "embedUrl": "https://www.youtube.com/embed/8LfoTnJ6hGs",
-
-    "videoUrl": "https://www.youtube.com/embed/8LfoTnJ6hGs",
-
-    "watchUrl": "https://www.youtube.com/watch?v=8LfoTnJ6hGs",
-
-    "title": "Çanda Satî",
-
-    "desc": "",
-
-    "categoryId": "atolye",
-
-    "categoryName": "Atolye",
-
-    "date": "15.05.2026",
-
-    "duration": "9:48",
-
-    "thumbnail": "assets/media/articles/ku_3138_featured_image.png",
-
-    "image": "assets/media/articles/ku_3138_featured_image.png",
-
-    "views": 2928
-
-  },
-
-  {
-
-    "id": "1_v1",
-
-    "articleId": 1,
-
-    "articleTitle": "Umut Hakkı Nedir?",
-
-    "lang": "tr",
-
-    "videoId": "u1Ge0dL7DB8",
-
-    "embedUrl": "https://www.youtube.com/embed/u1Ge0dL7DB8",
-
-    "videoUrl": "https://www.youtube.com/embed/u1Ge0dL7DB8",
-
-    "watchUrl": "https://www.youtube.com/watch?v=u1Ge0dL7DB8",
-
-    "title": "Umut Hakkı Nedir?",
-
-    "desc": "Umut hakkı, ömür boyu cezaevinde infaz edilecek bir hapis cezasına mahkum edilen hükümlülerin serbest bırakılıp bırakılmayacağının belli bir süre sonra idari ve...",
-
-    "categoryId": "atolye",
-
-    "categoryName": "Atölye",
-
-    "date": "12.06.2026",
-
-    "duration": "19:10",
-
-    "thumbnail": "assets/media/articles/tr_1_featured_image.png",
-
-    "image": "assets/media/articles/tr_1_featured_image.png",
-
-    "views": 1160
-
-  },
-
-  {
-
-    "id": "4038_v1",
-
-    "articleId": 4038,
-
-    "articleTitle": "BÊJİNG MEDYA",
-
-    "lang": "tr",
-
-    "videoId": "pSg5_bEW2g8",
-
-    "embedUrl": "https://www.youtube.com/embed/pSg5_bEW2g8",
-
-    "videoUrl": "https://www.youtube.com/embed/pSg5_bEW2g8",
-
-    "watchUrl": "https://www.youtube.com/watch?v=pSg5_bEW2g8",
-
-    "title": "BÊJİNG MEDYA",
-
-    "desc": "Bugün genç kadınların rengi, düşüncesi, sözü ve deneyimi çoğu zaman görünmez bırakılıyor. Oysa genç kadınlar, toplumun temel yapı taşlarından olmaktadır. Yaşamı...",
-
-    "categoryId": "atolye",
-
-    "categoryName": "Atölye",
-
-    "date": "11.08.2026",
-
-    "duration": "14:21",
-
-    "thumbnail": "assets/media/articles/tr_4038_featured_image.png",
-
-    "image": "assets/media/articles/tr_4038_featured_image.png",
-
-    "views": 3720
-
-  },
-
-  {
-
-    "id": "3238_v1",
-
-    "articleId": 3238,
-
-    "articleTitle": "Kim bu Gilgamêş",
-
-    "lang": "tr",
-
-    "videoId": "MVuuWv5WrhA",
-
-    "embedUrl": "https://www.youtube.com/embed/MVuuWv5WrhA",
-
-    "videoUrl": "https://www.youtube.com/embed/MVuuWv5WrhA",
-
-    "watchUrl": "https://www.youtube.com/watch?v=MVuuWv5WrhA",
-
-    "title": "Kim bu Gilgamêş",
-
-    "desc": "",
-
-    "categoryId": "atolye",
-
-    "categoryName": "Atölye",
-
-    "date": "10.05.2026",
-
-    "duration": "14:35",
-
-    "thumbnail": "assets/media/articles/tr_3238_featured_image.png",
-
-    "image": "assets/media/articles/tr_3238_featured_image.png",
-
-    "views": 1852
-
-  },
-
-  {
-
-    "id": "3825_v1",
-
-    "articleId": 3825,
-
-    "articleTitle": "Silêmanî’de “Kürdistan Jeopolitiği ve Kadınların Durumu” Sempozyumu Gerçekleştirildi",
-
-    "lang": "tr",
-
-    "videoId": "OoPokO6wSwQ",
-
-    "embedUrl": "https://www.youtube.com/embed/OoPokO6wSwQ",
-
-    "videoUrl": "https://www.youtube.com/embed/OoPokO6wSwQ",
-
-    "watchUrl": "https://www.youtube.com/watch?v=OoPokO6wSwQ",
-
-    "title": "Silêmanî’de “Kürdistan Jeopolitiği ve Kadınların Durumu” Sempozyumu Gerçekleştirildi",
-
-    "desc": "Silêmanî’de düzenlen “Kürdistan Jeopolitiği ve Kadınların Durumu” sempozyumunda, Kürdistan’ın güncel jeopolitik gelişmeleri ile kadınların toplumsal, siyasal ve...",
-
-    "categoryId": "atolye",
-
-    "categoryName": "Atölye",
-
-    "date": "08.07.2026",
-
-    "duration": "13:02",
-
-    "thumbnail": "https://img.youtube.com/vi/OoPokO6wSwQ/hqdefault.jpg",
-
-    "image": "https://img.youtube.com/vi/OoPokO6wSwQ/hqdefault.jpg",
-
-    "views": 2385
-
-  },
-
-  {
-
-    "id": "3965_v1",
-
-    "articleId": 3965,
-
-    "articleTitle": "Zulme Karşı Mücadelenin Bayrağı ve Direniş Manifestosu Zoya",
-
-    "lang": "tr",
-
-    "videoId": "Z25Nenla7xM",
-
-    "embedUrl": "https://www.youtube.com/embed/Z25Nenla7xM",
-
-    "videoUrl": "https://www.youtube.com/embed/Z25Nenla7xM",
-
-    "watchUrl": "https://www.youtube.com/watch?v=Z25Nenla7xM",
-
-    "title": "Zulme Karşı Mücadelenin Bayrağı ve Direniş Manifestosu Zoya",
-
-    "desc": "Zoya, 18 yaşında Nazi işgaline karşı direnişin manifestosunu yazan bir partizandır. Zoya 18 yaşında, ‘yaşam’ın inceliklerini insanların zihnine nakşeden, direni...",
-
-    "categoryId": "manin-izindekiler",
-
-    "categoryName": "Ma'nın İzindekiler",
-
-    "date": "05.08.2026",
-
-    "duration": "14:58",
-
-    "thumbnail": "assets/media/articles/tr_3965_featured_image.png",
-
-    "image": "assets/media/articles/tr_3965_featured_image.png",
-
-    "views": 904
-
-  },
-
-  {
-
-    "id": "3183_v1",
-
-    "articleId": 3183,
-
-    "articleTitle": "1’ê Gulanê",
-
-    "lang": "ku",
-
-    "videoId": "smNjkW37-hY",
-
-    "embedUrl": "https://www.youtube.com/embed/smNjkW37-hY",
-
-    "videoUrl": "https://www.youtube.com/embed/smNjkW37-hY",
-
-    "watchUrl": "https://www.youtube.com/watch?v=smNjkW37-hY",
-
-    "title": "1’ê Gulanê",
-
-    "desc": "",
-
-    "categoryId": "genc-kadin-bakisiya",
-
-    "categoryName": "Bi Nêrîna Jinên Ciwan",
-
-    "date": "01.05.2026",
-
-    "duration": "10:27",
-
-    "thumbnail": "assets/media/articles/ku_3183_featured_image.png",
-
-    "image": "assets/media/articles/ku_3183_featured_image.png",
-
-    "views": 3634
-
-  },
-
-  {
-
-    "id": "3920_v1",
-
-    "articleId": 3920,
-
-    "articleTitle": "Kadın Nasıl Sosyalist Olur?",
-
-    "lang": "tr",
-
-    "videoId": "v8aaf1_J4N4",
-
-    "embedUrl": "https://www.youtube.com/embed/v8aaf1_J4N4",
-
-    "videoUrl": "https://www.youtube.com/embed/v8aaf1_J4N4",
-
-    "watchUrl": "https://www.youtube.com/watch?v=v8aaf1_J4N4",
-
-    "title": "Kadın Nasıl Sosyalist Olur?",
-
-    "desc": "Sosyalist mücadele içerisinde Önder Abdullah Öcalan Demokratik Komünal Toplum Manifestosunda sıkça dile getirdiği önemli bir ifade vardır. “Kadınla doğru ilişki...",
-
-    "categoryId": "atolye",
-
-    "categoryName": "Atölye",
-
-    "date": "28.07.2026",
-
-    "duration": "12:00",
-
-    "thumbnail": "assets/media/articles/tr_3920_featured_image.png",
-
-    "image": "assets/media/articles/tr_3920_featured_image.png",
-
-    "views": 2294
-
-  },
-
-  {
-
-    "id": "3912_v1",
-
-    "articleId": 3912,
-
-    "articleTitle": "Bir Çocuğun Hayalinden Dağlara Uzanan Hikâye: “Heval”",
-
-    "lang": "tr",
-
-    "videoId": "uZOO0CvADEY",
-
-    "embedUrl": "https://www.youtube.com/embed/uZOO0CvADEY",
-
-    "videoUrl": "https://www.youtube.com/embed/uZOO0CvADEY",
-
-    "watchUrl": "https://www.youtube.com/watch?v=uZOO0CvADEY",
-
-    "title": "Bir Çocuğun Hayalinden Dağlara Uzanan Hikâye: “Heval”",
-
-    "desc": "“Heval” adlı hikâye, küçük yaşlarda yaşamını yitiren Uğur, Ceylan, Enes ve Cemile ile hayalleri bombalanan tüm çocukların anısına ithaf edildi.  Çobanlık yapan ...",
-
-    "categoryId": "kadin-kulliyati",
-
-    "categoryName": "Kadın Külliyatı",
-
-    "date": "27.07.2026",
-
-    "duration": "15:31",
-
-    "thumbnail": "assets/media/articles/tr_3912_featured_image.png",
-
-    "image": "assets/media/articles/tr_3912_featured_image.png",
-
-    "views": 2586
-
-  },
-
-  {
-
-    "id": "3897_v1",
-
-    "articleId": 3897,
-
-    "articleTitle": "”Anlamsızlığın Yaşandığı Bu Süreçte, demokratik toplum Manifestosu Anlamın Kendisi Olmaktadır”",
-
-    "lang": "tr",
-
-    "videoId": "1RnZJsmi9BU",
-
-    "embedUrl": "https://www.youtube.com/embed/1RnZJsmi9BU",
-
-    "videoUrl": "https://www.youtube.com/embed/1RnZJsmi9BU",
-
-    "watchUrl": "https://www.youtube.com/watch?v=1RnZJsmi9BU",
-
-    "title": "”Anlamsızlığın Yaşandığı Bu Süreçte, demokratik toplum Manifestosu Anlamın Kendisi Olmaktadır”",
-
-    "desc": "İtalyan Enternasyonalist genç kadın Maria, Bêjing Medya’ya yaptığı değerlendirmede , Demokratik Komünal Toplum Manifestosu’nun tüm insanlığa ve kadınlara bir ar...",
-
-    "categoryId": "atolye",
-
-    "categoryName": "Atölye",
-
-    "date": "21.07.2026",
-
-    "duration": "6:15",
-
-    "thumbnail": "assets/media/articles/tr_3897_featured_image.jpg",
-
-    "image": "assets/media/articles/tr_3897_featured_image.jpg",
-
-    "views": 910
-
-  },
-
-  {
-
-    "id": "3863_v1",
-
-    "articleId": 3863,
-
-    "articleTitle": "Kobanê Özgürlük Arayışının, Halkların Ortak Yaşam İnşasının Çabasıdır",
-
-    "lang": "tr",
-
-    "videoId": "I8RMU3nZyyE",
-
-    "embedUrl": "https://www.youtube.com/embed/I8RMU3nZyyE",
-
-    "videoUrl": "https://www.youtube.com/embed/I8RMU3nZyyE",
-
-    "watchUrl": "https://www.youtube.com/watch?v=I8RMU3nZyyE",
-
-    "title": "Kobanê Özgürlük Arayışının, Halkların Ortak Yaşam İnşasının Çabasıdır",
-
-    "desc": "Pirsûs’ta ölümsüzleşen 33 düş yolcusunun bıraktığı mücadele mirasını değerlendiren İSÖM üyesi Merve Sultan Daş, onların mücadelesinin bugün de yol gösterdiğini ...",
-
-    "categoryId": "genc-kadin-bakisiya",
-
-    "categoryName": "Genç Kadın Bakışıyla",
-
-    "date": "19.07.2026",
-
-    "duration": "11:45",
-
-    "thumbnail": "assets/media/articles/tr_3863_featured_image.png",
-
-    "image": "assets/media/articles/tr_3863_featured_image.png",
-
-    "views": 995
-
-  },
-
-  {
-
-    "id": "3841_v1",
-
-    "articleId": 3841,
-
-    "articleTitle": "‘’Bizler anlamak sorumluluğu altındayız, genç kadınlar da anlamlandırmak sorumluluğu altında’’",
-
-    "lang": "tr",
-
-    "videoId": "ryTLq-AI-Lk",
-
-    "embedUrl": "https://www.youtube.com/embed/ryTLq-AI-Lk",
-
-    "videoUrl": "https://www.youtube.com/embed/ryTLq-AI-Lk",
-
-    "watchUrl": "https://www.youtube.com/watch?v=ryTLq-AI-Lk",
-
-    "title": "‘’Bizler anlamak sorumluluğu altındayız, genç kadınlar da anlamlandırmak sorumluluğu altında’’",
-
-    "desc": "Avukat, siyasetçi ve kadın özgürlük mücadelesinin önemli isimlerinden Ayla Akat Ata, Bêjing Medya’ya yaptığı değerlendirmelerde demokratik toplum arayışını, kad...",
-
-    "categoryId": "atolye",
-
-    "categoryName": "Atölye",
-
-    "date": "15.07.2026",
-
-    "duration": "10:56",
-
-    "thumbnail": "assets/media/articles/tr_3841_featured_image.jpg",
-
-    "image": "assets/media/articles/tr_3841_featured_image.jpg",
-
-    "views": 1225
-
-  },
-
-  {
-
-    "id": "3753_v1",
-
-    "articleId": 3753,
-
-    "articleTitle": "Harbarzagoz – Harpagos",
-
-    "lang": "tr",
-
-    "videoId": "8dsX97YBrvE",
-
-    "embedUrl": "https://www.youtube.com/embed/8dsX97YBrvE",
-
-    "videoUrl": "https://www.youtube.com/embed/8dsX97YBrvE",
-
-    "watchUrl": "https://www.youtube.com/watch?v=8dsX97YBrvE",
-
-    "title": "Harbarzagoz – Harpagos",
-
-    "desc": "Medler ile Pers aristokrasisi arasında yaşanan çatışmaların özü ‘demokrasi mi krallık mı?’ ikilemine dayanır. Devletleşme ile komünleşme arasındaki bu tartışman...",
-
-    "categoryId": "atolye",
-
-    "categoryName": "Atölye",
-
-    "date": "01.07.2026",
-
-    "duration": "16:49",
-
-    "thumbnail": "assets/media/articles/tr_3753_featured_image.png",
-
-    "image": "assets/media/articles/tr_3753_featured_image.png",
-
-    "views": 1872
-
-  },
-
-  {
-
-    "id": "3743_v1",
-
-    "articleId": 3743,
-
-    "articleTitle": "“Demokratik Toplumla Özgürlüğe”",
-
-    "lang": "tr",
-
-    "videoId": "eyzAWOgzW70",
-
-    "embedUrl": "https://www.youtube.com/embed/eyzAWOgzW70",
-
-    "videoUrl": "https://www.youtube.com/embed/eyzAWOgzW70",
-
-    "watchUrl": "https://www.youtube.com/watch?v=eyzAWOgzW70",
-
-    "title": "“Demokratik Toplumla Özgürlüğe”",
-
-    "desc": "“Demokratik Toplumla Özgürlüğe” şiarıyla gerçekleşecek Özgürlük Mitingleri, demokratik ve özgür bir yaşam özlemini büyüten herkesin ortak buluşmasıdır.Gençliğin...",
-
-    "categoryId": "atolye",
-
-    "categoryName": "Atölye",
-
-    "date": "27.06.2026",
-
-    "duration": "7:50",
-
-    "thumbnail": "https://img.youtube.com/vi/eyzAWOgzW70/hqdefault.jpg",
-
-    "image": "https://img.youtube.com/vi/eyzAWOgzW70/hqdefault.jpg",
-
-    "views": 2621
-
-  },
-
-  {
-
-    "id": "3703_v1",
-
-    "articleId": 3703,
-
-    "articleTitle": "Toplumsal Cinsiyetçiliğe karşı mücadele edelim;",
-
-    "lang": "tr",
-
-    "videoId": "Ibcoto75mjc",
-
-    "embedUrl": "https://www.youtube.com/embed/Ibcoto75mjc",
-
-    "videoUrl": "https://www.youtube.com/embed/Ibcoto75mjc",
-
-    "watchUrl": "https://www.youtube.com/watch?v=Ibcoto75mjc",
-
-    "title": "Toplumsal Cinsiyetçiliğe karşı mücadele edelim;",
-
-    "desc": "",
-
-    "categoryId": "atolye",
-
-    "categoryName": "Atölye",
-
-    "date": "24.06.2026",
-
-    "duration": "10:09",
-
-    "thumbnail": "assets/media/articles/tr_3703_featured_image.png",
-
-    "image": "assets/media/articles/tr_3703_featured_image.png",
-
-    "views": 3851
-
-  },
-
-  {
-
-    "id": "3654_v1",
-
-    "articleId": 3654,
-
-    "articleTitle": "Kodlanmış Algıları Aş !",
-
-    "lang": "tr",
-
-    "videoId": "o5XBJBXG5Q4",
-
-    "embedUrl": "https://www.youtube.com/embed/o5XBJBXG5Q4",
-
-    "videoUrl": "https://www.youtube.com/embed/o5XBJBXG5Q4",
-
-    "watchUrl": "https://www.youtube.com/watch?v=o5XBJBXG5Q4",
-
-    "title": "Kodlanmış Algıları Aş !",
-
-    "desc": "",
-
-    "categoryId": "atolye",
-
-    "categoryName": "Atölye",
-
-    "date": "22.06.2026",
-
-    "duration": "18:12",
-
-    "thumbnail": "assets/media/articles/tr_3654_featured_image.png",
-
-    "image": "assets/media/articles/tr_3654_featured_image.png",
-
-    "views": 1697
-
-  },
-
-  {
-
-    "id": "3671_v1",
-
-    "articleId": 3671,
-
-    "articleTitle": "RINDÊXAN",
-
-    "lang": "ku",
-
-    "videoId": "c7n_7zT1TLE",
-
-    "embedUrl": "https://www.youtube.com/embed/c7n_7zT1TLE",
-
-    "videoUrl": "https://www.youtube.com/embed/c7n_7zT1TLE",
-
-    "watchUrl": "https://www.youtube.com/watch?v=c7n_7zT1TLE",
-
-    "title": "RINDÊXAN",
-
-    "desc": "",
-
-    "categoryId": "manin-izindekiler",
-
-    "categoryName": "Şopdarên Ma",
-
-    "date": "22.06.2026",
-
-    "duration": "12:15",
-
-    "thumbnail": "assets/media/articles/tr_3671_featured_image.png",
-
-    "image": "assets/media/articles/tr_3671_featured_image.png",
-
-    "views": 1664
-
-  },
-
-  {
-
-    "id": "3499_v1",
-
-    "articleId": 3499,
-
-    "articleTitle": "Rahmi Koç Artık Hesap Vermeli",
-
-    "lang": "tr",
-
-    "videoId": "d2cHXoY0ALQ",
-
-    "embedUrl": "https://www.youtube.com/embed/d2cHXoY0ALQ",
-
-    "videoUrl": "https://www.youtube.com/embed/d2cHXoY0ALQ",
-
-    "watchUrl": "https://www.youtube.com/watch?v=d2cHXoY0ALQ",
-
-    "title": "Rahmi Koç Artık Hesap Vermeli",
-
-    "desc": "",
-
-    "categoryId": "genc-kadin-bakisiya",
-
-    "categoryName": "Genç Kadın Bakışıyla",
-
-    "date": "18.06.2026",
-
-    "duration": "15:48",
-
-    "thumbnail": "assets/media/articles/tr_3499_featured_image.png",
-
-    "image": "assets/media/articles/tr_3499_featured_image.png",
-
-    "views": 1340
-
-  },
-
-  {
-
-    "id": "3476_v1",
-
-    "articleId": 3476,
-
-    "articleTitle": "Özgürlük Sorunu",
-
-    "lang": "tr",
-
-    "videoId": "5fptC8BbLfM",
-
-    "embedUrl": "https://www.youtube.com/embed/5fptC8BbLfM",
-
-    "videoUrl": "https://www.youtube.com/embed/5fptC8BbLfM",
-
-    "watchUrl": "https://www.youtube.com/watch?v=5fptC8BbLfM",
-
-    "title": "Özgürlük Sorunu",
-
-    "desc": "",
-
-    "categoryId": "atolye",
-
-    "categoryName": "Atölye",
-
-    "date": "18.06.2026",
-
-    "duration": "16:15",
-
-    "thumbnail": "assets/media/articles/tr_3476_featured_image.png",
-
-    "image": "assets/media/articles/tr_3476_featured_image.png",
-
-    "views": 2894
-
-  },
-
-  {
-
-    "id": "3339_v1",
-
-    "articleId": 3339,
-
-    "articleTitle": "Mahşerin üç Atlısı – I I",
-
-    "lang": "tr",
-
-    "videoId": "smoyn6rj_XI",
-
-    "embedUrl": "https://www.youtube.com/embed/smoyn6rj_XI",
-
-    "videoUrl": "https://www.youtube.com/embed/smoyn6rj_XI",
-
-    "watchUrl": "https://www.youtube.com/watch?v=smoyn6rj_XI",
-
-    "title": "Mahşerin üç Atlısı – I I",
-
-    "desc": "",
-
-    "categoryId": "atolye",
-
-    "categoryName": "Atölye",
-
-    "date": "16.06.2026",
-
-    "duration": "8:31",
-
-    "thumbnail": "assets/media/articles/tr_3339_featured_image.png",
-
-    "image": "assets/media/articles/tr_3339_featured_image.png",
-
-    "views": 3905
-
-  },
-
-  {
-
-    "id": "3311_v1",
-
-    "articleId": 3311,
-
-    "articleTitle": "Toplumsal Entegrasyon",
-
-    "lang": "tr",
-
-    "videoId": "FScAKk9WSpI",
-
-    "embedUrl": "https://www.youtube.com/embed/FScAKk9WSpI",
-
-    "videoUrl": "https://www.youtube.com/embed/FScAKk9WSpI",
-
-    "watchUrl": "https://www.youtube.com/watch?v=FScAKk9WSpI",
-
-    "title": "Toplumsal Entegrasyon",
-
-    "desc": "",
-
-    "categoryId": "atolye",
-
-    "categoryName": "Atölye",
-
-    "date": "16.06.2026",
-
-    "duration": "10:36",
-
-    "thumbnail": "assets/media/articles/tr_3311_featured_image.webp",
-
-    "image": "assets/media/articles/tr_3311_featured_image.webp",
-
-    "views": 3364
-
-  },
-
-  {
-
-    "id": "3114_v1",
-
-    "articleId": 3114,
-
-    "articleTitle": "Mahşerin üç Atlısı – I",
-
-    "lang": "tr",
-
-    "videoId": "vGIKwYVn6gY",
-
-    "embedUrl": "https://www.youtube.com/embed/vGIKwYVn6gY",
-
-    "videoUrl": "https://www.youtube.com/embed/vGIKwYVn6gY",
-
-    "watchUrl": "https://www.youtube.com/watch?v=vGIKwYVn6gY",
-
-    "title": "Mahşerin üç Atlısı – I",
-
-    "desc": "",
-
-    "categoryId": "atolye",
-
-    "categoryName": "Atölye",
-
-    "date": "15.06.2026",
-
-    "duration": "7:58",
-
-    "thumbnail": "assets/media/articles/tr_3114_featured_image.png",
-
-    "image": "assets/media/articles/tr_3114_featured_image.png",
-
-    "views": 1928
-
-  },
-
-  {
-
-    "id": "2973_v1",
-
-    "articleId": 2973,
-
-    "articleTitle": "Ekolojik Sorunlar",
-
-    "lang": "tr",
-
-    "videoId": "-SZmYmJFaxo",
-
-    "embedUrl": "https://www.youtube.com/embed/-SZmYmJFaxo",
-
-    "videoUrl": "https://www.youtube.com/embed/-SZmYmJFaxo",
-
-    "watchUrl": "https://www.youtube.com/watch?v=-SZmYmJFaxo",
-
-    "title": "Ekolojik Sorunlar",
-
-    "desc": "Ekoloji, organizmaların dağılımları, bolluğu ve ilişkileri ile çevreye olan etkileşimlerinin bilimsel bir araştırmasıdır. Ekoloji, bitki ve hayvan popülasyonlar...",
-
-    "categoryId": "atolye",
-
-    "categoryName": "Atölye",
-
-    "date": "13.06.2026",
-
-    "duration": "17:01",
-
-    "thumbnail": "assets/media/articles/tr_2973_featured_image.png",
-
-    "image": "assets/media/articles/tr_2973_featured_image.png",
-
-    "views": 3064
-
-  },
-
-  {
-
-    "id": "2904_v1",
-
-    "articleId": 2904,
-
-    "articleTitle": "Kastik Katil Kimdir ve Nedir?",
-
-    "lang": "tr",
-
-    "videoId": "bodsJvStYLI",
-
-    "embedUrl": "https://www.youtube.com/embed/bodsJvStYLI",
-
-    "videoUrl": "https://www.youtube.com/embed/bodsJvStYLI",
-
-    "watchUrl": "https://www.youtube.com/watch?v=bodsJvStYLI",
-
-    "title": "Kastik Katil Kimdir ve Nedir?",
-
-    "desc": "Sözlükte ve örfte “bir canlının bir başka canlıyı öldürmesi” şeklinde geniş bir anlamı bulunan katil (katl) kelimesi, İslâm hukukunda bir kimsenin hukuken can d...",
-
-    "categoryId": "atolye",
-
-    "categoryName": "Atölye",
-
-    "date": "13.06.2026",
-
-    "duration": "8:02",
-
-    "thumbnail": "assets/media/articles/tr_2904_featured_image.png",
-
-    "image": "assets/media/articles/tr_2904_featured_image.png",
-
-    "views": 2413
-
-  },
-
-  {
-
-    "id": "3275_v1",
-
-    "articleId": 3275,
-
-    "articleTitle": "Şimdi Kadın Zamanı !",
-
-    "lang": "tr",
-
-    "videoId": "9JRFrwwDGdY",
-
-    "embedUrl": "https://www.youtube.com/embed/9JRFrwwDGdY",
-
-    "videoUrl": "https://www.youtube.com/embed/9JRFrwwDGdY",
-
-    "watchUrl": "https://www.youtube.com/watch?v=9JRFrwwDGdY",
-
-    "title": "Şimdi Kadın Zamanı !",
-
-    "desc": "",
-
-    "categoryId": "genc-kadin-bakisiya",
-
-    "categoryName": "Genç Kadın Bakışıyla",
-
-    "date": "20.05.2026",
-
-    "duration": "9:44",
-
-    "thumbnail": "assets/media/articles/tr_3275_featured_image.jpg",
-
-    "image": "assets/media/articles/tr_3275_featured_image.jpg",
-
-    "views": 3936
-
-  },
-
-  {
-
-    "id": "3248_v1",
-
-    "articleId": 3248,
-
-    "articleTitle": "Binevş Agal",
-
-    "lang": "tr",
-
-    "videoId": "M0FPwwVAH_M",
-
-    "embedUrl": "https://www.youtube.com/embed/M0FPwwVAH_M",
-
-    "videoUrl": "https://www.youtube.com/embed/M0FPwwVAH_M",
-
-    "watchUrl": "https://www.youtube.com/watch?v=M0FPwwVAH_M",
-
-    "title": "Binevş Agal",
-
-    "desc": "",
-
-    "categoryId": "manin-izindekiler",
-
-    "categoryName": "Ma'nın İzindekiler",
-
-    "date": "28.04.2026",
-
-    "duration": "12:06",
-
-    "thumbnail": "assets/media/articles/tr_3248_featured_image.png",
-
-    "image": "assets/media/articles/tr_3248_featured_image.png",
-
-    "views": 1775
-
-  }
-
-];
-
+];
+
+
+
+const BEJING_VIDEOS = [
+
+  {
+
+    "id": "4111_v1",
+
+    "articleId": 4111,
+
+    "articleTitle": "Jina Dilêr Tûfegul",
+
+    "lang": "ku",
+
+    "videoId": "7nFPXRcA72A",
+
+    "embedUrl": "https://www.youtube.com/embed/7nFPXRcA72A",
+
+    "videoUrl": "https://www.youtube.com/embed/7nFPXRcA72A",
+
+    "watchUrl": "https://www.youtube.com/watch?v=7nFPXRcA72A",
+
+    "title": "Jina Dilêr Tûfegul",
+
+    "desc": "Rojhelatê Kurdistanê gelek jinên bi nav û deng derketine ku di civaka Kurd de xwedî rolek girîng bûne. Bi taybetî herêma Xorasanê ku xwedî dewlemendiyek berfire...",
+
+    "categoryId": "manin-izindekiler",
+
+    "categoryName": "Şopdarên Ma",
+
+    "date": "05.09.2026",
+
+    "duration": "8:15",
+
+    "thumbnail": "assets/media/articles/ku_4111_featured_image.jpg",
+
+    "image": "assets/media/articles/ku_4111_featured_image.jpg",
+
+    "views": 2222
+
+  },
+
+  {
+
+    "id": "4093_v1",
+
+    "articleId": 4093,
+
+    "articleTitle": "Yek jî hunermenda Kurd ya ku mohra xwe lî dîrokê xîstîye; Eyşeşan",
+
+    "lang": "ku",
+
+    "videoId": "HZOfLumVhoc",
+
+    "embedUrl": "https://www.youtube.com/embed/HZOfLumVhoc",
+
+    "videoUrl": "https://www.youtube.com/embed/HZOfLumVhoc",
+
+    "watchUrl": "https://www.youtube.com/watch?v=HZOfLumVhoc",
+
+    "title": "Yek jî hunermenda Kurd ya ku mohra xwe lî dîrokê xîstîye; Eyşeşan",
+
+    "desc": "Eyşeşan bi dengê xwe çanda kurdi heya rojameya iro aniye. Weke dîrokû kevneşopiyek pir bi wate ji hemu jinanû civakê re histiye. Civaka kürd jî xwedî li ve mira...",
+
+    "categoryId": "kadin-ve-kultur",
+
+    "categoryName": "Jin û Çand",
+
+    "date": "01.09.2026",
+
+    "duration": "9:40",
+
+    "thumbnail": "assets/media/articles/ku_4093_featured_image.png",
+
+    "image": "assets/media/articles/ku_4093_featured_image.png",
+
+    "views": 2870
+
+  },
+
+  {
+
+    "id": "4071_v1",
+
+    "articleId": 4071,
+
+    "articleTitle": "Diyalektîk",
+
+    "lang": "ku",
+
+    "videoId": "nfK5COQMqD0",
+
+    "embedUrl": "https://www.youtube.com/embed/nfK5COQMqD0",
+
+    "videoUrl": "https://www.youtube.com/embed/nfK5COQMqD0",
+
+    "watchUrl": "https://www.youtube.com/watch?v=nfK5COQMqD0",
+
+    "title": "Diyalektîk",
+
+    "desc": "Diyalektîk bi Kurmancî di peyva “du” de ku em hîn jî wekî beramberê hejmara dudu bikar tînin, ji kokê tê. “Du” li Ewropayê dibe “diya”, koka wê Aryenî ye. Di Ze...",
+
+    "categoryId": "atolye",
+
+    "categoryName": "Atolye",
+
+    "date": "18.08.2026",
+
+    "duration": "16:48",
+
+    "thumbnail": "assets/media/articles/ku_4071_featured_image.png",
+
+    "image": "assets/media/articles/ku_4071_featured_image.png",
+
+    "views": 984
+
+  },
+
+  {
+
+    "id": "4049_v1",
+
+    "articleId": 4049,
+
+    "articleTitle": "BÊJÎNG MEDYA",
+
+    "lang": "ku",
+
+    "videoId": "70guqKT-2mM",
+
+    "embedUrl": "https://www.youtube.com/embed/70guqKT-2mM",
+
+    "videoUrl": "https://www.youtube.com/embed/70guqKT-2mM",
+
+    "watchUrl": "https://www.youtube.com/watch?v=70guqKT-2mM",
+
+    "title": "BÊJÎNG MEDYA",
+
+    "desc": "Îro reng, raman, axaftin û ceribandinên jinên ciwan pir caran nayên dîtin. Lê jinên ciwan kevirên bingehîn ên civakê ne. Di her qadê de ji bo jiyanê difikirin, ...",
+
+    "categoryId": "atolye",
+
+    "categoryName": "Atolye",
+
+    "date": "11.08.2026",
+
+    "duration": "14:16",
+
+    "thumbnail": "assets/media/articles/ku_4049_featured_image.png",
+
+    "image": "assets/media/articles/ku_4049_featured_image.png",
+
+    "views": 3882
+
+  },
+
+  {
+
+    "id": "3961_v1",
+
+    "articleId": 3961,
+
+    "articleTitle": "Ala têkoşîn li hemberî zilmê û Manîfestoya berxwedanê",
+
+    "lang": "ku",
+
+    "videoId": "9IjhUBKdA34",
+
+    "embedUrl": "https://www.youtube.com/embed/9IjhUBKdA34",
+
+    "videoUrl": "https://www.youtube.com/embed/9IjhUBKdA34",
+
+    "watchUrl": "https://www.youtube.com/watch?v=9IjhUBKdA34",
+
+    "title": "Ala têkoşîn li hemberî zilmê û Manîfestoya berxwedanê",
+
+    "desc": "Zoya, partîzana ku di 18 saliya xwe de li hemberî dagirkirina Naziyan manîfestoya berxwedanê dinivîse. Ew di 18 saliya xwe de bû biriqînek cîhanî a berxwedanê k...",
+
+    "categoryId": "manin-izindekiler",
+
+    "categoryName": "Şopdarên Ma",
+
+    "date": "05.08.2026",
+
+    "duration": "12:51",
+
+    "thumbnail": "assets/media/articles/ku_3961_featured_image.png",
+
+    "image": "assets/media/articles/ku_3961_featured_image.png",
+
+    "views": 3696
+
+  },
+
+  {
+
+    "id": "3954_v1",
+
+    "articleId": 3954,
+
+    "articleTitle": "Hunermend, Helbestvan; Şêrko Bêkes",
+
+    "lang": "ku",
+
+    "videoId": "bLp6_nwfqrg",
+
+    "embedUrl": "https://www.youtube.com/embed/bLp6_nwfqrg",
+
+    "videoUrl": "https://www.youtube.com/embed/bLp6_nwfqrg",
+
+    "watchUrl": "https://www.youtube.com/watch?v=bLp6_nwfqrg",
+
+    "title": "Hunermend, Helbestvan; Şêrko Bêkes",
+
+    "desc": "Şêrko Bêkes, kurê Xatûn Şefîqe Seîd û helbestvanê navdar ê Kurd Fayeq Bêkes bû. Ew di 2’ê Gulanê 1940’an de li taxa Goyjeyê ya bajarê Silêmaniyê ji dayik bû. Di...",
+
+    "categoryId": "atolye",
+
+    "categoryName": "Atolye",
+
+    "date": "01.08.2026",
+
+    "duration": "14:48",
+
+    "thumbnail": "https://img.youtube.com/vi/bLp6_nwfqrg/hqdefault.jpg",
+
+    "image": "https://img.youtube.com/vi/bLp6_nwfqrg/hqdefault.jpg",
+
+    "views": 1183
+
+  },
+
+  {
+
+    "id": "3904_v1",
+
+    "articleId": 3904,
+
+    "articleTitle": "“Di Vê Serdema Ku Bi Bêwatehiyê Tê Nîşankirin De, Divê Manifesto Bixwe Bibe Wate.“",
+
+    "lang": "ku",
+
+    "videoId": "5DPFlXRp-8I",
+
+    "embedUrl": "https://www.youtube.com/embed/5DPFlXRp-8I",
+
+    "videoUrl": "https://www.youtube.com/embed/5DPFlXRp-8I",
+
+    "watchUrl": "https://www.youtube.com/watch?v=5DPFlXRp-8I",
+
+    "title": "“Di Vê Serdema Ku Bi Bêwatehiyê Tê Nîşankirin De, Divê Manifesto Bixwe Bibe Wate.“",
+
+    "desc": "Jineke ciwan a Enternasyonalîst Maria ji Îtalyayê, di hevpeyvîna bi Bêjing Medyayê de diyar kir ku, Manîfestoya Civaka Demokratîk û Komînal weke diyariyeke teva...",
+
+    "categoryId": "atolye",
+
+    "categoryName": "Atolye",
+
+    "date": "21.07.2026",
+
+    "duration": "12:15",
+
+    "thumbnail": "assets/media/articles/ku_3904_featured_image.jpg",
+
+    "image": "assets/media/articles/ku_3904_featured_image.jpg",
+
+    "views": 2541
+
+  },
+
+  {
+
+    "id": "3814_v1",
+
+    "articleId": 3814,
+
+    "articleTitle": "Xwedawenda Evînê – Nanaya",
+
+    "lang": "ku",
+
+    "videoId": "QKfeNZjUsaU",
+
+    "embedUrl": "https://www.youtube.com/embed/QKfeNZjUsaU",
+
+    "videoUrl": "https://www.youtube.com/embed/QKfeNZjUsaU",
+
+    "watchUrl": "https://www.youtube.com/watch?v=QKfeNZjUsaU",
+
+    "title": "Xwedawenda Evînê – Nanaya",
+
+    "desc": "Nanaya di dîroka kevnar a Mezopotamyayê de xwedawendek (xwedawenda) evînê, bedewiyê, barweriyê û bereketê bû. Ew bi taybetî li bajarên kevnar yên wekî Uruk û Ur...",
+
+    "categoryId": "manin-izindekiler",
+
+    "categoryName": "Şopdarên Ma",
+
+    "date": "07.07.2026",
+
+    "duration": "14:41",
+
+    "thumbnail": "assets/media/articles/ku_3814_featured_image.png",
+
+    "image": "assets/media/articles/ku_3814_featured_image.png",
+
+    "views": 1391
+
+  },
+
+  {
+
+    "id": "3631_v1",
+
+    "articleId": 3631,
+
+    "articleTitle": "“Jina Ciwan Sarya Ertaş mîrasa dengbêjiyê digihîne nifşên nû”",
+
+    "lang": "ku",
+
+    "videoId": "4cABetsFub8",
+
+    "embedUrl": "https://www.youtube.com/embed/4cABetsFub8",
+
+    "videoUrl": "https://www.youtube.com/embed/4cABetsFub8",
+
+    "watchUrl": "https://www.youtube.com/watch?v=4cABetsFub8",
+
+    "title": "“Jina Ciwan Sarya Ertaş mîrasa dengbêjiyê digihîne nifşên nû”",
+
+    "desc": "",
+
+    "categoryId": "kadin-ve-kultur",
+
+    "categoryName": "Jin û Çand",
+
+    "date": "20.06.2026",
+
+    "duration": "13:45",
+
+    "thumbnail": "assets/media/articles/ku_3631_featured_image.jpg",
+
+    "image": "assets/media/articles/ku_3631_featured_image.jpg",
+
+    "views": 3197
+
+  },
+
+  {
+
+    "id": "3469_v1",
+
+    "articleId": 3469,
+
+    "articleTitle": "Clara Zetkin",
+
+    "lang": "ku",
+
+    "videoId": "BRNTlMMRym8",
+
+    "embedUrl": "https://www.youtube.com/embed/BRNTlMMRym8",
+
+    "videoUrl": "https://www.youtube.com/embed/BRNTlMMRym8",
+
+    "watchUrl": "https://www.youtube.com/watch?v=BRNTlMMRym8",
+
+    "title": "Clara Zetkin",
+
+    "desc": "",
+
+    "categoryId": "manin-izindekiler",
+
+    "categoryName": "Şopdarên Ma",
+
+    "date": "18.06.2026",
+
+    "duration": "10:16",
+
+    "thumbnail": "assets/media/articles/ku_3469_featured_image.png",
+
+    "image": "assets/media/articles/ku_3469_featured_image.png",
+
+    "views": 2679
+
+  },
+
+  {
+
+    "id": "3463_v1",
+
+    "articleId": 3463,
+
+    "articleTitle": "Xweza û Wate  II – Fikra Mîtîk",
+
+    "lang": "ku",
+
+    "videoId": "e-HldHvU5GQ",
+
+    "embedUrl": "https://www.youtube.com/embed/e-HldHvU5GQ",
+
+    "videoUrl": "https://www.youtube.com/embed/e-HldHvU5GQ",
+
+    "watchUrl": "https://www.youtube.com/watch?v=e-HldHvU5GQ",
+
+    "title": "Xweza û Wate  II – Fikra Mîtîk",
+
+    "desc": "",
+
+    "categoryId": "atolye",
+
+    "categoryName": "Atolye",
+
+    "date": "18.06.2026",
+
+    "duration": "17:03",
+
+    "thumbnail": "assets/media/articles/ku_3463_featured_image.png",
+
+    "image": "assets/media/articles/ku_3463_featured_image.png",
+
+    "views": 1621
+
+  },
+
+  {
+
+    "id": "3455_v1",
+
+    "articleId": 3455,
+
+    "articleTitle": "Şoreşa Jin",
+
+    "lang": "ku",
+
+    "videoId": "1DEfNu9X2c4",
+
+    "embedUrl": "https://www.youtube.com/embed/1DEfNu9X2c4",
+
+    "videoUrl": "https://www.youtube.com/embed/1DEfNu9X2c4",
+
+    "watchUrl": "https://www.youtube.com/watch?v=1DEfNu9X2c4",
+
+    "title": "Şoreşa Jin",
+
+    "desc": "",
+
+    "categoryId": "atolye",
+
+    "categoryName": "Atolye",
+
+    "date": "17.06.2026",
+
+    "duration": "8:42",
+
+    "thumbnail": "assets/media/articles/ku_3455_featured_image.png",
+
+    "image": "assets/media/articles/ku_3455_featured_image.png",
+
+    "views": 3450
+
+  },
+
+  {
+
+    "id": "3398_v1",
+
+    "articleId": 3398,
+
+    "articleTitle": "Hûner Azadiye;",
+
+    "lang": "ku",
+
+    "videoId": "be54twihvRc",
+
+    "embedUrl": "https://www.youtube.com/embed/be54twihvRc",
+
+    "videoUrl": "https://www.youtube.com/embed/be54twihvRc",
+
+    "watchUrl": "https://www.youtube.com/watch?v=be54twihvRc",
+
+    "title": "Hûner Azadiye;",
+
+    "desc": "",
+
+    "categoryId": "kadin-ve-kultur",
+
+    "categoryName": "Jin û Çand",
+
+    "date": "17.06.2026",
+
+    "duration": "6:29",
+
+    "thumbnail": "assets/media/articles/ku_3398_featured_image.png",
+
+    "image": "assets/media/articles/ku_3398_featured_image.png",
+
+    "views": 1279
+
+  },
+
+  {
+
+    "id": "3389_v1",
+
+    "articleId": 3389,
+
+    "articleTitle": "Cudabuna MÊ Û NÊR – tiyê",
+
+    "lang": "ku",
+
+    "videoId": "_4pL0J1UfJ0",
+
+    "embedUrl": "https://www.youtube.com/embed/_4pL0J1UfJ0",
+
+    "videoUrl": "https://www.youtube.com/embed/_4pL0J1UfJ0",
+
+    "watchUrl": "https://www.youtube.com/watch?v=_4pL0J1UfJ0",
+
+    "title": "Cudabuna MÊ Û NÊR – tiyê",
+
+    "desc": "",
+
+    "categoryId": "atolye",
+
+    "categoryName": "Atolye",
+
+    "date": "17.06.2026",
+
+    "duration": "18:38",
+
+    "thumbnail": "assets/media/articles/ku_3389_featured_image.png",
+
+    "image": "assets/media/articles/ku_3389_featured_image.png",
+
+    "views": 3296
+
+  },
+
+  {
+
+    "id": "3325_v1",
+
+    "articleId": 3325,
+
+    "articleTitle": "Entegrasyona Civakî",
+
+    "lang": "ku",
+
+    "videoId": "SmRabHqE1sQ",
+
+    "embedUrl": "https://www.youtube.com/embed/SmRabHqE1sQ",
+
+    "videoUrl": "https://www.youtube.com/embed/SmRabHqE1sQ",
+
+    "watchUrl": "https://www.youtube.com/watch?v=SmRabHqE1sQ",
+
+    "title": "Entegrasyona Civakî",
+
+    "desc": "",
+
+    "categoryId": "atolye",
+
+    "categoryName": "Atolye",
+
+    "date": "16.06.2026",
+
+    "duration": "16:52",
+
+    "thumbnail": "assets/media/articles/ku_3325_featured_image.webp",
+
+    "image": "assets/media/articles/ku_3325_featured_image.webp",
+
+    "views": 2142
+
+  },
+
+  {
+
+    "id": "3133_v1",
+
+    "articleId": 3133,
+
+    "articleTitle": "Meyan Xatun;",
+
+    "lang": "ku",
+
+    "videoId": "ZuG6fjoBvpg",
+
+    "embedUrl": "https://www.youtube.com/embed/ZuG6fjoBvpg",
+
+    "videoUrl": "https://www.youtube.com/embed/ZuG6fjoBvpg",
+
+    "watchUrl": "https://www.youtube.com/watch?v=ZuG6fjoBvpg",
+
+    "title": "Meyan Xatun;",
+
+    "desc": "",
+
+    "categoryId": "manin-izindekiler",
+
+    "categoryName": "Şopdarên Ma",
+
+    "date": "15.06.2026",
+
+    "duration": "19:11",
+
+    "thumbnail": "assets/media/articles/ku_3133_featured_image.png",
+
+    "image": "assets/media/articles/ku_3133_featured_image.png",
+
+    "views": 4026
+
+  },
+
+  {
+
+    "id": "3127_v1",
+
+    "articleId": 3127,
+
+    "articleTitle": "Huner û jin: axa bêdengiyê ku dibe ziman",
+
+    "lang": "ku",
+
+    "videoId": "EnoJuyiDyDI",
+
+    "embedUrl": "https://www.youtube.com/embed/EnoJuyiDyDI",
+
+    "videoUrl": "https://www.youtube.com/embed/EnoJuyiDyDI",
+
+    "watchUrl": "https://www.youtube.com/watch?v=EnoJuyiDyDI",
+
+    "title": "Huner û jin: axa bêdengiyê ku dibe ziman",
+
+    "desc": "",
+
+    "categoryId": "kadin-ve-kultur",
+
+    "categoryName": "Jin û Çand",
+
+    "date": "15.06.2026",
+
+    "duration": "9:10",
+
+    "thumbnail": "assets/media/articles/ku_3127_featured_image.jpeg",
+
+    "image": "assets/media/articles/ku_3127_featured_image.jpeg",
+
+    "views": 3744
+
+  },
+
+  {
+
+    "id": "3122_v1",
+
+    "articleId": 3122,
+
+    "articleTitle": "Jina Serhildêr; Şahbanu Amîna Zarîa",
+
+    "lang": "ku",
+
+    "videoId": "o-fkBQigk1M",
+
+    "embedUrl": "https://www.youtube.com/embed/o-fkBQigk1M",
+
+    "videoUrl": "https://www.youtube.com/embed/o-fkBQigk1M",
+
+    "watchUrl": "https://www.youtube.com/watch?v=o-fkBQigk1M",
+
+    "title": "Jina Serhildêr; Şahbanu Amîna Zarîa",
+
+    "desc": "",
+
+    "categoryId": "manin-izindekiler",
+
+    "categoryName": "Şopdarên Ma",
+
+    "date": "15.06.2026",
+
+    "duration": "13:09",
+
+    "thumbnail": "assets/media/articles/ku_3122_featured_image.png",
+
+    "image": "assets/media/articles/ku_3122_featured_image.png",
+
+    "views": 910
+
+  },
+
+  {
+
+    "id": "3066_v1",
+
+    "articleId": 3066,
+
+    "articleTitle": "Xweza û Wate – I",
+
+    "lang": "ku",
+
+    "videoId": "e8K9c8Qqc8c",
+
+    "embedUrl": "https://www.youtube.com/embed/e8K9c8Qqc8c",
+
+    "videoUrl": "https://www.youtube.com/embed/e8K9c8Qqc8c",
+
+    "watchUrl": "https://www.youtube.com/watch?v=e8K9c8Qqc8c",
+
+    "title": "Xweza û Wate – I",
+
+    "desc": "",
+
+    "categoryId": "atolye",
+
+    "categoryName": "Atolye",
+
+    "date": "15.06.2026",
+
+    "duration": "7:31",
+
+    "thumbnail": "https://img.youtube.com/vi/e8K9c8Qqc8c/hqdefault.jpg",
+
+    "image": "https://img.youtube.com/vi/e8K9c8Qqc8c/hqdefault.jpg",
+
+    "views": 2751
+
+  },
+
+  {
+
+    "id": "3177_v1",
+
+    "articleId": 3177,
+
+    "articleTitle": "Bihara Jin War",
+
+    "lang": "ku",
+
+    "videoId": "p6zzP_IMVd4",
+
+    "embedUrl": "https://www.youtube.com/embed/p6zzP_IMVd4",
+
+    "videoUrl": "https://www.youtube.com/embed/p6zzP_IMVd4",
+
+    "watchUrl": "https://www.youtube.com/watch?v=p6zzP_IMVd4",
+
+    "title": "Bihara Jin War",
+
+    "desc": "",
+
+    "categoryId": "atolye",
+
+    "categoryName": "Atolye",
+
+    "date": "18.05.2026",
+
+    "duration": "16:25",
+
+    "thumbnail": "https://img.youtube.com/vi/p6zzP_IMVd4/hqdefault.jpg",
+
+    "image": "https://img.youtube.com/vi/p6zzP_IMVd4/hqdefault.jpg",
+
+    "views": 1675
+
+  },
+
+  {
+
+    "id": "3138_v1",
+
+    "articleId": 3138,
+
+    "articleTitle": "Çanda Satî",
+
+    "lang": "ku",
+
+    "videoId": "8LfoTnJ6hGs",
+
+    "embedUrl": "https://www.youtube.com/embed/8LfoTnJ6hGs",
+
+    "videoUrl": "https://www.youtube.com/embed/8LfoTnJ6hGs",
+
+    "watchUrl": "https://www.youtube.com/watch?v=8LfoTnJ6hGs",
+
+    "title": "Çanda Satî",
+
+    "desc": "",
+
+    "categoryId": "atolye",
+
+    "categoryName": "Atolye",
+
+    "date": "15.05.2026",
+
+    "duration": "9:48",
+
+    "thumbnail": "assets/media/articles/ku_3138_featured_image.png",
+
+    "image": "assets/media/articles/ku_3138_featured_image.png",
+
+    "views": 2928
+
+  },
+
+  {
+
+    "id": "1_v1",
+
+    "articleId": 1,
+
+    "articleTitle": "Umut Hakkı Nedir?",
+
+    "lang": "tr",
+
+    "videoId": "u1Ge0dL7DB8",
+
+    "embedUrl": "https://www.youtube.com/embed/u1Ge0dL7DB8",
+
+    "videoUrl": "https://www.youtube.com/embed/u1Ge0dL7DB8",
+
+    "watchUrl": "https://www.youtube.com/watch?v=u1Ge0dL7DB8",
+
+    "title": "Umut Hakkı Nedir?",
+
+    "desc": "Umut hakkı, ömür boyu cezaevinde infaz edilecek bir hapis cezasına mahkum edilen hükümlülerin serbest bırakılıp bırakılmayacağının belli bir süre sonra idari ve...",
+
+    "categoryId": "atolye",
+
+    "categoryName": "Atölye",
+
+    "date": "12.06.2026",
+
+    "duration": "19:10",
+
+    "thumbnail": "assets/media/articles/tr_1_featured_image.png",
+
+    "image": "assets/media/articles/tr_1_featured_image.png",
+
+    "views": 1160
+
+  },
+
+  {
+
+    "id": "4038_v1",
+
+    "articleId": 4038,
+
+    "articleTitle": "BÊJİNG MEDYA",
+
+    "lang": "tr",
+
+    "videoId": "pSg5_bEW2g8",
+
+    "embedUrl": "https://www.youtube.com/embed/pSg5_bEW2g8",
+
+    "videoUrl": "https://www.youtube.com/embed/pSg5_bEW2g8",
+
+    "watchUrl": "https://www.youtube.com/watch?v=pSg5_bEW2g8",
+
+    "title": "BÊJİNG MEDYA",
+
+    "desc": "Bugün genç kadınların rengi, düşüncesi, sözü ve deneyimi çoğu zaman görünmez bırakılıyor. Oysa genç kadınlar, toplumun temel yapı taşlarından olmaktadır. Yaşamı...",
+
+    "categoryId": "atolye",
+
+    "categoryName": "Atölye",
+
+    "date": "11.08.2026",
+
+    "duration": "14:21",
+
+    "thumbnail": "assets/media/articles/tr_4038_featured_image.png",
+
+    "image": "assets/media/articles/tr_4038_featured_image.png",
+
+    "views": 3720
+
+  },
+
+  {
+
+    "id": "3238_v1",
+
+    "articleId": 3238,
+
+    "articleTitle": "Kim bu Gilgamêş",
+
+    "lang": "tr",
+
+    "videoId": "MVuuWv5WrhA",
+
+    "embedUrl": "https://www.youtube.com/embed/MVuuWv5WrhA",
+
+    "videoUrl": "https://www.youtube.com/embed/MVuuWv5WrhA",
+
+    "watchUrl": "https://www.youtube.com/watch?v=MVuuWv5WrhA",
+
+    "title": "Kim bu Gilgamêş",
+
+    "desc": "",
+
+    "categoryId": "atolye",
+
+    "categoryName": "Atölye",
+
+    "date": "10.05.2026",
+
+    "duration": "14:35",
+
+    "thumbnail": "assets/media/articles/tr_3238_featured_image.png",
+
+    "image": "assets/media/articles/tr_3238_featured_image.png",
+
+    "views": 1852
+
+  },
+
+  {
+
+    "id": "3825_v1",
+
+    "articleId": 3825,
+
+    "articleTitle": "Silêmanî’de “Kürdistan Jeopolitiği ve Kadınların Durumu” Sempozyumu Gerçekleştirildi",
+
+    "lang": "tr",
+
+    "videoId": "OoPokO6wSwQ",
+
+    "embedUrl": "https://www.youtube.com/embed/OoPokO6wSwQ",
+
+    "videoUrl": "https://www.youtube.com/embed/OoPokO6wSwQ",
+
+    "watchUrl": "https://www.youtube.com/watch?v=OoPokO6wSwQ",
+
+    "title": "Silêmanî’de “Kürdistan Jeopolitiği ve Kadınların Durumu” Sempozyumu Gerçekleştirildi",
+
+    "desc": "Silêmanî’de düzenlen “Kürdistan Jeopolitiği ve Kadınların Durumu” sempozyumunda, Kürdistan’ın güncel jeopolitik gelişmeleri ile kadınların toplumsal, siyasal ve...",
+
+    "categoryId": "atolye",
+
+    "categoryName": "Atölye",
+
+    "date": "08.07.2026",
+
+    "duration": "13:02",
+
+    "thumbnail": "https://img.youtube.com/vi/OoPokO6wSwQ/hqdefault.jpg",
+
+    "image": "https://img.youtube.com/vi/OoPokO6wSwQ/hqdefault.jpg",
+
+    "views": 2385
+
+  },
+
+  {
+
+    "id": "3965_v1",
+
+    "articleId": 3965,
+
+    "articleTitle": "Zulme Karşı Mücadelenin Bayrağı ve Direniş Manifestosu Zoya",
+
+    "lang": "tr",
+
+    "videoId": "Z25Nenla7xM",
+
+    "embedUrl": "https://www.youtube.com/embed/Z25Nenla7xM",
+
+    "videoUrl": "https://www.youtube.com/embed/Z25Nenla7xM",
+
+    "watchUrl": "https://www.youtube.com/watch?v=Z25Nenla7xM",
+
+    "title": "Zulme Karşı Mücadelenin Bayrağı ve Direniş Manifestosu Zoya",
+
+    "desc": "Zoya, 18 yaşında Nazi işgaline karşı direnişin manifestosunu yazan bir partizandır. Zoya 18 yaşında, ‘yaşam’ın inceliklerini insanların zihnine nakşeden, direni...",
+
+    "categoryId": "manin-izindekiler",
+
+    "categoryName": "Ma'nın İzindekiler",
+
+    "date": "05.08.2026",
+
+    "duration": "14:58",
+
+    "thumbnail": "assets/media/articles/tr_3965_featured_image.png",
+
+    "image": "assets/media/articles/tr_3965_featured_image.png",
+
+    "views": 904
+
+  },
+
+  {
+
+    "id": "3183_v1",
+
+    "articleId": 3183,
+
+    "articleTitle": "1’ê Gulanê",
+
+    "lang": "ku",
+
+    "videoId": "smNjkW37-hY",
+
+    "embedUrl": "https://www.youtube.com/embed/smNjkW37-hY",
+
+    "videoUrl": "https://www.youtube.com/embed/smNjkW37-hY",
+
+    "watchUrl": "https://www.youtube.com/watch?v=smNjkW37-hY",
+
+    "title": "1’ê Gulanê",
+
+    "desc": "",
+
+    "categoryId": "genc-kadin-bakisiya",
+
+    "categoryName": "Bi Nêrîna Jinên Ciwan",
+
+    "date": "01.05.2026",
+
+    "duration": "10:27",
+
+    "thumbnail": "assets/media/articles/ku_3183_featured_image.png",
+
+    "image": "assets/media/articles/ku_3183_featured_image.png",
+
+    "views": 3634
+
+  },
+
+  {
+
+    "id": "3920_v1",
+
+    "articleId": 3920,
+
+    "articleTitle": "Kadın Nasıl Sosyalist Olur?",
+
+    "lang": "tr",
+
+    "videoId": "v8aaf1_J4N4",
+
+    "embedUrl": "https://www.youtube.com/embed/v8aaf1_J4N4",
+
+    "videoUrl": "https://www.youtube.com/embed/v8aaf1_J4N4",
+
+    "watchUrl": "https://www.youtube.com/watch?v=v8aaf1_J4N4",
+
+    "title": "Kadın Nasıl Sosyalist Olur?",
+
+    "desc": "Sosyalist mücadele içerisinde Önder Abdullah Öcalan Demokratik Komünal Toplum Manifestosunda sıkça dile getirdiği önemli bir ifade vardır. “Kadınla doğru ilişki...",
+
+    "categoryId": "atolye",
+
+    "categoryName": "Atölye",
+
+    "date": "28.07.2026",
+
+    "duration": "12:00",
+
+    "thumbnail": "assets/media/articles/tr_3920_featured_image.png",
+
+    "image": "assets/media/articles/tr_3920_featured_image.png",
+
+    "views": 2294
+
+  },
+
+  {
+
+    "id": "3912_v1",
+
+    "articleId": 3912,
+
+    "articleTitle": "Bir Çocuğun Hayalinden Dağlara Uzanan Hikâye: “Heval”",
+
+    "lang": "tr",
+
+    "videoId": "uZOO0CvADEY",
+
+    "embedUrl": "https://www.youtube.com/embed/uZOO0CvADEY",
+
+    "videoUrl": "https://www.youtube.com/embed/uZOO0CvADEY",
+
+    "watchUrl": "https://www.youtube.com/watch?v=uZOO0CvADEY",
+
+    "title": "Bir Çocuğun Hayalinden Dağlara Uzanan Hikâye: “Heval”",
+
+    "desc": "“Heval” adlı hikâye, küçük yaşlarda yaşamını yitiren Uğur, Ceylan, Enes ve Cemile ile hayalleri bombalanan tüm çocukların anısına ithaf edildi.  Çobanlık yapan ...",
+
+    "categoryId": "kadin-kulliyati",
+
+    "categoryName": "Kadın Külliyatı",
+
+    "date": "27.07.2026",
+
+    "duration": "15:31",
+
+    "thumbnail": "assets/media/articles/tr_3912_featured_image.png",
+
+    "image": "assets/media/articles/tr_3912_featured_image.png",
+
+    "views": 2586
+
+  },
+
+  {
+
+    "id": "3897_v1",
+
+    "articleId": 3897,
+
+    "articleTitle": "”Anlamsızlığın Yaşandığı Bu Süreçte, demokratik toplum Manifestosu Anlamın Kendisi Olmaktadır”",
+
+    "lang": "tr",
+
+    "videoId": "1RnZJsmi9BU",
+
+    "embedUrl": "https://www.youtube.com/embed/1RnZJsmi9BU",
+
+    "videoUrl": "https://www.youtube.com/embed/1RnZJsmi9BU",
+
+    "watchUrl": "https://www.youtube.com/watch?v=1RnZJsmi9BU",
+
+    "title": "”Anlamsızlığın Yaşandığı Bu Süreçte, demokratik toplum Manifestosu Anlamın Kendisi Olmaktadır”",
+
+    "desc": "İtalyan Enternasyonalist genç kadın Maria, Bêjing Medya’ya yaptığı değerlendirmede , Demokratik Komünal Toplum Manifestosu’nun tüm insanlığa ve kadınlara bir ar...",
+
+    "categoryId": "atolye",
+
+    "categoryName": "Atölye",
+
+    "date": "21.07.2026",
+
+    "duration": "6:15",
+
+    "thumbnail": "assets/media/articles/tr_3897_featured_image.jpg",
+
+    "image": "assets/media/articles/tr_3897_featured_image.jpg",
+
+    "views": 910
+
+  },
+
+  {
+
+    "id": "3863_v1",
+
+    "articleId": 3863,
+
+    "articleTitle": "Kobanê Özgürlük Arayışının, Halkların Ortak Yaşam İnşasının Çabasıdır",
+
+    "lang": "tr",
+
+    "videoId": "I8RMU3nZyyE",
+
+    "embedUrl": "https://www.youtube.com/embed/I8RMU3nZyyE",
+
+    "videoUrl": "https://www.youtube.com/embed/I8RMU3nZyyE",
+
+    "watchUrl": "https://www.youtube.com/watch?v=I8RMU3nZyyE",
+
+    "title": "Kobanê Özgürlük Arayışının, Halkların Ortak Yaşam İnşasının Çabasıdır",
+
+    "desc": "Pirsûs’ta ölümsüzleşen 33 düş yolcusunun bıraktığı mücadele mirasını değerlendiren İSÖM üyesi Merve Sultan Daş, onların mücadelesinin bugün de yol gösterdiğini ...",
+
+    "categoryId": "genc-kadin-bakisiya",
+
+    "categoryName": "Genç Kadın Bakışıyla",
+
+    "date": "19.07.2026",
+
+    "duration": "11:45",
+
+    "thumbnail": "assets/media/articles/tr_3863_featured_image.png",
+
+    "image": "assets/media/articles/tr_3863_featured_image.png",
+
+    "views": 995
+
+  },
+
+  {
+
+    "id": "3841_v1",
+
+    "articleId": 3841,
+
+    "articleTitle": "‘’Bizler anlamak sorumluluğu altındayız, genç kadınlar da anlamlandırmak sorumluluğu altında’’",
+
+    "lang": "tr",
+
+    "videoId": "ryTLq-AI-Lk",
+
+    "embedUrl": "https://www.youtube.com/embed/ryTLq-AI-Lk",
+
+    "videoUrl": "https://www.youtube.com/embed/ryTLq-AI-Lk",
+
+    "watchUrl": "https://www.youtube.com/watch?v=ryTLq-AI-Lk",
+
+    "title": "‘’Bizler anlamak sorumluluğu altındayız, genç kadınlar da anlamlandırmak sorumluluğu altında’’",
+
+    "desc": "Avukat, siyasetçi ve kadın özgürlük mücadelesinin önemli isimlerinden Ayla Akat Ata, Bêjing Medya’ya yaptığı değerlendirmelerde demokratik toplum arayışını, kad...",
+
+    "categoryId": "atolye",
+
+    "categoryName": "Atölye",
+
+    "date": "15.07.2026",
+
+    "duration": "10:56",
+
+    "thumbnail": "assets/media/articles/tr_3841_featured_image.jpg",
+
+    "image": "assets/media/articles/tr_3841_featured_image.jpg",
+
+    "views": 1225
+
+  },
+
+  {
+
+    "id": "3753_v1",
+
+    "articleId": 3753,
+
+    "articleTitle": "Harbarzagoz – Harpagos",
+
+    "lang": "tr",
+
+    "videoId": "8dsX97YBrvE",
+
+    "embedUrl": "https://www.youtube.com/embed/8dsX97YBrvE",
+
+    "videoUrl": "https://www.youtube.com/embed/8dsX97YBrvE",
+
+    "watchUrl": "https://www.youtube.com/watch?v=8dsX97YBrvE",
+
+    "title": "Harbarzagoz – Harpagos",
+
+    "desc": "Medler ile Pers aristokrasisi arasında yaşanan çatışmaların özü ‘demokrasi mi krallık mı?’ ikilemine dayanır. Devletleşme ile komünleşme arasındaki bu tartışman...",
+
+    "categoryId": "atolye",
+
+    "categoryName": "Atölye",
+
+    "date": "01.07.2026",
+
+    "duration": "16:49",
+
+    "thumbnail": "assets/media/articles/tr_3753_featured_image.png",
+
+    "image": "assets/media/articles/tr_3753_featured_image.png",
+
+    "views": 1872
+
+  },
+
+  {
+
+    "id": "3743_v1",
+
+    "articleId": 3743,
+
+    "articleTitle": "“Demokratik Toplumla Özgürlüğe”",
+
+    "lang": "tr",
+
+    "videoId": "eyzAWOgzW70",
+
+    "embedUrl": "https://www.youtube.com/embed/eyzAWOgzW70",
+
+    "videoUrl": "https://www.youtube.com/embed/eyzAWOgzW70",
+
+    "watchUrl": "https://www.youtube.com/watch?v=eyzAWOgzW70",
+
+    "title": "“Demokratik Toplumla Özgürlüğe”",
+
+    "desc": "“Demokratik Toplumla Özgürlüğe” şiarıyla gerçekleşecek Özgürlük Mitingleri, demokratik ve özgür bir yaşam özlemini büyüten herkesin ortak buluşmasıdır.Gençliğin...",
+
+    "categoryId": "atolye",
+
+    "categoryName": "Atölye",
+
+    "date": "27.06.2026",
+
+    "duration": "7:50",
+
+    "thumbnail": "https://img.youtube.com/vi/eyzAWOgzW70/hqdefault.jpg",
+
+    "image": "https://img.youtube.com/vi/eyzAWOgzW70/hqdefault.jpg",
+
+    "views": 2621
+
+  },
+
+  {
+
+    "id": "3703_v1",
+
+    "articleId": 3703,
+
+    "articleTitle": "Toplumsal Cinsiyetçiliğe karşı mücadele edelim;",
+
+    "lang": "tr",
+
+    "videoId": "Ibcoto75mjc",
+
+    "embedUrl": "https://www.youtube.com/embed/Ibcoto75mjc",
+
+    "videoUrl": "https://www.youtube.com/embed/Ibcoto75mjc",
+
+    "watchUrl": "https://www.youtube.com/watch?v=Ibcoto75mjc",
+
+    "title": "Toplumsal Cinsiyetçiliğe karşı mücadele edelim;",
+
+    "desc": "",
+
+    "categoryId": "atolye",
+
+    "categoryName": "Atölye",
+
+    "date": "24.06.2026",
+
+    "duration": "10:09",
+
+    "thumbnail": "assets/media/articles/tr_3703_featured_image.png",
+
+    "image": "assets/media/articles/tr_3703_featured_image.png",
+
+    "views": 3851
+
+  },
+
+  {
+
+    "id": "3654_v1",
+
+    "articleId": 3654,
+
+    "articleTitle": "Kodlanmış Algıları Aş !",
+
+    "lang": "tr",
+
+    "videoId": "o5XBJBXG5Q4",
+
+    "embedUrl": "https://www.youtube.com/embed/o5XBJBXG5Q4",
+
+    "videoUrl": "https://www.youtube.com/embed/o5XBJBXG5Q4",
+
+    "watchUrl": "https://www.youtube.com/watch?v=o5XBJBXG5Q4",
+
+    "title": "Kodlanmış Algıları Aş !",
+
+    "desc": "",
+
+    "categoryId": "atolye",
+
+    "categoryName": "Atölye",
+
+    "date": "22.06.2026",
+
+    "duration": "18:12",
+
+    "thumbnail": "assets/media/articles/tr_3654_featured_image.png",
+
+    "image": "assets/media/articles/tr_3654_featured_image.png",
+
+    "views": 1697
+
+  },
+
+  {
+
+    "id": "3671_v1",
+
+    "articleId": 3671,
+
+    "articleTitle": "RINDÊXAN",
+
+    "lang": "ku",
+
+    "videoId": "c7n_7zT1TLE",
+
+    "embedUrl": "https://www.youtube.com/embed/c7n_7zT1TLE",
+
+    "videoUrl": "https://www.youtube.com/embed/c7n_7zT1TLE",
+
+    "watchUrl": "https://www.youtube.com/watch?v=c7n_7zT1TLE",
+
+    "title": "RINDÊXAN",
+
+    "desc": "",
+
+    "categoryId": "manin-izindekiler",
+
+    "categoryName": "Şopdarên Ma",
+
+    "date": "22.06.2026",
+
+    "duration": "12:15",
+
+    "thumbnail": "assets/media/articles/tr_3671_featured_image.png",
+
+    "image": "assets/media/articles/tr_3671_featured_image.png",
+
+    "views": 1664
+
+  },
+
+  {
+
+    "id": "3499_v1",
+
+    "articleId": 3499,
+
+    "articleTitle": "Rahmi Koç Artık Hesap Vermeli",
+
+    "lang": "tr",
+
+    "videoId": "d2cHXoY0ALQ",
+
+    "embedUrl": "https://www.youtube.com/embed/d2cHXoY0ALQ",
+
+    "videoUrl": "https://www.youtube.com/embed/d2cHXoY0ALQ",
+
+    "watchUrl": "https://www.youtube.com/watch?v=d2cHXoY0ALQ",
+
+    "title": "Rahmi Koç Artık Hesap Vermeli",
+
+    "desc": "",
+
+    "categoryId": "genc-kadin-bakisiya",
+
+    "categoryName": "Genç Kadın Bakışıyla",
+
+    "date": "18.06.2026",
+
+    "duration": "15:48",
+
+    "thumbnail": "assets/media/articles/tr_3499_featured_image.png",
+
+    "image": "assets/media/articles/tr_3499_featured_image.png",
+
+    "views": 1340
+
+  },
+
+  {
+
+    "id": "3476_v1",
+
+    "articleId": 3476,
+
+    "articleTitle": "Özgürlük Sorunu",
+
+    "lang": "tr",
+
+    "videoId": "5fptC8BbLfM",
+
+    "embedUrl": "https://www.youtube.com/embed/5fptC8BbLfM",
+
+    "videoUrl": "https://www.youtube.com/embed/5fptC8BbLfM",
+
+    "watchUrl": "https://www.youtube.com/watch?v=5fptC8BbLfM",
+
+    "title": "Özgürlük Sorunu",
+
+    "desc": "",
+
+    "categoryId": "atolye",
+
+    "categoryName": "Atölye",
+
+    "date": "18.06.2026",
+
+    "duration": "16:15",
+
+    "thumbnail": "assets/media/articles/tr_3476_featured_image.png",
+
+    "image": "assets/media/articles/tr_3476_featured_image.png",
+
+    "views": 2894
+
+  },
+
+  {
+
+    "id": "3339_v1",
+
+    "articleId": 3339,
+
+    "articleTitle": "Mahşerin üç Atlısı – I I",
+
+    "lang": "tr",
+
+    "videoId": "smoyn6rj_XI",
+
+    "embedUrl": "https://www.youtube.com/embed/smoyn6rj_XI",
+
+    "videoUrl": "https://www.youtube.com/embed/smoyn6rj_XI",
+
+    "watchUrl": "https://www.youtube.com/watch?v=smoyn6rj_XI",
+
+    "title": "Mahşerin üç Atlısı – I I",
+
+    "desc": "",
+
+    "categoryId": "atolye",
+
+    "categoryName": "Atölye",
+
+    "date": "16.06.2026",
+
+    "duration": "8:31",
+
+    "thumbnail": "assets/media/articles/tr_3339_featured_image.png",
+
+    "image": "assets/media/articles/tr_3339_featured_image.png",
+
+    "views": 3905
+
+  },
+
+  {
+
+    "id": "3311_v1",
+
+    "articleId": 3311,
+
+    "articleTitle": "Toplumsal Entegrasyon",
+
+    "lang": "tr",
+
+    "videoId": "FScAKk9WSpI",
+
+    "embedUrl": "https://www.youtube.com/embed/FScAKk9WSpI",
+
+    "videoUrl": "https://www.youtube.com/embed/FScAKk9WSpI",
+
+    "watchUrl": "https://www.youtube.com/watch?v=FScAKk9WSpI",
+
+    "title": "Toplumsal Entegrasyon",
+
+    "desc": "",
+
+    "categoryId": "atolye",
+
+    "categoryName": "Atölye",
+
+    "date": "16.06.2026",
+
+    "duration": "10:36",
+
+    "thumbnail": "assets/media/articles/tr_3311_featured_image.webp",
+
+    "image": "assets/media/articles/tr_3311_featured_image.webp",
+
+    "views": 3364
+
+  },
+
+  {
+
+    "id": "3114_v1",
+
+    "articleId": 3114,
+
+    "articleTitle": "Mahşerin üç Atlısı – I",
+
+    "lang": "tr",
+
+    "videoId": "vGIKwYVn6gY",
+
+    "embedUrl": "https://www.youtube.com/embed/vGIKwYVn6gY",
+
+    "videoUrl": "https://www.youtube.com/embed/vGIKwYVn6gY",
+
+    "watchUrl": "https://www.youtube.com/watch?v=vGIKwYVn6gY",
+
+    "title": "Mahşerin üç Atlısı – I",
+
+    "desc": "",
+
+    "categoryId": "atolye",
+
+    "categoryName": "Atölye",
+
+    "date": "15.06.2026",
+
+    "duration": "7:58",
+
+    "thumbnail": "assets/media/articles/tr_3114_featured_image.png",
+
+    "image": "assets/media/articles/tr_3114_featured_image.png",
+
+    "views": 1928
+
+  },
+
+  {
+
+    "id": "2973_v1",
+
+    "articleId": 2973,
+
+    "articleTitle": "Ekolojik Sorunlar",
+
+    "lang": "tr",
+
+    "videoId": "-SZmYmJFaxo",
+
+    "embedUrl": "https://www.youtube.com/embed/-SZmYmJFaxo",
+
+    "videoUrl": "https://www.youtube.com/embed/-SZmYmJFaxo",
+
+    "watchUrl": "https://www.youtube.com/watch?v=-SZmYmJFaxo",
+
+    "title": "Ekolojik Sorunlar",
+
+    "desc": "Ekoloji, organizmaların dağılımları, bolluğu ve ilişkileri ile çevreye olan etkileşimlerinin bilimsel bir araştırmasıdır. Ekoloji, bitki ve hayvan popülasyonlar...",
+
+    "categoryId": "atolye",
+
+    "categoryName": "Atölye",
+
+    "date": "13.06.2026",
+
+    "duration": "17:01",
+
+    "thumbnail": "assets/media/articles/tr_2973_featured_image.png",
+
+    "image": "assets/media/articles/tr_2973_featured_image.png",
+
+    "views": 3064
+
+  },
+
+  {
+
+    "id": "2904_v1",
+
+    "articleId": 2904,
+
+    "articleTitle": "Kastik Katil Kimdir ve Nedir?",
+
+    "lang": "tr",
+
+    "videoId": "bodsJvStYLI",
+
+    "embedUrl": "https://www.youtube.com/embed/bodsJvStYLI",
+
+    "videoUrl": "https://www.youtube.com/embed/bodsJvStYLI",
+
+    "watchUrl": "https://www.youtube.com/watch?v=bodsJvStYLI",
+
+    "title": "Kastik Katil Kimdir ve Nedir?",
+
+    "desc": "Sözlükte ve örfte “bir canlının bir başka canlıyı öldürmesi” şeklinde geniş bir anlamı bulunan katil (katl) kelimesi, İslâm hukukunda bir kimsenin hukuken can d...",
+
+    "categoryId": "atolye",
+
+    "categoryName": "Atölye",
+
+    "date": "13.06.2026",
+
+    "duration": "8:02",
+
+    "thumbnail": "assets/media/articles/tr_2904_featured_image.png",
+
+    "image": "assets/media/articles/tr_2904_featured_image.png",
+
+    "views": 2413
+
+  },
+
+  {
+
+    "id": "3275_v1",
+
+    "articleId": 3275,
+
+    "articleTitle": "Şimdi Kadın Zamanı !",
+
+    "lang": "tr",
+
+    "videoId": "9JRFrwwDGdY",
+
+    "embedUrl": "https://www.youtube.com/embed/9JRFrwwDGdY",
+
+    "videoUrl": "https://www.youtube.com/embed/9JRFrwwDGdY",
+
+    "watchUrl": "https://www.youtube.com/watch?v=9JRFrwwDGdY",
+
+    "title": "Şimdi Kadın Zamanı !",
+
+    "desc": "",
+
+    "categoryId": "genc-kadin-bakisiya",
+
+    "categoryName": "Genç Kadın Bakışıyla",
+
+    "date": "20.05.2026",
+
+    "duration": "9:44",
+
+    "thumbnail": "assets/media/articles/tr_3275_featured_image.jpg",
+
+    "image": "assets/media/articles/tr_3275_featured_image.jpg",
+
+    "views": 3936
+
+  },
+
+  {
+
+    "id": "3248_v1",
+
+    "articleId": 3248,
+
+    "articleTitle": "Binevş Agal",
+
+    "lang": "tr",
+
+    "videoId": "M0FPwwVAH_M",
+
+    "embedUrl": "https://www.youtube.com/embed/M0FPwwVAH_M",
+
+    "videoUrl": "https://www.youtube.com/embed/M0FPwwVAH_M",
+
+    "watchUrl": "https://www.youtube.com/watch?v=M0FPwwVAH_M",
+
+    "title": "Binevş Agal",
+
+    "desc": "",
+
+    "categoryId": "manin-izindekiler",
+
+    "categoryName": "Ma'nın İzindekiler",
+
+    "date": "28.04.2026",
+
+    "duration": "12:06",
+
+    "thumbnail": "assets/media/articles/tr_3248_featured_image.png",
+
+    "image": "assets/media/articles/tr_3248_featured_image.png",
+
+    "views": 1775
+
+  }
+
+];
+

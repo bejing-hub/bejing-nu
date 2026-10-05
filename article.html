@@ -1,749 +1,624 @@
-<!DOCTYPE html>
-<html lang="tr">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Haber Detay | Bêjing Medya</title>
-  <link rel="stylesheet" href="assets/css/style.css?1791194080">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
-  <style>
-    /* Detail page specific styles */
-    .article-page-header { text-align: center; margin-bottom: 30px; }
-    .article-page-category { display: inline-block; background: var(--c-gold-bright); color: #fff; padding: 4px 12px; border-radius: 20px; font-size: 0.8rem; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 15px; }
-    .article-page-title { font-family: var(--font-display); font-size: 2.5rem; color: var(--c-text-main); margin-bottom: 15px; line-height: 1.2; }
-    .article-page-meta { font-size: 0.9rem; color: var(--c-text-light); display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; margin-bottom: 25px; }
-    .article-page-meta span { display: flex; align-items: center; gap: 6px; }
-    
-    .article-featured-img-wrap { width: 100%; border-radius: 12px; overflow: hidden; margin-bottom: 30px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
-    .article-featured-img-wrap img { width: 100%; height: auto; display: block; max-height: 600px; object-fit: cover; }
-    
-    .article-content-body { font-family: var(--font-body); font-size: 1.15rem; line-height: 1.8; color: var(--c-text-main); }
-    .article-content-body p { margin-bottom: 1.5em; }
-    .article-content-body h2, .article-content-body h3 { font-family: var(--font-display); color: var(--c-mahogany); margin-top: 1.5em; margin-bottom: 0.8em; }
-    .article-content-body blockquote { border-left: 4px solid var(--c-gold-bright); padding-left: 20px; margin: 2em 0; font-style: italic; color: var(--c-text-light); font-size: 1.2rem; }
-    .article-content-body img { max-width: 100%; height: auto; border-radius: 8px; margin: 1.5em 0; }
-    
-    /* Social Share */
-    .share-bar { display: flex; align-items: center; gap: 15px; padding: 15px 0; border-top: 1px solid rgba(0,0,0,0.05); border-bottom: 1px solid rgba(0,0,0,0.05); margin: 30px 0; }
-    .share-btn { width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: #fff; text-decoration: none; transition: transform 0.3s ease; }
-    .share-btn:hover { transform: translateY(-3px); }
-    .btn-x { background: var(--c-mahogany); }
-    .btn-fb { background: var(--c-mahogany); }
-    .btn-wa { background: var(--c-mahogany); }
-    .btn-tg { background: var(--c-mahogany); }
-    
-    .font-controls { display: flex; gap: 10px; margin-left: auto; }
-    .font-btn { background: none; border: 1px solid var(--c-gold-bright); color: var(--c-mahogany); width: 30px; height: 30px; border-radius: 4px; cursor: pointer; display: flex; align-items: center; justify-content: center; font-weight: bold; }
-    .font-btn:hover { background: var(--c-gold-bright); color: #fff; }
-    
-    .related-section { margin-top: 60px; padding-top: 30px; border-top: 2px solid rgba(125, 102, 80, 0.1); }
-    .related-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 20px; }
-  </style>
-</head>
-<body>
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Haber Detay | Bêjing Medya</title>
+  <link rel="stylesheet" href="assets/css/style.css?1791194080">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    /* Detail page specific styles */
+    .article-page-header { text-align: center; margin-bottom: 30px; }
+    .article-page-category { display: inline-block; background: var(--c-gold-bright); color: #fff; padding: 4px 12px; border-radius: 20px; font-size: 0.8rem; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 15px; }
+    .article-page-title { font-family: var(--font-display); font-size: 2.5rem; color: var(--c-text-main); margin-bottom: 15px; line-height: 1.2; }
+    .article-page-meta { font-size: 0.9rem; color: var(--c-text-light); display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; margin-bottom: 25px; }
+    .article-page-meta span { display: flex; align-items: center; gap: 6px; }
+    
+    .article-featured-img-wrap { width: 100%; border-radius: 12px; overflow: hidden; margin-bottom: 30px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
+    .article-featured-img-wrap img { width: 100%; height: auto; display: block; max-height: 600px; object-fit: cover; }
+    
+    .article-content-body { font-family: var(--font-body); font-size: 1.15rem; line-height: 1.8; color: var(--c-text-main); }
+    .article-content-body p { margin-bottom: 1.5em; }
+    .article-content-body h2, .article-content-body h3 { font-family: var(--font-display); color: var(--c-mahogany); margin-top: 1.5em; margin-bottom: 0.8em; }
+    .article-content-body blockquote { border-left: 4px solid var(--c-gold-bright); padding-left: 20px; margin: 2em 0; font-style: italic; color: var(--c-text-light); font-size: 1.2rem; }
+    .article-content-body img { max-width: 100%; height: auto; border-radius: 8px; margin: 1.5em 0; }
+    
+    /* Social Share */
+    .share-bar { display: flex; align-items: center; gap: 15px; padding: 15px 0; border-top: 1px solid rgba(0,0,0,0.05); border-bottom: 1px solid rgba(0,0,0,0.05); margin: 30px 0; }
+    .share-btn { width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: #fff; text-decoration: none; transition: transform 0.3s ease; }
+    .share-btn:hover { transform: translateY(-3px); }
+    .btn-x { background: var(--c-mahogany); }
+    .btn-fb { background: var(--c-mahogany); }
+    .btn-wa { background: var(--c-mahogany); }
+    .btn-tg { background: var(--c-mahogany); }
+    
+    .font-controls { display: flex; gap: 10px; margin-left: auto; }
+    .font-btn { background: none; border: 1px solid var(--c-gold-bright); color: var(--c-mahogany); width: 30px; height: 30px; border-radius: 4px; cursor: pointer; display: flex; align-items: center; justify-content: center; font-weight: bold; }
+    .font-btn:hover { background: var(--c-gold-bright); color: #fff; }
+    
+    .related-section { margin-top: 60px; padding-top: 30px; border-top: 2px solid rgba(125, 102, 80, 0.1); }
+    .related-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 20px; }
+  </style>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <div class="header-flex-row">
+        
+        <!-- Far Left: Brand Logo + Slogan Beside It -->
+        <div class="header-left-brand">
+          <a href="index.html" class="brand-wrapper" title="Bêjing Medya">
+            <img src="assets/images/logo.png" alt="Bêjing Medya Logo" class="brand-logo-img">
+            <div class="brand-divider"></div>
+            <span class="brand-slogan-text" id="headerBrandSlogan">Genç Kadınların Sesi</span>
+          </a>
+        </div>
 
-  <header class="site-header">
-    <div class="container">
-      <div class="header-flex-row">
-        
-        <!-- Far Left: Brand Logo + Slogan Beside It -->
-        <div class="header-left-brand">
-          <a href="index.html" class="brand-wrapper" title="Bêjing Medya">
-            <img src="assets/images/logo.png" alt="Bêjing Medya Logo" class="brand-logo-img">
-            <div class="brand-divider"></div>
-            <span class="brand-slogan-text" id="headerBrandSlogan">Genç Kadınların Sesi</span>
-          </a>
-        </div>
-
-        <!-- Far Right: Search Icon + Language Switcher + Mobile Toggle -->
-        <div class="header-right-wrap">
-
-          <!-- Search Icon Button -->
-          <button type="button" class="header-search-icon-btn" id="searchTriggerBtn" title="Arama / Lêgerîn" aria-label="Arama" onclick="document.getElementById('searchModalOverlay').classList.add('active'); setTimeout(() => document.getElementById('searchModalInput').focus(), 100);">
-            <i class="fa-solid fa-magnifying-glass"></i>
-          </button>
-
-          <!-- Language Switcher -->
-          <div class="lang-switcher" style="margin: 0;">
-            <button type="button" class="lang-btn active" data-lang="tr" onclick="setLanguage('tr')">Türkçe</button>
-            <button type="button" class="lang-btn" data-lang="ku" onclick="setLanguage('ku')">Kurmancî</button>
-          </div>
-
-          <!-- Mobile Menu Toggle -->
-          <button type="button" class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Menüyü Aç">
-            <i class="fa-solid fa-bars"></i>
-          </button>
-        </div>
-
-      </div>
-    </div>
-  </header>
-
-  <!-- ==================== STICKY CENTERED NAVIGATION BAR ==================== -->
-  <nav class="main-navbar" id="mainNavbar">
-    <div class="container">
-      <div class="navbar-inner">
-        <ul class="nav-links">
-          <li class="nav-item active">
-            <a href="index.html" class="nav-link home-icon-link" title="Ana Sayfa / Malper">
-              <i class="fa-solid fa-house-chimney"></i>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="javascript:void(0)" class="nav-link" onclick="setCategoryFilter('genc-kadin-bakisiya'); document.getElementById('articlesSection').scrollIntoView({behavior:'smooth'});">
-              <span data-i18n="catGencKadin">Genç Kadın Bakışıyla</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="javascript:void(0)" class="nav-link" onclick="setCategoryFilter('manin-izindekiler'); document.getElementById('articlesSection').scrollIntoView({behavior:'smooth'});">
-              <span data-i18n="catManinIzindekiler">Ma'nın İzindekiler</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="javascript:void(0)" class="nav-link" onclick="setCategoryFilter('orgulerin-kalemi'); document.getElementById('articlesSection').scrollIntoView({behavior:'smooth'});">
-              <span data-i18n="catOrgulerinKalemi">Örgülerin Kalemi</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="javascript:void(0)" class="nav-link" onclick="setCategoryFilter('kadin-ve-kultur'); document.getElementById('articlesSection').scrollIntoView({behavior:'smooth'});">
-              <span data-i18n="catKadinVeKultur">Kadın ve Kültür</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="javascript:void(0)" class="nav-link" onclick="setCategoryFilter('atolye'); document.getElementById('articlesSection').scrollIntoView({behavior:'smooth'});">
-              <span data-i18n="catAtolye">Atölye</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="javascript:void(0)" class="nav-link" onclick="setCategoryFilter('kadin-kulliyati'); document.getElementById('articlesSection').scrollIntoView({behavior:'smooth'});">
-              <span data-i18n="catKadinKulliyati">Kadın Külliyatı</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="videos.html" class="nav-link">
-              <i class="fa-solid fa-play" style="color: var(--c-gold-bright); font-size: 0.75rem;"></i>
-              <span data-i18n="navVideos">Videolar</span>
-            </a>
-          </li>
-          
-          
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-  <!-- ==================== 1. CENTERED 10-ARTICLE CAROUSEL SLIDER ==================== -->
-  <section class="slider-section" id="sliderSection">
-    <div class="container">
-
-
-      <div class="slider-container">
-        <!-- Prev Arrow (Left) -->
-        <button type="button" class="slider-arrow prev" onclick="slidePrev()" aria-label="Önceki Yazı">
-          <i class="fa-solid fa-chevron-left"></i>
-        </button>
-
-        <!-- Slider Stage (Centered) -->
-        <div class="slider-stage" id="sliderStage">
-          <!-- 10 slides injected dynamically -->
-        </div>
-
-        <!-- Next Arrow (Right) -->
-        <button type="button" class="slider-arrow next" onclick="slideNext()" aria-label="Sonraki Yazı">
-          <i class="fa-solid fa-chevron-right"></i>
-        </button>
-
-        <!-- 10 Indicator Dots (Centered) -->
-        <div class="slider-dots" id="sliderDots">
-          <!-- Dots injected dynamically -->
-        </div>
-      </div>
-    </div>
-  </section>
-
-    <!-- ==================== 2. ABOUT US SECTION (CONTRASTING BACKGROUND & EXPANDABLE) ==================== -->
-  <section class="about-strip-section" id="aboutStripSection">
-    <div class="container">
-      <div class="about-strip-inner">
-        <span class="section-badge"><i class="fa-solid fa-feather-pointed"></i> Bêjing Medya</span>
-        <h2 class="section-title" data-i18n="aboutManifestoTitle">Yayın İlkelerimiz ve Misyonumuz</h2>
-        <div class="about-strip-quote" id="aboutStripQuote">
-          “Genç Kadınların Sesi”
-        </div>
-        <p class="about-strip-text" id="aboutStripDynamicText">
-          Bêjing Medya; genç kadınların özgür düşüncesini, felsefesini ve kültürel hafızasını geleceğe taşıyan bağımsız bir düşünce ve medya platformudur. Hakikatin ve sevginin izinde, örgülerin kalemiyle yazılan analizler ve haftalık video yayınlarıyla kadın aydınlanmasına ses veriyoruz.
-        </p>
-
-        <!-- Expandable Details Box -->
-        <div class="about-details-box" id="aboutDetailsBox">
-          <div style="background: rgba(255,255,255,0.7); padding: 24px 28px; border-radius: 12px; margin-top: 14px; border: 1px solid var(--c-border); text-align: left; line-height: 1.8; color: var(--c-text-main); font-size: 0.98rem;" id="aboutDetailsText">
-            <p style="margin-bottom: 12px;"><strong>Bêjing Medya</strong> li ser hîmê heqîqeta jinên ciwan û bi felsefeya jiyana azad tê avakirin. Em hewl didin bi nivîs, analîz û bernameyên xwe yên vîdeoyî bibin dengê dîrok, çand û têkoşîna jinan.</p>
-            <p>Amanca me parastina bîra civakî û pêşxistina hişmendiyeke nû ya azadiyê ye ku her jineke ciwan bikaribe xwe tê de bibîne û dengê xwe bigihîne tevahiya cîhanê.</p>
-          </div>
-        </div>
-
-        <div style="margin-top: 20px;">
-          <button type="button" class="telegram-pill-btn" id="aboutToggleBtn" onclick="toggleAboutDetails()" style="padding: 12px 32px; font-size: 0.95rem; border: none; cursor: pointer;">
-            <span id="aboutToggleBtnText" data-i18n="readMore">Daha Fazlasını Oku</span> <i class="fa-solid fa-chevron-down" id="aboutToggleIcon" style="margin-left: 6px;"></i>
-          </button>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ==================== 3. CINEMA-GRADE VIDEO SHOWCASE (CENTERED TITLE) ==================== -->
-  <section class="videos-showcase-section" id="videoShowcaseSection">
-    <div class="container">
-      <div class="section-header-cinema" style="text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center;">
-        <span class="section-badge"><i class="fa-solid fa-film"></i> Bêjing TV</span>
-        <h2 class="section-title-cinema" style="text-align: center;" data-i18n="videosTitle">Bêjing TV & Haftalık Videolar</h2>
-        <p class="section-subtitle-cinema" style="text-align: center;" data-i18n="videosSubtitle">Genç kadınların sesi, söyleşiler, özel video dosyaları ve belgeseller</p>
-      </div>
-
-      <div class="videos-grid" id="videosGrid" style="margin-top: 32px;">
-        <!-- Videos dynamically populated -->
-      </div>
-
-      <div style="text-align: center; margin-top: 36px;">
-        <a href="videos.html" class="telegram-pill-btn" style="padding: 12px 34px; font-size: 0.95rem; background: var(--c-mahogany-light);">
-          <span data-i18n="allVideosCount">Tüm Video Arşivini Gör (48+)</span> <i class="fa-solid fa-arrow-right"></i>
-        </a>
-      </div>
-    </div>
-  </section>
-
-  <!-- ==================== 4. 9-BOX COLLAGE OF LATEST ARTICLES ==================== -->
-  <section class="collage-section" id="collageSection">
-    <div class="container">
-      <div style="text-align: center; max-width: 800px; margin: 0 auto;">
-        <span class="section-badge"><i class="fa-solid fa-table-cells"></i> <span data-i18n="editorPicks">Editörün Seçtikleri</span></span>
-        <h2 class="section-title" style="color: var(--c-mahogany); font-size: 2.1rem;">Farklı Alanlardan Son İncelemeler</h2>
-        <p class="section-subtitle" style="color: var(--c-text-muted);">Tüm kategorilerden derlenmiş en son 9 araştırma, makale ve editoryal dosya</p>
-      </div>
-
-      <!-- 3x3 Collage Grid (9 Cards) -->
-      <div class="collage-grid" id="collageGrid">
-        <!-- 9 cards dynamically populated -->
-      </div>
-    </div>
-  </section>
-
-  <!-- ==================== 5. FOLLOW US SOCIAL SHOWCASE BOXES ==================== -->
-  <section class="follow-us-section" id="followUsSection">
-    <div class="container">
-      <div style="text-align: center; max-width: 800px; margin: 0 auto;">
-        <span class="section-badge"><i class="fa-solid fa-heart"></i> <span data-i18n="followUs">Bizi Takip Edin</span></span>
-        <h2 class="section-title" style="color: var(--c-mahogany); font-size: 2.1rem;">Resmi Kanallarımız ve Sosyal Ağlarımız</h2>
-        <p class="section-subtitle" style="color: var(--c-text-muted);">Tüm haftalık yayınlarımızı, videolarımızı ve özel dosyalarımızı resmi hesaplarımızdan takip edebilirsiniz.</p>
-      </div>
-
-      <!-- 5 Social Network Boxes -->
-      <div class="social-boxes-grid">
-        
-        <!-- Telegram Box -->
-        <a href="http://t.me/bejingmedya" target="_blank" class="social-box telegram">
-          <div class="social-box-icon"><i class="fa-brands fa-telegram"></i></div>
-          <h3 class="social-box-title">Telegram</h3>
-          <span class="social-box-handle">@bejingmedya</span>
-          <p class="social-box-desc">Haftalık yazılar, video bildirimleri ve anlık duyurular kanalımızda.</p>
-          <button type="button" class="social-box-btn" data-i18n="joinTelegram">Kanala Katıl</button>
-        </a>
-
-        <!-- X (Twitter) Box -->
-        <a href="https://x.com/Bejingmed" target="_blank" class="social-box twitter">
-          <div class="social-box-icon"><i class="fa-brands fa-x-twitter"></i></div>
-          <h3 class="social-box-title">X (Twitter)</h3>
-          <span class="social-box-handle">@Bejingmed</span>
-          <p class="social-box-desc">Güncel düşünce akışları, alıntılar ve editoryal tartışmalar.</p>
-          <button type="button" class="social-box-btn">Takip Et</button>
-        </a>
-
-        <!-- Instagram Box -->
-        <a href="https://www.instagram.com/medyabjng" target="_blank" class="social-box instagram">
-          <div class="social-box-icon"><i class="fa-brands fa-instagram"></i></div>
-          <h3 class="social-box-title">Instagram</h3>
-          <span class="social-box-handle">@medyabjng</span>
-          <p class="social-box-desc">Görsel hafıza, video kesitleri ve özel grafik paylaşımları.</p>
-          <button type="button" class="social-box-btn">Takip Et</button>
-        </a>
-
-        <!-- YouTube Box -->
-        <a href="https://www.youtube.com/@BejingMedya" target="_blank" class="social-box youtube">
-          <div class="social-box-icon"><i class="fa-brands fa-youtube"></i></div>
-          <h3 class="social-box-title">YouTube</h3>
-          <span class="social-box-handle">@BejingMedya</span>
-          <p class="social-box-desc">Bêjing TV haftalık video programları, söyleşiler ve belgeseller.</p>
-          <button type="button" class="social-box-btn">Abone Ol</button>
-        </a>
-
-        <!-- Facebook Box -->
-        <a href="https://www.facebook.com/people/Bejing-medya/61590594643490/" target="_blank" class="social-box facebook">
-          <div class="social-box-icon"><i class="fa-brands fa-facebook-f"></i></div>
-          <h3 class="social-box-title">Facebook</h3>
-          <span class="social-box-handle">Bejing Medya</span>
-          <p class="social-box-desc">Geniş topluluk etkileşimi, makale paylaşımları ve etkinlikler.</p>
-          <button type="button" class="social-box-btn">Takip Et</button>
-        </a>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- ==================== 6. COMPLETE ARCHIVE & ARTICLES (WITHOUT SIDEBAR, FULL GRID) ==================== -->
-  <section class="content-section" id="articlesSection" style="padding: 70px 0 90px;">
-    <div class="container">
-      
-      <!-- Section Header -->
-      <div style="text-align: center; max-width: 800px; margin: 0 auto 32px;">
-        <span class="section-badge"><i class="fa-solid fa-book-open"></i> <span data-i18n="archiveTitle">Arşiv & Yazılar</span></span>
-        <h2 class="section-title" data-i18n="allArticles">Tüm Yazılar ve İncelemeler</h2>
-        <p class="section-subtitle" style="color: var(--c-text-muted);">92 makaleden oluşan geniş düşünce ve araştırma arşivini kategorilere göre inceleyin.</p>
-      </div>
-
-      <!-- Category Filter Pills (Centered) -->
-      <div class="category-filter-bar" style="justify-content: center;">
-        <button type="button" class="filter-btn active" data-category="all" onclick="setCategoryFilter('all', this)" data-i18n="filterAll">Hepsi</button>
-        <button type="button" class="filter-btn" data-category="genc-kadin-bakisiya" onclick="setCategoryFilter('genc-kadin-bakisiya', this)" data-i18n="catGencKadin">Genç Kadın Bakışıyla</button>
-        <button type="button" class="filter-btn" data-category="manin-izindekiler" onclick="setCategoryFilter('manin-izindekiler', this)" data-i18n="catManinIzindekiler">Ma'nın İzindekiler</button>
-        <button type="button" class="filter-btn" data-category="orgulerin-kalemi" onclick="setCategoryFilter('orgulerin-kalemi', this)" data-i18n="catOrgulerinKalemi">Örgülerin Kalemi</button>
-        <button type="button" class="filter-btn" data-category="kadin-ve-kultur" onclick="setCategoryFilter('kadin-ve-kultur', this)" data-i18n="catKadinVeKultur">Kadın ve Kültür</button>
-        <button type="button" class="filter-btn" data-category="atolye" onclick="setCategoryFilter('atolye', this)" data-i18n="catAtolye">Atölye</button>
-        <button type="button" class="filter-btn" data-category="kadin-kulliyati" onclick="setCategoryFilter('kadin-kulliyati', this)" data-i18n="catKadinKulliyati">Kadın Külliyatı</button>
-      </div>
-
-      <!-- Full Width Articles Grid (Sidebar Removed as Requested) -->
-      <div class="articles-full-grid" id="mainArticlesGrid">
-        <!-- Dynamically populated cards -->
-      </div>
-
-    </div>
-  </section>
-
-  <!-- ==================== FOOTER ==================== -->
-  <footer class="site-footer">
-    <div class="container">
-      <div class="footer-top-grid" style="text-align: center;">
-        
-        <!-- About Column with New Logo & Dynamic Slogan -->
-        <div class="footer-col-about" style="display: flex; flex-direction: column; align-items: center;">
-          <div class="footer-brand-wrap">
-            <img src="assets/images/logo.png" alt="Bêjing Medya Logo" class="footer-logo-img">
-            <div class="footer-brand-divider"></div>
-            <span class="footer-slogan-text" id="footerBrandSlogan">Genç Kadınların Sesi</span>
-          </div>
-            <span class="footer-slogan-text" id="footerBrandSlogan">Genç Kadınların Sesi</span>
-          </div>
-
-        <!-- Categories Column -->
-        <div style="display: flex; flex-direction: column; align-items: center;">
-          <h4 class="footer-title" data-i18n="footerCategories">Kategoriler</h4>
-          <ul class="footer-links-list" style="text-align: center;">
-            <li><a href="javascript:void(0)" onclick="setCategoryFilter('genc-kadin-bakisiya'); document.getElementById('articlesSection').scrollIntoView({behavior:'smooth'});" data-i18n="catGencKadin">Genç Kadın Bakışıyla</a></li>
-            <li><a href="javascript:void(0)" onclick="setCategoryFilter('manin-izindekiler'); document.getElementById('articlesSection').scrollIntoView({behavior:'smooth'});" data-i18n="catManinIzindekiler">Ma'nın İzindekiler</a></li>
-            <li><a href="javascript:void(0)" onclick="setCategoryFilter('orgulerin-kalemi'); document.getElementById('articlesSection').scrollIntoView({behavior:'smooth'});" data-i18n="catOrgulerinKalemi">Örgülerin Kalemi</a></li>
-            <li><a href="javascript:void(0)" onclick="setCategoryFilter('kadin-ve-kultur'); document.getElementById('articlesSection').scrollIntoView({behavior:'smooth'});" data-i18n="catKadinVeKultur">Kadın ve Kültür</a></li>
-            <li><a href="javascript:void(0)" onclick="setCategoryFilter('atolye'); document.getElementById('articlesSection').scrollIntoView({behavior:'smooth'});" data-i18n="catAtolye">Atölye</a></li>
-            <li><a href="javascript:void(0)" onclick="setCategoryFilter('kadin-kulliyati'); document.getElementById('articlesSection').scrollIntoView({behavior:'smooth'});" data-i18n="catKadinKulliyati">Kadın Külliyatı</a></li>
-          </ul>
-        </div>
-
-        <!-- Quick Links Column -->
-        <div style="display: flex; flex-direction: column; align-items: center;">
-          <h4 class="footer-title" data-i18n="footerQuickLinks">Hızlı Bağlantılar</h4>
-          <ul class="footer-links-list" style="text-align: center;">
-            <li><a href="index.html" data-i18n="navHome">Ana Sayfa</a></li>
-            <li><a href="videos.html" data-i18n="navVideos">Videolar</a></li>
-            <li><a href="about.html" data-i18n="navAbout">Hakkımızda</a></li>
-            <li><a href="contact.html" data-i18n="navContact">İletişim</a></li>
-            <li><a href="http://t.me/bejingmedya" target="_blank" data-i18n="telegramTitle">Telegram Kanalı</a></li>
-          </ul>
-        </div>
-
-                <!-- Contact Column -->
-        <div id="footerContactCol" style="display: flex; flex-direction: column; align-items: center;">
-          <h4 class="footer-title" data-i18n="footerContact">İletişim</h4>
-          <p style="font-size: 0.88rem; color: rgba(255,255,255,0.7); margin-bottom: 8px; text-align: center;">
-            <i class="fa-regular fa-envelope" style="color: var(--c-gold); margin-right: 8px;"></i>
-            iletisim@bejingmedya.com
-          </p>
-          
-          <!-- Prominent Contact Button in Footer -->
-          <a href="contact.html" class="footer-contact-btn">
-            <i class="fa-regular fa-paper-plane"></i>
-            <span data-i18n="navContact">İletişim</span>
-          </a>
-
-          <div class="lang-switcher" style="display: inline-flex; margin-top: 4px;">
-            <button type="button" class="lang-btn active" data-lang="tr" onclick="setLanguage('tr')">Türkçe</button>
-            <button type="button" class="lang-btn" data-lang="ku" onclick="setLanguage('ku')">Kurmancî</button>
-          </div>
-        </div>
-
-      </div>
-    </div>
-
-    <!-- Bottom Copyright -->
-    <div class="footer-bottom">
-      <div class="container">
-        <div class="footer-bottom-inner" style="justify-content: center; flex-direction: column; gap: 10px; text-align: center;">
-          <p data-i18n="copyright">© 2026 Bêjing Medya. Tüm hakları saklıdır.</p>
-          <button type="button" class="back-to-top-btn" id="backToTopBtn" style="margin: 0 auto;">
-            <i class="fa-solid fa-arrow-up"></i>
-            <span data-i18n="backToTop">Yukarı Çık</span>
-          </button>
-        </div>
-      </div>
-    </div>
-  </footer>
-
-  <!-- ==================== VIDEO LIGHTBOX MODAL ==================== -->
-  
-  <!-- ==================== LIVE SEARCH MODAL ==================== -->
-  <div class="modal-overlay" id="searchModalOverlay">
-    <div class="modal-container search-modal-container">
-      <button type="button" class="modal-close-btn" id="searchModalClose" aria-label="Kapat">
-        <i class="fa-solid fa-xmark"></i>
-      </button>
-      <div style="text-align: center;">
-        <span class="section-badge"><i class="fa-solid fa-magnifying-glass"></i> <span data-i18n="searchModalTitle">İçerik Arama</span></span>
-        <h3 style="font-family: var(--font-display); color: var(--c-mahogany); font-size: 1.5rem; margin-top: 8px;" data-i18n="searchModalDesc">Bêjing Medya arşivinde arama yapın</h3>
-      </div>
-      <div class="search-input-wrap">
-        <i class="fa-solid fa-magnifying-glass"></i>
-        <input type="text" id="searchModalInput" class="search-modal-input" placeholder="Yazı, yazar veya konu ara..." autofocus>
-      </div>
-      <div class="search-results-list" id="searchResultsList"></div>
-    </div>
-  </div>
-
-  <div class="modal-overlay" id="videoModalOverlay">
-    <div class="modal-container video-modal-container">
-      <button type="button" class="modal-close-btn" id="videoModalClose" aria-label="Kapat">
-        <i class="fa-solid fa-xmark"></i>
-      </button>
-      <div class="video-frame-wrap">
-        <iframe id="videoIframe" src="" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
-      <div class="video-modal-info" style="text-align: center;">
-        <h3 class="video-modal-title" id="videoModalTitle">Video Başlığı</h3>
-        <p style="font-size: 0.9rem; color: rgba(255,255,255,0.75);" id="videoModalDesc">Açıklama</p>
-      </div>
-    </div>
-  </div>
-
-  <!-- ==================== MOBILE DRAWER ==================== -->
-  <div class="mobile-drawer" id="mobileDrawer">
-    <div class="drawer-header" style="flex-direction: column; align-items: center; gap: 10px; position: relative;">
-      <button type="button" id="drawerCloseBtn" style="color: #FFF; font-size: 1.3rem; position: absolute; top: 16px; right: 16px;">
-        <i class="fa-solid fa-xmark"></i>
-      </button>
-      <img src="assets/images/logo.png" alt="Bêjing Medya" class="drawer-logo" style="max-height: 52px;">
-      <span class="brand-slogan-dyn" style="color: var(--c-gold-bright); font-family: var(--font-display); font-size: 0.95rem; font-weight: 700;">Genç Kadınların Sesi</span>
-    </div>
-    <ul class="drawer-nav-list" style="text-align: center;">
-      <li><a href="index.html" class="drawer-nav-link active" onclick="closeMobileDrawer()"><i class="fa-solid fa-house"></i> <span data-i18n="navHome">Ana Sayfa</span></a></li>
-      <li><a href="javascript:void(0)" class="drawer-nav-link" onclick="setCategoryFilter('genc-kadin-bakisiya'); closeMobileDrawer(); document.getElementById('articlesSection').scrollIntoView({behavior:'smooth'});"><i class="fa-solid fa-venus"></i> <span data-i18n="catGencKadin">Genç Kadın Bakışıyla</span></a></li>
-      <li><a href="javascript:void(0)" class="drawer-nav-link" onclick="setCategoryFilter('manin-izindekiler'); closeMobileDrawer(); document.getElementById('articlesSection').scrollIntoView({behavior:'smooth'});"><i class="fa-solid fa-feather-pointed"></i> <span data-i18n="catManinIzindekiler">Ma'nın İzindekiler</span></a></li>
-      <li><a href="javascript:void(0)" class="drawer-nav-link" onclick="setCategoryFilter('orgulerin-kalemi'); closeMobileDrawer(); document.getElementById('articlesSection').scrollIntoView({behavior:'smooth'});"><i class="fa-solid fa-pen-nib"></i> <span data-i18n="catOrgulerinKalemi">Örgülerin Kalemi</span></a></li>
-      <li><a href="javascript:void(0)" class="drawer-nav-link" onclick="setCategoryFilter('kadin-ve-kultur'); closeMobileDrawer(); document.getElementById('articlesSection').scrollIntoView({behavior:'smooth'});"><i class="fa-solid fa-masks-theater"></i> <span data-i18n="catKadinVeKultur">Kadın ve Kültür</span></a></li>
-      <li><a href="javascript:void(0)" class="drawer-nav-link" onclick="setCategoryFilter('atolye'); closeMobileDrawer(); document.getElementById('articlesSection').scrollIntoView({behavior:'smooth'});"><i class="fa-solid fa-compass-drafting"></i> <span data-i18n="catAtolye">Atölye</span></a></li>
-      <li><a href="javascript:void(0)" class="drawer-nav-link" onclick="setCategoryFilter('kadin-kulliyati'); closeMobileDrawer(); document.getElementById('articlesSection').scrollIntoView({behavior:'smooth'});"><i class="fa-solid fa-book-bookmark"></i> <span data-i18n="catKadinKulliyati">Kadın Külliyatı</span></a></li>
-      <li><a href="videos.html" class="drawer-nav-link"><i class="fa-solid fa-film"></i> <span data-i18n="navVideos">Videolar</span></a></li>
-      <li><a href="about.html" class="drawer-nav-link"><i class="fa-solid fa-circle-info"></i> <span data-i18n="navAbout">Hakkımızda</span></a></li>
-      <li><a href="contact.html" class="drawer-nav-link"><i class="fa-regular fa-envelope"></i> <span data-i18n="navContact">İletişim</span></a></li>
-    </ul>
-
-    <div class="drawer-footer">
-      <div style="display: flex; gap: 8px; margin-bottom: 16px;">
-        <button type="button" class="lang-btn active" data-lang="tr" onclick="setLanguage('tr')" style="flex:1; padding:8px; text-align:center;">Türkçe</button>
-        <button type="button" class="lang-btn" data-lang="ku" onclick="setLanguage('ku')" style="flex:1; padding:8px; text-align:center;">Kurmancî</button>
-      </div>
-      <div class="social-links" style="justify-content: center;">
-        <a href="https://www.facebook.com/people/Bejing-medya/61590594643490/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
-        <a href="https://x.com/Bejingmed" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
-        <a href="https://www.instagram.com/medyabjng" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-        <a href="https://www.youtube.com/@BejingMedya" target="_blank"><i class="fa-brands fa-youtube"></i></a>
-        <a href="http://t.me/bejingmedya" target="_blank"><i class="fa-brands fa-telegram"></i></a>
-      </div>
-    </div>
-  </div>
-
-  <!-- Scripts -->
-  <script src="assets/js/data.js?1791194080"></script>
-  <script src="assets/js/i18n.js?1791194080"></script>
-  <script src="assets/js/main.js?v=1791214794_1120"></script>
-
-  <!-- Category & Slogan I18N Helper -->
-  <script>
-    
-    function toggleAboutDetails() {
-      const box = document.getElementById("aboutDetailsBox");
-      const icon = document.getElementById("aboutToggleIcon");
-      const btnText = document.getElementById("aboutToggleBtnText");
-      const lang = (typeof getCurrentLang === 'function') ? getCurrentLang() : 'tr';
-      if (!box) return;
-
-      box.classList.toggle("open");
-      if (box.classList.contains("open")) {
-        icon.className = "fa-solid fa-chevron-up";
-        btnText.textContent = (lang === 'ku') ? 'Kêm Bike' : 'Daha Az Göster';
-      } else {
-        icon.className = "fa-solid fa-chevron-down";
-        btnText.textContent = (lang === 'ku') ? 'Zêdetir Bixwîne' : 'Daha Fazlasını Oku';
-      }
-    }
-
-    function updateCategoryNames() {
-      const lang = getCurrentLang();
-      document.querySelectorAll("[data-i18n='catGencKadin']").forEach(el => el.textContent = BEJING_CATEGORIES["genc-kadin-bakisiya"][lang]);
-      document.querySelectorAll("[data-i18n='catManinIzindekiler']").forEach(el => el.textContent = BEJING_CATEGORIES["manin-izindekiler"][lang]);
-      document.querySelectorAll("[data-i18n='catOrgulerinKalemi']").forEach(el => el.textContent = BEJING_CATEGORIES["orgulerin-kalemi"][lang]);
-      document.querySelectorAll("[data-i18n='catKadinVeKultur']").forEach(el => el.textContent = BEJING_CATEGORIES["kadin-ve-kultur"][lang]);
-      document.querySelectorAll("[data-i18n='catAtolye']").forEach(el => el.textContent = BEJING_CATEGORIES["atolye"][lang]);
-      document.querySelectorAll("[data-i18n='catKadinKulliyati']").forEach(el => el.textContent = BEJING_CATEGORIES["kadin-kulliyati"][lang]);
-
-      const sloganText = (lang === 'ku') ? 'Dengê Jinên Ciwan' : 'Genç Kadınların Sesi';
-      const hSlogan = document.getElementById("headerBrandSlogan");
-      const fSlogan = document.getElementById("footerBrandSlogan");
-      if (hSlogan) hSlogan.textContent = sloganText;
-      if (fSlogan) fSlogan.textContent = sloganText;
-    }
-    window.addEventListener("bejing:langChange", () => {
-      const urlParams = new URLSearchParams(window.location.search);
-      const articleId = parseInt(urlParams.get("id"));
-      const currentArt = BEJING_ARTICLES.find(a => a.id === articleId);
-      const uiLang = getCurrentLang();
-      
-      // If the article's language doesn't match the UI language, switch the UI language to match the article.
-      // Do NOT redirect away from the article the user clicked!
-      if (currentArt && currentArt.lang !== uiLang) {
-          if (typeof setLanguage === "function") {
-              // Temporarily disable the event listener to prevent infinite loop
-              setLanguage(currentArt.lang);
-              return; // setLanguage will fire another bejing:langChange
-          }
-      }
-      
-      loadArticleContent();
-    });
-    }
+        <!-- Far Right: Search Icon + Language Switcher + Mobile Toggle -->
+        <div class="header-right-wrap">
 
-    function loadArticleContent() {
-      const urlParams = new URLSearchParams(window.location.search);
-      const articleId = parseInt(urlParams.get("id"));
+          <!-- Search Icon Button -->
+          <button type="button" class="header-search-icon-btn" id="searchTriggerBtn" title="Arama / Lêgerîn" aria-label="Arama" onclick="document.getElementById('searchModalOverlay').classList.add('active'); setTimeout(() => document.getElementById('searchModalInput').focus(), 100);">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
 
-      const lang = getCurrentLang();
-      let article = BEJING_ARTICLES.find(a => a.id === articleId);
+          <!-- Language Switcher -->
+          <div class="lang-switcher" style="margin: 0;">
+            <button type="button" class="lang-btn active" data-lang="tr" onclick="setLanguage('tr')">Türkçe</button>
+            <button type="button" class="lang-btn" data-lang="ku" onclick="setLanguage('ku')">Kurmancî</button>
+          </div>
 
-      if (!article) {
-        const langArticles = BEJING_ARTICLES.filter(a => a.lang === lang);
-        article = langArticles[0] || BEJING_ARTICLES[0];
-      }
+          <!-- Mobile Menu Toggle -->
+          <button type="button" class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Menüyü Aç">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
 
-      const cat = BEJING_CATEGORIES[article.categoryId];
-      const catName = cat ? cat[lang] : article.categoryName;
+      </div>
+    </div>
+  </header>
 
-      document.title = article.title + " | Bêjing Medya";
-      document.getElementById("articleCategoryPill").textContent = catName;
-      document.getElementById("articleTitle").textContent = article.title;
-      document.getElementById("articleDate").textContent = article.date;
-      document.getElementById("articleAuthor").textContent = article.author;
-      document.getElementById("articleReadTime").textContent = article.readTime[lang] || article.readTime.tr;
+  <!-- ==================== STICKY CENTERED NAVIGATION BAR ==================== -->
+  <nav class="main-navbar" id="mainNavbar">
+    <div class="container">
+      <div class="navbar-inner">
+        <ul class="nav-links">
+          <li class="nav-item active">
+            <a href="index.html" class="nav-link home-icon-link" title="Ana Sayfa / Malper">
+              <i class="fa-solid fa-house-chimney"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="javascript:void(0)" class="nav-link" onclick="setCategoryFilter('genc-kadin-bakisiya'); document.getElementById('articlesSection').scrollIntoView({behavior:'smooth'});">
+              <span data-i18n="catGencKadin">Genç Kadın Bakışıyla</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="javascript:void(0)" class="nav-link" onclick="setCategoryFilter('manin-izindekiler'); document.getElementById('articlesSection').scrollIntoView({behavior:'smooth'});">
+              <span data-i18n="catManinIzindekiler">Ma'nın İzindekiler</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="javascript:void(0)" class="nav-link" onclick="setCategoryFilter('orgulerin-kalemi'); document.getElementById('articlesSection').scrollIntoView({behavior:'smooth'});">
+              <span data-i18n="catOrgulerinKalemi">Örgülerin Kalemi</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="javascript:void(0)" class="nav-link" onclick="setCategoryFilter('kadin-ve-kultur'); document.getElementById('articlesSection').scrollIntoView({behavior:'smooth'});">
+              <span data-i18n="catKadinVeKultur">Kadın ve Kültür</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="javascript:void(0)" class="nav-link" onclick="setCategoryFilter('atolye'); document.getElementById('articlesSection').scrollIntoView({behavior:'smooth'});">
+              <span data-i18n="catAtolye">Atölye</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="javascript:void(0)" class="nav-link" onclick="setCategoryFilter('kadin-kulliyati'); document.getElementById('articlesSection').scrollIntoView({behavior:'smooth'});">
+              <span data-i18n="catKadinKulliyati">Kadın Külliyatı</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="videos.html" class="nav-link">
+              <i class="fa-solid fa-play" style="color: var(--c-gold-bright); font-size: 0.75rem;"></i>
+              <span data-i18n="navVideos">Videolar</span>
+            </a>
+          </li>
+          
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-      const imgEl = document.getElementById("articleImage");
-      if (article.featured_image) {
-        imgEl.src = article.featured_image;
-        document.getElementById("articleImageWrapper").style.display = "block";
-      } else {
-        document.getElementById("articleImageWrapper").style.display = "none";
-      }
+  <!-- ==================== 1. CENTERED 10-ARTICLE CAROUSEL SLIDER ==================== -->
+  <section class="slider-section" id="sliderSection">
+    <div class="container">
 
-      let cleanContent = article.content || "";
-      cleanContent = cleanContent.replace(/<figure[\s\S]*?<\/figure>/gi, function(match) {
-        if (/youtube|youtu\.be|vimeo|embed|video/i.test(match)) return "";
-        return match;
-      });
-      cleanContent = cleanContent.replace(/<iframe[\s\S]*?<\/iframe>/gi, "");
-      cleanContent = cleanContent.replace(/<p[^>]*>\s*https?:\/\/(?:www\.)?(?:youtube\.com|youtu\.be)[\s\S]*?<\/p>/gi, "");
-      cleanContent = cleanContent.replace(/(?:https?:\/\/)?(?:www\.)?(?:youtube\.com\/watch\?v=|youtu\.be\/)[\w\-]+/gi, "");
 
-      document.getElementById("articleBody").innerHTML = cleanContent;
+      <div class="slider-container">
+        <!-- Prev Arrow (Left) -->
+        <button type="button" class="slider-arrow prev" onclick="slidePrev()" aria-label="Önceki Yazı">
+          <i class="fa-solid fa-chevron-left"></i>
+        </button>
 
-      const videoBox = document.getElementById("articleVideoBox");
-      const videoWrap = document.getElementById("articleVideoWrap");
+        <!-- Slider Stage (Centered) -->
+        <div class="slider-stage" id="sliderStage">
+          <!-- 10 slides injected dynamically -->
+        </div>
+
+        <!-- Next Arrow (Right) -->
+        <button type="button" class="slider-arrow next" onclick="slideNext()" aria-label="Sonraki Yazı">
+          <i class="fa-solid fa-chevron-right"></i>
+        </button>
+
+        <!-- 10 Indicator Dots (Centered) -->
+        <div class="slider-dots" id="sliderDots">
+          <!-- Dots injected dynamically -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <!-- ==================== 2. ABOUT US SECTION (CONTRASTING BACKGROUND & EXPANDABLE) ==================== -->
+  <section class="about-strip-section" id="aboutStripSection">
+    <div class="container">
+      <div class="about-strip-inner">
+        <span class="section-badge"><i class="fa-solid fa-feather-pointed"></i> Bêjing Medya</span>
+        <h2 class="section-title" data-i18n="aboutManifestoTitle">Yayın İlkelerimiz ve Misyonumuz</h2>
+        <div class="about-strip-quote" id="aboutStripQuote">
+          “Genç Kadınların Sesi”
+        </div>
+        <p class="about-strip-text" id="aboutStripDynamicText">
+          Bêjing Medya; genç kadınların özgür düşüncesini, felsefesini ve kültürel hafızasını geleceğe taşıyan bağımsız bir düşünce ve medya platformudur. Hakikatin ve sevginin izinde, örgülerin kalemiyle yazılan analizler ve haftalık video yayınlarıyla kadın aydınlanmasına ses veriyoruz.
+        </p>
+
+        <!-- Expandable Details Box -->
+        <div class="about-details-box" id="aboutDetailsBox">
+          <div style="background: rgba(255,255,255,0.7); padding: 24px 28px; border-radius: 12px; margin-top: 14px; border: 1px solid var(--c-border); text-align: left; line-height: 1.8; color: var(--c-text-main); font-size: 0.98rem;" id="aboutDetailsText">
+            <p style="margin-bottom: 12px;"><strong>Bêjing Medya</strong> li ser hîmê heqîqeta jinên ciwan û bi felsefeya jiyana azad tê avakirin. Em hewl didin bi nivîs, analîz û bernameyên xwe yên vîdeoyî bibin dengê dîrok, çand û têkoşîna jinan.</p>
+            <p>Amanca me parastina bîra civakî û pêşxistina hişmendiyeke nû ya azadiyê ye ku her jineke ciwan bikaribe xwe tê de bibîne û dengê xwe bigihîne tevahiya cîhanê.</p>
+          </div>
+        </div>
+
+        <div style="margin-top: 20px;">
+          <button type="button" class="telegram-pill-btn" id="aboutToggleBtn" onclick="toggleAboutDetails()" style="padding: 12px 32px; font-size: 0.95rem; border: none; cursor: pointer;">
+            <span id="aboutToggleBtnText" data-i18n="readMore">Daha Fazlasını Oku</span> <i class="fa-solid fa-chevron-down" id="aboutToggleIcon" style="margin-left: 6px;"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== 3. CINEMA-GRADE VIDEO SHOWCASE (CENTERED TITLE) ==================== -->
+  <section class="videos-showcase-section" id="videoShowcaseSection">
+    <div class="container">
+      <div class="section-header-cinema" style="text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+        <span class="section-badge"><i class="fa-solid fa-film"></i> Bêjing TV</span>
+        <h2 class="section-title-cinema" style="text-align: center;" data-i18n="videosTitle">Bêjing TV & Haftalık Videolar</h2>
+        <p class="section-subtitle-cinema" style="text-align: center;" data-i18n="videosSubtitle">Genç kadınların sesi, söyleşiler, özel video dosyaları ve belgeseller</p>
+      </div>
+
+      <div class="videos-grid" id="videosGrid" style="margin-top: 32px;">
+        <!-- Videos dynamically populated -->
+      </div>
+
+      <div style="text-align: center; margin-top: 36px;">
+        <a href="videos.html" class="telegram-pill-btn" style="padding: 12px 34px; font-size: 0.95rem; background: var(--c-mahogany-light);">
+          <span data-i18n="allVideosCount">Tüm Video Arşivini Gör (48+)</span> <i class="fa-solid fa-arrow-right"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== 4. 9-BOX COLLAGE OF LATEST ARTICLES ==================== -->
+  <section class="collage-section" id="collageSection">
+    <div class="container">
+      <div style="text-align: center; max-width: 800px; margin: 0 auto;">
+        <span class="section-badge"><i class="fa-solid fa-table-cells"></i> <span data-i18n="editorPicks">Editörün Seçtikleri</span></span>
+        <h2 class="section-title" style="color: var(--c-mahogany); font-size: 2.1rem;">Farklı Alanlardan Son İncelemeler</h2>
+        <p class="section-subtitle" style="color: var(--c-text-muted);">Tüm kategorilerden derlenmiş en son 9 araştırma, makale ve editoryal dosya</p>
+      </div>
+
+      <!-- 3x3 Collage Grid (9 Cards) -->
+      <div class="collage-grid" id="collageGrid">
+        <!-- 9 cards dynamically populated -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== 5. FOLLOW US SOCIAL SHOWCASE BOXES ==================== -->
+  <section class="follow-us-section" id="followUsSection">
+    <div class="container">
+      <div style="text-align: center; max-width: 800px; margin: 0 auto;">
+        <span class="section-badge"><i class="fa-solid fa-heart"></i> <span data-i18n="followUs">Bizi Takip Edin</span></span>
+        <h2 class="section-title" style="color: var(--c-mahogany); font-size: 2.1rem;">Resmi Kanallarımız ve Sosyal Ağlarımız</h2>
+        <p class="section-subtitle" style="color: var(--c-text-muted);">Tüm haftalık yayınlarımızı, videolarımızı ve özel dosyalarımızı resmi hesaplarımızdan takip edebilirsiniz.</p>
+      </div>
+
+      <!-- 5 Social Network Boxes -->
+      <div class="social-boxes-grid">
+        
+        <!-- Telegram Box -->
+        <a href="http://t.me/bejingmedya" target="_blank" class="social-box telegram">
+          <div class="social-box-icon"><i class="fa-brands fa-telegram"></i></div>
+          <h3 class="social-box-title">Telegram</h3>
+          <span class="social-box-handle">@bejingmedya</span>
+          <p class="social-box-desc">Haftalık yazılar, video bildirimleri ve anlık duyurular kanalımızda.</p>
+          <button type="button" class="social-box-btn" data-i18n="joinTelegram">Kanala Katıl</button>
+        </a>
+
+        <!-- X (Twitter) Box -->
+        <a href="https://x.com/Bejingmed" target="_blank" class="social-box twitter">
+          <div class="social-box-icon"><i class="fa-brands fa-x-twitter"></i></div>
+          <h3 class="social-box-title">X (Twitter)</h3>
+          <span class="social-box-handle">@Bejingmed</span>
+          <p class="social-box-desc">Güncel düşünce akışları, alıntılar ve editoryal tartışmalar.</p>
+          <button type="button" class="social-box-btn">Takip Et</button>
+        </a>
+
+        <!-- Instagram Box -->
+        <a href="https://www.instagram.com/medyabjng" target="_blank" class="social-box instagram">
+          <div class="social-box-icon"><i class="fa-brands fa-instagram"></i></div>
+          <h3 class="social-box-title">Instagram</h3>
+          <span class="social-box-handle">@medyabjng</span>
+          <p class="social-box-desc">Görsel hafıza, video kesitleri ve özel grafik paylaşımları.</p>
+          <button type="button" class="social-box-btn">Takip Et</button>
+        </a>
+
+        <!-- YouTube Box -->
+        <a href="https://www.youtube.com/@BejingMedya" target="_blank" class="social-box youtube">
+          <div class="social-box-icon"><i class="fa-brands fa-youtube"></i></div>
+          <h3 class="social-box-title">YouTube</h3>
+          <span class="social-box-handle">@BejingMedya</span>
+          <p class="social-box-desc">Bêjing TV haftalık video programları, söyleşiler ve belgeseller.</p>
+          <button type="button" class="social-box-btn">Abone Ol</button>
+        </a>
+
+        <!-- Facebook Box -->
+        <a href="https://www.facebook.com/people/Bejing-medya/61590594643490/" target="_blank" class="social-box facebook">
+          <div class="social-box-icon"><i class="fa-brands fa-facebook-f"></i></div>
+          <h3 class="social-box-title">Facebook</h3>
+          <span class="social-box-handle">Bejing Medya</span>
+          <p class="social-box-desc">Geniş topluluk etkileşimi, makale paylaşımları ve etkinlikler.</p>
+          <button type="button" class="social-box-btn">Takip Et</button>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== 6. COMPLETE ARCHIVE & ARTICLES (WITHOUT SIDEBAR, FULL GRID) ==================== -->
+  <section class="content-section" id="articlesSection" style="padding: 70px 0 90px;">
+    <div class="container">
       
-      if (article.youtube_videos && article.youtube_videos.length > 0) {
-        let html_str = "";
-        article.youtube_videos.forEach(vid => {
-            html_str += '<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:8px;margin-bottom:15px;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="' + vid.embed_url + '" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe></div>';
-            let watch_url = vid.embed_url.replace('/embed/', '/watch?v=');
-            html_str += '<div style="margin-bottom:30px;text-align:center;"><a href="' + watch_url + '" target="_blank" style="color:var(--c-mahogany);font-weight:bold;text-decoration:underline;">Videoyu Youtube\'da İzlemek İçin Tıklayın: ' + watch_url + '</a></div>';
-        });
-        videoWrap.innerHTML = html_str;
-        videoBox.style.display = "block";
-      } else {
-        videoBox.style.display = "none";
-        videoWrap.innerHTML = "";
-      }
+      <!-- Section Header -->
+      <div style="text-align: center; max-width: 800px; margin: 0 auto 32px;">
+        <span class="section-badge"><i class="fa-solid fa-book-open"></i> <span data-i18n="archiveTitle">Arşiv & Yazılar</span></span>
+        <h2 class="section-title" data-i18n="allArticles">Tüm Yazılar ve İncelemeler</h2>
+        <p class="section-subtitle" style="color: var(--c-text-muted);">92 makaleden oluşan geniş düşünce ve araştırma arşivini kategorilere göre inceleyin.</p>
+      </div>
 
-      const relatedGrid = document.getElementById("relatedArticlesGrid");
-      relatedGrid.innerHTML = "";
-      const relatedList = BEJING_ARTICLES.filter(a => a.categoryId === article.categoryId && a.id !== article.id && a.lang === article.lang).slice(0, 3);
+      <!-- Category Filter Pills (Centered) -->
+      <div class="category-filter-bar" style="justify-content: center;">
+        <button type="button" class="filter-btn active" data-category="all" onclick="setCategoryFilter('all', this)" data-i18n="filterAll">Hepsi</button>
+        <button type="button" class="filter-btn" data-category="genc-kadin-bakisiya" onclick="setCategoryFilter('genc-kadin-bakisiya', this)" data-i18n="catGencKadin">Genç Kadın Bakışıyla</button>
+        <button type="button" class="filter-btn" data-category="manin-izindekiler" onclick="setCategoryFilter('manin-izindekiler', this)" data-i18n="catManinIzindekiler">Ma'nın İzindekiler</button>
+        <button type="button" class="filter-btn" data-category="orgulerin-kalemi" onclick="setCategoryFilter('orgulerin-kalemi', this)" data-i18n="catOrgulerinKalemi">Örgülerin Kalemi</button>
+        <button type="button" class="filter-btn" data-category="kadin-ve-kultur" onclick="setCategoryFilter('kadin-ve-kultur', this)" data-i18n="catKadinVeKultur">Kadın ve Kültür</button>
+        <button type="button" class="filter-btn" data-category="atolye" onclick="setCategoryFilter('atolye', this)" data-i18n="catAtolye">Atölye</button>
+        <button type="button" class="filter-btn" data-category="kadin-kulliyati" onclick="setCategoryFilter('kadin-kulliyati', this)" data-i18n="catKadinKulliyati">Kadın Külliyatı</button>
+      </div>
 
-      if (relatedList.length === 0) {
-        document.getElementById("relatedSection").style.display = "none";
-      } else {
-        document.getElementById("relatedSection").style.display = "block";
-        relatedList.forEach(rel => {
-          const card = document.createElement("div");
-          card.className = "article-card";
-          card.innerHTML = `
-            <div class="article-card-thumb-wrap" onclick="window.location.href='article.html?id=${rel.id}'" style="cursor:pointer;">
-              <img src="${rel.featured_image}" alt="${rel.title}" class="article-card-thumb" onerror="this.src='assets/images/logo.png'">
-            </div>
-            <div class="article-card-body" style="padding: 16px;">
-              <h4 style="font-family: var(--font-display); font-size: 1.05rem; margin-bottom: 8px; cursor: pointer;" onclick="window.location.href='article.html?id=${rel.id}'">${rel.title}</h4>
-              <span style="font-size: 0.78rem; color: var(--c-text-light);"><i class="fa-regular fa-clock"></i> ${rel.date}</span>
-            </div>
-          `;
-          relatedGrid.appendChild(card);
-        });
-      }
-    }
+      <!-- Full Width Articles Grid (Sidebar Removed as Requested) -->
+      <div class="articles-full-grid" id="mainArticlesGrid">
+        <!-- Dynamically populated cards -->
+      </div>
 
-    document.addEventListener("DOMContentLoaded", loadArticleContent);
-    window.addEventListener("bejing:langChange", () => {
-      const urlParams = new URLSearchParams(window.location.search);
-      const articleId = parseInt(urlParams.get("id"));
-      const currentArt = BEJING_ARTICLES.find(a => a.id === articleId);
-      const newLang = getCurrentLang();
-      if (currentArt && currentArt.lang !== newLang) {
-        const topOfLang = BEJING_ARTICLES.find(a => a.lang === newLang);
-        if (topOfLang) {
-          window.location.href = 'article.html?id=' + topOfLang.id;
-          return;
-        }
-      }
-      loadArticleContent();
-    });
-  </script>
-<script>
-    let currentFontSize = 1.15;
-    
-    function adjustFontSize(delta) {
-      currentFontSize += delta;
-      if (currentFontSize < 0.8) currentFontSize = 0.8;
-      if (currentFontSize > 2.5) currentFontSize = 2.5;
-      const bodyEl = document.getElementById("articleBody");
-      if(bodyEl) bodyEl.style.fontSize = currentFontSize + "rem";
-    }
+    </div>
+  </section>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top-grid" style="text-align: center;">
+        
+        <!-- About Column with New Logo & Dynamic Slogan -->
+        <div class="footer-col-about" style="display: flex; flex-direction: column; align-items: center;">
+          <div class="footer-brand-wrap">
+            <img src="assets/images/logo.png" alt="Bêjing Medya Logo" class="footer-logo-img">
+            <div class="footer-brand-divider"></div>
+            <span class="footer-slogan-text" id="footerBrandSlogan">Genç Kadınların Sesi</span>
+          </div>
+            <span class="footer-slogan-text" id="footerBrandSlogan">Genç Kadınların Sesi</span>
+          </div>
+
+        <!-- Categories Column -->
+        <div style="display: flex; flex-direction: column; align-items: center;">
+          <h4 class="footer-title" data-i18n="footerCategories">Kategoriler</h4>
+          <ul class="footer-links-list" style="text-align: center;">
+            <li><a href="javascript:void(0)" onclick="setCategoryFilter('genc-kadin-bakisiya'); document.getElementById('articlesSection').scrollIntoView({behavior:'smooth'});" data-i18n="catGencKadin">Genç Kadın Bakışıyla</a></li>
+            <li><a href="javascript:void(0)" onclick="setCategoryFilter('manin-izindekiler'); document.getElementById('articlesSection').scrollIntoView({behavior:'smooth'});" data-i18n="catManinIzindekiler">Ma'nın İzindekiler</a></li>
+            <li><a href="javascript:void(0)" onclick="setCategoryFilter('orgulerin-kalemi'); document.getElementById('articlesSection').scrollIntoView({behavior:'smooth'});" data-i18n="catOrgulerinKalemi">Örgülerin Kalemi</a></li>
+            <li><a href="javascript:void(0)" onclick="setCategoryFilter('kadin-ve-kultur'); document.getElementById('articlesSection').scrollIntoView({behavior:'smooth'});" data-i18n="catKadinVeKultur">Kadın ve Kültür</a></li>
+            <li><a href="javascript:void(0)" onclick="setCategoryFilter('atolye'); document.getElementById('articlesSection').scrollIntoView({behavior:'smooth'});" data-i18n="catAtolye">Atölye</a></li>
+            <li><a href="javascript:void(0)" onclick="setCategoryFilter('kadin-kulliyati'); document.getElementById('articlesSection').scrollIntoView({behavior:'smooth'});" data-i18n="catKadinKulliyati">Kadın Külliyatı</a></li>
+          </ul>
+        </div>
+
+        <!-- Quick Links Column -->
+        <div style="display: flex; flex-direction: column; align-items: center;">
+          <h4 class="footer-title" data-i18n="footerQuickLinks">Hızlı Bağlantılar</h4>
+          <ul class="footer-links-list" style="text-align: center;">
+            <li><a href="index.html" data-i18n="navHome">Ana Sayfa</a></li>
+            <li><a href="videos.html" data-i18n="navVideos">Videolar</a></li>
+            <li><a href="about.html" data-i18n="navAbout">Hakkımızda</a></li>
+            <li><a href="contact.html" data-i18n="navContact">İletişim</a></li>
+            <li><a href="http://t.me/bejingmedya" target="_blank" data-i18n="telegramTitle">Telegram Kanalı</a></li>
+          </ul>
+        </div>
+
+                <!-- Contact Column -->
+        <div id="footerContactCol" style="display: flex; flex-direction: column; align-items: center;">
+          <h4 class="footer-title" data-i18n="footerContact">İletişim</h4>
+          <p style="font-size: 0.88rem; color: rgba(255,255,255,0.7); margin-bottom: 8px; text-align: center;">
+            <i class="fa-regular fa-envelope" style="color: var(--c-gold); margin-right: 8px;"></i>
+            iletisim@bejingmedya.com
+          </p>
+          
+          <!-- Prominent Contact Button in Footer -->
+          <a href="contact.html" class="footer-contact-btn">
+            <i class="fa-regular fa-paper-plane"></i>
+            <span data-i18n="navContact">İletişim</span>
+          </a>
+
+          <div class="lang-switcher" style="display: inline-flex; margin-top: 4px;">
+            <button type="button" class="lang-btn active" data-lang="tr" onclick="setLanguage('tr')">Türkçe</button>
+            <button type="button" class="lang-btn" data-lang="ku" onclick="setLanguage('ku')">Kurmancî</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Bottom Copyright -->
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="footer-bottom-inner" style="justify-content: center; flex-direction: column; gap: 10px; text-align: center;">
+          <p data-i18n="copyright">© 2026 Bêjing Medya. Tüm hakları saklıdır.</p>
+          <button type="button" class="back-to-top-btn" id="backToTopBtn" style="margin: 0 auto;">
+            <i class="fa-solid fa-arrow-up"></i>
+            <span data-i18n="backToTop">Yukarı Çık</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==================== VIDEO LIGHTBOX MODAL ==================== -->
+  
+  <!-- ==================== LIVE SEARCH MODAL ==================== -->
+  <div class="modal-overlay" id="searchModalOverlay">
+    <div class="modal-container search-modal-container">
+      <button type="button" class="modal-close-btn" id="searchModalClose" aria-label="Kapat">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <div style="text-align: center;">
+        <span class="section-badge"><i class="fa-solid fa-magnifying-glass"></i> <span data-i18n="searchModalTitle">İçerik Arama</span></span>
+        <h3 style="font-family: var(--font-display); color: var(--c-mahogany); font-size: 1.5rem; margin-top: 8px;" data-i18n="searchModalDesc">Bêjing Medya arşivinde arama yapın</h3>
+      </div>
+      <div class="search-input-wrap">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="text" id="searchModalInput" class="search-modal-input" placeholder="Yazı, yazar veya konu ara..." autofocus>
+      </div>
+      <div class="search-results-list" id="searchResultsList"></div>
+    </div>
+  </div>
+
+  <div class="modal-overlay" id="videoModalOverlay">
+    <div class="modal-container video-modal-container">
+      <button type="button" class="modal-close-btn" id="videoModalClose" aria-label="Kapat">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <div class="video-frame-wrap">
+        <iframe id="videoIframe" src="" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="video-modal-info" style="text-align: center;">
+        <h3 class="video-modal-title" id="videoModalTitle">Video Başlığı</h3>
+        <p style="font-size: 0.9rem; color: rgba(255,255,255,0.75);" id="videoModalDesc">Açıklama</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== MOBILE DRAWER ==================== -->
+  <div class="mobile-drawer" id="mobileDrawer">
+    <div class="drawer-header" style="flex-direction: column; align-items: center; gap: 10px; position: relative;">
+      <button type="button" id="drawerCloseBtn" style="color: #FFF; font-size: 1.3rem; position: absolute; top: 16px; right: 16px;">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <img src="assets/images/logo.png" alt="Bêjing Medya" class="drawer-logo" style="max-height: 52px;">
+      <span class="brand-slogan-dyn" style="color: var(--c-gold-bright); font-family: var(--font-display); font-size: 0.95rem; font-weight: 700;">Genç Kadınların Sesi</span>
+    </div>
+    <ul class="drawer-nav-list" style="text-align: center;">
+      <li><a href="index.html" class="drawer-nav-link active" onclick="closeMobileDrawer()"><i class="fa-solid fa-house"></i> <span data-i18n="navHome">Ana Sayfa</span></a></li>
+      <li><a href="javascript:void(0)" class="drawer-nav-link" onclick="setCategoryFilter('genc-kadin-bakisiya'); closeMobileDrawer(); document.getElementById('articlesSection').scrollIntoView({behavior:'smooth'});"><i class="fa-solid fa-venus"></i> <span data-i18n="catGencKadin">Genç Kadın Bakışıyla</span></a></li>
+      <li><a href="javascript:void(0)" class="drawer-nav-link" onclick="setCategoryFilter('manin-izindekiler'); closeMobileDrawer(); document.getElementById('articlesSection').scrollIntoView({behavior:'smooth'});"><i class="fa-solid fa-feather-pointed"></i> <span data-i18n="catManinIzindekiler">Ma'nın İzindekiler</span></a></li>
+      <li><a href="javascript:void(0)" class="drawer-nav-link" onclick="setCategoryFilter('orgulerin-kalemi'); closeMobileDrawer(); document.getElementById('articlesSection').scrollIntoView({behavior:'smooth'});"><i class="fa-solid fa-pen-nib"></i> <span data-i18n="catOrgulerinKalemi">Örgülerin Kalemi</span></a></li>
+      <li><a href="javascript:void(0)" class="drawer-nav-link" onclick="setCategoryFilter('kadin-ve-kultur'); closeMobileDrawer(); document.getElementById('articlesSection').scrollIntoView({behavior:'smooth'});"><i class="fa-solid fa-masks-theater"></i> <span data-i18n="catKadinVeKultur">Kadın ve Kültür</span></a></li>
+      <li><a href="javascript:void(0)" class="drawer-nav-link" onclick="setCategoryFilter('atolye'); closeMobileDrawer(); document.getElementById('articlesSection').scrollIntoView({behavior:'smooth'});"><i class="fa-solid fa-compass-drafting"></i> <span data-i18n="catAtolye">Atölye</span></a></li>
+      <li><a href="javascript:void(0)" class="drawer-nav-link" onclick="setCategoryFilter('kadin-kulliyati'); closeMobileDrawer(); document.getElementById('articlesSection').scrollIntoView({behavior:'smooth'});"><i class="fa-solid fa-book-bookmark"></i> <span data-i18n="catKadinKulliyati">Kadın Külliyatı</span></a></li>
+      <li><a href="videos.html" class="drawer-nav-link"><i class="fa-solid fa-film"></i> <span data-i18n="navVideos">Videolar</span></a></li>
+      <li><a href="about.html" class="drawer-nav-link"><i class="fa-solid fa-circle-info"></i> <span data-i18n="navAbout">Hakkımızda</span></a></li>
+      <li><a href="contact.html" class="drawer-nav-link"><i class="fa-regular fa-envelope"></i> <span data-i18n="navContact">İletişim</span></a></li>
+    </ul>
+
+    <div class="drawer-footer">
+      <div style="display: flex; gap: 8px; margin-bottom: 16px;">
+        <button type="button" class="lang-btn active" data-lang="tr" onclick="setLanguage('tr')" style="flex:1; padding:8px; text-align:center;">Türkçe</button>
+        <button type="button" class="lang-btn" data-lang="ku" onclick="setLanguage('ku')" style="flex:1; padding:8px; text-align:center;">Kurmancî</button>
+      </div>
+      <div class="social-links" style="justify-content: center;">
+        <a href="https://www.facebook.com/people/Bejing-medya/61590594643490/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="https://x.com/Bejingmed" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="https://www.instagram.com/medyabjng" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.youtube.com/@BejingMedya" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+        <a href="http://t.me/bejingmedya" target="_blank"><i class="fa-brands fa-telegram"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="assets/js/data.js?v=1791216671"></script>
+  <script src="assets/js/i18n.js?v=1791216671"></script>
+  <script src="assets/js/main.js?v=1791216671"></script>
+
+  <!-- Category & Slogan I18N Helper -->
+  <script>
+let currentFontSize = 1.15;
 
-    function shareTo(platform) {
-      const url = encodeURIComponent(window.location.href);
-      const title = encodeURIComponent(document.title);
-      if (platform === 'facebook') window.open('https://www.facebook.com/sharer/sharer.php?u=' + url, '_blank');
-      else if (platform === 'x') window.open('https://twitter.com/intent/tweet?url=' + url + '&text=' + title, '_blank');
-      else if (platform === 'whatsapp') window.open('https://api.whatsapp.com/send?text=' + title + '%20' + url, '_blank');
-      else if (platform === 'telegram') window.open('https://t.me/share/url?url=' + url + '&text=' + title, '_blank');
-    }
+function adjustFontSize(delta) {
+  currentFontSize += delta;
+  if (currentFontSize < 0.8) currentFontSize = 0.8;
+  if (currentFontSize > 2.5) currentFontSize = 2.5;
+  const bodyEl = document.getElementById("articleBody");
+  if (bodyEl) bodyEl.style.fontSize = currentFontSize + "rem";
+}
 
-    function copyCurrentUrl() {
-      navigator.clipboard.writeText(window.location.href).then(() => {
-        const lang = (typeof getCurrentLang === 'function') ? getCurrentLang() : "tr";
-        alert(lang === 'ku' ? 'Lnk hat kopkirin!' : 'Balant kopyaland!');
+function shareTo(platform) {
+  const url = encodeURIComponent(window.location.href);
+  const title = encodeURIComponent(document.title);
+  if (platform === 'facebook') window.open('https://www.facebook.com/sharer/sharer.php?u=' + url, '_blank');
+  else if (platform === 'x') window.open('https://twitter.com/intent/tweet?url=' + url + '&text=' + title, '_blank');
+  else if (platform === 'whatsapp') window.open('https://api.whatsapp.com/send?text=' + title + '%20' + url, '_blank');
+  else if (platform === 'telegram') window.open('https://t.me/share/url?url=' + url + '&text=' + title, '_blank');
+}
+
+function copyCurrentUrl() {
+  navigator.clipboard.writeText(window.location.href).then(() => {
+    const lang = (typeof getCurrentLang === 'function') ? getCurrentLang() : "tr";
+    alert(lang === 'ku' ? 'Lînk hat kopîkirin!' : 'Bağlantı kopyalandı!');
+  });
+}
+
+function loadArticleContent() {
+  const urlParams = new URLSearchParams(window.location.search);
+  const articleId = parseInt(urlParams.get("id"));
+  const lang = (typeof getCurrentLang === 'function') ? getCurrentLang() : "tr";
+
+  let article = null;
+  if (typeof BEJING_ARTICLES !== 'undefined' && Array.isArray(BEJING_ARTICLES)) {
+    if (!isNaN(articleId)) {
+      article = BEJING_ARTICLES.find(a => a.id === articleId);
+    }
+    if (!article) {
+      const langArticles = BEJING_ARTICLES.filter(a => a.lang === lang);
+      article = langArticles[0] || BEJING_ARTICLES[0];
+    }
+  }
+
+  if (!article) return;
+
+  let catName = article.categoryName || "";
+  if (typeof BEJING_CATEGORIES !== 'undefined' && BEJING_CATEGORIES[article.categoryId]) {
+    catName = BEJING_CATEGORIES[article.categoryId][lang] || article.categoryName;
+  }
+
+  document.title = article.title + " | Bêjîng Medya";
+  
+  const catPill = document.getElementById("articleCategoryPill");
+  if (catPill) catPill.textContent = catName;
+
+  const titleEl = document.getElementById("articleTitle");
+  if (titleEl) titleEl.textContent = article.title;
+
+  const dateEl = document.getElementById("articleDate");
+  if (dateEl) dateEl.textContent = article.date || "";
+
+  const authorEl = document.getElementById("articleAuthor");
+  if (authorEl) authorEl.textContent = article.author || "";
+
+  let readTimeText = "5 dk okuma";
+  if (article.readTime) {
+    if (typeof article.readTime === 'string') {
+      readTimeText = article.readTime;
+    } else {
+      readTimeText = article.readTime[lang] || article.readTime.tr || "5 dk okuma";
+    }
+  }
+  const readTimeEl = document.getElementById("articleReadTime");
+  if (readTimeEl) readTimeEl.textContent = readTimeText;
+
+  const viewsEl = document.getElementById("articleViews");
+  if (viewsEl) viewsEl.textContent = article.views || "";
+
+  const imgEl = document.getElementById("articleImage");
+  if (imgEl) {
+    imgEl.src = article.featured_image;
+    imgEl.alt = article.title;
+  }
+
+  let cleanContent = article.content || "";
+  cleanContent = cleanContent.replace(/<figure[\s\S]*?<\/figure>/gi, function(match) {
+    if (/youtube|youtu\.be|vimeo|embed|video/i.test(match)) return "";
+    return match;
+  });
+  cleanContent = cleanContent.replace(/<iframe[\s\S]*?<\/iframe>/gi, "");
+  cleanContent = cleanContent.replace(/<p[^>]*>\s*https?:\/\/(?:www\.)?(?:youtube\.com|youtu\.be)[\s\S]*?<\/p>/gi, "");
+  cleanContent = cleanContent.replace(/(?:https?:\/\/)?(?:www\.)?(?:youtube\.com\/watch\?v=|youtu\.be\/)[\w\-]+/gi, "");
+
+  const bodyEl = document.getElementById("articleBody");
+  if (bodyEl) bodyEl.innerHTML = cleanContent;
+
+  const videoBox = document.getElementById("articleVideoBox");
+  const videoWrap = document.getElementById("articleVideoWrap");
+  if (videoBox && videoWrap) {
+    if (article.youtube_videos && article.youtube_videos.length > 0) {
+      let htmlStr = "";
+      article.youtube_videos.forEach(vid => {
+        htmlStr += '<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:8px;margin-bottom:15px;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="' + vid.embed_url + '" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe></div>';
+        let watchUrl = vid.embed_url.replace('/embed/', '/watch?v=');
+        htmlStr += '<div style="margin-bottom:30px;text-align:center;"><a href="' + watchUrl + '" target="_blank" style="color:var(--c-mahogany);font-weight:bold;text-decoration:underline;">Videoyu Youtube\'da izlemek için tıklayın: ' + watchUrl + '</a></div>';
       });
+      videoWrap.innerHTML = htmlStr;
+      videoBox.style.display = "block";
+    } else {
+      videoBox.style.display = "none";
     }
+  }
+}
 
-    function loadArticleContent() {
-      const urlParams = new URLSearchParams(window.location.search);
-      const articleId = parseInt(urlParams.get("id"));
+function updateSloganDynamic() {
+  const lang = (typeof getCurrentLang === 'function') ? getCurrentLang() : "tr";
+  const s = (lang === "ku") ? "Dengê Jinên Ciwan" : "Genç Kadınların Sesi";
+  const h = document.getElementById("headerBrandSlogan");
+  const f = document.getElementById("footerBrandSlogan");
+  if (h) h.textContent = s;
+  if (f) f.textContent = s;
+}
 
-      const lang = (typeof getCurrentLang === 'function') ? getCurrentLang() : "tr";
-      let article = BEJING_ARTICLES.find(a => a.id === articleId);
+document.addEventListener("DOMContentLoaded", () => {
+  loadArticleContent();
+  updateSloganDynamic();
+});
 
-      if (!article) {
-        const langArticles = BEJING_ARTICLES.filter(a => a.lang === lang);
-        article = langArticles[0] || BEJING_ARTICLES[0];
-      }
-
-      const cat = BEJING_CATEGORIES[article.categoryId];
-      const catName = cat ? cat[lang] : article.categoryName;
-
-      document.title = article.title + " | Bjing Medya";
-      if(document.getElementById("articleCategoryPill")) document.getElementById("articleCategoryPill").textContent = catName;
-      if(document.getElementById("articleTitle")) document.getElementById("articleTitle").textContent = article.title;
-      if(document.getElementById("articleDate")) document.getElementById("articleDate").textContent = article.date;
-      if(document.getElementById("articleAuthor")) document.getElementById("articleAuthor").textContent = article.author;
-      
-      let readTimeText = "5 dk okuma";
-      if(article.readTime) {
-          if(typeof article.readTime === 'string') readTimeText = article.readTime;
-          else readTimeText = article.readTime[lang] || article.readTime.tr || "5 dk okuma";
-      }
-      if(document.getElementById("articleReadTime")) document.getElementById("articleReadTime").textContent = readTimeText;
-      
-      if(document.getElementById("articleViews")) document.getElementById("articleViews").textContent = article.views || "";
-      if(document.getElementById("articleImage")) document.getElementById("articleImage").src = article.featured_image;
-      if(document.getElementById("articleImage")) document.getElementById("articleImage").alt = article.title;
-
-      let cleanContent = article.content || "";
-      cleanContent = cleanContent.replace(/<figure[\s\S]*?<\/figure>/gi, function(match) {
-        if (/youtube|youtu\.be|vimeo|embed|video/i.test(match)) return "";
-        return match;
-      });
-      cleanContent = cleanContent.replace(/<iframe[\s\S]*?<\/iframe>/gi, "");
-      cleanContent = cleanContent.replace(/<p[^>]*>\s*https?:\/\/(?:www\.)?(?:youtube\.com|youtu\.be)[\s\S]*?<\/p>/gi, "");
-      cleanContent = cleanContent.replace(/(?:https?:\/\/)?(?:www\.)?(?:youtube\.com\/watch\?v=|youtu\.be\/)[\w\-]+/gi, "");
-
-      if(document.getElementById("articleBody")) document.getElementById("articleBody").innerHTML = cleanContent;
-
-      const videoBox = document.getElementById("articleVideoBox");
-      const videoWrap = document.getElementById("articleVideoWrap");
-      
-      if (videoBox && videoWrap) {
-          if (article.youtube_videos && article.youtube_videos.length > 0) {
-            let html_str = "";
-            article.youtube_videos.forEach(vid => {
-                html_str += '<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:8px;margin-bottom:15px;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="' + vid.embed_url + '" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe></div>';
-                let watch_url = vid.embed_url.replace('/embed/', '/watch?v=');
-                html_str += '<div style="margin-bottom:30px;text-align:center;"><a href="' + watch_url + '" target="_blank" style="color:var(--c-mahogany);font-weight:bold;text-decoration:underline;">Videoyu Youtube\'da zlemek in Tklayn: ' + watch_url + '</a></div>';
-            });
-            videoWrap.innerHTML = html_str;
-            videoBox.style.display = "block";
-          } else {
-            videoBox.style.display = "none";
-          }
+window.addEventListener("bejing:langChange", () => {
+  const urlParams = new URLSearchParams(window.location.search);
+  const articleId = parseInt(urlParams.get("id"));
+  if (typeof BEJING_ARTICLES !== 'undefined') {
+    const currentArt = BEJING_ARTICLES.find(a => a.id === articleId);
+    const uiLang = (typeof getCurrentLang === 'function') ? getCurrentLang() : "tr";
+    if (currentArt && currentArt.lang !== uiLang) {
+      if (typeof setLanguage === "function") {
+        setLanguage(currentArt.lang);
+        return;
       }
     }
-
-    document.addEventListener("DOMContentLoaded", loadArticleContent);
-
-    window.addEventListener("bejing:langChange", () => {
-      const urlParams = new URLSearchParams(window.location.search);
-      const articleId = parseInt(urlParams.get("id"));
-      const currentArt = BEJING_ARTICLES.find(a => a.id === articleId);
-      const uiLang = (typeof getCurrentLang === 'function') ? getCurrentLang() : "tr";
-      
-      if (currentArt && currentArt.lang !== uiLang) {
-          if (typeof setLanguage === "function") {
-              setLanguage(currentArt.lang);
-              return; 
-          }
-      }
-      loadArticleContent();
-    });
-
-    function updateSloganDynamic() {
-      const lang = (typeof getCurrentLang === 'function') ? getCurrentLang() : "tr";
-      const s = (lang === "ku") ? "Deng Jinn Ciwan" : "Gen Kadnlarn Sesi";
-      const h = document.getElementById("headerBrandSlogan");
-      const f = document.getElementById("footerBrandSlogan");
-      if (h) h.textContent = s;
-      if (f) f.textContent = s;
-    }
-    window.addEventListener("bejing:langChange", updateSloganDynamic);
-    document.addEventListener("DOMContentLoaded", updateSloganDynamic);
-</script>
-</body>
-</html>
+  }
+  loadArticleContent();
+  updateSloganDynamic();
+});
+</script>
+</body>
+</html>

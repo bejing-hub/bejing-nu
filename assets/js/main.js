@@ -81,7 +81,7 @@ function renderSlider() {
           <span><i class="fa-regular fa-user"></i> ${article.author}</span>
           <span><i class="fa-solid fa-book-open"></i> ${readTimeStr}</span>
         </div>
-        <a href="article.html?id=${article.id}" class="telegram-pill-btn" style="padding: 11px 28px; font-size: 0.95rem;">
+        <a href="article.html?id=${article.id}" class="telegram-pill-btn" onclick="window.location.href='article.html?id=' + ${article.id}; return false;" style="padding: 11px 28px; font-size: 0.95rem;">
           ${t("readMore")} <i class="fa-solid fa-arrow-right"></i>
         </a>
       </div>
@@ -341,7 +341,7 @@ function renderArticles(categoryId = "all", isAppend = false) {
     const remaining = filtered.length - currentVisibleCount;
     loadMoreContainer.style.display = "block";
     loadMoreContainer.innerHTML = `
-      <button type="button" class="telegram-pill-btn" style="padding: 13px 38px; font-size: 0.96rem; cursor: pointer; border: none; background: var(--c-mahogany); margin: 0 auto;" onclick="loadMoreArticles()">
+      <button type="button" class="telegram-pill-btn" onclick="window.location.href='article.html?id=' + ${article.id}; return false;" style="padding: 13px 38px; font-size: 0.96rem; cursor: pointer; border: none; background: var(--c-mahogany); margin: 0 auto;" onclick="loadMoreArticles()">
         <i class="fa-solid fa-rotate-right"></i> <span>${t("loadMore")} (${remaining})</span>
       </button>
     `;

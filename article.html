@@ -545,11 +545,11 @@
       const catName = cat ? cat[lang] : article.categoryName;
 
       document.title = article.title + " | Bêjing Medya";
-      if(document.getElementById("articleCategoryPill")) document.getElementById("articleCategoryPill").textContent = catName;
-      if(document.getElementById("articleTitle")) document.getElementById("articleTitle").textContent = article.title;
-      if(document.getElementById("articleDate")) document.getElementById("articleDate").textContent = article.date;
-      if(document.getElementById("articleAuthor")) document.getElementById("articleAuthor").textContent = article.author;
-      if(document.getElementById("articleReadTime")) document.getElementById("articleReadTime").textContent = article.readTime ? (article.readTime[lang] || article.readTime.tr || "5 dk okuma") : "5 dk okuma";
+      document.getElementById("articleCategoryPill").textContent = catName;
+      document.getElementById("articleTitle").textContent = article.title;
+      document.getElementById("articleDate").textContent = article.date;
+      document.getElementById("articleAuthor").textContent = article.author;
+      document.getElementById("articleReadTime").textContent = article.readTime[lang] || article.readTime.tr;
 
       const imgEl = document.getElementById("articleImage");
       if (article.featured_image) {
@@ -568,7 +568,7 @@
       cleanContent = cleanContent.replace(/<p[^>]*>\s*https?:\/\/(?:www\.)?(?:youtube\.com|youtu\.be)[\s\S]*?<\/p>/gi, "");
       cleanContent = cleanContent.replace(/(?:https?:\/\/)?(?:www\.)?(?:youtube\.com\/watch\?v=|youtu\.be\/)[\w\-]+/gi, "");
 
-      if(document.getElementById("articleBody")) document.getElementById("articleBody").innerHTML = cleanContent;
+      document.getElementById("articleBody").innerHTML = cleanContent;
 
       const videoBox = document.getElementById("articleVideoBox");
       const videoWrap = document.getElementById("articleVideoWrap");

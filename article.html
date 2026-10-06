@@ -1,1504 +1,226 @@
 <!DOCTYPE html>
-
-
-
-
-
-
-
-
-
-<html lang="tr-TR">
-
-
-
-
-
-
-
-
-
+<html lang="tr">
 <head>
-
-
-
-
-
-
-
-
-
   <meta charset="UTF-8">
-
-
-
-
-
-
-
-
-
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
-
-
-
-
-
-
-
-  <title>Bêjing Medya | Makale & Araştırma</title>
-
-
-
-
-
-
-
-
-
-  <link rel="icon" href="assets/images/logo.png" type="image/jpeg">
-
-
-
-
-
-
-
-
-
+  <title>Bêjîng Medya</title>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800&family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-
-
-
-
-
-
-
-
-
-  <link rel="stylesheet" href="assets/css/style.css?v=1791233257">
-
-
-
-
-
-
-
-
-
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="assets/css/style.css?v=1791313259">
+  
   <style>
-
-
-
-
-
-
-
-
-
     .article-page-wrap {
-
-
-
-
-
-
-
-
-
-      padding: 40px 0 80px;
-
-
-
-
-
-
-
-
-
+      padding: 40px 0 90px;
+      background: var(--c-bg-body, #F9F7F4);
     }
-
-
-
-
-
-
-
-
-
     .article-container {
-
-
-
-
-
-
-
-
-
-      max-width: 900px;
-
-
-
-
-
-
-
-
-
+      max-width: 880px;
       margin: 0 auto;
-
-
-
-
-
-
-
-
-
-      background: #FFF;
-
-
-
-
-
-
-
-
-
-      border: 1px solid var(--c-border);
-
-
-
-
-
-
-
-
-
-      border-radius: var(--radius-md);
-
-
-
-
-
-
-
-
-
-      padding: 46px;
-
-
-
-
-
-
-
-
-
-      box-shadow: var(--shadow-sm);
-
-
-
-
-
-
-
-
-
+      background: #FFFFFF;
+      border: 1px solid var(--c-border, #E4DDD4);
+      border-radius: 14px;
+      padding: 48px 52px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
     }
-
-
-
-
-
-
-
-
-
     .article-header {
-
-
-
-
-
-
-
-
-
       margin-bottom: 28px;
-
-
-
-
-
-
-
-
-
-      padding-bottom: 24px;
-
-
-
-
-
-
-
-
-
-      border-bottom: 1px solid var(--c-border);
-
-
-
-
-
-
-
-
-
+      padding-bottom: 20px;
+      border-bottom: 1px solid var(--c-border, #E4DDD4);
     }
-
-
-
-
-
-
-
-
-
-    .article-page-title {
-
-
-
-
-
-
-
-
-
-      font-family: var(--font-display);
-
-
-
-
-
-
-
-
-
-      font-size: 2.35rem;
-
-
-
-
-
-
-
-
-
-      line-height: 1.3;
-
-
-
-
-
-
-
-
-
-      color: var(--c-text-main);
-
-
-
-
-
-
-
-
-
-      margin: 16px 0 16px;
-
-
-
-
-
-
-
-
-
-    }
-
-
-
-
-
-
-
-
-
-    .article-reading-tools {
-
-
-
-
-
-
-
-
-
-      display: flex;
-
-
-
-
-
-
-
-
-
-      align-items: center;
-
-
-
-
-
-
-
-
-
-      justify-content: space-between;
-
-
-
-
-
-
-
-
-
-      padding: 12px 18px;
-
-
-
-
-
-
-
-
-
-      background: var(--c-bg-surface);
-
-
-
-
-
-
-
-
-
-      border-radius: var(--radius-sm);
-
-
-
-
-
-
-
-
-
-      margin-bottom: 26px;
-
-
-
-
-
-
-
-
-
-    }
-
-
-
-
-
-
-
-
-
-    .font-adjust-btn {
-
-
-
-
-
-
-
-
-
-      background: #FFF;
-
-
-
-
-
-
-
-
-
-      border: 1px solid var(--c-border);
-
-
-
-
-
-
-
-
-
-      padding: 4px 12px;
-
-
-
-
-
-
-
-
-
-      border-radius: 4px;
-
-
-
-
-
-
-
-
-
-      cursor: pointer;
-
-
-
-
-
-
-
-
-
+    .category-pill {
+      display: inline-block;
+      padding: 6px 16px;
+      font-size: 0.82rem;
       font-weight: 700;
-
-
-
-
-
-
-
-
-
-      color: var(--c-mahogany);
-
-
-
-
-
-
-
-
-
-      transition: all 0.2s;
-
-
-
-
-
-
-
-
-
+      text-transform: uppercase;
+      letter-spacing: 0.6px;
+      border-radius: 20px;
+      background: var(--c-mahogany, #8C461C);
+      color: #FFFFFF;
+      margin-bottom: 14px;
     }
-
-
-
-
-
-
-
-
-
-    .font-adjust-btn:hover {
-
-
-
-
-
-
-
-
-
-      background: var(--c-gold-soft);
-
-
-
-
-
-
-
-
-
+    .article-page-title {
+      font-family: var(--font-display, 'Cinzel', serif);
+      font-size: 2.25rem;
+      font-weight: 700;
+      line-height: 1.35;
+      color: #1A1412;
+      margin: 10px 0 16px;
     }
-
-
-
-
-
-
-
-
-
-    .article-featured-img-wrap {
-
-
-
-
-
-
-
-
-
-      margin-bottom: 32px;
-
-
-
-
-
-
-
-
-
-      border-radius: var(--radius-sm);
-
-
-
-
-
-
-
-
-
-      overflow: hidden;
-
-
-
-
-
-
-
-
-
-      box-shadow: var(--shadow-sm);
-
-
-
-
-
-
-
-
-
-      max-height: 520px;
-
-
-
-
-
-
-
-
-
-    }
-
-
-
-
-
-
-
-
-
-    .article-featured-img-wrap img {
-
-
-
-
-
-
-
-
-
-      width: 100%;
-
-
-
-
-
-
-
-
-
-      height: 100%;
-
-
-
-
-
-
-
-
-
-      object-fit: cover;
-
-
-
-
-
-
-
-
-
-    }
-
-
-
-
-
-
-
-
-
-    .article-video-container {
-
-
-
-
-
-
-
-
-
-      margin: 32px 0;
-
-
-
-
-
-
-
-
-
-      padding: 24px;
-
-
-
-
-
-
-
-
-
-      background: #7D6650;
-
-
-
-
-
-
-
-
-
-      border-radius: var(--radius-md);
-
-
-
-
-
-
-
-
-
-      border: 1px solid var(--c-cinema-border);
-
-
-
-
-
-
-
-
-
-      color: #FFF;
-
-
-
-
-
-
-
-
-
-    }
-
-
-
-
-
-
-
-
-
-    .video-responsive-wrap {
-
-
-
-
-
-
-
-
-
-      position: relative;
-
-
-
-
-
-
-
-
-
-      padding-bottom: 56.25%;
-
-
-
-
-
-
-
-
-
-      height: 0;
-
-
-
-
-
-
-
-
-
-      overflow: hidden;
-
-
-
-
-
-
-
-
-
-      border-radius: var(--radius-sm);
-
-
-
-
-
-
-
-
-
-    }
-
-
-
-
-
-
-
-
-
-    .video-responsive-wrap iframe {
-
-
-
-
-
-
-
-
-
-      position: absolute;
-
-
-
-
-
-
-
-
-
-      top: 0;
-
-
-
-
-
-
-
-
-
-      left: 0;
-
-
-
-
-
-
-
-
-
-      width: 100%;
-
-
-
-
-
-
-
-
-
-      height: 100%;
-
-
-
-
-
-
-
-
-
-      border: none;
-
-
-
-
-
-
-
-
-
-    }
-
-
-
-
-
-
-
-
-
-    .article-body {
-
-
-
-
-
-
-
-
-
-      font-size: 1.15rem;
-
-
-
-
-
-
-
-
-
-      line-height: 1.9;
-
-
-
-
-
-
-
-
-
-      color: var(--c-text-main);
-
-
-
-
-
-
-
-
-
-    }
-
-
-
-
-
-
-
-
-
-    .article-body p {
-
-
-
-
-
-
-
-
-
-      margin-bottom: 22px;
-
-
-
-
-
-
-
-
-
-    }
-
-
-
-
-
-
-
-
-
-    .article-body h2, .article-body h3, .article-body h4 {
-
-
-
-
-
-
-
-
-
-      font-family: var(--font-display);
-
-
-
-
-
-
-
-
-
-      color: var(--c-mahogany);
-
-
-
-
-
-
-
-
-
-      margin: 32px 0 16px;
-
-
-
-
-
-
-
-
-
-    }
-
-
-
-
-
-
-
-
-
-    .article-body blockquote {
-
-
-
-
-
-
-
-
-
-      border-left: 4px solid var(--c-gold);
-
-
-
-
-
-
-
-
-
-      padding: 18px 26px;
-
-
-
-
-
-
-
-
-
-      background: var(--c-bg-surface);
-
-
-
-
-
-
-
-
-
-      font-family: var(--font-display);
-
-
-
-
-
-
-
-
-
-      font-style: italic;
-
-
-
-
-
-
-
-
-
-      font-size: 1.25rem;
-
-
-
-
-
-
-
-
-
-      margin: 28px 0;
-
-
-
-
-
-
-
-
-
-      color: var(--c-mahogany);
-
-
-
-
-
-
-
-
-
-      border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
-
-
-
-
-
-
-
-
-
-    }
-
-
-
-
-
-
-
-
-
-    .share-bar {
-
-
-
-
-
-
-
-
-
+    .article-meta {
       display: flex;
-
-
-
-
-
-
-
-
-
       align-items: center;
-
-
-
-
-
-
-
-
-
-      justify-content: space-between;
-
-
-
-
-
-
-
-
-
       flex-wrap: wrap;
-
-
-
-
-
-
-
-
-
+      gap: 18px;
+      font-size: 0.88rem;
+      color: #7A7067;
+    }
+    .article-meta span {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .article-reading-tools {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 18px;
+      background: #F4EFEB;
+      border-radius: 8px;
+      margin: 22px 0 28px;
+      font-size: 0.88rem;
+      color: #5A5048;
+    }
+    .font-adjust-btn {
+      background: #FFFFFF;
+      border: 1px solid #D5CCC2;
+      padding: 4px 12px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: 700;
+      color: var(--c-mahogany, #8C461C);
+      transition: all 0.2s;
+    }
+    .font-adjust-btn:hover {
+      background: #EDE4DC;
+    }
+    .article-featured-img-wrap {
+      margin: 24px 0 36px;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+      max-height: 520px;
+      background: #EAE5E0;
+    }
+    .article-featured-img-wrap img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+    .article-body {
+      font-size: 1.15rem;
+      line-height: 1.95;
+      color: #2D2520;
+      letter-spacing: 0.15px;
+      word-break: break-word;
+    }
+    .article-body p {
+      margin-bottom: 24px;
+    }
+    .article-body h2, .article-body h3, .article-body h4 {
+      font-family: var(--font-display, 'Cinzel', serif);
+      color: var(--c-mahogany, #8C461C);
+      margin: 36px 0 16px;
+      line-height: 1.4;
+    }
+    .article-body blockquote {
+      border-left: 4px solid var(--c-mahogany, #8C461C);
+      padding: 16px 24px;
+      background: #F7F3EE;
+      font-style: italic;
+      font-size: 1.2rem;
+      margin: 28px 0;
+      color: #4A3E36;
+      border-radius: 0 8px 8px 0;
+    }
+    .share-bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
       gap: 16px;
-
-
-
-
-
-
-
-
-
-      padding: 18px 0;
-
-
-
-
-
-
-
-
-
-      margin: 36px 0 20px;
-
-
-
-
-
-
-
-
-
-      border-top: 1px solid var(--c-border);
-
-
-
-
-
-
-
-
-
-      border-bottom: 1px solid var(--c-border);
-
-
-
-
-
-
-
-
-
+      padding: 20px 0;
+      margin: 40px 0 24px;
+      border-top: 1px solid var(--c-border, #E4DDD4);
+      border-bottom: 1px solid var(--c-border, #E4DDD4);
     }
-
-
-
-
-
-
-
-
-
+    .article-share-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 38px;
+      height: 38px;
+      border-radius: 50%;
+      border: none;
+      background: var(--c-mahogany, #8C461C);
+      color: #FFFFFF;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: transform 0.2s, opacity 0.2s;
+    }
+    .article-share-btn:hover {
+      transform: translateY(-2px);
+      opacity: 0.9;
+    }
+    .article-video-container {
+      margin: 36px 0;
+      padding: 24px;
+      background: #2D2520;
+      border-radius: 12px;
+      color: #FFFFFF;
+    }
     .related-section {
-
-
-
-
-
-
-
-
-
-      margin-top: 50px;
-
-
-
-
-
-
-
-
-
-      padding-top: 36px;
-
-
-
-
-
-
-
-
-
-      border-top: 2px solid var(--c-border);
-
-
-
-
-
-
-
-
-
+      margin-top: 48px;
+      padding-top: 32px;
+      border-top: 2px solid var(--c-border, #E4DDD4);
     }
-
-
-
-
-
-
-
-
-
     .related-grid {
-
-
-
-
-
-
-
-
-
       display: grid;
-
-
-
-
-
-
-
-
-
-      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-
-
-
-
-
-
-
-
-
+      grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
       gap: 20px;
-
-
-
-
-
-
-
-
-
       margin-top: 20px;
-
-
-
-
-
-
-
-
-
     }
-
-
-
-
-
-
-
-
-
+    .article-card {
+      background: #FFFFFF;
+      border: 1px solid var(--c-border, #E4DDD4);
+      border-radius: 10px;
+      overflow: hidden;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .article-card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+    }
+    .article-card-thumb-wrap {
+      height: 150px;
+      overflow: hidden;
+      background: #EAE5E0;
+    }
+    .article-card-thumb {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
     @media (max-width: 768px) {
-
-
-
-
-
-
-
-
-
       .article-container {
-
-
-
-
-
-
-
-
-
-        padding: 24px 18px;
-
-
-
-
-
-
-
-
-
+        padding: 26px 20px;
+        border-radius: 8px;
       }
-
-
-
-
-
-
-
-
-
       .article-page-title {
-
-
-
-
-
-
-
-
-
-        font-size: 1.7rem;
-
-
-
-
-
-
-
-
-
+        font-size: 1.65rem;
       }
-
-
-
-
-
-
-
-
-
+      .article-body {
+        font-size: 1.05rem;
+        line-height: 1.85;
+      }
     }
-
-
-
-
-
-
-
-
-
   </style>
-
-
-
-
-
-
-
-
-
 </head>
-
-
-
-
-
-
-
-
-
 <body>
 
+  <header class="site-header">
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <!-- Top Bar -->
-
-
-
-
-
-
-
-
-
-  <div class="top-bar">
 
 
 
@@ -1518,7 +240,10 @@
 
 
 
-      <div class="top-bar-inner">
+
+
+
+      <div class="header-flex-row">
 
 
 
@@ -1528,7 +253,10 @@
 
 
 
-        <div class="top-bar-left">
+
+
+
+        
 
 
 
@@ -1538,7 +266,10 @@
 
 
 
-          <a href="index.html" style="color: var(--c-gold-soft); font-weight: 600; display: flex; align-items: center; gap: 8px;">
+
+
+
+        <!-- Far Left: Brand Logo + Slogan Beside It -->
 
 
 
@@ -1548,7 +279,65 @@
 
 
 
-            <i class="fa-solid fa-arrow-left"></i> <span data-i18n="navHome">Ana Sayfa</span>
+
+
+
+        <div class="header-left-brand">
+
+
+
+
+
+
+
+
+
+
+
+
+          <a href="index.html" class="brand-wrapper" title="Bêjing Medya">
+
+
+
+
+
+
+
+
+
+
+
+
+            <img src="assets/images/logo.png" alt="Bêjing Medya Logo" class="brand-logo-img">
+
+
+
+
+
+
+
+
+
+
+
+
+            <div class="brand-divider"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+            <span class="brand-slogan-text" id="headerBrandSlogan">Genç Kadınların Sesi</span>
+
+
+
 
 
 
@@ -1568,6 +357,9 @@
 
 
 
+
+
+
         </div>
 
 
@@ -1578,7 +370,6 @@
 
 
 
-        <div class="top-bar-right">
 
 
 
@@ -1588,7 +379,6 @@
 
 
 
-          <div class="social-links">
 
 
 
@@ -1596,9 +386,9 @@
 
 
 
+        <!-- Far Right: Search Icon + Language Switcher + Mobile Toggle -->
 
 
-            <a href="https://www.facebook.com/people/Bejing-medya/61590594643490/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
 
 
 
@@ -1608,8 +398,8 @@
 
 
 
-            <a href="https://x.com/Bejingmed" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
 
+        <div class="header-right-wrap">
 
 
 
@@ -1618,7 +408,6 @@
 
 
 
-            <a href="https://www.instagram.com/medyabjng" target="_blank"><i class="fa-brands fa-instagram"></i></a>
 
 
 
@@ -1628,7 +417,6 @@
 
 
 
-            <a href="https://www.youtube.com/@BejingMedya" target="_blank"><i class="fa-brands fa-youtube"></i></a>
 
 
 
@@ -1637,8 +425,8 @@
 
 
 
+          <!-- Search Icon Button -->
 
-            <a href="http://t.me/bejingmedya" target="_blank"><i class="fa-brands fa-telegram"></i></a>
 
 
 
@@ -1648,9 +436,9 @@
 
 
 
-          </div>
 
 
+          <button type="button" class="header-search-icon-btn" id="searchTriggerBtn" title="Arama / Lêgerîn" aria-label="Arama" onclick="document.getElementById('searchModalOverlay').classList.add('active'); setTimeout(() => document.getElementById('searchModalInput').focus(), 100);">
 
 
 
@@ -1658,7 +446,67 @@
 
 
 
-          <div class="lang-switcher">
+
+
+
+
+
+            <i class="fa-solid fa-magnifying-glass"></i>
+
+
+
+
+
+
+
+
+
+
+
+
+          </button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          <!-- Language Switcher -->
+
+
+
+
+
+
+
+
+
+
+
+
+          <div class="lang-switcher" style="margin: 0;">
+
+
+
 
 
 
@@ -1678,7 +526,13 @@
 
 
 
+
+
+
             <button type="button" class="lang-btn" data-lang="ku" onclick="setLanguage('ku')">Kurmancî</button>
+
+
+
 
 
 
@@ -1698,7 +552,6 @@
 
 
 
-        </div>
 
 
 
@@ -1708,7 +561,6 @@
 
 
 
-      </div>
 
 
 
@@ -1716,9 +568,9 @@
 
 
 
+          <!-- Mobile Menu Toggle -->
 
 
-    </div>
 
 
 
@@ -1728,8 +580,8 @@
 
 
 
-  </div>
 
+          <button type="button" class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Menüyü Aç">
 
 
 
@@ -1742,183 +594,23 @@
 
 
 
+            <i class="fa-solid fa-bars"></i>
 
 
 
 
 
 
-  <!-- Header -->
 
 
 
 
 
 
+          </button>
 
 
 
-  <header class="site-header">
-
-
-
-
-
-
-
-
-
-    <div class="container">
-
-
-
-
-
-
-
-
-
-      <div class="header-inner" style="justify-content: space-between;">
-
-
-
-
-
-
-
-
-
-        <a href="index.html" class="brand-wrapper" title="Bêjing Medya">
-
-
-
-
-
-
-
-
-
-          <img src="assets/images/logo.png" alt="Bêjing Medya Logo" class="brand-logo-img">
-
-
-
-
-
-
-
-
-
-          <div class="brand-divider"></div>
-
-
-
-
-
-
-
-
-
-          <span class="brand-slogan-text" id="headerBrandSlogan">Genç Kadınların Sesi</span>
-
-
-
-
-
-
-
-
-
-        </a>
-
-
-
-
-
-
-
-
-
-        <div class="header-right-actions">
-
-
-
-
-
-
-
-
-
-          <a href="videos.html" class="telegram-pill-btn" style="background: var(--c-mahogany);">
-
-
-
-
-
-
-
-
-
-            <i class="fa-solid fa-play"></i>
-
-
-
-
-
-
-
-
-
-            <span data-i18n="navVideos">Videolar</span>
-
-
-
-
-
-
-
-
-
-          </a>
-
-
-
-
-
-
-
-
-
-          <a href="http://t.me/bejingmedya" target="_blank" class="telegram-pill-btn">
-
-
-
-
-
-
-
-
-
-            <i class="fa-brands fa-telegram"></i>
-
-
-
-
-
-
-
-
-
-            <span data-i18n="joinTelegram">Kanala Katıl</span>
-
-
-
-
-
-
-
-
-
-          </a>
 
 
 
@@ -1938,6 +630,22 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       </div>
 
 
@@ -1948,7 +656,13 @@
 
 
 
+
+
+
     </div>
+
+
+
 
 
 
@@ -1978,7 +692,29 @@
 
 
 
-  <main class="article-page-wrap">
+
+
+
+
+
+
+  <!-- ==================== STICKY CENTERED NAVIGATION BAR ==================== -->
+
+
+
+
+
+
+
+
+
+
+
+
+  <nav class="main-navbar" id="mainNavbar">
+
+
+
 
 
 
@@ -1998,27 +734,26 @@
 
 
 
-      <article class="article-container" id="articleSingleContainer">
 
 
 
+      <div class="navbar-inner">
 
 
 
 
 
 
-        
 
 
 
 
 
 
+        <ul class="nav-links">
 
 
 
-        <header class="article-header">
 
 
 
@@ -2028,7 +763,7 @@
 
 
 
-          <span class="category-pill" id="articleCategoryPill">Kategori</span>
+          <li class="nav-item active">
 
 
 
@@ -2038,27 +773,26 @@
 
 
 
-          <h1 class="article-page-title" id="articleTitle">Makale Başlığı</h1>
 
 
 
+            <a href="index.html" class="nav-link home-icon-link" title="Ana Sayfa / Malper">
 
 
 
 
 
 
-          <div class="article-meta" style="color: var(--c-text-muted); display: flex; flex-wrap: wrap; gap: 16px;">
 
 
 
 
 
 
+              <i class="fa-solid fa-house-chimney"></i>
 
 
 
-            <span><i class="fa-regular fa-clock"></i> <span id="articleDate">--</span></span>
 
 
 
@@ -2068,7 +802,7 @@
 
 
 
-            <span><i class="fa-regular fa-user"></i> <span id="articleAuthor">Bêjing Medya</span></span>
+            </a>
 
 
 
@@ -2078,27 +812,26 @@
 
 
 
-            <span><i class="fa-solid fa-book-open"></i> <span id="articleReadTime">--</span></span>
 
 
 
+          </li>
 
 
 
 
 
 
-          </div>
 
 
 
 
 
 
+          <li class="nav-item">
 
 
 
-        </header>
 
 
 
@@ -2108,6 +841,7 @@
 
 
 
+            <a href="javascript:void(0)" class="nav-link" onclick="setCategoryFilter('genc-kadin-bakisiya'); document.getElementById('articlesSection').scrollIntoView({behavior:'smooth'});">
 
 
 
@@ -2118,9 +852,9 @@
 
 
 
-        <!-- Reading Controls -->
 
 
+              <span data-i18n="catGencKadin">Genç Kadın Bakışıyla</span>
 
 
 
@@ -2128,17 +862,16 @@
 
 
 
-        <div class="article-reading-tools">
 
 
 
 
 
+            </a>
 
 
 
 
-          <span style="font-size: 0.9rem; font-weight: 600; color: var(--c-text-main);">
 
 
 
@@ -2147,8 +880,8 @@
 
 
 
+          </li>
 
-            <i class="fa-solid fa-text-height"></i> <span data-i18n="articleFontSize">Yazı Boyutu</span>
 
 
 
@@ -2158,9 +891,9 @@
 
 
 
-          </span>
 
 
+          <li class="nav-item">
 
 
 
@@ -2168,17 +901,16 @@
 
 
 
-          <div style="display: flex; gap: 6px;">
 
 
 
 
 
+            <a href="javascript:void(0)" class="nav-link" onclick="setCategoryFilter('manin-izindekiler'); document.getElementById('articlesSection').scrollIntoView({behavior:'smooth'});">
 
 
 
 
-            <button type="button" class="font-adjust-btn" onclick="adjustFontSize(-1)">A-</button>
 
 
 
@@ -2187,8 +919,8 @@
 
 
 
+              <span data-i18n="catManinIzindekiler">Ma'nın İzindekiler</span>
 
-            <button type="button" class="font-adjust-btn" onclick="adjustFontSize(0)">A</button>
 
 
 
@@ -2198,9 +930,9 @@
 
 
 
-            <button type="button" class="font-adjust-btn" onclick="adjustFontSize(1)">A+</button>
 
 
+            </a>
 
 
 
@@ -2208,17 +940,16 @@
 
 
 
-          </div>
 
 
 
 
 
+          </li>
 
 
 
 
-        </div>
 
 
 
@@ -2227,6 +958,7 @@
 
 
 
+          <li class="nav-item">
 
 
 
@@ -2238,8 +970,8 @@
 
 
 
-        <!-- Featured Image -->
 
+            <a href="javascript:void(0)" class="nav-link" onclick="setCategoryFilter('orgulerin-kalemi'); document.getElementById('articlesSection').scrollIntoView({behavior:'smooth'});">
 
 
 
@@ -2248,17 +980,16 @@
 
 
 
-        <div class="article-featured-img-wrap" id="articleImageWrapper">
 
 
 
 
+              <span data-i18n="catOrgulerinKalemi">Örgülerin Kalemi</span>
 
 
 
 
 
-          <img id="articleImage" src="assets/images/logo.png" alt="Article image" onerror="this.style.display='none'">
 
 
 
@@ -2266,9 +997,9 @@
 
 
 
+            </a>
 
 
-        </div>
 
 
 
@@ -2279,6 +1010,7 @@
 
 
 
+          </li>
 
 
 
@@ -2288,23 +1020,23 @@
 
 
 
-        <!-- Embedded YouTube Video Container (if article has video) -->
 
 
 
+          <li class="nav-item">
 
 
 
 
 
 
-        <div cl      </div>
 
 
 
 
 
 
+            <a href="javascript:void(0)" class="nav-link" onclick="setCategoryFilter('kadin-ve-kultur'); document.getElementById('articlesSection').scrollIntoView({behavior:'smooth'});">
 
 
 
@@ -2317,8 +1049,8 @@
 
 
 
+              <span data-i18n="catKadinVeKultur">Kadın ve Kültür</span>
 
-        <!-- Article Body -->
 
 
 
@@ -2328,9 +1060,9 @@
 
 
 
-        <div class="article-body" id="articleBody"></div>
 
 
+            </a>
 
 
 
@@ -2343,12 +1075,12 @@
 
 
 
+          </li>
 
 
 
 
 
-        <!-- Share Bar -->
 
 
 
@@ -2356,9 +1088,9 @@
 
 
 
+          <li class="nav-item">
 
 
-        <div class="share-bar">
 
 
 
@@ -2368,8 +1100,8 @@
 
 
 
-          <span style="font-weight: 700; font-size: 0.95rem; color: var(--c-mahogany);" data-i18n="shareArticle">Yazıyı Paylaş:</span>
 
+            <a href="javascript:void(0)" class="nav-link" onclick="setCategoryFilter('atolye'); document.getElementById('articlesSection').scrollIntoView({behavior:'smooth'});">
 
 
 
@@ -2378,17 +1110,16 @@
 
 
 
-          <div class="social-links" style="gap: 10px;">
 
 
 
 
+              <span data-i18n="catAtolye">Atölye</span>
 
 
 
 
 
-            <a href="javascript:void(0)" onclick="shareTo('x')" title="X (Twitter)" style="background: var(--c-bg-surface);"><i class="fa-brands fa-x-twitter"></i></a>
 
 
 
@@ -2396,9 +1127,9 @@
 
 
 
+            </a>
 
 
-            <a href="javascript:void(0)" onclick="shareTo('facebook')" title="Facebook" style="background: var(--c-bg-surface);"><i class="fa-brands fa-facebook-f"></i></a>
 
 
 
@@ -2408,8 +1139,8 @@
 
 
 
-            <a href="javascript:void(0)" onclick="shareTo('whatsapp')" title="WhatsApp" style="background: var(--c-bg-surface);"><i class="fa-brands fa-whatsapp"></i></a>
 
+          </li>
 
 
 
@@ -2418,17 +1149,16 @@
 
 
 
-            <a href="javascript:void(0)" onclick="shareTo('telegram')" title="Telegram" style="background: var(--c-bg-surface);"><i class="fa-brands fa-telegram"></i></a>
 
 
 
 
+          <li class="nav-item">
 
 
 
 
 
-            <a href="javascript:void(0)" onclick="copyCurrentUrl()" title="Kopyala" style="background: var(--c-bg-surface);"><i class="fa-solid fa-link"></i></a>
 
 
 
@@ -2436,9 +1166,9 @@
 
 
 
+            <a href="javascript:void(0)" class="nav-link" onclick="setCategoryFilter('kadin-kulliyati'); document.getElementById('articlesSection').scrollIntoView({behavior:'smooth'});">
 
 
-          </div>
 
 
 
@@ -2448,8 +1178,8 @@
 
 
 
-        </div>
 
+              <span data-i18n="catKadinKulliyati">Kadın Külliyatı</span>
 
 
 
@@ -2462,37 +1192,36 @@
 
 
 
+            </a>
 
 
 
 
 
 
-        
 
 
 
-ass="article-video-container" id="articleVideoBox" style="display: none;">
 
 
 
+          </li>
 
 
 
 
 
 
-          <div style="margin-bottom: 12px; display: flex; align-items: center; gap: 8px; color: var(--c-gold);">
 
 
 
 
 
 
+          <li class="nav-item">
 
 
 
-            <i class="fa-brands fa-youtube" style="font-size: 1.4rem; color: #FF0000;"></i>
 
 
 
@@ -2502,7 +1231,7 @@ ass="article-video-container" id="articleVideoBox" style="display: none;">
 
 
 
-            <strong data-i18n="watchArticleVideo">Bu Yazının Videosunu İzle</strong>
+            <a href="videos.html" class="nav-link">
 
 
 
@@ -2512,41 +1241,39 @@ ass="article-video-container" id="articleVideoBox" style="display: none;">
 
 
 
-          </div>
 
 
 
+              <i class="fa-solid fa-play" style="color: var(--c-gold-bright); font-size: 0.75rem;"></i>
 
 
 
 
 
 
-          <div class="video-responsive-wrap" id="articleVideoWrap"></div>
 
 
 
 
 
 
+              <span data-i18n="navVideos">Videolar</span>
 
 
 
-  
 
 
 
-<div style="text-align: center; margin: 30px 0;">
 
 
 
 
 
 
+            </a>
 
 
 
-          <a href="index.html" class="telegram-pill-btn" style="padding: 12px 30px; font-size: 0.95rem;">
 
 
 
@@ -2556,7 +1283,7 @@ ass="article-video-container" id="articleVideoBox" style="display: none;">
 
 
 
-            <i class="fa-solid fa-arrow-left"></i> <span data-i18n="navHome">Ana Sayfaya Dön</span>
+          </li>
 
 
 
@@ -2566,23 +1293,23 @@ ass="article-video-container" id="articleVideoBox" style="display: none;">
 
 
 
-          </a>
 
 
 
+          
 
 
 
 
 
 
-        </div>
 
 
 
 
 
 
+          
 
 
 
@@ -2595,178 +1322,10 @@ ass="article-video-container" id="articleVideoBox" style="display: none;">
 
 
 
+        </ul>
 
-        <!-- Related Articles -->
 
 
-
-
-
-
-
-
-
-        <div class="related-section" id="relatedSection">
-
-
-
-
-
-
-
-
-
-          <h3 style="font-family: var(--font-display); color: var(--c-mahogany); margin-bottom: 20px;" data-i18n="relatedArticles">İlgili İncelemeler & Yazılar</h3>
-
-
-
-
-
-
-
-
-
-          <div class="related-grid" id="relatedArticlesGrid"></div>
-
-
-
-
-
-
-
-
-
-        </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </article>
-
-
-
-
-
-
-
-
-
-    </div>
-
-
-
-
-
-
-
-
-
-  </main>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <footer class="site-footer">
-
-
-
-
-
-
-
-
-
-    <div style="text-align: center; padding: 24px 0 12px;">
-
-
-
-
-
-
-
-
-
-      <img src="assets/images/logo.png" alt="Bêjing Medya Logo" style="max-height: 60px;">
-
-
-
-
-
-
-
-
-
-      <div id="footerBrandSlogan" style="font-family: var(--font-display); font-size: 1.15rem; font-weight: 700; color: var(--c-gold-bright); margin-top: 6px;">Genç Kadınların Sesi</div>
-
-
-
-
-
-
-
-
-
-    </div>
-
-
-
-
-
-
-
-
-
-    <div class="footer-bottom">
-
-
-
-
-
-
-
-
-
-      <div class="container" style="text-align: center;">
-
-
-
-
-
-
-
-
-
-        <p data-i18n="copyright">© 2026 Bêjing Medya. Tüm hakları saklıdır.</p>
 
 
 
@@ -2786,7 +1345,1055 @@ ass="article-video-container" id="articleVideoBox" style="display: none;">
 
 
 
+
+
+
     </div>
+
+
+
+
+
+
+
+
+
+
+
+
+  </nav>
+
+  <main class="article-page-wrap">
+    <div class="container">
+      <article class="article-container">
+        
+        <header class="article-header">
+          <span class="category-pill" id="articleCategoryPill">Kategori</span>
+          <h1 class="article-page-title" id="articleTitle">Yazı Başlığı</h1>
+          
+          <div class="article-meta">
+            <span><i class="fa-regular fa-clock"></i> <span id="articleDate"></span></span>
+            <span><i class="fa-regular fa-user"></i> <span id="articleAuthor"></span></span>
+            <span><i class="fa-solid fa-book-open"></i> <span id="articleReadTime"></span></span>
+          </div>
+
+          <div class="article-reading-tools">
+            <span style="font-weight: 600;"><i class="fa-solid fa-text-height"></i> <span data-i18n="textFormat">Yazı Boyutu</span></span>
+            <div style="display: flex; gap: 8px;">
+              <button type="button" class="font-adjust-btn" onclick="adjustFontSize(-0.1)" title="Küçült">A-</button>
+              <button type="button" class="font-adjust-btn" onclick="adjustFontSize(0)" title="Varsayılan">A</button>
+              <button type="button" class="font-adjust-btn" onclick="adjustFontSize(0.1)" title="Büyüt">A+</button>
+            </div>
+          </div>
+        </header>
+
+        <!-- Featured Image -->
+        <div class="article-featured-img-wrap" id="articleImageWrapper">
+          <img id="articleImage" src="assets/images/logo.png" alt="Görsel" onerror="this.src='assets/images/logo.png'">
+        </div>
+
+        <!-- Article Body -->
+        <div class="article-body" id="articleBody">
+          <!-- Text will be rendered here dynamically -->
+        </div>
+
+        <!-- Embedded YouTube Video Container (if article has video) -->
+        <div class="article-video-container" id="articleVideoBox" style="display: none;">
+          <div style="margin-bottom: 14px; display: flex; align-items: center; gap: 10px; color: #E8D3B9;">
+            <i class="fa-brands fa-youtube" style="font-size: 1.6rem; color: #FF0000;"></i>
+            <strong style="font-size: 1.1rem;" data-i18n="videoWatch">İlgili Video / Vîdeo</strong>
+          </div>
+          <div id="articleVideoWrap"></div>
+        </div>
+
+        <!-- Share Bar -->
+        <div class="share-bar">
+          <span style="font-weight: 700; font-size: 0.95rem; color: var(--c-mahogany, #8C461C);" data-i18n="shareArticle">Yazıyı Paylaş:</span>
+          <div class="social-links" style="display: flex; gap: 10px;">
+            <button type="button" class="article-share-btn share-facebook" onclick="shareTo('facebook')" title="Facebook" aria-label="Facebook">
+              <i class="fa-brands fa-facebook-f"></i>
+            </button>
+            <button type="button" class="article-share-btn share-x" onclick="shareTo('x')" title="X (Twitter)" aria-label="X">
+              <i class="fa-brands fa-x-twitter"></i>
+            </button>
+            <button type="button" class="article-share-btn share-whatsapp" onclick="shareTo('whatsapp')" title="WhatsApp" aria-label="WhatsApp">
+              <i class="fa-brands fa-whatsapp"></i>
+            </button>
+            <button type="button" class="article-share-btn share-telegram" onclick="shareTo('telegram')" title="Telegram" aria-label="Telegram">
+              <i class="fa-brands fa-telegram"></i>
+            </button>
+            <button type="button" class="article-share-btn share-instagram" onclick="window.open('https://instagram.com', '_blank')" title="Instagram" aria-label="Instagram">
+              <i class="fa-brands fa-instagram"></i>
+            </button>
+            <button type="button" class="article-share-btn" onclick="copyCurrentUrl()" title="Bağlantıyı Kopyala" aria-label="Bağlantıyı Kopyala">
+              <i class="fa-solid fa-link"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- Related Articles Section -->
+        <div class="related-section" id="relatedSection" style="display: none;">
+          <h3 style="font-family: var(--font-display, 'Cinzel', serif); font-size: 1.4rem; color: var(--c-mahogany, #8C461C); margin-bottom: 16px;" data-i18n="relatedArticles">İlginizi Çekebilecek Diğer Yazılar</h3>
+          <div class="related-grid" id="relatedArticlesGrid"></div>
+        </div>
+
+      </article>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="container">
+
+
+
+
+
+
+
+
+
+
+
+
+      <div class="footer-top-grid" style="text-align: center;">
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- About Column with New Logo & Dynamic Slogan -->
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="footer-col-about" style="display: flex; flex-direction: column; align-items: center;">
+
+
+
+
+
+
+
+
+
+
+
+
+          <div class="footer-brand-wrap">
+
+
+
+
+
+
+
+
+
+
+
+
+            <img src="assets/images/logo.png" alt="Bêjing Medya Logo" class="footer-logo-img">
+
+
+
+
+
+
+
+
+
+
+
+
+            <div class="footer-brand-divider"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+            <span class="footer-slogan-text" id="footerBrandSlogan">Genç Kadınların Sesi</span>
+
+
+
+
+
+
+
+
+
+
+
+
+          </div>
+
+
+
+
+
+
+
+
+
+
+
+
+            <span class="footer-slogan-text" id="footerBrandSlogan">Genç Kadınların Sesi</span>
+
+
+
+
+
+
+
+
+
+
+
+
+          </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- Categories Column -->
+
+
+
+
+
+
+
+
+
+
+
+
+        <div style="display: flex; flex-direction: column; align-items: center;">
+
+
+
+
+
+
+
+
+
+
+
+
+          <h4 class="footer-title" data-i18n="footerCategories">Kategoriler</h4>
+
+
+
+
+
+
+
+
+
+
+
+
+          <ul class="footer-links-list" style="text-align: center;">
+
+
+
+
+
+
+
+
+
+
+
+
+            <li><a href="javascript:void(0)" onclick="setCategoryFilter('genc-kadin-bakisiya'); document.getElementById('articlesSection').scrollIntoView({behavior:'smooth'});" data-i18n="catGencKadin">Genç Kadın Bakışıyla</a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+            <li><a href="javascript:void(0)" onclick="setCategoryFilter('manin-izindekiler'); document.getElementById('articlesSection').scrollIntoView({behavior:'smooth'});" data-i18n="catManinIzindekiler">Ma'nın İzindekiler</a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+            <li><a href="javascript:void(0)" onclick="setCategoryFilter('orgulerin-kalemi'); document.getElementById('articlesSection').scrollIntoView({behavior:'smooth'});" data-i18n="catOrgulerinKalemi">Örgülerin Kalemi</a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+            <li><a href="javascript:void(0)" onclick="setCategoryFilter('kadin-ve-kultur'); document.getElementById('articlesSection').scrollIntoView({behavior:'smooth'});" data-i18n="catKadinVeKultur">Kadın ve Kültür</a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+            <li><a href="javascript:void(0)" onclick="setCategoryFilter('atolye'); document.getElementById('articlesSection').scrollIntoView({behavior:'smooth'});" data-i18n="catAtolye">Atölye</a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+            <li><a href="javascript:void(0)" onclick="setCategoryFilter('kadin-kulliyati'); document.getElementById('articlesSection').scrollIntoView({behavior:'smooth'});" data-i18n="catKadinKulliyati">Kadın Külliyatı</a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+          </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- Quick Links Column -->
+
+
+
+
+
+
+
+
+
+
+
+
+        <div style="display: flex; flex-direction: column; align-items: center;">
+
+
+
+
+
+
+
+
+
+
+
+
+          <h4 class="footer-title" data-i18n="footerQuickLinks">Hızlı Bağlantılar</h4>
+
+
+
+
+
+
+
+
+
+
+
+
+          <ul class="footer-links-list" style="text-align: center;">
+
+
+
+
+
+
+
+
+
+
+
+
+            <li><a href="index.html" data-i18n="navHome">Ana Sayfa</a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+            <li><a href="videos.html" data-i18n="navVideos">Videolar</a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+            <li><a href="about.html" data-i18n="navAbout">Hakkımızda</a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+            <li><a href="contact.html" data-i18n="navContact">İletişim</a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+            <li><a href="http://t.me/bejingmedya" target="_blank" data-i18n="telegramTitle">Telegram Kanalı</a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+          </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <!-- Contact Column -->
+
+
+
+
+
+
+
+
+
+
+
+
+        <div id="footerContactCol" style="display: flex; flex-direction: column; align-items: center;">
+
+
+
+
+
+
+
+
+
+
+
+
+          <h4 class="footer-title" data-i18n="footerContact">İletişim</h4>
+
+
+
+
+
+
+
+
+
+
+
+
+          <p style="font-size: 0.88rem; color: rgba(255,255,255,0.7); margin-bottom: 8px; text-align: center;">
+
+
+
+
+
+
+
+
+
+
+
+
+            <i class="fa-regular fa-envelope" style="color: var(--c-gold); margin-right: 8px;"></i>
+
+
+
+
+
+
+
+
+
+
+
+
+            iletisim@bejingmedya.com
+
+
+
+
+
+
+
+
+
+
+
+
+          </p>
+
+
+
+
+
+
+
+
+
+
+
+
+          
+
+
+
+
+
+
+
+
+
+
+
+
+          <!-- Prominent Contact Button in Footer -->
+
+
+
+
+
+
+
+
+
+
+
+
+          <a href="contact.html" class="footer-contact-btn">
+
+
+
+
+
+
+
+
+
+
+
+
+            <i class="fa-regular fa-paper-plane"></i>
+
+
+
+
+
+
+
+
+
+
+
+
+            <span data-i18n="navContact">İletişim</span>
+
+
+
+
+
+
+
+
+
+
+
+
+          </a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          <div class="lang-switcher" style="display: inline-flex; margin-top: 4px;">
+
+
+
+
+
+
+
+
+
+
+
+
+            <button type="button" class="lang-btn active" data-lang="tr" onclick="setLanguage('tr')">Türkçe</button>
+
+
+
+
+
+
+
+
+
+
+
+
+            <button type="button" class="lang-btn" data-lang="ku" onclick="setLanguage('ku')">Kurmancî</button>
+
+
+
+
+
+
+
+
+
+
+
+
+          </div>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Bottom Copyright -->
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="footer-bottom">
+
+
+
+
+
+
+
+
+
+
+
+
+      <div class="container">
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="footer-bottom-inner" style="justify-content: center; flex-direction: column; gap: 10px; text-align: center;">
+
+
+
+
+
+
+
+
+
+
+
+
+          <p data-i18n="copyright">© 2026 Bêjing Medya. Tüm hakları saklıdır.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+          <button type="button" class="back-to-top-btn" id="backToTopBtn" style="margin: 0 auto;">
+
+
+
+
+
+
+
+
+
+
+
+
+            <i class="fa-solid fa-arrow-up"></i>
+
+
+
+
+
+
+
+
+
+
+
+
+            <span data-i18n="backToTop">Yukarı Çık</span>
+
+
+
+
+
+
+
+
+
+
+
+
+          </button>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
 
 
 
@@ -2798,503 +2405,72 @@ ass="article-video-container" id="articleVideoBox" style="display: none;">
 
   </footer>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <script src="assets/js/data.js?v=1791233257"></script>
-
-
-
-
-
-
-
-
-
-  <script src="assets/js/i18n.js?v=1791233257"></script>
-
-
-
-
-
-
-
-
+  <!-- Scripts -->
+  <script src="assets/js/data.js?v=1791313259"></script>
+  <script src="assets/js/i18n.js?v=1791313259"></script>
+  <script src="assets/js/main.js?v=1791313259"></script>
 
   <script>
-
-
-
-
-
-
-
-
-
     let currentFontSize = 1.15;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     function adjustFontSize(delta) {
-
-
-
-
-
-
-
-
-
       if (delta === 0) currentFontSize = 1.15;
-
-
-
-
-
-
-
-
-
-      else currentFontSize = Math.min(1.45, Math.max(0.95, currentFontSize + delta * 0.1));
-
-
-
-
-
-
-
-
-
-      document.getElementById("articleBody").style.fontSize = currentFontSize + "rem";
-
-
-
-
-
-
-
-
-
+      else currentFontSize = Math.min(1.5, Math.max(0.9, currentFontSize + delta));
+      const b = document.getElementById("articleBody");
+      if (b) b.style.fontSize = currentFontSize + "rem";
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     function shareTo(platform) {
-
-
-
-
-
-
-
-
-
       const url = encodeURIComponent(window.location.href);
-
-
-
-
-
-
-
-
-
-      const title = encodeURIComponent(document.getElementById("articleTitle").textContent);
-
-
-
-
-
-
-
-
-
-      let target = "";
-
-
-
-
-
-
-
-
-
-      if (platform === 'x') target = "https://twitter.com/intent/tweet?url=" + url + "&text=" + title;
-
-
-
-
-
-
-
-
-
-      if (platform === 'facebook') target = "https://www.facebook.com/sharer/sharer.php?u=" + url;
-
-
-
-
-
-
-
-
-
-      if (platform === 'whatsapp') target = "https://api.whatsapp.com/send?text=" + title + "%20" + url;
-
-
-
-
-
-
-
-
-
-      if (platform === 'telegram') target = "https://t.me/share/url?url=" + url + "&text=" + title;
-
-
-
-
-
-
-
-
-
-      if (target) window.open(target, "_blank", "width=600,height=450");
-
-
-
-
-
-
-
-
-
+      const title = encodeURIComponent(document.title);
+      if (platform === 'facebook') window.open('https://www.facebook.com/sharer/sharer.php?u=' + url, '_blank');
+      else if (platform === 'x') window.open('https://twitter.com/intent/tweet?url=' + url + '&text=' + title, '_blank');
+      else if (platform === 'whatsapp') window.open('https://api.whatsapp.com/send?text=' + title + '%20' + url, '_blank');
+      else if (platform === 'telegram') window.open('https://t.me/share/url?url=' + url + '&text=' + title, '_blank');
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     function copyCurrentUrl() {
-
-
-
-
-
-
-
-
-
       navigator.clipboard.writeText(window.location.href).then(() => {
-
-
-
-
-
-
-
-
-
-        alert(t("copiedLink"));
-
-
-
-
-
-
-
-
-
+        const lang = (typeof getCurrentLang === 'function') ? getCurrentLang() : "tr";
+        alert(lang === 'ku' ? 'Lînk hat kopîkirin!' : 'Bağlantı kopyalandı!');
       });
-
-
-
-
-
-
-
-
-
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     function loadArticleContent() {
-
-
-
-
-
-
-
-
-
       const urlParams = new URLSearchParams(window.location.search);
-
-
-
-
-
-
-
-
-
       const articleId = parseInt(urlParams.get("id"));
+      const lang = (typeof getCurrentLang === 'function') ? getCurrentLang() : "tr";
 
+      if (typeof BEJING_ARTICLES === 'undefined' || !Array.isArray(BEJING_ARTICLES)) return;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      const lang = getCurrentLang();
-
-
-
-
-
-
-
-
-
-      let article = BEJING_ARTICLES.find(a => a.id === articleId);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      if (!article) {
-
-
-
-
-
-
-
-
-
-        const langArticles = BEJING_ARTICLES.filter(a => a.lang === lang);
-
-
-
-
-
-
-
-
-
-        article = langArticles[0] || BEJING_ARTICLES[0];
-
-
-
-
-
-
-
-
-
+      let article = null;
+      if (!isNaN(articleId)) {
+        article = BEJING_ARTICLES.find(a => a.id === articleId);
       }
 
+      if (!article) {
+        const langArticles = BEJING_ARTICLES.filter(a => a.lang === lang);
+        article = langArticles[0] || BEJING_ARTICLES[0];
+      }
 
+      if (!article) return;
 
+      const cat = (typeof BEJING_CATEGORIES !== 'undefined') ? BEJING_CATEGORIES[article.categoryId] : null;
+      const catName = cat ? (cat[lang] || cat.tr) : (article.categoryName || "");
 
+      document.title = article.title + " | Bêjîng Medya";
 
+      const catPill = document.getElementById("articleCategoryPill");
+      if (catPill) catPill.textContent = catName;
 
+      const titleEl = document.getElementById("articleTitle");
+      if (titleEl) titleEl.textContent = article.title;
 
+      const dateEl = document.getElementById("articleDate");
+      if (dateEl) dateEl.textContent = article.date || "";
 
-
-
-
-
-
-
-
-
-
-
-
-      const cat = BEJING_CATEGORIES[article.categoryId];
-
-
-
-
-
-
-
-
-
-      const catName = cat ? cat[lang] : article.categoryName;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      document.title = article.title + " | Bêjing Medya";
-
-
-
-
-
-
-
-
-
-      document.getElementById("articleCategoryPill").textContent = catName;
-
-
-
-
-
-
-
-
-
-      document.getElementById("articleTitle").textContent = article.title;
-
-
-
-
-
-
-
-
-
-      document.getElementById("articleDate").textContent = article.date;
-
-
-
-
-
-
-
-
-
-      document.getElementById("articleAuthor").textContent = article.author;
-
-
-
-
-
-
-
-
+      const authorEl = document.getElementById("articleAuthor");
+      if (authorEl) authorEl.textContent = article.author || "";
 
       let rt = "5 dk okuma";
       if (article.readTime) {
@@ -3304,841 +2480,87 @@ ass="article-video-container" id="articleVideoBox" style="display: none;">
       const rtEl = document.getElementById("articleReadTime");
       if (rtEl) rtEl.textContent = rt;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
       const imgEl = document.getElementById("articleImage");
-
-
-
-
-
-
-
-
-
+      const imgWrap = document.getElementById("articleImageWrapper");
       if (article.featured_image) {
-
-
-
-
-
-
-
-
-
-        imgEl.src = article.featured_image;
-
-
-
-
-
-
-
-
-
-        document.getElementById("articleImageWrapper").style.display = "block";
-
-
-
-
-
-
-
-
-
+        if (imgEl) imgEl.src = article.featured_image;
+        if (imgWrap) imgWrap.style.display = "block";
       } else {
-
-
-
-
-
-
-
-
-
-        document.getElementById("articleImageWrapper").style.display = "none";
-
-
-
-
-
-
-
-
-
+        if (imgWrap) imgWrap.style.display = "none";
       }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      
-
-
-
-      const videoBox = document.getElementById("articleVideoBox");
-
-
-
-      const videoWrap = document.getElementById("articleVideoWrap");
-
-
-
-      if (article.youtube_videos && article.youtube_videos.length > 0) {
-
-
-
-        let html_str = "";
-
-
-
-        article.youtube_videos.forEach(vid => {
-
-
-
-            // Add the iframe
-
-
-
-            html_str += '<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:8px;margin-bottom:10px;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="' + vid.embed_url + '" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe></div>';
-
-
-
-            
-
-
-
-            // Add the direct clickable link!
-
-
-
-            let watch_url = vid.embed_url.replace('/embed/', '/watch?v=');
-
-
-
-            html_str += '<div style="margin-bottom:30px;text-align:center;"><a href="' + watch_url + '" target="_blank" style="color:var(--c-mahogany);font-weight:bold;text-decoration:underline;">Videoyu Youtube\'da İzlemek İçin Tıklayın: ' + watch_url + '</a></div>';
-
-
-
-        });
-
-
-
-        videoWrap.innerHTML = html_str;
-
-
-
-        videoBox.style.display = "block";
-
-
-
-      } else {
-
-
-
-        videoBox.style.display = "none";
-
-
-
-        videoWrap.innerHTML = "";
-
-
-
-      }
-
-
-
-      
-
-
-
-let cleanContent = article.content || "";
-
-
-
-
-
-
-
-
-
+      // Format and clean content
+      let cleanContent = article.content || "";
       cleanContent = cleanContent.replace(/<figure[\s\S]*?<\/figure>/gi, function(match) {
-
-
-
-
-
-
-
-
-
         if (/youtube|youtu\.be|vimeo|embed|video/i.test(match)) return "";
-
-
-
-
-
-
-
-
-
         return match;
-
-
-
-
-
-
-
-
-
       });
-
-
-
-
-
-
-
-
-
       cleanContent = cleanContent.replace(/<iframe[\s\S]*?<\/iframe>/gi, "");
-
-
-
-
-
-
-
-
-
       cleanContent = cleanContent.replace(/<p[^>]*>\s*https?:\/\/(?:www\.)?(?:youtube\.com|youtu\.be)[\s\S]*?<\/p>/gi, "");
-
-
-
-
-
-
-
-
-
       cleanContent = cleanContent.replace(/(?:https?:\/\/)?(?:www\.)?(?:youtube\.com\/watch\?v=|youtu\.be\/)[\w\-]+/gi, "");
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      document.getElementById("articleBody").innerHTML = cleanContent;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      const relatedGrid = document.getElementById("relatedArticlesGrid");
-
-
-
-
-
-
-
-
-
-      relatedGrid.innerHTML = "";
-
-
-
-
-
-
-
-
-
-      const relatedList = BEJING_ARTICLES.filter(a => a.categoryId === article.categoryId && a.id !== article.id && a.lang === article.lang).slice(0, 3);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      if (relatedList.length === 0) {
-
-
-
-
-
-
-
-
-
-        document.getElementById("relatedSection").style.display = "none";
-
-
-
-
-
-
-
-
-
-      } else {
-
-
-
-
-
-
-
-
-
-        document.getElementById("relatedSection").style.display = "block";
-
-
-
-
-
-
-
-
-
-        relatedList.forEach(rel => {
-
-
-
-
-
-
-
-
-
-          const card = document.createElement("div");
-
-
-
-
-
-
-
-
-
-          card.className = "article-card";
-
-
-
-
-
-
-
-
-
-          card.innerHTML = `
-
-
-
-
-
-
-
-
-
-            <div class="article-card-thumb-wrap" onclick="window.location.href='article.html?id=${rel.id}'" style="cursor:pointer;">
-
-
-
-
-
-
-
-
-
-              <img src="${rel.featured_image}" alt="${rel.title}" class="article-card-thumb" onerror="this.src='assets/images/logo.png'">
-
-
-
-
-
-
-
-
-
-            </div>
-
-
-
-
-
-
-
-
-
-            <div class="article-card-body" style="padding: 16px;">
-
-
-
-
-
-
-
-
-
-              <h4 style="font-family: var(--font-display); font-size: 1.05rem; margin-bottom: 8px; cursor: pointer;" onclick="window.location.href='article.html?id=${rel.id}'">${rel.title}</h4>
-
-
-
-
-
-
-
-
-
-              <span style="font-size: 0.78rem; color: var(--c-text-light);"><i class="fa-regular fa-clock"></i> ${rel.date}</span>
-
-
-
-
-
-
-
-
-
-            </div>
-
-
-
-
-
-
-
-
-
-          `;
-
-
-
-
-
-
-
-
-
-          relatedGrid.appendChild(card);
-
-
-
-
-
-
-
-
-
-        });
-
-
-
-
-
-
-
-
-
+      // If content has no <p> tags, wrap lines in <p>
+      if (!cleanContent.includes("<p>") && !cleanContent.includes("<div")) {
+        cleanContent = cleanContent.split(/\n\s*\n/).map(p => `<p>${p.trim()}</p>`).join("");
       }
 
+      const bodyEl = document.getElementById("articleBody");
+      if (bodyEl) bodyEl.innerHTML = cleanContent;
 
+      // Handle YouTube video
+      const videoBox = document.getElementById("articleVideoBox");
+      const videoWrap = document.getElementById("articleVideoWrap");
+      if (article.youtube_videos && article.youtube_videos.length > 0) {
+        let htmlStr = "";
+        article.youtube_videos.forEach(vid => {
+          htmlStr += '<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:8px;margin-bottom:14px;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;border:none;" src="' + vid.embed_url + '" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe></div>';
+          let watchUrl = vid.embed_url.replace('/embed/', '/watch?v=');
+          htmlStr += '<div style="margin-bottom:20px;text-align:center;"><a href="' + watchUrl + '" target="_blank" style="color:#E8D3B9;font-weight:600;text-decoration:underline;">' + (lang === "ku" ? "Li ser Youtube temaşe bikin: " : "Videoyu Youtube üzerinde izleyin: ") + watchUrl + '</a></div>';
+        });
+        if (videoWrap) videoWrap.innerHTML = htmlStr;
+        if (videoBox) videoBox.style.display = "block";
+      } else {
+        if (videoBox) videoBox.style.display = "none";
+        if (videoWrap) videoWrap.innerHTML = "";
+      }
 
-
-
-
-
-
-
+      // Related articles
+      const relatedGrid = document.getElementById("relatedArticlesGrid");
+      const relatedSection = document.getElementById("relatedSection");
+      if (relatedGrid && relatedSection) {
+        relatedGrid.innerHTML = "";
+        const relatedList = BEJING_ARTICLES.filter(a => a.categoryId === article.categoryId && a.id !== article.id && a.lang === article.lang).slice(0, 3);
+        if (relatedList.length === 0) {
+          relatedSection.style.display = "none";
+        } else {
+          relatedSection.style.display = "block";
+          relatedList.forEach(rel => {
+            const card = document.createElement("div");
+            card.className = "article-card";
+            card.innerHTML = `
+              <div class="article-card-thumb-wrap" onclick="window.location.href='article.html?id=${rel.id}'" style="cursor:pointer;">
+                <img src="${rel.featured_image}" alt="${rel.title}" class="article-card-thumb" onerror="this.src='assets/images/logo.png'">
+              </div>
+              <div class="article-card-body" style="padding: 14px;">
+                <h4 style="font-family: var(--font-display, 'Cinzel', serif); font-size: 1rem; margin-bottom: 8px; cursor: pointer;" onclick="window.location.href='article.html?id=${rel.id}'">${rel.title}</h4>
+                <span style="font-size: 0.78rem; color: #7A7067;"><i class="fa-regular fa-clock"></i> ${rel.date}</span>
+              </div>
+            `;
+            relatedGrid.appendChild(card);
+          });
+        }
+      }
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    document.addEventListener("DOMContentLoaded", loadArticleContent);
-
-
-
-
-
-
-
-
-
-    window.addEventListener("bejing:langChange", () => {
-
-
-
-
-
-
-
-
-
-      const urlParams = new URLSearchParams(window.location.search);
-
-
-
-
-
-
-
-
-
-      const articleId = parseInt(urlParams.get("id"));
-
-
-
-
-
-
-
-
-
-      const currentArt = BEJING_ARTICLES.find(a => a.id === articleId);
-
-
-
-
-
-
-
-
-
-      const newLang = getCurrentLang();
-
-
-
-
-
-
-
-
-
-      if (currentArt && currentArt.lang !== newLang) {
-
-
-
-
-
-
-
-
-
-        const topOfLang = BEJING_ARTICLES.find(a => a.lang === newLang);
-
-
-
-
-
-
-
-
-
-        if (topOfLang) {
-
-
-
-
-
-
-
-
-
-          window.location.href = 'article.html?id=' + topOfLang.id;
-
-
-
-
-
-
-
-
-
-          return;
-
-
-
-
-
-
-
-
-
-        }
-
-
-
-
-
-
-
-
-
-      }
-
-
-
-
-
-
-
-
-
+    document.addEventListener("DOMContentLoaded", () => {
       loadArticleContent();
-
-
-
-
-
-
-
-
-
+      if (typeof updateSloganDynamic === 'function') updateSloganDynamic();
     });
 
-
-
-
-
-
-
-
-
+    window.addEventListener("bejing:langChange", () => {
+      loadArticleContent();
+      if (typeof updateSloganDynamic === 'function') updateSloganDynamic();
+    });
   </script>
-
-
-
-
-
-
-
-
-
-<script>
-
-
-
-
-
-
-
-
-
-        function updateSloganDynamic() {
-
-
-
-
-
-
-
-
-
-          const lang = (typeof getCurrentLang === 'function') ? getCurrentLang() : "tr";
-
-
-
-
-
-
-
-
-
-          const s = (lang === "ku") ? "Dengê Jinên Ciwan" : "Genç Kadınların Sesi";
-
-
-
-
-
-
-
-
-
-          const h = document.getElementById("headerBrandSlogan");
-
-
-
-
-
-
-
-
-
-          const f = document.getElementById("footerBrandSlogan");
-
-
-
-
-
-
-
-
-
-          if (h) h.textContent = s;
-
-
-
-
-
-
-
-
-
-          if (f) f.textContent = s;
-
-
-
-
-
-
-
-
-
-        }
-
-
-
-
-
-
-
-
-
-        window.addEventListener("bejing:langChange", updateSloganDynamic);
-
-
-
-
-
-
-
-
-
-        document.addEventListener("DOMContentLoaded", updateSloganDynamic);
-
-
-
-
-
-
-
-
-
-      </script>
-
-
-
-
-
-
-
-
-
-      </body>
-
-
-
-
-
-
-
-
-
+</body>
 </html>
-
-
-
-
-
-
-
-
-

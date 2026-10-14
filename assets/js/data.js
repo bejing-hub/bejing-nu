@@ -1,4 +1,4 @@
-/**
+﻿/**
 
  * Bêjing Medya - Complete Published Archive & Video Store
 
@@ -189,6 +189,29 @@ const BEJING_QUOTES = [
 
 
 const BEJING_ARTICLES = [
+  {
+    "id": 4160,
+    "lang": "tr",
+    "categoryId": "atolye",
+    "categoryName": "Atölye",
+    "title": "Örgümüz korkunuzdur!",
+    "featured_image": "assets/images/orgumuz_korkunuzdur.jpg",
+    "date": "13.10.2026",
+    "author": "Bêjîng Medya",
+    "readTime": {
+      "tr": "1 dk okuma",
+      "ku": "1 xulek xwendin"
+    },
+    "views": "1.2K",
+    "excerpt": "Haseke’de Rojavalı genç kadınlar, duvara bir kadının saç örgüsünü resmederek üzerine “Keziyê me tirsa we” (Örgümüz korkunuzdur) yazdı. Kadınların saç örgüsü üzerinden verilen mesajla, kadın kimliğine ve iradesine yönelik saldırılara tepki gösterildi.",
+    "content": "<p>Haseke’de Rojavalı genç kadınlar, duvara bir kadının saç örgüsünü resmederek üzerine “Keziyê me tirsa we” (Örgümüz korkunuzdur) yazdı. Kadınların saç örgüsü üzerinden verilen mesajla, kadın kimliğine ve iradesine yönelik saldırılara tepki gösterildi. Genç kadınlar, çizdikleri resim ve yazdıkları sloganla kadınların saç örgüsünün kültürel anlamını ve direnişin sembolü olduğunu vurguladı.</p>",
+    "youtube_videos": [
+      {
+        "embed_url": "https://www.youtube.com/embed/dxjdRp3MK-0",
+        "title": "Çalakiyen Kezi"
+      }
+    ]
+  },
     {
         "id":  4159,
         "lang":  "tr",

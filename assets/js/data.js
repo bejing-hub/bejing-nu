@@ -1,4 +1,4 @@
-﻿/**
+/**
 
  * Bêjing Medya - Complete Published Archive & Video Store
 
@@ -189,6 +189,30 @@ const BEJING_QUOTES = [
 
 
 const BEJING_ARTICLES = [
+  {
+    "id": 4161,
+    "lang": "tr",
+    "categoryId": "atolye",
+    "categoryName": "Atölye",
+    "title": "Qamişlo’da Genç Kadınlar Çalışma Hakkına Yönelik Engelleri Anlattı",
+    "featured_image": "assets/images/qamislo_genc_kadinlar_calisma.jpg",
+    "date": "14.10.2026",
+    "author": "Bêjîng Medya",
+    "readTime": {
+      "tr": "1 dk okuma",
+      "ku": "1 xulek xwendin"
+    },
+    "views": "1.1K",
+    "excerpt": "Rojava’da Kürt gençlerinin çalışma hakkına yönelik engeller, gençlerin yaşamını ve geleceğe dair beklentilerini etkiliyor. Şam hükümetinin Kürt gençlerinin çalışmasını engelleyen uygulamalarına ilişkin Qamişlo’da iki genç kadınla röportaj gerçekleştirildi.",
+    "content": "<p>Rojava’da Kürt gençlerinin çalışma hakkına yönelik engeller, gençlerin yaşamını ve geleceğe dair beklentilerini etkiliyor. Şam hükümetinin Kürt gençlerinin çalışmasını engelleyen uygulamalarına ilişkin Qamişlo’da iki genç kadınla röportaj gerçekleştirildi. Genç kadınlar, yaşanan duruma dair düşüncelerini ve değerlendirmelerini paylaşarak gençlerin karşı karşıya kaldığı sorunlara dikkat çekti.</p>",
+    "youtube_videos": [
+      {
+        "embed_url": "https://www.youtube.com/embed/h0-Hh5xXZhg",
+        "title": "Qamişlo’da genç kadınlar çalışma hakkına yönelik engelleri anlattı"
+      }
+    ]
+  }
+  ,
   {
     "id": 4160,
     "lang": "tr",

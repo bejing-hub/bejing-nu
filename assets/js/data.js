@@ -190,6 +190,30 @@ const BEJING_QUOTES = [
 
 const BEJING_ARTICLES = [
   {
+    "id": 4217,
+    "lang": "tr",
+    "categoryId": "atolye",
+    "categoryName": "Atölye",
+    "title": "Kadın Zamanı;",
+    "featured_image": "assets/images/kadin_zamani_cover.png",
+    "date": "17.10.2026",
+    "author": "Bêjîng Medya",
+    "readTime": {
+      "tr": "2 dk okuma",
+      "ku": "2 xulek xwendin"
+    },
+    "views": "1.2K",
+    "excerpt": "Kadın zamanı, sadece belli bir süre boyunca devam eden bir mücadele değildir; kadının kendi gerçekliğini tanıması, kimliğini bulması ve kendi varoluşunu en üst düzeyde yaşamsallaştırmasıdır. Kadın özgürlüğünü yakalayana, hatta özgürlüğün sınırlarını aşarak yeni yaşam olanakları yaratana kadar kadın mücadelesi devam eder.",
+    "content": "<p>Kadın zamanı, sadece belli bir süre boyunca devam eden bir mücadele değildir; kadının kendi gerçekliğini tanıması, kimliğini bulması ve kendi varoluşunu en üst düzeyde yaşamsallaştırmasıdır.</p><p>Kadın özgürlüğünü yakalayana, hatta özgürlüğün sınırlarını aşarak yeni yaşam olanakları yaratana kadar kadın mücadelesi devam eder. Ancak özgürlüğün sınırsızlığı kadar bir ölçüsü ve ahlaki sorumluluğu da vardır. Kendi özgürlüğümüzü gerçekleştirmeye çalışırken başkasının özgürlüğünü sınırlandırmamak; yanımızdaki yol arkadaşlarımızla eşitlikçi, ahlaki ve özgürlükçü bir temelde yürümek, Kadın Zamanı sloganını doğru temsil etmenin ve onu yaşamın her alanında yaşamsallaştırmanın temelidir.</p><p>Kadın özgürlüğü, sadece bireysel bir arayış değil; birlikte özgürleşmenin, birbirinin varoluşuna saygı duymanın ve eşit bir yaşamı ortaklaşa kurmanın da mücadelesidir. Bu nedenle hepimiz Kadın Zamanı diyerek kendi kimliğimizin, hakikatimizin ve özgürlüğümüzün arayışına girelim. Özgürlüğü yalnızca bir hedef olarak görmeyelim; onu düşüncemizde, ilişkilerimizde ve yaşamın her anında yaşamsallaştıralım.</p>",
+    "youtube_videos": [
+      {
+        "embed_url": "https://www.youtube.com/embed/fF1eNaxhXko",
+        "title": "Şimdi Kadın Zamanı!"
+      }
+    ]
+  }
+  ,
+  {
     "id": 4201,
     "slug": "li-qamisloye-jinen-ciwan-behsa-astengiyen-li-pesiya-mafe-xebate-kirin",
     "lang": "ku",

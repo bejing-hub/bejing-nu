@@ -190,6 +190,31 @@ const BEJING_QUOTES = [
 
 const BEJING_ARTICLES = [
   {
+    "id": 4201,
+    "slug": "li-qamisloye-jinen-ciwan-behsa-astengiyen-li-pesiya-mafe-xebate-kirin",
+    "lang": "ku",
+    "categoryId": "atolye",
+    "categoryName": "Atolye",
+    "title": "Li Qamişloyê Jinên Ciwan Behsa Astengiyên Li Pêşiya Mafê Xebatê Kirin",
+    "featured_image": "assets/images/qamislo_genc_kadinlar_calisma.jpg",
+    "date": "14.10.2026",
+    "author": "Bêjîng Medya",
+    "readTime": {
+      "ku": "1 xulek xwendin",
+      "tr": "1 dk okuma"
+    },
+    "views": "1.1K",
+    "excerpt": "Li Rojava astengiyên li hember mafê xebatê yê ciwanên Kurd, bandorê li jiyana ciwanan û hêviyên wan ên ji bo pêşerojê dike. Li ser kiryarên hikûmeta Şamê yên ku rê li ber xebata ciwanên Kurd digirin, li Qamişloyê bi du jinên ciwan re hevpeyvîn hat kirin.",
+    "content": "<p>Li Rojava astengiyên li hember mafê xebatê yê ciwanên Kurd, bandorê li jiyana ciwanan û hêviyên wan ên ji bo pêşerojê dike. Li ser kiryarên hikûmeta Şamê yên ku rê li ber xebata ciwanên Kurd digirin, li Qamişloyê bi du jinên ciwan re hevpeyvîn hat kirin. Jinên ciwan nêrîn û nirxandinên xwe yên derbarê vê rewşê de parve kirin û bal kişandin ser pirsgirêkên ku ciwan pê re rû bi rû ne.</p>",
+    "youtube_videos": [
+      {
+        "embed_url": "https://www.youtube.com/embed/h0-Hh5xXZhg",
+        "title": "Li Qamişloyê jinên ciwan behsa astengiyên li pêşiya mafê xebatê kirin"
+      }
+    ]
+  }
+  ,
+  {
     "id": 4161,
     "lang": "tr",
     "categoryId": "atolye",

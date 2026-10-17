@@ -190,6 +190,31 @@ const BEJING_QUOTES = [
 
 const BEJING_ARTICLES = [
   {
+    "id": 4225,
+    "slug": "dema-jine",
+    "lang": "ku",
+    "categoryId": "atolye",
+    "categoryName": "Atolye",
+    "title": "Dema Jinê Ye;",
+    "featured_image": "assets/images/kadin_zamani_cover.png",
+    "date": "17.10.2026",
+    "author": "Bêjîng Medya",
+    "readTime": {
+      "ku": "2 xulek xwendin",
+      "tr": "2 dk okuma"
+    },
+    "views": "1.2K",
+    "excerpt": "Dema jinê ne tenê têkoşîneke ku ji bo demek diyarkirî didome; ew e ku jin heqîqeta xwe nas bike, nasnameya xwe bibîne û hebûna xwe di asta herî jor de bike jiyanî. Têkoşîna jinê heta ku jin azadiya xwe bi dest bixe, hetta sînorên azadiyê derbas bike û derfetên jiyanê yên nû biafirîne didome.",
+    "content": "<p>Dema jinê ne tenê têkoşîneke ku ji bo demek diyarkirî didome; ew e ku jin heqîqeta xwe nas bike, nasnameya xwe bibîne û hebûna xwe di asta herî jor de bike jiyanî.</p><p>Têkoşîna jinê heta ku jin azadiya xwe bi dest bixe, hetta sînorên azadiyê derbas bike û derfetên jiyanê yên nû biafirîne didome. Lê belê bi qasî bêsînorbûna azadiyê, pîvanek û berpirsiyariyeke wê ya exlaqî jî heye. Dema ku em hewl didin azadiya xwe pêk bînin, sînordarnekirina azadiya yên din; meşîna li ser bingehê wekhevîparêz, exlaqî û azadîxwaz ligel hevalên me yên rê, bingeha nûnertiya rast a dirûşma Dema Jinê û di her qada jiyanê de jiyanîkirina wê ye.</p><p>Azadiya jinê ne tenê lêgerîneke ferdî ye; di heman demê de têkoşîna bi hev re azadbûnê, rêzgirtina li hebûna hevdu û bi hevparî avakirina jiyaneke wekhev e. Ji ber vê yekê, bila em hemû bibêjin Dema Jinê û bikevin nava lêgerîna nasname, heqîqet û azadiya xwe. Bila em azadiyê tenê wekî armancekê nebînin; wê di ramana xwe de, di têkiliyên xwe de û di her kêliya jiyanê de jiyanî bikin.</p>",
+    "youtube_videos": [
+      {
+        "embed_url": "https://www.youtube.com/embed/fF1eNaxhXko",
+        "title": "Dema Jinê Ye;"
+      }
+    ]
+  }
+  ,
+  {
     "id": 4217,
     "lang": "tr",
     "categoryId": "atolye",

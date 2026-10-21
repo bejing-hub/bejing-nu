@@ -190,6 +190,92 @@ const BEJING_QUOTES = [
 
 const BEJING_ARTICLES = [
   {
+    "id": 4234,
+    "slug": "denge-berxweder-e-muzika-kurdi-zeynep-dogan",
+    "lang": "ku",
+    "categoryId": "kadin-ve-kultur",
+    "categoryName": "Jin û Çand",
+    "title": "Dengê Berxwedêr ê Muzîka Kurdî: Zeynep Doğan",
+    "featured_image": "https://img.youtube.com/vi/Ojq2jIvr0A0/hqdefault.jpg",
+    "date": "21.10.2026",
+    "author": "Bêjîng Medya",
+    "readTime": {
+      "ku": "3 xulek xwendin",
+      "tr": "3 dk okuma"
+    },
+    "views": "1.6K",
+    "excerpt": "Yek ji dengên ciwan û bi bandor ên muzîka Kurdî, solîsta Koma Hevra Zeynep Doğan; bi stranên xwe, bi sekna xwe ya serhildêr û nasnameya jina ciwan di dilê gel de cihekî mezin digire. Tevî zext, astengî û binçavkirinan jî li ser dîkan û di nava qadan de qîrîna aştî û azadiyê bilind dike.",
+    "content": "<p>Di dîroka gelê Kurd de muzîk û stran ne tenê huner in; ew bîr, nasname û keleha herî xurt a parastina çandê ne. Hunermenda ciwan û solîsta Koma Hevra Zeynep Doğan, vê mîrasa hezar salan bi rihê nifşê nû û têkoşîna jinê re digihîne hev û bi stranên xwe jiyaneke azad dihûne.</p><p>Zeynep Doğan wek jineke ciwan a Kurd, li ser dikê ne tenê distirê; ew êş, hest, hêvî û îradeya jinan radigihîne. Ji qadên dîrokî yên Amedê heta navendên çandê, bi dengê xwe yê zelal û hestiyar digihîje hezaran kesan. Bi xebatên xwe yên di nava Koma Hevra de, motîfên kevnar ên Kurdî bi muzîka protest û serhildêr a nûjen re dike yek.</p><p>Li hemberî zextên li ser ziman û çanda Kurdî, Zeynep Doğan her tim sekneke wêrek nîşan da. Piştî konseran rûbirûbûna binçavkirin û zextan nekarî dengê wê bibire. Wê her carê anî ziman ku muzîk qîrîna heqîqeta gel e û got: “Hunera me dengê vê axê ye; tu zilm û qedexe nikarin vî dengî bêdeng bikin.”</p><p>Zeynep Doğan di heman demê de di nava deklarasyon û însiyatîfên aştî û çandê de cih girt û bû yek ji parêzvanên sereke yên dirûşma “Em bibin dengê aştiyê”. Di dengê wê de hem kûrahiya strana dengbêjên jin, hem jî baweriya polayî ya jinên ciwan ên ku paşerojê ava dikin olan dide.</p>",
+    "youtube_videos": [
+      {
+        "embed_url": "https://www.youtube.com/embed/Ojq2jIvr0A0",
+        "title": "Dengê Berxwedêr ê Muzîka Kurdî: Zeynep Doğan"
+      }
+    ]
+  },
+  {
+    "id": 4233,
+    "slug": "kurt-muziginin-direnen-sesi-zeynep-dogan",
+    "lang": "tr",
+    "categoryId": "kadin-ve-kultur",
+    "categoryName": "Kadın ve Kültür",
+    "title": "Kürt Müziğinin Direnen Sesi: Zeynep Doğan",
+    "featured_image": "https://img.youtube.com/vi/Ojq2jIvr0A0/hqdefault.jpg",
+    "date": "21.10.2026",
+    "author": "Bêjîng Medya",
+    "readTime": {
+      "tr": "3 dk okuma",
+      "ku": "3 xulek xwendin"
+    },
+    "views": "1.5K",
+    "excerpt": "Kürt müziğinin genç ve üretken seslerinden, Koma Hevra'nın solisti Zeynep Doğan; ezgileri, direniş dolu duruşu ve kadın kimliğiyle halkın hafızasında yankılanıyor. Baskılara, engellemelere ve gözaltılara rağmen meydanlarda ve sahnelerde barışın, özgürlüğün ezgilerini seslendiren Zeynep Doğan, genç kadınların sanat mücadelesine öncülük ediyor.",
+    "content": "<p>Kürt halkının tarihsel varoluşunda müzik ve stranlar, yalnızca birer sanat formu değil; hafızanın, direnişin ve kimliğin en gür sesi olmuştur. Bu kadim geleneği bugünün gençlik ve kadın dinamizmiyle harmanlayan Koma Hevra’nın solisti Zeynep Doğan, ezgileriyle özgürlük ve barış arayışını meydanlara taşıyor.</p><p>Genç bir kadın sanatçı olarak Zeynep Doğan, sahneye çıktığı her alanda yalnızca bir müzisyen değil; halkının acılarını, umutlarını ve genç kadınların eşitlik talebini haykıran bir ses oldu. Amed'in tarihi meydanlarından üniversite amfilerine, kültür festivallerinden sokaklara kadar stranlarıyla on binlerce insana ulaştı. Koma Hevra bünyesinde seslendirdiği eserlerle geleneksel motifleri modern protest tınılarla buluşturdu.</p><p>Kürt kültürüne, anadilinde müziğe ve kadın özgürlük mücadelesine yönelik baskı politikaları Zeynep Doğan'ın sesini kısmaya yetmedi. Konserlerin ardından maruz kaldığı gözaltılar, soruşturmalar ve engellemeler karşısında sergilediği dik duruş, onun sanatını halkın vicdanında çok daha güçlü bir yere taşıdı. Doğan, “Sanatımız halkımızın hakikatidir; bu hakikati ne yasaklar ne de baskılar susturabilir” sözleriyle duruşunu her defasında kararlılıkla yineledi.</p><p>Zeynep Doğan, aynı zamanda Türkiye ve Kürdistan’daki aydın, sanatçı ve dengbêjlerin bir araya geldiği barış inisiyatiflerinde de yer alarak, “Em bibin dengê aştiyê” (Barışın sesi olalım) şiarıyla halkların kardeşliğini savundu. Genç kadınların sanatsal ve toplumsal öncülüğünü simgeleyen Zeynep Doğan'ın sesinde, hem dengbêj kadınların derin hüznü hem de geleceği kuran genç kadınların sarsılmaz inancı yaşıyor.</p>",
+    "youtube_videos": [
+      {
+        "embed_url": "https://www.youtube.com/embed/Ojq2jIvr0A0",
+        "title": "Kürt Müziğinin Direnen Sesi: Zeynep Doğan"
+      }
+    ]
+  },
+  {
+    "id": 4232,
+    "slug": "ji-perestgehe-heta-kaniyen-piroz-sopen-anahitaye",
+    "lang": "ku",
+    "categoryId": "kadin-ve-kultur",
+    "categoryName": "Jin û Çand",
+    "title": "Ji perestgehê heta kaniyên pîroz: Şopên Anahîtayê",
+    "featured_image": "https://jinhaagency.com/uploads/photos//13459/15-10-2026--bazmandhay-az-ab-w-astwrh-rwayt-ayzdbanwy-anahyta-dr-krmashan2-6d9304pre.jpg",
+    "date": "21.10.2026",
+    "author": "Sara Pourkhazri",
+    "readTime": {
+      "ku": "4 xulek xwendin",
+      "tr": "4 dk okuma"
+    },
+    "views": "1.4K",
+    "excerpt": "Li parêzgeha Kirmaşanê ya Rojhilatê Kurdistanê, şopên Anahîtayê—xwedawenda kevnar a avê, paqijiyê û parêzvana hemû çavkaniyên jiyanê—piştî sedsalan hê jî di nava bîra kolektîf, kaniyên pîroz û kevneşopiyên gelêrî de zindî ne. Ji Perestgeha Kangavarê heta nîgarên Taqbostanê, çanda pîroziya avê heqîqeta jinê radigihîne.",
+    "content": "<p>Li parêzgeha Kirmaşanê ya Rojhilatê Kurdistanê, dîrok ne tenê bi zinar û kevirên rawestiyayî, lê bi dengê zelal ê avên herikbar û çavkaniyên pîroz tê vegotin. Li vir şopên xwedawenda kevnar a av, paqijî û bereketê Anahîtayê (Arədvī Sūrā Anāhitā) heta îro jî bîra dîrokî û çandî ya civakê ronî dike.</p><p>Li bajarokê Kangavarê ku 94 kîlometre li rojhilatê Kirmaşanê ye, bermahiyên mezin ên Perestgeha Anahîtayê radibin. Ev der piştî Persepolîsê wek duyemîn avahiya kevirî ya herî mezin li Îranê tê pejirandin. Dîroka vê avahiyê digihîje zêdetirî 2000-2500 sal berê. Endezyarên kevnar qenal û daxistekên taybet ên avê li ser platformên zinarî çêkirine da ku ava kaniyan ber bi hewza navendî ya perestgehê ve biherike û bibe sembola rûmetdarkirina xwedawenda avê.</p><p>Navê Anahîtayê di pirtûka pîroz Avestayê de, bi taybetî di beşa \"Aban Yaşt\" de, wekî stûneke herî pîroz derbas dibe. Li wir weke xwedawenda bihêz, paqij û parêzvana hemû çavkanî, rûbar û zayîna gerdûnê tê pênasekirin. Nîşan û sembolên wê—wek hinar, kulîlka lotozê, masî û kûzê avê—li ser berhemên kevnar ên Taqbostanê û nîgarên serdema Sasaniyan de bi awayekî berbiçav cih digirin.</p><p>Tevî ku perestgehên kevirî di bin bandora demê û erdhêjan de hilweşiyabin jî, bawerî û rûmeta li hemberî avê nehatiye jibîrkirin. Jinên herêmê û civaka Kirmaşanê di serab û kaniyên pîroz de (wek Seraba Nîlûfer, Seraba Sehneyê) hîn jî kevneşopiyên spasiyê, daxwazkirina bereketê û dermanbûna avê didomînin. Şopên Anahîtayê ne tenê di kavilan de, lê di rih û zindîbûna jinê û herikîna avê de dijîn.</p>",
+    "youtube_videos": []
+  },
+  {
+    "id": 4231,
+    "slug": "yikilan-tapinaktan-kutsal-sulara-uzanan-binlerce-yillik-inanc",
+    "lang": "tr",
+    "categoryId": "kadin-ve-kultur",
+    "categoryName": "Kültür ve Kadın",
+    "title": "Yıkılan tapınaktan kutsal sulara uzanan binlerce yıllık inanç",
+    "featured_image": "https://jinhaagency.com/uploads/photos//13459/15-10-2026--bazmandhay-az-ab-w-astwrh-rwayt-ayzdbanwy-anahyta-dr-krmashan2-6d9304pre.jpg",
+    "date": "21.10.2026",
+    "author": "Sara Pourkhazri",
+    "readTime": {
+      "tr": "4 dk okuma",
+      "ku": "4 xulek xwendin"
+    },
+    "views": "1.3K",
+    "excerpt": "İran’ın Kirmanşan kentine bağlı Kengaver ilçesinde bulunan antik Anahita Tapınağı, yıkık sütunları ve zamana direnen kalıntılarıyla binlerce yıllık bir hafızayı barındırıyor. Avesta'dan günümüze suyun, bereketin ve saflığın tanrıçası Anahita'nın izleri, tapınak yıkılsa da halk belleğinde ve kutsal su kaynaklarında yaşamaya devam ediyor.",
+    "content": "<p>Kirmanşan toprakları, Zagros Dağları’nın eteklerinden doğan kadim pınarlarıyla yalnızca coğrafi bir zenginliği değil, suyun dişil kutsallığını da bin yıllardır bağrında taşıyor. Bu kutsallığın merkezinde, antik inançların berraklık, arınma ve hayat kaynağı olarak kabul ettiği su tanrıçası Anahita yer alıyor.</p><p>Kirmanşan’ın Kengaver kasabasında yükselen Anahita Tapınağı, yaklaşık 2 bin ila 2 bin 500 yıllık köklü bir geçmişe sahip. Persepolis’in ardından İran’ın en büyük ikinci taş anıtı sayılan bu devasa kompleks, kadim dönem mimarlarının suyu yönlendiren taş kanalları ve sütunlu teraslarıyla inşa edilmişti. Çevredeki kaynak suları tapınağın merkezindeki kutsal havuza ulaştırılarak tanrıçaya şükran sunulurdu.</p><p>Zerdüştlüğün kutsal metni Avesta’nın en görkemli bölümlerinden biri olan Aban Yeşt (Yasht 5), Arədvī Sūrā Anāhitā’ya, yani \"saf, güçlü ve lekesiz suların tanrıçasına\" adanmıştır. Metinlerde o, tüm ırmakları arındıran, toprağa can veren ve kadınların doğurganlığını koruyan bir güç olarak tasvir edilir. Sasani dönemi kaya kabartmalarında, özellikle Tağ-ı Bostan'da (Taq-e Bostan), elindeki su testisi ve nilüfer çiçeğiyle krallara bereket dağıtırken resmedilmiştir.</p><p>Zamanın yıkıcı etkisi, depremler ve istilalar görkemli tapınağın sütunlarını devirmiş, duvarlarını harabeye çevirmiş olabilir; ancak suyun kutsallığı halkın kolektif belleğinden silinmedi. Kirmanşan’ın dört bir yanındaki seraplar (Nilüfer Serabı, Sahne Pınarları) ve şifalı kabul edilen su gözleri etrafında yöre kadınlarının sürdürdüğü adaklar, bereket dilekleri ve temizlik ritüelleri, Anahita'nın mirasının taştan öte insanda ve doğada nefes almaya devam ettiğini kanıtlıyor.</p>",
+    "youtube_videos": []
+  },
+  {
     "id": 4225,
     "slug": "dema-jine",
     "lang": "ku",
@@ -2765,6 +2851,44 @@ const BEJING_ARTICLES = [
 
 
 const BEJING_VIDEOS = [
+    {
+      "id": "4233_v1",
+      "articleId": 4233,
+      "articleTitle": "Kürt Müziğinin Direnen Sesi: Zeynep Doğan",
+      "lang": "tr",
+      "videoId": "Ojq2jIvr0A0",
+      "embedUrl": "https://www.youtube.com/embed/Ojq2jIvr0A0",
+      "videoUrl": "https://www.youtube.com/embed/Ojq2jIvr0A0",
+      "watchUrl": "https://www.youtube.com/watch?v=Ojq2jIvr0A0",
+      "title": "Kürt Müziğinin Direnen Sesi: Zeynep Doğan",
+      "desc": "Koma Hevra solisti Zeynep Doğan, müziğin ve genç kadın kimliğinin özgürlük çığlığını sahnelere taşımaya devam ediyor.",
+      "categoryId": "kadin-ve-kultur",
+      "categoryName": "Kadın ve Kültür",
+      "date": "21.10.2026",
+      "duration": "1:00",
+      "thumbnail": "https://img.youtube.com/vi/Ojq2jIvr0A0/hqdefault.jpg",
+      "image": "https://img.youtube.com/vi/Ojq2jIvr0A0/hqdefault.jpg",
+      "views": 1580
+    },
+    {
+      "id": "4234_v1",
+      "articleId": 4234,
+      "articleTitle": "Dengê Berxwedêr ê Muzîka Kurdî: Zeynep Doğan",
+      "lang": "ku",
+      "videoId": "Ojq2jIvr0A0",
+      "embedUrl": "https://www.youtube.com/embed/Ojq2jIvr0A0",
+      "videoUrl": "https://www.youtube.com/embed/Ojq2jIvr0A0",
+      "watchUrl": "https://www.youtube.com/watch?v=Ojq2jIvr0A0",
+      "title": "Dengê Berxwedêr ê Muzîka Kurdî: Zeynep Doğan",
+      "desc": "Solîsta Koma Hevra Zeynep Doğan, qîrîna azadiyê ya nasnameya jinên ciwan û muzîkê digihîne qadan.",
+      "categoryId": "kadin-ve-kultur",
+      "categoryName": "Jin û Çand",
+      "date": "21.10.2026",
+      "duration": "1:00",
+      "thumbnail": "https://img.youtube.com/vi/Ojq2jIvr0A0/hqdefault.jpg",
+      "image": "https://img.youtube.com/vi/Ojq2jIvr0A0/hqdefault.jpg",
+      "views": 1490
+    },
   
     {
       "id": "4217_v1",

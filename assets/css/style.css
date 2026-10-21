@@ -17,8 +17,8 @@
   --c-brown-earth: #7D6650;
   
   /* Gold Accent from 'Bêjing' Typography */
-  --c-gold: #C59B3F;
-  --c-gold-bright: #D4AF37;
+  --c-gold: #D29B38;
+  --c-gold-bright: #E8B93D;
   --c-gold-light: #E5C368;
   --c-gold-soft: #F4E4BA;
   --c-gold-subtle: #FDF9EE;
@@ -2155,6 +2155,55 @@ ul, ol {
   letter-spacing: 0.5px;
   text-align: center;
   transition: color 0.3s;
+}
+
+/* Hide duplicate footer slogan and style footer brand wrap */
+.footer-col-about > .footer-slogan-text,
+.footer-col-about > #footerBrandSlogan {
+  display: none !important;
+}
+
+.footer-brand-wrap {
+  display: inline-flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 14px !important;
+  margin-bottom: 14px !important;
+}
+.footer-logo-img {
+  height: 60px !important;
+  width: auto !important;
+}
+.footer-brand-divider {
+  width: 2px !important;
+  height: 32px !important;
+  background: var(--c-gold-bright) !important;
+  opacity: 0.8 !important;
+}
+.footer-slogan-text {
+  font-size: 1.2rem !important;
+  color: var(--c-gold-bright) !important;
+  margin: 0 !important;
+}
+
+/* Vibrant Editorial Card Effects */
+.article-card {
+  transition: transform 0.3s cubic-bezier(0.2, 0, 0.2, 1), box-shadow 0.3s cubic-bezier(0.2, 0, 0.2, 1), border-color 0.3s !important;
+}
+.article-card:hover {
+  transform: translateY(-6px) !important;
+  box-shadow: 0 12px 32px rgba(125, 102, 80, 0.16) !important;
+  border-color: var(--c-gold) !important;
+}
+.article-card-thumb-wrap {
+  overflow: hidden;
+}
+.article-card-thumb-wrap img {
+  transition: transform 0.45s cubic-bezier(0.2, 0, 0.2, 1);
+}
+.article-card:hover .article-card-thumb-wrap img {
+  transform: scale(1.05);
 }
 
 /* Footer Brand Wrap */

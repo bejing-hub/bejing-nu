@@ -189,7 +189,7 @@ const BEJING_QUOTES = [
 
 
 const BEJING_ARTICLES = [
-    {
+      {
     "id": 4235,
     "slug": "tiamat-ve-marduk-babil-yaratilis-destani-i",
     "lang": "tr",

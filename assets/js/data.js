@@ -206,7 +206,14 @@ const BEJING_ARTICLES = [
     "views": "1.8K",
     "excerpt": "Henüz yer ve gök yüzsüz, dünya insansız iken, tuzlu su Tanrıçası Tiamat ve tatlı su Tanrısı Apsu varmış. Tiamat ve Apsu kendilerinden uzakta yaşamak üzere bir sürü Tanrı yaratmışlar. Mummu, Anşar, Kişar, Anu, Ea, ve daha başla bir sürü Tanrı… Bu tanrılar gün geçtikçe yoldan çıkıp Tiamat ve Apsu’yu sinirlendirmişler. Üstelik her gün yaptıkları eğlencelerde […]",
     "content": "<p>Henüz yer ve gök yüzsüz, dünya insansız iken, tuzlu su Tanrıçası Tiamat ve tatlı su Tanrısı Apsu varmış. Tiamat ve Apsu kendilerinden uzakta yaşamak üzere bir sürü Tanrı yaratmışlar. Mummu, Anşar, Kişar, Anu, Ea, ve daha başla bir sürü Tanrı&#8230; Bu tanrılar gün geçtikçe yoldan çıkıp Tiamat ve Apsu&#8217;yu sinirlendirmişler. Üstelik her gün yaptıkları eğlencelerde çıkardıkları gürültüler de cabasıymış. Apsu en sonunda dayanamamış ve Tiamat&#8217;a şu öneriyle gitmiş: Tanrıları yok edelim. Tiamat, Apsu&#8217;nun bu fikrine sinirlenip şöyle cevap vermiş: Kendi yarattiğımız çocuklarımızı nasıl öldürürüz.. Sakın bir daha böyle düşünme&#8221; Fakat Tanrı Mummu Apsu&#8217;yu kışkırtmış ve birlikte tanrıları yok etmek için Tiamat&#8217;tan habersiz bir plan kurmuşlar.</p><p><iframe title=\"Tiamat ve Marduk (Babil yaratılış Destanı)\" width=\"640\" height=\"480\" src=\"https://www.youtube.com/embed/M9a-eTX9oBE?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe></p>",
-    "youtube_videos": []
+    "youtube_videos": [
+      {
+        "video_id": "M9a-eTX9oBE",
+        "watch_url": "https://www.youtube.com/watch?v=M9a-eTX9oBE",
+        "embed_url": "https://www.youtube.com/embed/M9a-eTX9oBE",
+        "title": "Tiamat ve Marduk (Babil Yaratılış Destanı) – I"
+      }
+    ]
   },
   {
     "id": 4234,
@@ -2870,6 +2877,25 @@ const BEJING_ARTICLES = [
 
 
 const BEJING_VIDEOS = [
+    {
+      "id": "4235_v1",
+      "articleId": 4235,
+      "articleTitle": "Tiamat ve Marduk (Babil Yaratılış Destanı) – I",
+      "lang": "tr",
+      "videoId": "M9a-eTX9oBE",
+      "embedUrl": "https://www.youtube.com/embed/M9a-eTX9oBE",
+      "videoUrl": "https://www.youtube.com/embed/M9a-eTX9oBE",
+      "watchUrl": "https://www.youtube.com/watch?v=M9a-eTX9oBE",
+      "title": "Tiamat ve Marduk (Babil Yaratılış Destanı) – I",
+      "desc": "Henüz yer ve gök yüzsüz, dünya insansız iken, tuzlu su Tanrıçası Tiamat ve tatlı su Tanrısı Apsu varmış...",
+      "categoryId": "atolye",
+      "categoryName": "Atölye",
+      "date": "22.10.2026",
+      "duration": "8:00",
+      "thumbnail": "assets/images/tiamat_marduk.jpg",
+      "image": "assets/images/tiamat_marduk.jpg",
+      "views": 1820
+    },
     {
       "id": "4233_v1",
       "articleId": 4233,

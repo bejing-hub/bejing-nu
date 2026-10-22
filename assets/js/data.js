@@ -1,4 +1,4 @@
-/**
+﻿/**
 
  * Bêjing Medya - Complete Published Archive & Video Store
 
@@ -189,23 +189,23 @@ const BEJING_QUOTES = [
 
 
 const BEJING_ARTICLES = [
-  {
+    {
     "id": 4235,
     "slug": "tiamat-ve-marduk-babil-yaratilis-destani-i",
     "lang": "tr",
     "categoryId": "atolye",
     "categoryName": "Atölye",
-    "title": "Tiamat ve Marduk – Babil Yaratılış Destanı – I",
-    "featured_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Chaos_Monster_and_Sun_God.png/800px-Chaos_Monster_and_Sun_God.png",
+    "title": "Tiamat ve Marduk (Babil Yaratılış Destanı) – I",
+    "featured_image": "assets/images/tiamat_marduk.jpg",
     "date": "22.10.2026",
-    "author": "Bêjîng Medya",
+    "author": "Bejing Medya",
     "readTime": {
-      "tr": "5 dk okuma",
-      "ku": "5 xulek xwendin"
+      "tr": "6 dk okuma",
+      "ku": "6 xulek xwendin"
     },
-    "views": "1.7K",
-    "excerpt": "Babil Yaratılış Destanı Enuma Eliş, yalnızca evrenin kozmik kökenlerini anlatan bir mitoloji değil; anaerkil doğa kültürünün ataerkil devlet ve iktidar eliyle tasfiye edilmesinin en sarsıcı belgesidir. Primordial okyanusun tanrıçası Tiamat’ın eril fırtına tanrısı Marduk tarafından katledilerek bedeninin ikiye bölünmesi, tarihteki ilk büyük cinsel kırılmanın ve tahakküm sisteminin kuruluş mitidir.",
-    "content": "<p>Mitoloji, antik toplumların dünyayı anlama çabası olduğu kadar, egemenlik ilişkilerinin meşrulaştırıldığı ilk ideolojik formdur. Mezopotamya’nın en kadim destanlarından biri olan Enuma Eliş (Babil Yaratılış Destanı), M.Ö. 2. binyılda Babil’in yükselişiyle birlikte kaleme alınmış, ancak içeriği itibarıyla insanlık tarihinin en köklü dönüşümünü; neolitik ana tanrıça kültüründen hiyerarşik-devletçi ataerkilliğe geçişi simgeler.</p><p>Destan, henüz göklerin ve yerin adlandırılmadığı, yalnızca karıştırılmış ilksel suların var olduğu bir başlangıç tasviriyle açılır. Tatlı suların tanrısı Apsu ve tuzlu suların, denizlerin ve tüm varoluşun üretken anası olan Tiamat... Tiamat, Neolitik çağın bereketiyle özdeşleşen, doğuran, besleyen ve kapsayan ilksel kadın hakikatini temsil eder. O, sadece bir tanrıça değil; tüm yaşamın rahminden fışkırdığı kozmik doğadır.</p><p>Apsu’nun genç tanrılar tarafından katledilmesinin ardından, ana tanrıça Tiamat çocuklarının ve yaratımlarının yok edilmesine karşı direnir. Ancak egemenlik peşinde koşan yeni eril tanrılar panteonu, Tiamat’ı bir \"canavar\", bir \"kaos ejderhası\" olarak yaftalar. Bu durum, tarihteki en büyük manipülasyondur: Üreten ve yaratan ana, iktidarını kurmak isteyen erkek egemen akıl tarafından şeytanlaştırılır ve yok edilmesi gereken bir tehdit ilan edilir.</p><p>Genç tanrılar Tiamat’ın kudreti karşısında çaresiz kaldığında sahneye Babil’in koruyucu tanrısı Marduk çıkar. Marduk, Tiamat’ı alt etmek için tanrılar meclisinden tek bir şart talep eder: Mutlak iktidar ve tüm tanrıların krallığı. Bu şart, ataerkil devlet mekanizmasının ve krallık ideolojisinin mitolojik prototipidir. Savaş araçları, fırtına ağları ve oklarla donanan Marduk, Tiamat’ın üzerine yürür.</p><p>Marduk, Tiamat’ın ağzına kasırgaları doldurarak bedenini şişirir ve attığı okla kalbini delerek onu katleder. Ardından Tiamat’ın devasa bedenini balık gibi ikiye böler; bir yarısından gökyüzünü, diğer yarısından yeryüzünü kurar. Gözlerinden Dicle ve Fırat nehirleri akıtılır, göğsünden dağlar yükseltilir. Bu parça parça ediliş, Önder Abdullah Öcalan’ın \"İlk Cinsel Kırılma\" olarak tanımladığı, kadının toplumsal ve varoluşsal olarak mülkleştirilmesinin, doğanın ve kadının erkeğin kurduğu sisteme hammadde yapılmasının en açık metaforudur.</p><p>Tiamat’ın katli, yalnızca Babil panteonunun kuruluşu değil; kadın merkezli komünal toplumun yenilgisinin ilanıdır. Erkek egemen uygarlık, kendi düzenini ana tanrıçanın parçalanmış gövdesi üzerine inşa etmiştir. Bugün kadın özgürlük arayışı ve Jineoloji atölyeleri, Tiamat şahsında katledilen hakikatin üzerindeki tozu silkelemeyi, parçalanan kadın belleğini ve doğayla uyumlu yaşam felsefesini yeniden birleştirmeyi esas alır.</p>",
+    "views": "1.8K",
+    "excerpt": "Henüz yer ve gök yüzsüz, dünya insansız iken, tuzlu su Tanrıçası Tiamat ve tatlı su Tanrısı Apsu varmış. Tiamat ve Apsu kendilerinden uzakta yaşamak üzere bir sürü Tanrı yaratmışlar. Mummu, Anşar, Kişar, Anu, Ea, ve daha başla bir sürü Tanrı… Bu tanrılar gün geçtikçe yoldan çıkıp Tiamat ve Apsu’yu sinirlendirmişler. Üstelik her gün yaptıkları eğlencelerde […]",
+    "content": "<p>Henüz yer ve gök yüzsüz, dünya insansız iken, tuzlu su Tanrıçası Tiamat ve tatlı su Tanrısı Apsu varmış. Tiamat ve Apsu kendilerinden uzakta yaşamak üzere bir sürü Tanrı yaratmışlar. Mummu, Anşar, Kişar, Anu, Ea, ve daha başla bir sürü Tanrı&#8230; Bu tanrılar gün geçtikçe yoldan çıkıp Tiamat ve Apsu&#8217;yu sinirlendirmişler. Üstelik her gün yaptıkları eğlencelerde çıkardıkları gürültüler de cabasıymış. Apsu en sonunda dayanamamış ve Tiamat&#8217;a şu öneriyle gitmiş: Tanrıları yok edelim. Tiamat, Apsu&#8217;nun bu fikrine sinirlenip şöyle cevap vermiş: Kendi yarattiğımız çocuklarımızı nasıl öldürürüz.. Sakın bir daha böyle düşünme&#8221; Fakat Tanrı Mummu Apsu&#8217;yu kışkırtmış ve birlikte tanrıları yok etmek için Tiamat&#8217;tan habersiz bir plan kurmuşlar.</p><p><iframe title=\"Tiamat ve Marduk (Babil yaratılış Destanı)\" width=\"640\" height=\"480\" src=\"https://www.youtube.com/embed/M9a-eTX9oBE?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe></p>",
     "youtube_videos": []
   },
   {

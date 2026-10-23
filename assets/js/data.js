@@ -1,4 +1,4 @@
-﻿/**
+/**
 
  * Bêjing Medya - Complete Published Archive & Video Store
 
@@ -190,6 +190,44 @@ const BEJING_QUOTES = [
 
 
 const BEJING_ARTICLES = [
+  {
+    "id": 4239,
+    "slug": "pore-jine-sehr-u-serpec-yildiz-cibiroglu",
+    "lang": "ku",
+    "categoryId": "kadin-kulliyati",
+    "categoryName": "Kûlliyata Jin",
+    "title": "Porê Jinê, Sêhr û Serpêç: Arkeolojiya Kevnar a Ristin, Kezî û Desthilatdariyê – Yıldız Cıbıroğlu",
+    "featured_image": "assets/images/kadin_saci_buyu_ve_turban.jpg",
+    "date": "23.10.2026",
+    "author": "Bêjîng Medya",
+    "readTime": {
+      "ku": "8 xulek xwendin",
+      "tr": "8 dk okuma"
+    },
+    "views": "2.2K",
+    "excerpt": "Yıldız Cıbıroğlu di xebata xwe ya dîrokî de mijara girtina por û serpêçê ji sînorên rojane derdixe û dibe ser koka wê ya 40 hezar salî. Ji dahênana bend, girêk û tevnê ji aliyê jinên cotkar ve heta hêza giyanî ya keziyan; tirsa mêrsalarî û mekanîzmayên girtinê vedikole.",
+    "content": "<p>Di cîhana îroyîn de laşê jinê û bi taybetî porê jinê, qada herî germ a pevçûna desthilatdariya siyasî û zîhniyeta baviksalar e. Lê ev nîqaş pir caran ji kûrahiya dîrokî û antropolojîk dûr dimînin. Pirtûka lêkolîner Yıldız Cıbıroğlu ya bi navê <strong>\"Porê Jinê, Sêhr û Serpêç\"</strong>, vê diyardeyê dibe ser koka wê ya 40 hezar salî û zîhniyeteke kûr a arkeolojiyê pêşkêş dike.</p><p>Cıbıroğlu pirtûka xwe bi dahênana herî mezin a dîroka mirovahiyê dest pê dike: Vedîtina bend, girêk, kezî û tevnê. Ev dahênana ku ji aliyê jinên cotkar ên Neolîtîk ve hat pêşxistin, ne tenê ji bo xweveşartinê bû; bû şêwazek têgihîştina gerdûnê. Mirovên kevnar bawer dikirin ku asûman, demsal û çarenûsa mirov jî weke qumaşekî ji aliyê jinan ve tê ristin.</p><p>Nîşana herî xurt a vê desthilatdariya giyanî porê jinê bû. Di peykerên Vênûsê yên 30 hezar sal berê de jî dîtina keziyên bi baldarî hatine honandin, îspat dike ku por navenda bereket û enerjiya gerdûnî ye. Porê jinê hêzeke pîroz dihat dîtin ku şidet û zordariya mêr pê dihat girêdan û bêbandorkirin. Honandina keziyan ji bo jinan, parastina nîzama gerdûnê û tora jiyanê bû.</p><p>Lê bi bilindbûna dewlet û sîstema baviksalarî re, ev hêza giyanî ya jinê bû tirsa herî mezin a mêr. Cıbıroğlu nîşan dide ku mêr ji bo bêbandorkirina vê hêza giyanî, berê xwe da girtin, nixumandin û kontrolkirina porê jinê. Îro dirûşma \"keziyê me tirsa we ye\" ku jinên ciwan dikin ala berxwedanê, heman dengê vê heqîqeta hezar salan e.</p>",
+    "youtube_videos": []
+  },
+  {
+    "id": 4238,
+    "slug": "diroka-be-nivis-a-jine-yildiz-cibiroglu",
+    "lang": "ku",
+    "categoryId": "kadin-kulliyati",
+    "categoryName": "Kûlliyata Jin",
+    "title": "Dîroka Bê Nivîs a Jinê: Serdema Xwedawend-Dayikê û Koka Ziman – Yıldız Cıbıroğlu",
+    "featured_image": "assets/images/kadinin_yazisiz_tarihi.jpg",
+    "date": "23.10.2026",
+    "author": "Bêjîng Medya",
+    "readTime": {
+      "ku": "7 xulek xwendin",
+      "tr": "7 dk okuma"
+    },
+    "views": "2.0K",
+    "excerpt": "Berhema lêkolîner-nivîskar Yıldız Cıbıroğlu ya bi navê 'Dîroka Bê Nivîs a Jinê', teza fermî ya ku dîrokê bi nivîsê dest pê dike bi bin ve dike. Ji felsefeya xwedawend-dayikê ya Serdema Neolîtîk heta koka gerdûnî ya dengên 'M' û 'N', şopên kûr ên jinê di ziman û sembolan de derdixe holê.",
+    "content": "<p>Nivîsandina dîrokê bi pêvajoyên dewletbûna mêrsalar re bû amûra herî sîstematîk a nedîtina hebûn û bîra jinê. \"Dîroka ku bi nivîsê dest pê dike\", di rastiyê de bû perdeyek li ser çanda afrîner û jiyana komûnal a jinê ya bi hezaran salan. Pirtûka Yıldız Cıbıroğlu ya bi navê <strong>\"Dîroka Bê Nivîs a Jinê: Dengê 'M' û 'N'\"</strong> vê perdeyê radike û koka herî kûr a mirovahiyê ronî dike.</p><p>Cıbıroğlu bi zanista arkeolojî, zimannasî û mîtolojiyê li ser pirsek sereke radiweste: <em>Çima li seranserê cîhanê peyvên \"Dayik\" (mother, mama, mader, da-ye) û \"Ez\" hema bêje di hemû zimanan de bi dengên 'M' an jî 'N' dest pê dikin?</em> Nivîskar îspat dike ku ev yek ne tesaduf e; encama têkiliya kûr û felsefî ya jinê bi xweza û jiyanê re ye.</p><p>Di civaka Neolîtîk de xwedawend-dayik ne tenê bawerî bû, bingeha exlaq û hilberînê bû. Dengên heywanên totem ên ku bereketê nîşan didan, ji aliyê jinan ve hatin guhdarîkirin, pîrozkirin û wergerandin dengê mirovî. Dengên 'M' û 'N' bûn mohra pîroz a parastin û baweriyê ya dayikê. Ev pirtûk ji bo xebatên Kûlliyata Jinê û Jineolojiyê mîrasek bê hempa ye.</p>",
+    "youtube_videos": []
+  },
   {
     "id": 4237,
     "slug": "kadin-saci-buyu-ve-turban-dokumanin-orgunun-ve-iktidarin-kadim-arkeolojisi-yildiz-cibiroglu",

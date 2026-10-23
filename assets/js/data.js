@@ -116,6 +116,7 @@ const BEJING_BREAKING = {
 
   "tr": [
 
+    "Kadın Külliyatı: Kadının Yazısız Tarihi & Kadın Saçı, Büyü ve Türban – Yıldız Cıbıroğlu incelemeleri yayında",
     "Aşkın Bilinci Ve Kürt Gerçekliği – Kadın felsefesi ve özgür yaşam arayışı",
 
     "Mührünü tarihe vurmuş Kürt Kadın sanatçılarından: Eyşeşan",
@@ -189,7 +190,45 @@ const BEJING_QUOTES = [
 
 
 const BEJING_ARTICLES = [
-        {
+  {
+    "id": 4237,
+    "slug": "kadin-saci-buyu-ve-turban-dokumanin-orgunun-ve-iktidarin-kadim-arkeolojisi-yildiz-cibiroglu",
+    "lang": "tr",
+    "categoryId": "kadin-kulliyati",
+    "categoryName": "Kadın Külliyatı",
+    "title": "Kadın Saçı, Büyü ve Türban: Dokumanın, Örgünün ve İktidarın Kadim Arkeolojisi – Yıldız Cıbıroğlu",
+    "featured_image": "assets/images/kadin_saci_buyu_ve_turban.jpg",
+    "date": "23.10.2026",
+    "author": "Bêjîng Medya",
+    "readTime": {
+      "tr": "8 dk okuma",
+      "ku": "8 xulek xwendin"
+    },
+    "views": "2.4K",
+    "excerpt": "Yıldız Cıbıroğlu, 'Kadın Saçı, Büyü ve Türban' adlı çığır açıcı eserinde örtünme ve saç olgusunu güncel siyasi tartışmaların kısırlığından kurtarıp 40 bin yıllık kadim köklerine taşıyor. İpin, düğümün ve dokumanın keşfinden saç örgüsünün büyüsel kudretine; ataerkil aklın kadın bedenini ve tinselliğini denetleme refleksine uzanan sarsıcı bir kadın antropolojisi.",
+    "content": "<p>Günümüz dünyasında kadın bedeni ve özellikle kadın saçı, siyasal iktidarların, dinci gericiliğin ve ataerkil devlet mekanizmalarının en hararetli çatışma sahası olmaya devam ediyor. Ancak bu tartışmalar çoğu zaman meselenin derindeki antropolojik, mitolojik ve tarihsel boyutunu gözden kaçırıyor. Yıldız Cıbıroğlu’nun kaleme aldığı <strong>\"Kadın Saçı, Büyü ve 'Türban'\"</strong> (Payel Yayınevi), örtünme ve saç olgusunu en az 40 bin yıllık köklerine götürerek okuyucuya sarsıcı bir zihniyet arkeolojisi sunuyor.</p><p>Cıbıroğlu kitabına insanlık tarihinin en devrimci buluşlarından biriyle başlar: İpin, düğümün, örgünün ve dokuma tezgâhının keşfi. Tarımcı kadınlar tarafından geliştirilen bu üretim biçimi, yalnızca giyinmeyi sağlamamış; evrenin varoluşsal dokusunu anlama biçimine dönüşmüştür. Antik insan, gökyüzünün, mevsimlerin ve insan yazgısının da tıpkı bir kumaş gibi kadınlar tarafından dokunduğuna inanıyordu. Bu inanç, kadına doğayla doğrudan bağ kuran tinsel ve büyüsel bir otorite kazandırdı.</p><p>Bu tinsel otoritenin bedenleştiği en güçlü simge ise kadının saçıydı. Otuz bin yıl öncesinin Willendorf ya da Brassempouy Venüs heykellerinde dahi görülen özenle örülmüş saç formları, saçın bereketin, yaşam suyunun ve kozmik enerjinin merkezi olduğunu kanıtlar. Kadın saçı; bolluk getiren, fırtınaları dindiren, gerektiğinde erkek cinselliğini ve şiddetini büyüyle bağlayan, tutsak eden kutsal bir güç alanı olarak algılanmıştır. Kadınların saçlarını örmesi, evrendeki düzeni ve yaşam ağını birbirine bağlama eylemiydi.</p><p>Ne var ki hiyerarşi ve devletçi ataerkilliğin yükselişiyle birlikte, kadının sahip olduğu bu tinsel güç erkek egemen akıl için en büyük tehdit haline geldi. Cıbıroğlu, tek tanrılı dinlerin çok öncesinde başlayan bu dönüşümü inceler: Erkek, baş edemediği ve büyüsel gücünden korktuğu kadın saçını etkisiz kılmak için onu bağlama, örtme, kapatma ve hapsetme yoluna gitmiştir. Saçın örtülmesi, kadının manevi gücünün söndürülmesi ve onun erkeğin özel mülkiyetine hapsedilmesinin simgesel başlangıcıdır.</p><p>Bugün \"keziyê me tirsa we ye\" (örgümüz korkunuzdur) şiarıyla saç örgülerini direniş bayrağı yapan kadınların mücadelesi, tam da Cıbıroğlu’nun çözümlediği bu kadim hakikatin bugünkü yankısıdır. <em>Kadın Saçı, Büyü ve Türban</em>, kadın bedenine yönelik tüm tahakküm ve kapatma politikalarının arkasındaki tarihsel korkuyu ifşa eden; keziyelerin hafızasını yeniden canlandıran temel bir başyapıttır.</p>",
+    "youtube_videos": []
+  },
+  {
+    "id": 4236,
+    "slug": "kadinin-yazisiz-tarihi-ana-tanrica-cagi-ve-dilin-kokleri-yildiz-cibiroglu",
+    "lang": "tr",
+    "categoryId": "kadin-kulliyati",
+    "categoryName": "Kadın Külliyatı",
+    "title": "Kadının Yazısız Tarihi: Ana Tanrıça Çağı ve Dilin Kökleri – Yıldız Cıbıroğlu",
+    "featured_image": "assets/images/kadinin_yazisiz_tarihi.jpg",
+    "date": "23.10.2026",
+    "author": "Bêjîng Medya",
+    "readTime": {
+      "tr": "7 dk okuma",
+      "ku": "7 xulek xwendin"
+    },
+    "views": "2.1K",
+    "excerpt": "Yıldız Cıbıroğlu’nun on yıllık titiz bir araştırmaya dayanan eseri 'Kadının Yazısız Tarihi', uygarlığın yazılı belgelerle başlatılan resmi tarih tezini kökünden sarsıyor. Neolitik Çağ’ın tanrı-ana felsefesinden 'M' ve 'N' seslerinin evrensel kökenlerine uzanan bu çalışma; kadın aklının ve kutsallığının dilde, sanatta ve simgeler dünyasında bıraktığı silinmez izleri gözler önüne seriyor.",
+    "content": "<p>Tarih yazımı, erkek egemen devletleşme süreçleriyle birlikte kadın varoluşunu ve hafızasını görünmez kılmanın en sistemli aracına dönüştürüldü. \"Yazı ile başlayan tarih\", gerçekte kadının binlerce yıllık yaratıcı kültürünün, komünal yaşam örgütlenmesinin ve tinsel öncülüğünün üzerini örten bir perde işlevi gördü. Araştırmacı-yazar Yıldız Cıbıroğlu’nun on yıllık emeğinin ürünü olan <strong>\"Kadının Yazısız Tarihi: 'M' ve 'N' Sesi\"</strong> (Payel Yayınevi), bu perdeyi cesaretle aralayarak insanlığın en derin köklerine, ana tanrıçalar çağına ışık tutuyor.</p><p>Cıbıroğlu bu eserinde arkeoloji, dil bilimi, antropoloji ve mitolojiyi ustalıkla bir araya getirerek çok temel bir sorunun peşine düşüyor: <em>Neden dünyanın neredeyse tüm dillerinde \"anne\" (mother, mama, mader, da-ye) ve \"ben\" kavramları istisnasız 'M' ya da 'N' sesleriyle başlar?</em> Yazar, bu durumun bir tesadüf olmadığını; Neolitik Çağ'dan da önce kadının doğayla kurduğu sezgisel ve felsefi ilişkinin bir sonucu olduğunu kanıtlıyor.</p><p>Neolitik toplumda tanrı-ana kültü, yalnızca bir inanç biçimi değil; tüm toplumsal organizasyonun, ahlakın ve üretimin can damarıydı. Cıbıroğlu’nun tespitlerine göre, tanrı-ananın bedenleştiği ve bereketi simgeleyen totem hayvanların (koyun, keçi, inek) çıkardığı sesler, kadınlar tarafından dinlenmiş, kutsallaştırılmış ve insan sesine tercüme edilerek ilk hecelere dönüştürülmüştür. 'M' ve 'N' sesleri, tanrı-ananın koruyucu, besleyici ve güven verici aurasını temsil eden birer kutsal mühür; birer tinsel \"marka\" haline gelmiştir.</p><p>Kitap, anayanlı (matriarkal) soy geleneklerinde kutsal sözlerin, seslerin ve nesnelerin anneden kız çocuklarına aktarıldığını; daha sonra ataerkil rahiplik kurumlarının bu kutsal simgeleri devralarak eril tanrılara ve krallıklara yamadığını belgelerle sergiler. Çatalhöyük’ten Hacılar’a, Zagros eteklerinden Akdeniz havzasına kadar uzanan idoller, spiral motifler ve çömlek desenleri, kadının yazısız ama somut felsefesinin günümüze ulaşan çığlıklarıdır.</p><p>Kadın Külliyatı ve Jineolojî araştırmaları için paha biçilmez bir hazine niteliği taşıyan <em>Kadının Yazısız Tarihi</em>, kadınlara unutturulan kadim kimliklerini ve dili kuran ana zekayı hatırlatıyor. Cıbıroğlu’nun satırları, kadının yalnızca bir biyolojik üretkenlik değil; simgeleri, kavramları ve insanlaşmanın ilk ahlaki ilkelerini ören gerçek uygarlık kurucusu olduğunu bir kez daha ilan ediyor.</p>",
+    "youtube_videos": []
+  },
+          {
     "id": 4235,
     "slug": "tiamat-ve-marduk-babil-yaratilis-destani-i",
     "lang": "tr",

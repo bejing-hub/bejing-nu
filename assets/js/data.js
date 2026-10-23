@@ -129,6 +129,7 @@ const BEJING_BREAKING = {
 
   "ku": [
 
+    "Kûlliyata Jinê: Dîroka Bê Nivîs a Jinê & Porê Jinê, Sêhr û Serpêç – Vekolînên li ser pirtûkên Yıldız Cıbıroğlu li ser xetê ne",
     "Hişmendiya Evînê Û Rastiya Kurd – Felsefeya jinê û lêgerîna jiyana azad",
 
     "Yek jî hunermenda Kurd ya ku mohra xwe lî dîrokê xîstîye: Eyşeşan",
@@ -191,6 +192,44 @@ const BEJING_QUOTES = [
 
 const BEJING_ARTICLES = [
   {
+    "id": 4241,
+    "slug": "jinen-ciwan-en-zaningehe-de-bi-rexistiniya-hevpar-werin-ba-hev",
+    "lang": "ku",
+    "categoryId": "genc-kadin-bakisiya",
+    "categoryName": "Bi Nêrîna Jinên Ciwan",
+    "title": "Jinên Ciwan ên Zanîngehê Dê Bi Rêxistiniya Hevpar Werin Ba Hev",
+    "featured_image": "assets/images/universiteli_kadinlar.jpg",
+    "date": "23.10.2026",
+    "author": "Bêjîng Medya",
+    "readTime": {
+      "ku": "4 xulek xwendin",
+      "tr": "4 dk okuma"
+    },
+    "views": "1.7K",
+    "excerpt": "Jinên ciwan ên ji bajar û zanîngehên cuda li hemberî tecrîd, zext û binpêkirinên mafan ên li kampusan, bi dirûşma 'Dema rêxistinbûna bi kampusên komûn e' amadekariya konferanseke hevpar dikin. Jinên ciwan radigihînin ku ew ê parçebûnê bi xeta têkoşîna hevpar derbas bikin.",
+    "content": "<p>Zanîngeh yek ji wan qadan e ku polîtîkayên yekparêz, zayendperest û zordar ên desthilatdariyê herî zêde lê tên hîskirin. Li kampusan mekanîzmayên tecrîd, bêewlehî, tacîz û zextê yên li ser jinên ciwan her roj kûrtir dibin; lê jinên ciwan xwe amade dikin ku vê dorpêçê bi têkoşîna hevpar û rêxistinbûna komûnal bişkînin.</p><p>Jinên ciwan ên ji zanîngeh û bajarên cuda hatine cem hev, bi dirûşma <em>“Dema rêxistinbûna bi kampusên komûn e”</em> konferans û civîneke hevpar birêxistin dikin. Jinên ciwan diyar dikin ku parçebûn û qutbûna di navbera kampusan de tenê bi xurtkirina zemînekî hevpar ê rêxistinî dikare were derbaskirin.</p><p>Di çarçoveya vê hevdîtinê de; bêbandorkirina yekeyên pêşîlêgirtina tacîzê (CİTÖB), krîza starê û xaniyan, mehkûmkirina xwendekarên jin bo girêdayîbûna aborî û zordariya baviksalar a li akademiyê dê werin nîqaşkirin. Jinên ciwan dê avakirina parastina cewherî, kooperatîfên hevgirtinê û meclîsên komûnal ên jinan li kampusan deynin ser maseyê.</p><p>Jinên ciwan ên ku amadekariyên konferansê dimeşînin di nirxandina xwe de gotin: <strong>“Em jiyana kampusê ya ji hev qutkirî û bêdeng qebûl nakin. Azadiya kampusan di yekîtiya jinan, di biryardayîn û têkoşîna hevpar re derbas dibe. Em bang li hemû jinên ciwan ên zanîngehê dikin ku di vê rêxistiniya hevpar de cih bigirin û îradeya xwe bilind bikin.”</strong></p>",
+    "youtube_videos": []
+  },
+  {
+    "id": 4240,
+    "slug": "universiteli-kadinlar-ortak-orgutlulukle-bulusacak",
+    "lang": "tr",
+    "categoryId": "genc-kadin-bakisiya",
+    "categoryName": "Genç Kadın Bakışıyla",
+    "title": "Üniversiteli Kadınlar Ortak Örgütlülükle Buluşacak",
+    "featured_image": "assets/images/universiteli_kadinlar.jpg",
+    "date": "23.10.2026",
+    "author": "Bêjîng Medya",
+    "readTime": {
+      "tr": "4 dk okuma",
+      "ku": "4 xulek xwendin"
+    },
+    "views": "1.9K",
+    "excerpt": "Farklı kent ve üniversitelerden bir araya gelen genç kadınlar, kampüslerde derinleşen tecrit, taciz ve hak gasplarına karşı 'Komünleşen kampüslerle örgütlenme zamanı' şiarıyla ortak konferans ve buluşma hazırlıklarını sürdürüyor. Kadınlar, dağınıklığı aşarak ortak mücadele zeminini inşa edeceklerini vurguluyor.",
+    "content": "<p>Üniversiteler, iktidarın tekçi, cinsiyetçi ve baskıcı politikalarının en yoğun hissedildiği alanların başında geliyor. Kampüslerde genç kadınlara dayatılan tecrit, güvencesizlik, taciz ve baskı mekanizmaları her geçen gün derinleşirken; genç kadınlar bu kuşatmayı ortak mücadele ve komünal örgütlülükle kırmaya hazırlanıyor.</p><p>Farklı üniversite ve kentlerden bir araya gelen genç kadınlar, <em>“Komünleşen kampüslerle örgütlenme zamanı”</em> şiarıyla ortak bir konferans ve buluşma örgütlüyor. Gençliğin ve özelde kadın öğrencilerin karşı karşıya kaldığı yabancılaşmaya karşı ses çıkaran kadınlar, kampüslerdeki dağınıklığı ve kopukluğu ancak ortak bir örgütlülük zemininde buluşarak aşabileceklerini belirtiyor.</p><p>Buluşma kapsamında; üniversitelerdeki cinsel tacizi önleme birimlerinin (CİTÖB) işlevsizleştirilmesi, barınma krizi, kadın öğrencilerin ekonomik bağımlılığa mahkûm edilmesi ve akademideki ataerkil tahakküm masaya yatırılacak. Kadınlar, yalnızca var olan sorunları tespit etmekle yetinmeyip, kampüslerde öz savunma, dayanışma kooperatifleri ve komünal kadın meclislerinin inşasını tartışacak.</p><p>Konferans hazırlıklarını yürüten genç kadınlar yaptıkları değerlendirmede: <strong>“Bizler birbirinden habersiz, izole edilmiş kampüs hayatını kabul etmiyoruz. Kampüsleri özgürleştirmek, kadınların bir arada durduğu, birlikte karar aldığı ve birlikte direndiği alanlar yaratmaktan geçiyor. Tüm üniversiteli genç kadınları bu ortak örgütlülükte yer almaya, sözünü ve iradesini büyütmeye çağırıyoruz.”</strong> ifadelerini kullandı.</p>",
+    "youtube_videos": []
+  },
+  {
     "id": 4239,
     "slug": "pore-jine-sehr-u-serpec-yildiz-cibiroglu",
     "lang": "ku",
@@ -206,7 +245,7 @@ const BEJING_ARTICLES = [
     },
     "views": "2.2K",
     "excerpt": "Yıldız Cıbıroğlu di xebata xwe ya dîrokî de mijara girtina por û serpêçê ji sînorên rojane derdixe û dibe ser koka wê ya 40 hezar salî. Ji dahênana bend, girêk û tevnê ji aliyê jinên cotkar ve heta hêza giyanî ya keziyan; tirsa mêrsalarî û mekanîzmayên girtinê vedikole.",
-    "content": "<p>Di cîhana îroyîn de laşê jinê û bi taybetî porê jinê, qada herî germ a pevçûna desthilatdariya siyasî û zîhniyeta baviksalar e. Lê ev nîqaş pir caran ji kûrahiya dîrokî û antropolojîk dûr dimînin. Pirtûka lêkolîner Yıldız Cıbıroğlu ya bi navê <strong>\"Porê Jinê, Sêhr û Serpêç\"</strong>, vê diyardeyê dibe ser koka wê ya 40 hezar salî û zîhniyeteke kûr a arkeolojiyê pêşkêş dike.</p><p>Cıbıroğlu pirtûka xwe bi dahênana herî mezin a dîroka mirovahiyê dest pê dike: Vedîtina bend, girêk, kezî û tevnê. Ev dahênana ku ji aliyê jinên cotkar ên Neolîtîk ve hat pêşxistin, ne tenê ji bo xweveşartinê bû; bû şêwazek têgihîştina gerdûnê. Mirovên kevnar bawer dikirin ku asûman, demsal û çarenûsa mirov jî weke qumaşekî ji aliyê jinan ve tê ristin.</p><p>Nîşana herî xurt a vê desthilatdariya giyanî porê jinê bû. Di peykerên Vênûsê yên 30 hezar sal berê de jî dîtina keziyên bi baldarî hatine honandin, îspat dike ku por navenda bereket û enerjiya gerdûnî ye. Porê jinê hêzeke pîroz dihat dîtin ku şidet û zordariya mêr pê dihat girêdan û bêbandorkirin. Honandina keziyan ji bo jinan, parastina nîzama gerdûnê û tora jiyanê bû.</p><p>Lê bi bilindbûna dewlet û sîstema baviksalarî re, ev hêza giyanî ya jinê bû tirsa herî mezin a mêr. Cıbıroğlu nîşan dide ku mêr ji bo bêbandorkirina vê hêza giyanî, berê xwe da girtin, nixumandin û kontrolkirina porê jinê. Îro dirûşma \"keziyê me tirsa we ye\" ku jinên ciwan dikin ala berxwedanê, heman dengê vê heqîqeta hezar salan e.</p>",
+    "content": "<p>Di cîhana me ya îroyîn de laşê jinê û bi taybetî porê jinê, bûye qada sereke ya pevçûna desthilatdariyên siyasî, paşverûtiya olî û dewleta baviksalar. Lê piraniya van nîqaşan mijarê tenê wek pirsgirêkeke rojane an jî siyasî dinirxînin û koka wê ya dîrokî piştguh dikin. Pirtûka lêkolîner Yıldız Cıbıroğlu ya bi navê <strong>\"Porê Jinê, Sêhr û 'Serpêç'\"</strong> (Weşanên Payel), vê mijarê ji sînorên teng ên îroyîn derdixe û dibe ser rêwîtiyeke 40 hezar salî ya antropolojîk, sembolîk û civakî.</p><p>Cıbıroğlu pirtûka xwe bi dahênana herî mezin a şaristaniyê dest pê dike: Vedîtina bend, girêk, kezî û tevnê. Dema ku jinên cotkar ev amûr afirandin, tenê cil û berg çênekirin; di heman demê de têgihîştina gerdûnê ava kirin. Mirovên kevnar bawer dikirin ku jiyan, demsal û çarenûsa tevahiya hebûnê jî wekî tevn û girêkekê ji aliyê jinê ve tê ristin. Vê yekê desthilatdariyeke bilind a giyanî, sirûştî û heta sêhrî dabû jinê.</p><p>Nîşaneya herî xurt a vê hêza giyanî, bêguman porê jinê bû. Di peykerên Vênûsê yên 30 hezar sal berê de (wek peykerên Willendorf û Brassempouy) dîtina keziyên bi baldarî û huner hatine honandin, vê heqîqetê piştrast dike. Por weke kaniyeke enerjiyê, weke pira navbera jin û xwezayê dihat dîtin. Porê jinê dibû wesîleya bereketê, barîna baranê û di heman demê de hêzek bû ku dikaribû şidet û hovîtiya nêr bi girêkên xwe ve girêbide û bêbandor bike.</p><p>Lê gava ku sîstema serdest a baviksalarî û hiyerarşiya dewletê gav avêt qadê, ev hêza giyanî ya serbixwe ya jinê ji bo mêr bû tirsa herî mezin. Cıbıroğlu destnîşan dike ku pir beriya dînên yekxwedayî, mêrê serdest ji bo ku vê hêza sêhrî ya jinê kontrol bike, berê xwe da girtin, veşartin, girêdan û nixumandina porê jinê. Serpêç û girtina por, di dîrokê de bû sembola fetisandina xweseriya jinê û xistina wê ya bin milkê mêr de.</p><p>Îro dema ku em dibînin jinên ciwan bi dirûşma \"Keziyê me tirsa we ye\" li hemberî sîstema faşîst û zordar a baviksalarî porê xwe dikin ala têkoşînê, em dibînin ku ev felsefe çiqasî zindî ye. <em>Porê Jinê, Sêhr û Serpêç</em>, ne tenê pirtûkeke dîrokî ye; ew manîfestoyeke ronîkirina bîra jinê ye ku nîşan dide çima desthilatdarî ji keziyên jinê ditirse û çawa ew keziyên azad dikarin sîstemên serdest hilweşînin.</p>",
     "youtube_videos": []
   },
   {
@@ -225,7 +264,7 @@ const BEJING_ARTICLES = [
     },
     "views": "2.0K",
     "excerpt": "Berhema lêkolîner-nivîskar Yıldız Cıbıroğlu ya bi navê 'Dîroka Bê Nivîs a Jinê', teza fermî ya ku dîrokê bi nivîsê dest pê dike bi bin ve dike. Ji felsefeya xwedawend-dayikê ya Serdema Neolîtîk heta koka gerdûnî ya dengên 'M' û 'N', şopên kûr ên jinê di ziman û sembolan de derdixe holê.",
-    "content": "<p>Nivîsandina dîrokê bi pêvajoyên dewletbûna mêrsalar re bû amûra herî sîstematîk a nedîtina hebûn û bîra jinê. \"Dîroka ku bi nivîsê dest pê dike\", di rastiyê de bû perdeyek li ser çanda afrîner û jiyana komûnal a jinê ya bi hezaran salan. Pirtûka Yıldız Cıbıroğlu ya bi navê <strong>\"Dîroka Bê Nivîs a Jinê: Dengê 'M' û 'N'\"</strong> vê perdeyê radike û koka herî kûr a mirovahiyê ronî dike.</p><p>Cıbıroğlu bi zanista arkeolojî, zimannasî û mîtolojiyê li ser pirsek sereke radiweste: <em>Çima li seranserê cîhanê peyvên \"Dayik\" (mother, mama, mader, da-ye) û \"Ez\" hema bêje di hemû zimanan de bi dengên 'M' an jî 'N' dest pê dikin?</em> Nivîskar îspat dike ku ev yek ne tesaduf e; encama têkiliya kûr û felsefî ya jinê bi xweza û jiyanê re ye.</p><p>Di civaka Neolîtîk de xwedawend-dayik ne tenê bawerî bû, bingeha exlaq û hilberînê bû. Dengên heywanên totem ên ku bereketê nîşan didan, ji aliyê jinan ve hatin guhdarîkirin, pîrozkirin û wergerandin dengê mirovî. Dengên 'M' û 'N' bûn mohra pîroz a parastin û baweriyê ya dayikê. Ev pirtûk ji bo xebatên Kûlliyata Jinê û Jineolojiyê mîrasek bê hempa ye.</p>",
+    "content": "<p>Nivîsandina dîrokê bi pêvajoyên dewletbûna mêrsalar re bû amûra herî sîstematîk a nedîtina hebûn û bîra jinê. \"Dîroka ku bi nivîsê dest pê dike\", di rastiyê de bû perdeyek li ser çanda afrîner û jiyana komûnal a jinê ya bi hezaran salan. Pirtûka Yıldız Cıbıroğlu ya bi navê <strong>\"Dîroka Bê Nivîs a Jinê: Dengê 'M' û 'N'\"</strong> (Weşanên Payel) vê perdeyê radike û koka herî kûr a mirovahiyê ronî dike.</p><p>Cıbıroğlu bi zanista arkeolojî, zimannasî û mîtolojiyê li ser pirsek sereke radiweste: <em>Çima li seranserê cîhanê peyvên \"Dayik\" (Dayik, Mama, Mother, Mader, Dê) û \"Ez / Min\" hema bêje di hemû zimanan de bi dengên 'M' an jî 'N' dest pê dikin?</em> Nivîskar îspat dike ku ev yek ne tesaduf e; encama têkiliya kûr û felsefî ya jinê bi xweza û jiyanê re ye.</p><p>Di civaka Neolîtîk de xwedawend-dayik ne tenê bawerî bû, bingeha exlaq û hilberînê bû. Dengên heywanên totem ên ku bereketê nîşan didan (pez, bizin, çêlek), ji aliyê jinan ve hatin guhdarîkirin, pîrozkirin û wergerandin dengê mirovî. Dengên 'M' û 'N' bûn mohra pîroz a parastin û baweriyê ya dayikê. Her zarok bi vî dengî hest bi ewlehiyê dikir.</p><p>Pirtûk her wiha destnîşan dike ku di civakên anayanî de mîrasa pîroz, nav û ziman ji dayikê derbasî keçê dibû. Lê bi pêşketina desthilatdariya baviksalar re, qada dewletê û kahînan ev sembol ji heqîqeta wan a jinê qut kirin. Tevî hemû hewldanên helandinê jî, şopên Çatalhoyuk û Zagrosê îspat dikin ku ziman bi destê jinê hatiye hûnandin.</p><p>Ji bo Kûlliyata Jinê û zanista Jineolojiyê, ev pirtûk mîrasek bê hempa ye. Ew tîne bîra me ku jin ne tenê hilberînereke biyolojîk e; damezrênera ziman, çand û nirxên mirovahiyê ye. Şikandina zîhniyeta mêrsalar, berî her tiştî bi xwedîderketina li vî zimanê xwedawend-dayikê pêkan dibe.</p>",
     "youtube_videos": []
   },
   {

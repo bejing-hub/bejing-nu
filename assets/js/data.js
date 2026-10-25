@@ -192,6 +192,120 @@ const BEJING_QUOTES = [
 
 const BEJING_ARTICLES = [
   {
+    "id": 4247,
+    "slug": "dive-mirov-bi-penaseyek-gisti-li-azadiya-rastin-binere",
+    "lang": "ku",
+    "categoryId": "orgulerin-kalemi",
+    "categoryName": "Pênusa Keziyan",
+    "title": "Divê Mirov Bi Pênaseyek Giştî Li Azadiya Rastîn Binêre",
+    "featured_image": "assets/images/gercek_ozgurluk.jpg",
+    "date": "24.10.2026",
+    "author": "Bêjîng Medya",
+    "readTime": {
+      "ku": "6 xulek xwendin",
+      "tr": "6 dk okuma"
+    },
+    "views": "2.5K",
+    "excerpt": "Gelo azadî tenê mafekî hiqûqî yê civaka mirovî ye, an herikîneke gerdûnî ye ku di kûrahiya hebûnê de olan dide? Ji enerjiya azad a kuantûmê heta çirpîna çûkê ya di qefesê de û koledariya jinê; felsefeyeke kûr a li ser wateya azadiya rastîn.",
+    "content": "<p>Têgeha azadiyê, di dirêjahiya dîroka mirovahiyê de yek ji wan têgehan e ku herî zêde li ser hatiye axaftin, berdêlên herî giran jê re hatine dayîn lê ji aliyê desthilatdaran ve jî hundirê wê herî zêde hatiye valakirin. Pênasekirina azadiyê tenê wekî mafekî zagonî, çûnûhatin an jî xilasiyeke demkî ya ji zextê, ji nedîtîvehatina rehenda gerdûnî û hebûnî ya vê mijarê ye. Ji bo têgihîştineke rast, divê mirov bi pênaseyek giştî û kûr li azadiya rastîn binêre.</p><p>Gava em li avahiya fizîkî ya gerdûnê dinêrin, nakokiya navbera madde û enerjiyê şêweya herî bingehîn a lêgerîna azadiyê ye. Enerjî herikîneke xwerû, bê sînor û her tim afrîner e. Lê madde, heta astekê rewşa girtî ya wê enerjiyê ye ku di bin kişandin û qaliban de hatiye zîndanîkirin. Fizîka kuantûmê û tevgera nepêşbînîkirî ya parçikan nîşan dide ku di dilê gerdûnê de ne mecbûriyeke mekanîkî, lêgerîneke afrîner a azadiyê heye.</p><p>Ev heqîqet di sirûştê de jî deng vedide. Çirpîna ajelekî di qefesê de, qîrîn û perwaza bilbilê di ezmanan de tenê tevgereke biyolojîk nîne; ew berteka hebûnî ya enerjiya azad e li hemberî dîlgirtinê. Lê di civaka mirovî de ev wate rastî perçebûneke trajîk hat. Bingeha vê perçebûnê jî koledarkirina dîrokî ya jinê ye.</p><p>Zayîna dewlet, hiyerarşî û milkdariyê bi zincîrkirina îrade û hêza giyanî ya jinê dest pê kir. Jin bû yekemîn û kûrtirîn koleya dîroka şaristaniyê. Ji ber vê yekê, têkoşîna jinê ya ji bo azadiyê tenê dozek ji rêzê nîne; ew vegera parçeyê herî bingehîn ê xwezayê ye bo ser cewherê xwe yê azad.</p><p>Wekî ku fîlozof Spinoza destnîşan dike, azadiya rastîn rizgarbûna ji nezaniyê û gihîştina hêza watedayînê ye. Felsefeya azadiyê ya bi pêşengiya jinê; ronîbûneke giyanî û zihnî ya li hemberî hemû pûtên serdest ferz dike. Çimkî li gerdûnekê ku jin lê azad nebe, tu ferd û civak nikare bigihîje azadiya rastîn.</p>",
+    "youtube_videos": []
+  },
+  {
+    "id": 4246,
+    "slug": "gercek-ozgurluge-genel-bir-tanimla-bakmak-gerekir",
+    "lang": "tr",
+    "categoryId": "orgulerin-kalemi",
+    "categoryName": "Örgülerin Kalemi",
+    "title": "Gerçek Özgürlüğe Genel Bir Tanımla Bakmak Gerekir",
+    "featured_image": "assets/images/gercek_ozgurluk.jpg",
+    "date": "24.10.2026",
+    "author": "Bêjîng Medya",
+    "readTime": {
+      "tr": "6 dk okuma",
+      "ku": "6 xulek xwendin"
+    },
+    "views": "2.8K",
+    "excerpt": "Özgürlük yalnızca insan toplumunun hukuki veya fiziksel bir hakkı mıdır, yoksa evrenin bizzat kendisinde yankılanan kozmik bir akış mıdır? Enerji paketçiklerinden kuantumsal harekete, bülbülün kafesteki çırpınışından kadının köleliğine uzanan varoluşsal bir özgürlük felsefesi.",
+    "content": "<p>Özgürlük kavramı, insanlık tarihi boyunca üzerine en çok konuşulan, uğruna en büyük bedeller ödenen ama aynı zamanda egemen zihniyetler tarafından en çok içi boşaltılan kavramlardan biridir. Özgürlüğü yalnızca anayasal haklar, seyahat edebilme ya da baskıdan anlık bir kurtuluş olarak tarif etmek, meselenin derin ontolojik ve kozmik boyutunu görmezden gelmektir. Gerçek özgürlüğe, evrenin bizzat kendi varoluş ritmiyle bağlantılı genel bir tanımla bakmak gerekir.</p><p>Evrenin fiziksel yapısına baktığımızda, madde ile enerji arasındaki gerilim özgürlük arayışının en ilksel biçimidir. Enerji; saf, sınır tanımaz, sürekli dönüşen bir özgürlük akışkanlığıdır. Madde ise bir bakıma o enerjinin belirli çekim ve formlar içinde hapsedilmiş halidir; bir anlamda mahkûm kılınmış enerji paketçiğidir. Kuantum fiziğinin bize gösterdiği olasılıklar dünyası ve parçacıkların tahmin edilemez hareketi, evrenin kalbinde mekanik bir zorunluluğun değil, yaratıcı bir özgürlük arayışının attığını kanıtlar.</p><p>Bu hakikat doğadaki canlılara da yansır. Kafese kapatılan bir hayvanın parmaklıklara çarpışı, gökyüzüne kanat çırpan bülbülün şakıması yalnızca biyolojik bir refleks değil; evrensel enerjinin esarete karşı geliştirdiği ontolojik bir itirazdır. Ancak insan toplumuna gelindiğinde, özgürlük kavramı çok daha derin ve trajik bir yarılmaya uğramıştır. Bu yarılmanın merkezinde ise kadının tarihsel köleleştirilmesi yatar.</p><p>İnsanlık tarihinde mülkiyetin, devletin ve hiyerarşinin doğuşu, kadının iradesinin ve tinsel gücünün zincire vurulmasıyla başlamıştır. Kadın, uygarlık tarihinin ilk ve en derin kölesi haline getirilmiştir. Dolayısıyla insan toplumunda kadının özgürleşme çırpınışı, rastlantısal bir hak mücadelesi değildir; doğanın ve evrenin köleleştirilmiş en temel parçasının kendi aslına, özgür doğasına dönme çabasıdır.</p><p>Filozof Spinoza’nın belirttiği gibi gerçek özgürlük, cehaletten kurtulmak ve varoluşun hakiki anlamına vakıf olabilme gücüdür. Kadın eksenli bir özgürlük felsefesi; yalnızca erkeğe ya da devlete karşı değil, bilincimizi kuşatan tüm hiyerarşik putlara karşı zihinsel ve ruhsal bir aydınlanmayı zorunlu kılar. Çünkü kadının özgürleşmediği bir evrende hiçbir birey, hiçbir toplum gerçekten özgür olamaz.</p>",
+    "youtube_videos": []
+  },
+  {
+    "id": 4245,
+    "slug": "jinen-sudani-rola-xwe-ya-pesengiye-ya-di-civake-de-niqas-kirin",
+    "lang": "ku",
+    "categoryId": "genc-kadin-bakisiya",
+    "categoryName": "Bi Nêrîna Jinên Ciwan",
+    "title": "Jinên Sûdanî Rola Xwe ya Pêşengiyê ya di Civakê de Nîqaş Kirin",
+    "featured_image": "assets/images/sudanli_kadinlar.jpg",
+    "date": "24.10.2026",
+    "author": "Bêjîng Medya",
+    "readTime": {
+      "ku": "4 xulek xwendin",
+      "tr": "4 dk okuma"
+    },
+    "views": "1.8K",
+    "excerpt": "Li Sûdanê di pêşengiya Rêxistina Pêşxistina Jinên Gundî û Jîngehê (ERD) de civîneke maseya gilover hat lidarxistin. Jinên ciwan di pêvajoyên aştî û biryardanê de rola pêşeng a jinê û tunebûna nûnertiya wan a li ser maseyên siyasî nîqaş kirin.",
+    "content": "<p>Li Sûdanê di bin siya şerê navxweyî û krîza mirovî de, rola jinan a di pêvajoya aştiya civakî û ji nû ve avakirinê de rojane girîngtir dibe. Di pêşengiya Rêxistina Pêşxistina Jinên Gundî û Jîngehê (ERD) de, bi beşdariya çalakvanên ji rêxistinên civaka sivîl û însiyatîfên jinên ciwan civîneke maseya gilover pêk hat.</p><p>Di çarçoveya projeya <strong>“Xurtkirina Beşdariya Jinên Ciwan a di Danûstandinên Aştiyê û Pêvajoyên Siyasî de li Sûdanê”</strong> de; tevî ku jin di qadên şer, torên alîkariyê û piştevaniya civakî de rola herî sereke dileyizin, di mekanîzmayên biryardanê yên siyasî de tên paşguhkirin û ev rewş wekî pirsgirêka sereke hat nîqaşkirin.</p><p>Di nirxandinên civînê de sekna wêrek a tevgera jinên Sûdanê ya ji şoreşa 2019’an vir ve (kevneşopiya Kandaka) hat bibîrxistin. Hat destnîşankirin ku avakirina maseyên aştiyê tenê di navbera aliyên çekdar û elîtên mêrsalar de nikare çareseriyeke mayînde bîne; divê dengê jinên ciwan ên gundî û herêmî bigihîje navendên biryardanê.</p><p>Di plana çalakiyê ya hevpar a di encama civînê de; banga avakirina komîteyên aştiyê yên hevpar ên serbixwe ji dabeşbûnên herêmî û etnîkî, misogerkirina kotaya jinên ciwan di pêvajoyên navneteweyî de û xurtkirina torên piştevaniya herêmî hat kirin.</p>",
+    "youtube_videos": []
+  },
+  {
+    "id": 4244,
+    "slug": "sudanli-kadinlar-toplumdaki-onculuk-rollerini-tartisti",
+    "lang": "tr",
+    "categoryId": "genc-kadin-bakisiya",
+    "categoryName": "Genç Kadın Bakışıyla",
+    "title": "Sudanlı Kadınlar Toplumdaki Öncülük Rollerini Tartıştı",
+    "featured_image": "assets/images/sudanli_kadinlar.jpg",
+    "date": "24.10.2026",
+    "author": "Bêjîng Medya",
+    "readTime": {
+      "tr": "4 dk okuma",
+      "ku": "4 xulek xwendin"
+    },
+    "views": "2.0K",
+    "excerpt": "Sudan'da Çevre ve Kırsal Kadının Gelişimi Örgütü (ERD) öncülüğünde düzenlenen yuvarlak masa toplantısında genç kadınlar bir araya geldi. Kadınlar, çatışma ve barış süreçlerinde kadın liderliğinin hayati rolünü ve karar mekanizmalarındaki yetersiz temsiliyeti tartıştı.",
+    "content": "<p>Sudan’da devam eden iç çatışmalar ve insani krizin gölgesinde, kadınların toplumsal barış ve yeniden inşa süreçlerindeki rolü giderek daha kritik bir önem kazanıyor. Çevre ve Kırsal Kadının Gelişimi Örgütü (ERD) öncülüğünde, sivil toplum örgütleri ve genç kadın inisiyatiflerinden aktivistlerin katılımıyla kapsamlı bir yuvarlak masa toplantısı gerçekleştirildi.</p><p><strong>“Sudan’da Genç Kadınların Barış Müzakerelerine ve Siyasi Süreçlere Katılımının Güçlendirilmesi”</strong> projesi kapsamında düzenlenen buluşmada; kadınların çatışma alanlarında, yardım ağlarında ve toplumsal dayanışmada üstlendikleri öncü rollere karşın, siyasi karar alma mekanizmalarında ve müzakere masalarında dışlanması temel sorun olarak ele alındı.</p><p>Toplantıda yapılan değerlendirmelerde, Sudan kadın hareketinin 2019 devriminden bu yana sokaklarda ve direniş hatlarında gösterdiği cesur duruş (Kandaka geleneği) hatırlatıldı. Ancak barış masalarının sadece silahlı taraflar ve erkek egemen elitler arasında kurulmasının kalıcı bir çözüm getiremeyeceği, kırsaldaki ve yerel topluluklardaki genç kadınların sesinin karar mercilerine yansıtılması gerektiği vurgulandı.</p><p>Toplantı sonunda hazırlanan ortak eylem planında; kadınların bölgesel ve etnik ayrışmaları aşarak ortak barış komiteleri oluşturması, uluslararası müzakere süreçlerinde genç kadın kotasının zorunlu kılınması ve yerel dayanışma ağlarının güçlendirilmesi çağrısı yapıldı.</p>",
+    "youtube_videos": []
+  },
+  {
+    "id": 4243,
+    "slug": "li-basure-kurdistane-jinen-ciwan-dema-avakirina-komunen-azadiye-ye",
+    "lang": "ku",
+    "categoryId": "genc-kadin-bakisiya",
+    "categoryName": "Bi Nêrîna Jinên Ciwan",
+    "title": "Li Başûrê Kurdistanê Jinên Ciwan: “Niha Dema Avakirina Komûnên Azadiyê Ye”",
+    "featured_image": "assets/images/guney_kurdistan_genc_kadinlar.jpg",
+    "date": "24.10.2026",
+    "author": "Bêjîng Medya",
+    "readTime": {
+      "ku": "4 xulek xwendin",
+      "tr": "4 dk okuma"
+    },
+    "views": "2.2K",
+    "excerpt": "Li Başûrê Kurdistanê bi beşdariya 40 jinên ciwan bi dirûşma 'Di pêşengiya jinên ciwan de Niha Dema Avakirina Komûnên Azadiyê Ye' atolyeyeke berfireh hat lidarxistin. Jinên ciwan li dijî şideta dîjîtal parastina cewherî û jiyana komûnal nîqaş kirin.",
+    "content": "<p>Li Başûrê Kurdistanê jinên ciwan li hemberî mekanîzmayên zextê yên pergala baviksalar û serdema dîjîtal, bingeha têkoşîna rêxistinkirî xurt dikin. Bi tevlêbûna 40 jinên ciwan ên ji bajarên cuda yên herêmê, bi dirûşma <strong>“Di pêşengiya jinên ciwan de Niha Dema Avakirina Komûnên Azadiyê Ye”</strong> atolye û paneleke berfireh hat lidarxistin.</p><p>Di vekirina xebatê de rola pêşeng a jinên ciwan a di jiyana civakî û polîtîk de hat destnîşankirin. Beşdaran bal kişandin ser wê yekê ku modernîteya kapîtalîst hewl dide nasnameya jina ciwan bike parçeyek ji pergala xerckirinê û wan ji polîtîkayê dûr bixe; li hemberî vê jî pêşxistina hişmendiyeke birêxistinkirî jiyanî ye. Bi taybetî zext, şantaj û tacîzên ku di demên dawî de li ser platformên medyaya civakî zêde bûne (şideta dîjîtal) bi berfirehî hatin nirxandin.</p><p>Nûnerên jinên ciwan di panelê de diyar kirin ku divê li hemberî şideta dîjîtal hişmendiya parastina cewherî, piştevaniya hiqûqî û hevgirtina kolektîf li hemû tax û qadên jiyanê bê belavkirin. Wekî rêya çareseriyê; hat destnîşankirin ku jinên ciwan tenê bi komcivînan sînordar nemînin, komûnên xweser ên ku jiyana xwe bi xwe bi rê ve bibin ava bikin.</p><p>Di daxuyaniya encamê ya atolyeyê de hat gotin: <strong>“Em wekî jinên ciwan li hemberî ti zext, paşverûtiya civakî û şideta dîjîtal gavan paşde navêjin. Azadiya me tenê bi komûnên ku em bi destên xwe ava bikin, bi hilberîn û têkoşîna hevpar pêkan e. Niha li her kolan û gundê Başûrê Kurdistanê dema avakirina komûnên azadiyê ye.”</strong></p>",
+    "youtube_videos": []
+  },
+  {
+    "id": 4242,
+    "slug": "guney-kurdistanda-genc-kadinlar-simdi-ozgurluk-komunlerini-kurma-zamani-siariyla-panel-duzenledi",
+    "lang": "tr",
+    "categoryId": "genc-kadin-bakisiya",
+    "categoryName": "Genç Kadın Bakışıyla",
+    "title": "Güney Kürdistan'da Genç Kadınlar: “Şimdi Özgürlük Komünlerini Kurma Zamanı”",
+    "featured_image": "assets/images/guney_kurdistan_genc_kadinlar.jpg",
+    "date": "24.10.2026",
+    "author": "Bêjîng Medya",
+    "readTime": {
+      "tr": "4 dk okuma",
+      "ku": "4 xulek xwendin"
+    },
+    "views": "2.3K",
+    "excerpt": "Güney Kürdistan’da 40 genç kadının katılımıyla “Genç kadınların öncülüğünde Şimdi Özgürlük Komünlerini İnşa Etme Zamanıdır” şiarıyla geniş katılımlı bir çalıştay düzenlendi. Genç kadınlar, dijital şiddete karşı öz savunmayı ve komünal yaşamı tartıştı.",
+    "content": "<p>Güney Kürdistan’da genç kadınlar, ataerkil sistemin ve dijital çağın getirdiği baskı mekanizmalarına karşı örgütlü mücadelenin zeminini güçlendirmeye devam ediyor. Bölgenin farklı kentlerinden bir araya gelen 40 genç kadının katılımıyla, <strong>“Genç kadınların öncülüğünde Şimdi Özgürlük Komünlerini İnşa Etme Zamanıdır”</strong> şiarıyla kapsamlı bir çalıştay ve panel gerçekleştirildi.</p><p>Çalıştayın açılışında, genç kadınların toplumdaki ve siyasal yaşamdaki öncü rolü vurgulandı. Katılımcılar, kapitalist modernitenin genç kadın kimliğini tüketim nesnesine dönüştürme ve onları apolitik kılma girişimlerine karşı örgütlü bir bilinç geliştirmenin hayati olduğuna dikkat çekti. Özellikle son dönemde artış gösteren sosyal medya ve dijital platformlar üzerinden uygulanan dijital şiddet, şantaj ve taciz yöntemleri masaya yatırıldı.</p><p>Panelde söz alan genç kadın temsilcileri; dijital şiddete karşı kolektif farkındalık, hukuki dayanışma ve öz savunma bilincinin tüm mahalle ve yaşam alanlarına yayılması gerektiğini belirtti. Çözüm olarak; genç kadınların sadece bir araya gelmekle kalmayıp kendi yaşamlarını doğrudan yönettikleri, dayanışma ağlarını ördükleri yerel komünlerin kurulması kararlaştırıldı.</p><p>Çalıştayın sonuç bildirgesinde şu ifadelere yer verildi: <strong>“Genç kadınlar olarak hiçbir baskı, geleneksel bağnazlık ya da sanal şiddet karşısında geri adım atmayacağız. Özgürlüğümüzü ancak kendi ellerimizle kuracağımız komünlerle, ortak üretim ve mücadeleyle güvence altına alabiliriz. Şimdi Güney Kürdistan’ın her sokağında ve köyünde özgürlük komünlerini inşa etme zamanıdır.”</strong></p>",
+    "youtube_videos": []
+  },
+  {
     "id": 4241,
     "slug": "jinen-ciwan-en-zaningehe-de-bi-rexistiniya-hevpar-werin-ba-hev",
     "lang": "ku",
@@ -202,13 +316,20 @@ const BEJING_ARTICLES = [
     "date": "23.10.2026",
     "author": "Bêjîng Medya",
     "readTime": {
-      "ku": "4 xulek xwendin",
-      "tr": "4 dk okuma"
+      "ku": "5 xulek xwendin",
+      "tr": "5 dk okuma"
     },
-    "views": "1.7K",
-    "excerpt": "Jinên ciwan ên ji bajar û zanîngehên cuda li hemberî tecrîd, zext û binpêkirinên mafan ên li kampusan, bi dirûşma 'Dema rêxistinbûna bi kampusên komûn e' amadekariya konferanseke hevpar dikin. Jinên ciwan radigihînin ku ew ê parçebûnê bi xeta têkoşîna hevpar derbas bikin.",
-    "content": "<p>Zanîngeh yek ji wan qadan e ku polîtîkayên yekparêz, zayendperest û zordar ên desthilatdariyê herî zêde lê tên hîskirin. Li kampusan mekanîzmayên tecrîd, bêewlehî, tacîz û zextê yên li ser jinên ciwan her roj kûrtir dibin; lê jinên ciwan xwe amade dikin ku vê dorpêçê bi têkoşîna hevpar û rêxistinbûna komûnal bişkînin.</p><p>Jinên ciwan ên ji zanîngeh û bajarên cuda hatine cem hev, bi dirûşma <em>“Dema rêxistinbûna bi kampusên komûn e”</em> konferans û civîneke hevpar birêxistin dikin. Jinên ciwan diyar dikin ku parçebûn û qutbûna di navbera kampusan de tenê bi xurtkirina zemînekî hevpar ê rêxistinî dikare were derbaskirin.</p><p>Di çarçoveya vê hevdîtinê de; bêbandorkirina yekeyên pêşîlêgirtina tacîzê (CİTÖB), krîza starê û xaniyan, mehkûmkirina xwendekarên jin bo girêdayîbûna aborî û zordariya baviksalar a li akademiyê dê werin nîqaşkirin. Jinên ciwan dê avakirina parastina cewherî, kooperatîfên hevgirtinê û meclîsên komûnal ên jinan li kampusan deynin ser maseyê.</p><p>Jinên ciwan ên ku amadekariyên konferansê dimeşînin di nirxandina xwe de gotin: <strong>“Em jiyana kampusê ya ji hev qutkirî û bêdeng qebûl nakin. Azadiya kampusan di yekîtiya jinan, di biryardayîn û têkoşîna hevpar re derbas dibe. Em bang li hemû jinên ciwan ên zanîngehê dikin ku di vê rêxistiniya hevpar de cih bigirin û îradeya xwe bilind bikin.”</strong></p>",
-    "youtube_videos": []
+    "views": "2.1K",
+    "excerpt": "Li Amedê, di pêşengiya Xwendekarên Komunalîst û KÖDER'ê de bi dirûşma 'Dema rêxistinbûna bi kampusên komûn e' banga konferansê hat kirin. Xwendekar Fatime Baltaca destnîşan kir ku tu jin bi tenê namîne û ew ê qutbûna li kampusan bi xeta têkoşîna hevpar derbas bikin.",
+    "content": "<p>Zanîngeh yek ji wan qadan e ku polîtîkayên yekparêz, zayendperest û zordar ên desthilatdariyê herî zêde lê tên ferzkirin. Li kampusan mekanîzmayên tecrîd, bêewlehî, tacîz û zextê yên li ser xwendekarên jin her roj kûrtir dibin; lê jinên ciwan xwe amade dikin ku vê dorpêçê bi têkoşîna hevpar, parastina cewherî û rêxistinbûna komûnal bişkînin.</p><p>Li Amedê di pêşengiya Xwendekarên Komunalîst û Komeleya Xwendekarên Komûn a Dîcleyê (KÖDER) de li Navenda Kongreyê ya Çand Amedê bi dirûşma <em>“Dema rêxistinbûna bi kampusên komûn e”</em> amadekariya konferanseke berfireh tê meşandin. Xwendekarên jin ên zanîngehê li çar aliyê Kurdistan û Tirkiyeyê li kampusan standan vedikin, li kuçeyan belavokan belav dikin û bang li hemû jinên ciwan dikin ku beşdarî vê têkoşîna hevpar bibin.</p><p>Xwendekara zanîngehê <strong>Fatime Baltaca</strong> der barê xebatên konferansê de nirxandin kir û got: <strong>“Polîtîkayên pergalê hewl didin xwendekaran ji hev qut bikin û bêdeng bihêlin. Lê em dibêjin 'Tu jin bi tenê namîne'. Em ê parçebûn û qutbûna li kampusan bi hêza cewherî ya jinan û rêxistiniya komûnal ji holê rakin. Azadiya kampusan di yekîtiya jinan û mezinkirina meclîsan re derbas dibe.”</strong></p><p>Di çarçoveya konferansê de; bêbandorkirina yekeyên pêşîlêgirtina tacîzê (CİTÖB), krîza starê û xaniyan, girêdayîbûna aborî û polîtîkayên zordar ên akademiyê tên nîqaşkirin. Jinên ciwan diyar dikin ku ew ê bi avakirina kooperatîfên hevgirtinê û meclîsên jinan li her kampusê qadên jiyaneke nû û azad ava bikin.</p>",
+    "youtube_videos": [
+      {
+        "video_id": "ylPWHcyDU4M",
+        "watch_url": "https://www.youtube.com/watch?v=ylPWHcyDU4M",
+        "embed_url": "https://www.youtube.com/embed/ylPWHcyDU4M",
+        "title": "Banga konferansê: Em ê qutbûna li kampusan bi rêxistinbûnê derbas bikin"
+      }
+    ]
   },
   {
     "id": 4240,
@@ -221,13 +342,20 @@ const BEJING_ARTICLES = [
     "date": "23.10.2026",
     "author": "Bêjîng Medya",
     "readTime": {
-      "tr": "4 dk okuma",
-      "ku": "4 xulek xwendin"
+      "tr": "5 dk okuma",
+      "ku": "5 xulek xwendin"
     },
-    "views": "1.9K",
-    "excerpt": "Farklı kent ve üniversitelerden bir araya gelen genç kadınlar, kampüslerde derinleşen tecrit, taciz ve hak gasplarına karşı 'Komünleşen kampüslerle örgütlenme zamanı' şiarıyla ortak konferans ve buluşma hazırlıklarını sürdürüyor. Kadınlar, dağınıklığı aşarak ortak mücadele zeminini inşa edeceklerini vurguluyor.",
-    "content": "<p>Üniversiteler, iktidarın tekçi, cinsiyetçi ve baskıcı politikalarının en yoğun hissedildiği alanların başında geliyor. Kampüslerde genç kadınlara dayatılan tecrit, güvencesizlik, taciz ve baskı mekanizmaları her geçen gün derinleşirken; genç kadınlar bu kuşatmayı ortak mücadele ve komünal örgütlülükle kırmaya hazırlanıyor.</p><p>Farklı üniversite ve kentlerden bir araya gelen genç kadınlar, <em>“Komünleşen kampüslerle örgütlenme zamanı”</em> şiarıyla ortak bir konferans ve buluşma örgütlüyor. Gençliğin ve özelde kadın öğrencilerin karşı karşıya kaldığı yabancılaşmaya karşı ses çıkaran kadınlar, kampüslerdeki dağınıklığı ve kopukluğu ancak ortak bir örgütlülük zemininde buluşarak aşabileceklerini belirtiyor.</p><p>Buluşma kapsamında; üniversitelerdeki cinsel tacizi önleme birimlerinin (CİTÖB) işlevsizleştirilmesi, barınma krizi, kadın öğrencilerin ekonomik bağımlılığa mahkûm edilmesi ve akademideki ataerkil tahakküm masaya yatırılacak. Kadınlar, yalnızca var olan sorunları tespit etmekle yetinmeyip, kampüslerde öz savunma, dayanışma kooperatifleri ve komünal kadın meclislerinin inşasını tartışacak.</p><p>Konferans hazırlıklarını yürüten genç kadınlar yaptıkları değerlendirmede: <strong>“Bizler birbirinden habersiz, izole edilmiş kampüs hayatını kabul etmiyoruz. Kampüsleri özgürleştirmek, kadınların bir arada durduğu, birlikte karar aldığı ve birlikte direndiği alanlar yaratmaktan geçiyor. Tüm üniversiteli genç kadınları bu ortak örgütlülükte yer almaya, sözünü ve iradesini büyütmeye çağırıyoruz.”</strong> ifadelerini kullandı.</p>",
-    "youtube_videos": []
+    "views": "2.4K",
+    "excerpt": "Amed'de Komünalist Öğrenciler ve KÖDER öncülüğünde 'Komünleşen kampüslerle örgütlenme zamanı' şiarıyla konferans çağrısı yapıldı. Üniversiteli Fatime Baltaca, 'Hiçbir kadın yalnız kalmayacak' diyerek kampüslerdeki kopukluğu ortak mücadele ve kadın meclisleriyle aşacaklarını vurguladı.",
+    "content": "<p>Üniversiteler, iktidarın tekçi, cinsiyetçi ve baskıcı politikalarının en yoğun hissedildiği alanların başında geliyor. Kampüslerde genç kadınlara dayatılan tecrit, güvencesizlik, taciz ve baskı mekanizmaları her geçen gün derinleşirken; genç kadınlar bu kuşatmayı ortak mücadele ve komünal örgütlülükle kırmaya hazırlanıyor.</p><p>Amed'de Komünalist Öğrenciler ve Dicle Komün Öğrenci Derneği (KÖDER) öncülüğünde, Çand Amed Kongre Merkezi'nde <em>“Komünleşen kampüslerle örgütlenme zamanı”</em> şiarıyla geniş katılımlı bir konferans düzenleniyor. Türkiye ve Kürdistan genelindeki üniversitelerde stantlar açan, sokaklarda genç kadınlarla buluşan öğrenciler, kampüslerdeki dağınıklığı ve yalnızlaştırma politikalarını ortak bir örgütlülük zemininde buluşarak aşacaklarını belirtiyor.</p><p>Konferans çalışmaları hakkında bilgi veren üniversite öğrencisi <strong>Fatime Baltaca</strong>, genç kadınların kampüslerde karşı karşıya kaldığı baskılara dikkat çekerek şu çağrıda bulundu: <strong>“Sistem kampüsleri tecrit alanına dönüştürmek, öğrencileri birbirinden koparmak istiyor. Ancak bizler 'Hiçbir kadın yalnız kalmayacak' şiarıyla bir aradayız. Kampüslerdeki kopukluğu kadınların öz gücü, ortak mücadelesi ve komünleşmeyle aşacağız. Tüm genç kadınları konferansta sözünü söylemeye, iradesini büyütmeye çağırıyoruz.”</strong></p><p>Buluşma kapsamında; cinsel tacizi önleme birimlerinin (CİTÖB) işlevsizleştirilmesi, barınma krizi, ekonomik bağımlılık ve akademideki ataerkil tahakküm masaya yatırılacak. Kadınlar kampüslerde öz savunma, dayanışma kooperatifleri ve komünal kadın meclislerinin inşasını tartışarak pratik adımlar atacak.</p>",
+    "youtube_videos": [
+      {
+        "video_id": "ylPWHcyDU4M",
+        "watch_url": "https://www.youtube.com/watch?v=ylPWHcyDU4M",
+        "embed_url": "https://www.youtube.com/embed/ylPWHcyDU4M",
+        "title": "Konferansa çağrı: Kampüslerdeki kopukluğu örgütlülükle aşacağız"
+      }
+    ]
   },
   {
     "id": 4239,

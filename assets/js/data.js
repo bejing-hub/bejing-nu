@@ -198,7 +198,7 @@ const BEJING_ARTICLES = [
     "categoryId": "genc-kadin-bakisiya",
     "categoryName": "Bi Nêrîna Jinên Ciwan",
     "title": "Divê Mirov Bi Pênaseyek Giştî Li Azadiya Rastîn Binêre",
-    "featured_image": "assets/images/gercek_ozgurluk.jpg",
+    "featured_image": "https://bejingmedya.com/wp-content/uploads/2026/10/photo_2026-10-23_22-24-47.jpg",
     "date": "24.10.2026",
     "author": "Bêjîng Medya",
     "readTime": {
@@ -230,7 +230,7 @@ const BEJING_ARTICLES = [
     "categoryId": "genc-kadin-bakisiya",
     "categoryName": "Genç Kadın Bakışıyla",
     "title": "Gerçek Özgürlüğe Genel Bir Tanımla Bakmak Gerekir",
-    "featured_image": "assets/images/gercek_ozgurluk.jpg",
+    "featured_image": "https://bejingmedya.com/wp-content/uploads/2026/10/photo_2026-10-23_22-24-47.jpg",
     "date": "24.10.2026",
     "author": "Bêjîng Medya",
     "readTime": {

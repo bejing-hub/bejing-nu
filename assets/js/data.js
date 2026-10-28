@@ -192,6 +192,58 @@ const BEJING_QUOTES = [
 
 const BEJING_ARTICLES = [
   {
+    "id": 4240,
+    "slug": "universiteli-kadinlar-ortak-orgutlulukle-bulusacak",
+    "lang": "tr",
+    "categoryId": "genc-kadin-bakisiya",
+    "categoryName": "Genç Kadın Bakışıyla",
+    "title": "Üniversiteli kadınlar ortak örgütlülükle buluşacak",
+    "featured_image": "https://img.youtube.com/vi/ylPWHcyDU4M/maxresdefault.jpg",
+    "date": "23.10.2026",
+    "author": "Bêjîng Medya",
+    "readTime": {
+      "tr": "5 dk okuma",
+      "ku": "5 xulek xwendin"
+    },
+    "views": "2.8K",
+    "excerpt": "Amed'de Komünalist Öğrenciler ve KÖDER öncülüğünde 'Komünleşen kampüslerle örgütlenme zamanı' şiarıyla konferans çağrısı yapıldı. Üniversiteli Fatime Baltaca, 'Hiçbir kadın yalnız kalmayacak' diyerek kampüslerdeki kopukluğu ortak mücadeleyle aşacaklarını belirtti.",
+    "content": "<p>“Komünleşen kampüslerle örgütlenme zamanı” şiarıyla düzenlenecek konferansa çağrı yapan öğrenci Fatime Baltaca, kampüslerdeki kopukluğu ortak mücadeleyle aşmayı hedeflediklerini belirterek, “Hiçbir kadın yalnız kalmayacak” dedi.</p><p>Komünalist Öğrenciler öncülüğünde, “Komünleşen kampüslerle örgütlenme zamanı” şiarıyla yarın saat 10.00’da Çand Amed Kongre Merkezi’nde konferans düzenlenecek. Konferansta, üniversitelerde gençlere ve özellikle genç kadınlara yönelik sistem politikaları ile bu politikalara karşı ortak bir mücadele hattının nasıl örüleceği ele alınacak. Ayrıca özgür öğrenci kimliğinin büyütülmesi amacıyla gerçekleştirilecek konferansta örgütlenmenin ve komünleşmenin de önemine vurgu yapılacak.</p><p>Öğrenci Fatime Baltaca, konferansta sistemin özellikle üniversitelerde gençlere yönelik politikalarının ele alınacağını ve bu politikalara karşı ortak bir mücadele hattının nasıl örüleceğinin tartışılacağını belirtti.</p><h3>‘Üniversitelerde gençler sistemin saldırılarıyla karşı karşıya’</h3><p>Fatime Baltaca, kadının tarihsel olarak üretici, toplumsal dilin ve kültürün yaratıcısı olduğunu belirterek, “İnsanı tarihsel ve toplumsal açıdan ele aldığımızda, kadının özünde üretici olduğunu, toplumsal dili ve kültürü yaratan bir kimliğe sahip olduğunu görüyoruz. Ancak diğer taraftan sistemin yaratmak istediği bir kadın kimliği var. Bu, kadını kendi özünden, bilgisinden ve yaratım gücünden uzaklaştıran; bedeninden, emeğinden ve sahip olduğu her şeyden yararlanmak, bilgisini ve bilincini sömürmek isteyen bir sistemin yaratmaya çalıştığı kadın kimliğidir. Üniversitelere gelen genç kadınlar ise tam da bu çatışmanın ortasında yer alıyor. Özellikle arayışlarının ve bu arayışın yarattığı coşkunun yoğun olduğu bir dönemde, üniversitede kendilerini değiştirmek ve dönüştürmek istiyorlar. Ancak bu değişim ve dönüşüm arayışı içerisinde sistemin yoğun saldırılarıyla karşı karşıya kalıyorlar” dedi.</p><h3>‘Üniversitelerde kadınlar kendi gerçekliklerinden uzaklaştırılıyor’</h3><p>Üniversitelerde kadınların sistemin iktidar anlayışına göre şekillendirilmek istendiğini aktaran Fatime Baltaca, “Peki, sistem üniversitelerde kadından ne istiyor? Sistem, kadının, sistemin iktidar anlayışının bir öznesi olmasını istiyor. Bir taraftan kadınlara sanal, gerçek olmayan özgürlük alanları yaratılıyor. Sistem, bu alanlar içerisinde kadının kendi gerçekliğinin ve bilincinin farkına varmasını istemiyor. Diğer taraftan eğitim sistemine baktığımızda, sağlıktan hukuka, müzikten diğer bölümlere kadar kadının varlığını göremiyoruz. Kadın, eğitim sisteminin içerisinde kendi gerçekliğiyle yer bulamıyor. Böyle olunca kadın, aldığı eğitimle kendisini donatırken kendi varlığını unutuyor, kendisinden uzaklaşıyor. Bunu reddeden, kabul etmeyen kadınlar ise sistemin en somut ve yoğun saldırılarıyla karşı karşıya kalıyor. Taciz, tecavüz, fuhuş ve intiharla yüz yüze geliyorlar” ifadelerini kullandı.</p><h3>‘Üniversitelerde kadın yalnızlaştırılarak kendisinden koparılıyor’</h3><p>Fatime Baltaca, üniversitelerde kadınların kimlik çatışması içinde yalnızlaştırıldığını ve kendi varlıklarından uzaklaştırıldığını dile getirerek, “Bugün bunları yalnızca düşünmekle kalmıyor, üniversitelerde bunun somut örneklerini de görüyoruz. Kadınlar intihar ediyor, yaşamı sürdürmek istemiyor. Çünkü burada kendi kimliğini tanımayan, kendi gücünün farkına varmayan ve kendisiyle bağını kaybetmiş bir kadın kimliği söz konusu. Kadınlar, yaşadıkları bu kimlik çatışması içerisinde intihara sürükleniyor; kendilerini var edemedikleri, kendileri olamadıkları alanlara sıkıştırılıyor. Üniversitelerde kadın yalnızlaştırılıyor. Kadının kendisinden koparılması ve saldırıların hedefi haline getirilmesi için yalnız kalması gerekiyor. Böylece kadının kendi varlığından uzaklaştırılması kolaylaşıyor. Bizler kadınların yalnız kalmasını istemiyoruz. ‘Hiçbir kadın yalnız kalmayacak’ diyoruz” diye belirtti.</p><h3>‘Kadın özgürleşmeden hiçbir alan özgürleşemez’</h3><p>Konferansla kadınların toplumsal kimlikleri ve kadın kimlikleri etrafında örgütlenmesini hedeflediklerini vurgulayan Fatime Baltaca, “Bu konferansla ve konferans sonrasında bütün kadınların toplumsal kimlikleri ve kadın kimlikleri etrafında örgütlenmesini hedefliyoruz. Kadınlar örgütlülük sayesinde kendi kimliklerinin farkına varacak, kadın sevgisi etrafında buluşacak. Cins bilinci etrafında oluşturacağımız örgütlenme alanlarında kadın kendisini yeniden ve yeniden yaratacak. Biz de bu yaratım etrafında yeni bir yaşamı inşa edeceğiz. Çünkü biliyoruz ki kadın özgürleşmeden hiçbir alan özgürleşemez. Kadının özgürleşmediği ve kendisini yaratamadığı hiçbir alan yaratıcı olamaz, kendisini var edemez. Kadının özgür olmadığı bir yerde barış da mümkün değildir. Bizler bu konferansla bunu yaratmak ve inşa etmek istiyoruz. Kadınların konferansa kendi varlıkları, bilinçleri ve öz güçleriyle katılmalarını; kadın bakış açısının ve kadın öncülüğünün konferansa yansımasını istiyoruz” şeklinde konuştu.</p><h3>‘Üniversiteli kadınlar ortak örgütlülükle buluşacak’</h3><p>Fatime Baltaca, üniversiteli genç kadınları konferansa çağırmak için Türkiye ve Kürdistan’daki üniversitelerde çalışma yürüttüklerini söyleyerek, “Şu anda üniversitelerin bulunduğu her alanda, üniversiteli genç kadınların olduğu her yerde yoğun bir konferans çalışması yürütüyoruz. KÖDER bünyesinde stantlarda, sokaklarda ve ulaşabildiğimiz her alanda kadınları konferansa çağırıyoruz. Bu süreçte yalnızca bir çağrı yapmıyoruz; kadınlarda konferansa neden ihtiyaç duyulduğuna ve neden bu konferansta bir araya gelmemiz gerektiğine ilişkin bir bilinç oluşturmaya çalışıyoruz. Uzun süredir daha örgütlü ve kolektif bir çalışmanın eksikliği hissediliyor. Çünkü aramızda bir kopukluk var. İhtiyacımızı ortaya çıkaran temel nedenlerden biri de bu kopukluk ve parçalanmışlık hali. Kampüslerde ortak çalışmaların yürütülemediğini görüyoruz. Türkiye ve Kürdistan’daki bütün üniversitelerden kadınlarla bir araya gelerek bu konferansa doğru ilerliyoruz. Ancak her üniversitede farklı çalışmalar yürütülüyor ve farklı ihtiyaçlar ortaya çıkıyor. Üniversiteler bu ihtiyaçlar doğrultusunda ortak bir bakış açısı geliştiremiyor, ortak bir plan ve eylem oluşturamıyor. Bu durum, temel eksikliklerimizden birini gösteriyor. Oysa ortaklaşmak ve birlikte ses çıkarmak, her birimizin taşıdığı duyguyu, heyecanı ve coşkuyu daha güçlü bir şekilde ifade etmemizi sağlayacak. Bu nedenle önümüzdeki süreçte alanlarda daha fazla yer alacak, çalışmalarımızı daha da güçlendireceğiz” dedi.</p><h3>‘Kadınlara yönelik saldırılar üniversitelerle sınırlı değil’</h3><p>Sistemin gençlere ve özellikle genç kadınlara yönelik saldırılarının toplumsal yaşamın tüm alanlarında etkili olduğunu belirten Fatime Baltaca, “Sistemin gençlere, özellikle de genç kadınlara yönelik saldırıları yalnızca üniversitelerle sınırlı değil. Bu saldırılar üniversitelerde öğrencileri kıskaca alırken toplumun genelinde de etkisini gösteriyor. Ancak bugün üniversitelerle toplum birbirinden koparılmış durumda. Toplumsal yaşamın içinde yer alan kadınlar da bu krizle karşı karşıya kalıyor. Bu nedenle saldırıların en yoğun yaşandığı alanlardan biri olan üniversitelerde mücadelemizi ve pratiğimizi daha güçlü bir şekilde yürütmeye başlayacağız” şeklinde konuştu.</p><h3>Konferansa çağrı</h3><p>Fatime Baltaca, yarın Çand Amed’de gerçekleştirecekleri konferansa özellikle kadınların katılımının önemli olduğunun altını çizerek, “Özellikle bütün genç kadın arkadaşlarımızı konferansta söz kurmaya; kadın bakışıyla, kadın rengiyle ve kadın öncülüğünde yeni bir yaşamın inşasına katılmaya çağırıyoruz” dedi.</p><p><em>(Kaynak: JİNNEWS)</em></p>",
+    "youtube_videos": [
+      {
+        "video_id": "ylPWHcyDU4M",
+        "watch_url": "https://www.youtube.com/watch?v=ylPWHcyDU4M",
+        "embed_url": "https://www.youtube.com/embed/ylPWHcyDU4M",
+        "title": "Konferansa çağrı: Kampüslerdeki kopukluğu örgütlülükle aşacağız"
+      }
+    ]
+  },
+  {
+    "id": 4241,
+    "slug": "jinen-ciwan-en-zaningehe-de-bi-rexistiniya-hevpar-werin-ba-hev",
+    "lang": "ku",
+    "categoryId": "genc-kadin-bakisiya",
+    "categoryName": "Bi Nêrîna Jinên Ciwan",
+    "title": "Jinên Ciwan ên Zanîngehê Dê Bi Rêxistiniya Hevpar Werin Ba Hev",
+    "featured_image": "https://img.youtube.com/vi/ylPWHcyDU4M/maxresdefault.jpg",
+    "date": "23.10.2026",
+    "author": "Bêjîng Medya",
+    "readTime": {
+      "ku": "5 xulek xwendin",
+      "tr": "5 dk okuma"
+    },
+    "views": "2.5K",
+    "excerpt": "Li Amedê, di pêşengiya Xwendekarên Komunalîst û KÖDER'ê de bi dirûşma 'Dema rêxistinbûna bi kampusên komûn e' banga konferansê hat kirin. Xwendekar Fatime Baltaca destnîşan kir ku tu jin bi tenê namîne û ew ê qutbûna li kampusan bi xeta têkoşîna hevpar derbas bikin.",
+    "content": "<p>Zanîngeh yek ji wan qadan e ku polîtîkayên yekparêz, zayendperest û zordar ên desthilatdariyê herî zêde lê tên ferzkirin. Li kampusan mekanîzmayên tecrîd, bêewlehî, tacîz û zextê yên li ser xwendekarên jin her roj kûrtir dibin; lê jinên ciwan xwe amade dikin ku vê dorpêçê bi têkoşîna hevpar, parastina cewherî û rêxistinbûna komûnal bişkînin.</p><p>Li Amedê di pêşengiya Xwendekarên Komunalîst û Komeleya Xwendekarên Komûn a Dîcleyê (KÖDER) de li Navenda Kongreyê ya Çand Amedê bi dirûşma <em>“Dema rêxistinbûna bi kampusên komûn e”</em> amadekariya konferanseke berfireh tê meşandin. Xwendekarên jin ên zanîngehê li çar aliyê Kurdistan û Tirkiyeyê li kampusan standan vedikin, li kuçeyan belavokan belav dikin û bang li hemû jinên ciwan dikin ku beşdarî vê têkoşîna hevpar bibin.</p><p>Xwendekara zanîngehê <strong>Fatime Baltaca</strong> der barê xebatên konferansê de nirxandin kir û got: <strong>“Polîtîkayên pergalê hewl didin xwendekaran ji hev qut bikin û bêdeng bihêlin. Lê em dibêjin 'Tu jin bi tenê namîne'. Em ê parçebûn û qutbûna li kampusan bi hêza cewherî ya jinan û rêxistiniya komûnal ji holê rakin. Azadiya kampusan di yekîtiya jinan û mezinkirina meclîsan re derbas dibe.”</strong></p><p>Di çarçoveya konferansê de; bêbandorkirina yekeyên pêşîlêgirtina tacîzê (CİTÖB), krîza starê û xaniyan, girêdayîbûna aborî û polîtîkayên zordar ên akademiyê tên nîqaşkirin. Jinên ciwan diyar dikin ku ew ê bi avakirina kooperatîfên hevgirtinê û meclîsên jinan li her kampusê qadên jiyaneke nû û azad ava bikin.</p>",
+    "youtube_videos": [
+      {
+        "video_id": "ylPWHcyDU4M",
+        "watch_url": "https://www.youtube.com/watch?v=ylPWHcyDU4M",
+        "embed_url": "https://www.youtube.com/embed/ylPWHcyDU4M",
+        "title": "Banga konferansê: Em ê qutbûna li kampusan bi rêxistinbûnê derbas bikin"
+      }
+    ]
+  },
+  {
     "id": 4247,
     "slug": "dive-mirov-bi-penaseyek-gisti-li-azadiya-rastin-binere",
     "lang": "ku",
@@ -206,20 +258,14 @@ const BEJING_ARTICLES = [
       "tr": "6 dk okuma"
     },
     "views": "2.5K",
-    "excerpt": "Di panela jinên ciwan a li Başûrê Kurdistanê de Kajîn Bergarê û Zina Azad peyamên girîng dan: 'Ji bo têgihîştina wekhevî û demokrasiyê, divê mirov bi pênaseyek giştî li azadiya rastîn binêre.'",
-    "content": "<p>23’yê Cotmehê li Başûrê Kurdistanê bi dirûşma “Di pêşengiya jinên ciwan de, niha dema avakirina komûnên azadiyê ye” panela jinên ciwan hat lidarxistin. Di panelê de ku bi beşdariya 40 jinên ciwan pêk hat, pêşengiya jinan û pirsgirêkên rojane hatin nîqaşkirin û pêşniyarên çareseriyê hatin pêşkêşkirin.</p><p>Jina ciwan a bi navê <strong>Kajîn Bergarê</strong> der barê naveroka atolyeyê de ji Bêjîng Medyayê re axivî û got: “Ji bo pirsgirêka jinê êdî destê me gihişte birînê. Bi vî awayî em dikarin li dijî sepanên şerê taybet xwe baştir perwerde bikin û vê birîna xwe bipêçin.”</p><p>Kajîn bal kişand ser rola jinê ya di dîrokê de û got: “Di dîrokê de jin her tim pêşeng bû; hem di dîrokê de wisa bû hem jî niha pêwîst e dengê jinê bilind û bihêz be. Ev nêrînên paşverû yên li ser me, parçeyek ji şerê taybet ê li dijî ciwanan û jinên ciwan e. Piştî demeke dirêj em cara yekem e xebateke wiha pêk tînin. Em dixwazin dengê hemû jinên ku nayê bihîstin bibihîzin û vî dengî bigihînin her derê.” Kajîn axaftina xwe bi dirûşma “Jin, Jiyan, Azadî” bi dawî kir.</p><p>Li aliyê din jina ciwan a bi navê <strong>Zina Azad</strong> jî peyamên wiha da:</p><p>“Bi rastî jî ev cure panel pir girîng in. Wekî ciwan û bi taybetî jinên ciwan kombûna me li vir derfetek e ku em li ser vê mijarê bisekinin: Azadiya jinê çi ye û divê em ji kîjan aliyan ve lê binêrin? Pêwîst e em ji bo xwedîderketina li vê mîrasê têkoşîneke xurt bimeşînin. Azadiya jinê pêdiviyeke jiyanî ye bo civaka me.”</p><p>Zina Azad gotinên xwe wiha domand: “Ev panel azadiyê tenê wekî têgeheke hêsan an mafekî ji rêzê nagire dest; tekez dike ku bêyî azadiyê demokrasî û wekhevî pêk nayê. Di lêgerîna me ya wekhevî û azadiyê de, ne tenê ji bo beşekê; divê mirov bi pênaseyek giştî li azadiya rastîn binêre. Ev jî hişmendiya me ya li hemberî jiyanê, derdor û cîhanê zêde dike.”</p>",
+    "excerpt": "Di panela jinên ciwan a li Başûrê Kurdistanê de Kajîn Bergarê peyamên girîng dan: 'Ji bo têgihîştina wekhevî û demokrasiyê, divê mirov bi pênaseyek giştî li azadiya rastîn binêre.'",
+    "content": "<p>23’yê Cotmehê li Başûrê Kurdistanê bi dirûşma “Di pêşengiya jinên ciwan de, niha dema avakirina komûnên azadiyê ye” panela jinên ciwan hat lidarxistin. Di panelê de ku bi beşdariya 40 jinên ciwan pêk hat, pêşengiya jinan û pirsgirêkên rojane hatin nîqaşkirin û pêşniyarên çareseriyê hatin pêşkêşkirin.</p><p>Jina ciwan a bi navê <strong>Kajîn Bergarê</strong> der barê naveroka atolyeyê de ji Bêjîng Medyayê re axivî û got: “Ji bo pirsgirêka jinê êdî destê me gihişte birînê. Bi vî awayî em dikarin li dijî sepanên şerê taybet xwe baştir perwerde bikin û vê birîna xwe bipêçin.”</p><p>Kajîn bal kişand ser rola jinê ya di dîrokê de û got: “Di dîrokê de jin her tim pêşeng bû; hem di dîrokê de wisa bû hem jî niha pêwîst e dengê jinê bilind û bihêz be. Ev nêrînên paşverû yên li ser me, parçeyek ji şerê taybet ê li dijî ciwanan û jinên ciwan e. Piştî demeke dirêj em cara yekem e xebateke wiha pêk tînin. Em dixwazin dengê hemû jinên ku nayê bihîstin bibihîzin û vî dengî bigihînin her derê.” Kajîn axaftina xwe bi dirûşma “Jin, Jiyan, Azadî” bi dawî kir.</p>",
     "youtube_videos": [
       {
         "video_id": "WY9wzZT0YPw",
         "watch_url": "https://www.youtube.com/watch?v=WY9wzZT0YPw",
         "embed_url": "https://www.youtube.com/embed/WY9wzZT0YPw",
         "title": "Panela Jinên Ciwan (Kajîn Bergarê)"
-      },
-      {
-        "video_id": "V7J49qZuuCk",
-        "watch_url": "https://www.youtube.com/watch?v=V7J49qZuuCk",
-        "embed_url": "https://www.youtube.com/embed/V7J49qZuuCk",
-        "title": "Jina ciwan ya bi navê Zina Azad jî peyamên wiha da"
       }
     ]
   },
@@ -238,20 +284,14 @@ const BEJING_ARTICLES = [
       "ku": "6 xulek xwendin"
     },
     "views": "2.8K",
-    "excerpt": "23 Ekim'de Güney Kürdistan'da 'Genç kadınların öncülüğünde, şimdi özgürlük komünlerini inşa etme zamanıdır' şiarıyla gerçekleşen panelde Kajîn Bergarê ve Zina Azad Bêjîng Medya'ya konuştu: 'Gerçek özgürlüğe genel bir tanımla bakmak gerekir.'",
-    "content": "<p>23 Ekim'de Güney Kürdistan'da “Genç kadınların öncülüğünde, şimdi özgürlük komünlerini inşa etme zamanıdır” şiarıyla genç kadınlar paneli düzenlendi. 40 genç kadının katılımıyla gerçekleşen panelde, kadınların öncülüğü ve güncel sorunlar tartışılarak çözüm önerileri sunuldu.</p><p>Çalıştaya Güney'in farklı bölgelerinden katılan genç kadınlara çeşitli mesajlar verildi. Kajîn Bergarê isimli genç kadın, çalıştayın içeriğine dair Bêjîng Medya'ya konuşarak şunları söyledi: “Kadın sorunu için artık elimiz yaraya değdi. Bu sayede özel savaş uygulamalarına karşı kendimizi daha iyi eğitip bu yaramızı sarabiliriz.”</p><p>Ayrıca Kajîn Bergarê, çalıştayla ilgili şu noktalara değindi:</p><p>“Bugün, ayın 23'ünde bir çalıştay gerçekleştirdik. Birinci konumuz; günümüzde kadının rolüydü. İkinci konumuz ise dijital alanda ve sosyal medya ağlarında nasıl şiddete maruz kaldığımızdır. Konunun kavranması için tartışmaları ayrıntılı olarak yürüttük. Yaptığımız bu tartışmalar bizim açımızdan kendimizi koruyabilmenin bir yolu oldu; toplumumuz için bir ses ve bir adım atmamız adına daha güçlü hale gelmemizi sağladı. Bu konular üzerinde devam ettik.</p><p>Çalıştayda bu meselelere ilişkin çok önemli bilgiler verildi ve aralıksız olarak verildi. Bugün değinilen bu ayrıntılar, toplumun yaralarından haberdar olunduğunu gösteriyordu. Ancak bu yaramızın izleri mevcuttu. Bu yüzden dikkatimizi ve bilincimizi daha da artıracağız; bu temeller üzerinden kendimizi geliştirecek ve Güney sahasında öncülük edeceğiz.</p><p>Tarihte kadın her zaman öncüydü; bu hem tarihte böyleydi hem de şimdi kadının güçlü bir sese sahip olması gerekir. Üzerimize düşen o gerici baskılar, gençler ve genç kadınlar olarak yüz yüze kaldığımız özel savaşın bir biçimidir. Uzun bir aradan sonra ilk kez böyle bir çalışma düzenliyoruz. Bu çalışma hepimiz için çok önemliydi, bu nedenle tek bir seferle sınırlı kalmasını istemiyoruz. Bu tür çalışmaları ilerleyen süreçte de devam ettireceğiz. Bugün bu başarıya ulaştık, kırk genç kadın olarak hazırlandık. Tüm kadınların duyulmayan sesini duymak ve bu sesi her yere ulaştırmak istiyoruz.”</p><p>Kajîn konuşmasını “Jin, Jiyan, Azadî” (Kadın, Yaşam, Özgürlük) sloganıyla tamamladı.</p><p>Öte yandan bir diğer genç kadın Zina Azad ise şu mesajları paylaştı:</p><p>“Gerçekten de bu tür paneller çok önemlidir. Gençler olarak, özellikle de genç kadınlar olarak burada bir araya gelmemiz, hep birlikte şu konu üzerinde durmamız için bir fırsattır: Kadın özgürlüğü nedir ve buna hangi açılardan bakmalıyız? İnsana bu tür önemli sorular sorduruyor. Ayrıca her zaman kadın hareketleri çok büyük bedeller ödüyor. Bu mirasa sahip olabilmek için çok güçlü bir mücadele yürütebilmemiz gerekir. Kadın özgürlüğü, toplumumuz için hayati bir gereklilik ve yapmamız gereken temel bir ihtiyaçtır.</p><p>Bu tür çalıştaylar ve paneller çok önemlidir. Bu panel, özgürlüğü yalnızca basit bir kavram ya da sıradan bir hak olarak ele almıyor; özgürlük olmadan demokrasinin ve eşitliğin tam anlamıyla sağlanamayacağını vurguluyor. Eşitlik ve özgürlük arayışımızda, sadece bir kesim için değil; gerçek özgürlüğe genel bir tanımla bakmak gerekir. Bu da yaşama, çevremize ve dünyamıza dair farkındalığımızı artırıyor.</p><p>Bu nedenle, bu panellerin tekrar düzenlenmesi bilincimizi genişletir ve özgürlüğün daha derin bir kavrayışına yaklaştırır. Bu buluşmanın bir parçası olduğum için bir kez daha çok teşekkür ederim. Genç kadınların örgütlülüğünün ve kadın davasını geliştirme çabalarının daha da büyümesi için bu tür etkinliklerin çoğalmasını umuyorum.”</p>",
+    "excerpt": "23 Ekim'de Güney Kürdistan'da 'Genç kadınların öncülüğünde, şimdi özgürlük komünlerini inşa etme zamanıdır' şiarıyla gerçekleşen panelde Kajîn Bergarê Bêjîng Medya'ya konuştu: 'Gerçek özgürlüğe genel bir tanımla bakmak gerekir.'",
+    "content": "<p>23 Ekim'de Güney Kürdistan'da “Genç kadınların öncülüğünde, şimdi özgürlük komünlerini inşa etme zamanıdır” şiarıyla genç kadınlar paneli düzenlendi. 40 genç kadının katılımıyla gerçekleşen panelde, kadınların öncülüğü ve güncel sorunlar tartışılarak çözüm önerileri sunuldu.</p><p>Çalıştaya Güney'in farklı bölgelerinden katılan genç kadınlara çeşitli mesajlar verildi. Kajîn Bergarê isimli genç kadın, çalıştayın içeriğine dair Bêjîng Medya'ya konuşarak şunları söyledi: “Kadın sorunu için artık elimiz yaraya değdi. Bu sayede özel savaş uygulamalarına karşı kendimizi daha iyi eğitip bu yaramızı sarabiliriz.”</p><p>Ayrıca Kajîn Bergarê, çalıştayla ilgili şu noktalara değindi:</p><p>“Bugün, ayın 23'ünde bir çalıştay gerçekleştirdik. Birinci konumuz; günümüzde kadının rolüydü. İkinci konumuz ise dijital alanda ve sosyal medya ağlarında nasıl şiddete maruz kaldığımızdır. Konunun kavranması için tartışmaları ayrıntılı olarak yürüttük. Yaptığımız bu tartışmalar bizim açımızdan kendimizi koruyabilmenin bir yolu oldu; toplumumuz için bir ses ve bir adım atmamız adına daha güçlü hale gelmemizi sağladı. Bu konular üzerinde devam ettik.</p><p>Çalıştayda bu meselelere ilişkin çok önemli bilgiler verildi ve aralıksız olarak verildi. Bugün değinilen bu ayrıntılar, toplumun yaralarından haberdar olunduğunu gösteriyordu. Ancak bu yaramızın izleri mevcuttu. Bu yüzden dikkatimizi ve bilincimizi daha da artıracağız; bu temeller üzerinden kendimizi geliştirecek ve Güney sahasında öncülük edeceğiz.</p><p>Tarihte kadın her zaman öncüydü; bu hem tarihte böyleydi hem de şimdi kadının güçlü bir sese sahip olması gerekir. Üzerimize düşen o gerici baskılar, gençler ve genç kadınlar olarak yüz yüze kaldığımız özel savaşın bir biçimidir. Uzun bir aradan sonra ilk kez böyle bir çalışma düzenliyoruz. Bu çalışma hepimiz için çok önemliydi, bu nedenle tek bir seferle sınırlı kalmasını istemiyoruz. Bu tür çalışmaları ilerleyen süreçte de devam ettireceğiz. Bugün bu başarıya ulaştık, kırk genç kadın olarak hazırlandık. Tüm kadınların duyulmayan sesini duymak ve bu sesi her yere ulaştırmak istiyoruz.”</p><p>Kajîn konuşmasını “Jin, Jiyan, Azadî” (Kadın, Yaşam, Özgürlük) sloganıyla tamamladı.</p>",
     "youtube_videos": [
       {
         "video_id": "WY9wzZT0YPw",
         "watch_url": "https://www.youtube.com/watch?v=WY9wzZT0YPw",
         "embed_url": "https://www.youtube.com/embed/WY9wzZT0YPw",
         "title": "Panela Jinên Ciwan (Kajîn Bergarê)"
-      },
-      {
-        "video_id": "V7J49qZuuCk",
-        "watch_url": "https://www.youtube.com/watch?v=V7J49qZuuCk",
-        "embed_url": "https://www.youtube.com/embed/V7J49qZuuCk",
-        "title": "Jina ciwan ya bi navê Zina Azad jî peyamên wiha da"
       }
     ]
   },
@@ -345,58 +385,7 @@ const BEJING_ARTICLES = [
       }
     ]
   },
-  {
-    "id": 4241,
-    "slug": "jinen-ciwan-en-zaningehe-de-bi-rexistiniya-hevpar-werin-ba-hev",
-    "lang": "ku",
-    "categoryId": "genc-kadin-bakisiya",
-    "categoryName": "Bi Nêrîna Jinên Ciwan",
-    "title": "Jinên Ciwan ên Zanîngehê Dê Bi Rêxistiniya Hevpar Werin Ba Hev",
-    "featured_image": "assets/images/universiteli_kadinlar.jpg",
-    "date": "23.10.2026",
-    "author": "Bêjîng Medya",
-    "readTime": {
-      "ku": "5 xulek xwendin",
-      "tr": "5 dk okuma"
-    },
-    "views": "2.1K",
-    "excerpt": "Li Amedê, di pêşengiya Xwendekarên Komunalîst û KÖDER'ê de bi dirûşma 'Dema rêxistinbûna bi kampusên komûn e' banga konferansê hat kirin. Xwendekar Fatime Baltaca destnîşan kir ku tu jin bi tenê namîne û ew ê qutbûna li kampusan bi xeta têkoşîna hevpar derbas bikin.",
-    "content": "<p>Zanîngeh yek ji wan qadan e ku polîtîkayên yekparêz, zayendperest û zordar ên desthilatdariyê herî zêde lê tên ferzkirin. Li kampusan mekanîzmayên tecrîd, bêewlehî, tacîz û zextê yên li ser xwendekarên jin her roj kûrtir dibin; lê jinên ciwan xwe amade dikin ku vê dorpêçê bi têkoşîna hevpar, parastina cewherî û rêxistinbûna komûnal bişkînin.</p><p>Li Amedê di pêşengiya Xwendekarên Komunalîst û Komeleya Xwendekarên Komûn a Dîcleyê (KÖDER) de li Navenda Kongreyê ya Çand Amedê bi dirûşma <em>“Dema rêxistinbûna bi kampusên komûn e”</em> amadekariya konferanseke berfireh tê meşandin. Xwendekarên jin ên zanîngehê li çar aliyê Kurdistan û Tirkiyeyê li kampusan standan vedikin, li kuçeyan belavokan belav dikin û bang li hemû jinên ciwan dikin ku beşdarî vê têkoşîna hevpar bibin.</p><p>Xwendekara zanîngehê <strong>Fatime Baltaca</strong> der barê xebatên konferansê de nirxandin kir û got: <strong>“Polîtîkayên pergalê hewl didin xwendekaran ji hev qut bikin û bêdeng bihêlin. Lê em dibêjin 'Tu jin bi tenê namîne'. Em ê parçebûn û qutbûna li kampusan bi hêza cewherî ya jinan û rêxistiniya komûnal ji holê rakin. Azadiya kampusan di yekîtiya jinan û mezinkirina meclîsan re derbas dibe.”</strong></p><p>Di çarçoveya konferansê de; bêbandorkirina yekeyên pêşîlêgirtina tacîzê (CİTÖB), krîza starê û xaniyan, girêdayîbûna aborî û polîtîkayên zordar ên akademiyê tên nîqaşkirin. Jinên ciwan diyar dikin ku ew ê bi avakirina kooperatîfên hevgirtinê û meclîsên jinan li her kampusê qadên jiyaneke nû û azad ava bikin.</p>",
-    "youtube_videos": [
-      {
-        "video_id": "ylPWHcyDU4M",
-        "watch_url": "https://www.youtube.com/watch?v=ylPWHcyDU4M",
-        "embed_url": "https://www.youtube.com/embed/ylPWHcyDU4M",
-        "title": "Banga konferansê: Em ê qutbûna li kampusan bi rêxistinbûnê derbas bikin"
-      }
-    ]
-  },
-  {
-    "id": 4240,
-    "slug": "universiteli-kadinlar-ortak-orgutlulukle-bulusacak",
-    "lang": "tr",
-    "categoryId": "genc-kadin-bakisiya",
-    "categoryName": "Genç Kadın Bakışıyla",
-    "title": "Üniversiteli kadınlar ortak örgütlülükle buluşacak",
-    "featured_image": "assets/images/universiteli_kadinlar.jpg",
-    "date": "23.10.2026",
-    "author": "Bêjîng Medya",
-    "readTime": {
-      "tr": "5 dk okuma",
-      "ku": "5 xulek xwendin"
-    },
-    "views": "2.4K",
-    "excerpt": "Amed'de Komünalist Öğrenciler ve KÖDER öncülüğünde 'Komünleşen kampüslerle örgütlenme zamanı' şiarıyla konferans çağrısı yapıldı. Üniversiteli Fatime Baltaca, 'Hiçbir kadın yalnız kalmayacak' diyerek kampüslerdeki kopukluğu ortak mücadele ve kadın meclisleriyle aşacaklarını vurguladı.",
-    "content": "<div> “Komünleşen kampüslerle örgütlenme zamanı” şiarıyla düzenlenecek konferansa çağrı yapan öğrenci Fatime Baltaca, kampüslerdeki kopukluğu ortak mücadeleyle aşmayı hedeflediklerini belirterek, “Hiçbir kadın yalnız kalmayacak” dedi.</div><div></div><div></div><div> Komünalist Öğrenciler öncülüğünde, “Komünleşen kampüslerle örgütlenme zamanı” şiarıyla yarın saat 10.00’da Çand Amed Kongre Merkezi’nde konferans düzenlenecek. Konferansta, üniversitelerde gençlere ve özellikle genç kadınlara yönelik sistem politikaları ile bu politikalara karşı ortak bir mücadele hattının nasıl örüleceği ele alınacak. Ayrıca özgür öğrenci kimliğinin büyütülmesi amacıyla gerçekleştirilecek konferansta örgütlenmenin ve komünleşmenin de önemine vurgu yapılacak.</div><div></div><div>Öğrenci Fatime Baltaca, konferansta sistemin özellikle üniversitelerde gençlere yönelik politikalarının ele alınacağını ve bu politikalara karşı ortak bir mücadele hattının nasıl örüleceğinin tartışılacağını belirtti.</p></div><div></div><div><strong>‘Üniversitelerde gençler sistemin saldırılarıyla karşı karşıya’</strong></div><div></div><div>Fatime Baltaca, kadının tarihsel olarak üretici, toplumsal dilin ve kültürün yaratıcısı olduğunu belirterek, “İnsanı tarihsel ve toplumsal açıdan ele aldığımızda, kadının özünde üretici olduğunu, toplumsal dili ve kültürü yaratan bir kimliğe sahip olduğunu görüyoruz. Ancak diğer taraftan sistemin yaratmak istediği bir kadın kimliği var. Bu, kadını kendi özünden, bilgisinden ve yaratım gücünden uzaklaştıran; bedeninden, emeğinden ve sahip olduğu her şeyden yararlanmak, bilgisini ve bilincini sömürmek isteyen bir sistemin yaratmaya çalıştığı kadın kimliğidir. Üniversitelere gelen genç kadınlar ise tam da bu çatışmanın ortasında yer alıyor. Özellikle arayışlarının ve bu arayışın yarattığı coşkunun yoğun olduğu bir dönemde, üniversitede kendilerini değiştirmek ve dönüştürmek istiyorlar. Ancak bu değişim ve dönüşüm arayışı içerisinde sistemin yoğun saldırılarıyla karşı karşıya kalıyorlar” dedi.</div><div></div><div><strong>‘Üniversitelerde kadınlar kendi gerçekliklerinden uzaklaştırılıyor’</strong></div><div></div><div>Üniversitelerde kadınların sistemin iktidar anlayışına göre şekillendirilmek istendiğini aktaran Fatime Baltaca, “Peki, sistem üniversitelerde kadından ne istiyor? Sistem, kadının, sistemin iktidar anlayışının bir öznesi olmasını istiyor. Bir taraftan kadınlara sanal, gerçek olmayan özgürlük alanları yaratılıyor. Sistem, bu alanlar içerisinde kadının kendi gerçekliğinin ve bilincinin farkına varmasını istemiyor. Diğer taraftan eğitim sistemine baktığımızda, sağlıktan hukuka, müzikten diğer bölümlere kadar kadının varlığını göremiyoruz. Kadın, eğitim sisteminin içerisinde kendi gerçekliğiyle yer bulamıyor. Böyle olunca kadın, aldığı eğitimle kendisini donatırken kendi varlığını unutuyor, kendisinden uzaklaşıyor. Bunu reddeden, kabul etmeyen kadınlar ise sistemin en somut ve yoğun saldırılarıyla karşı karşıya kalıyor. Taciz, tecavüz, fuhuş ve intiharla yüz yüze geliyorlar” ifadelerini kullandı.</div><div></div><div><strong>‘Üniversitelerde kadın yalnızlaştırılarak kendisinden koparılıyor’</strong></div><div></div><div>Fatime Baltaca, üniversitelerde kadınların kimlik çatışması içinde yalnızlaştırıldığını ve kendi varlıklarından uzaklaştırıldığını dile getirerek, “Bugün bunları yalnızca düşünmekle kalmıyor, üniversitelerde bunun somut örneklerini de görüyoruz. Kadınlar intihar ediyor, yaşamı sürdürmek istemiyor. Çünkü burada kendi kimliğini tanımayan, kendi gücünün farkına varmayan ve kendisiyle bağını kaybetmiş bir kadın kimliği söz konusu. Kadınlar, yaşadıkları bu kimlik çatışması içerisinde intihara sürükleniyor; kendilerini var edemedikleri, kendileri olamadıkları alanlara sıkıştırılıyor. Üniversitelerde kadın yalnızlaştırılıyor. Kadının kendisinden koparılması ve saldırıların hedefi haline getirilmesi için yalnız kalması gerekiyor. Böylece kadının kendi varlığından uzaklaştırılması kolaylaşıyor. Bizler kadınların yalnız kalmasını istemiyoruz. ‘Hiçbir kadın yalnız kalmayacak’ diyoruz” diye belirtti.</div><div></div><div><strong>‘Kadın özgürleşmeden hiçbir alan özgürleşemez’</strong></div><div></div><div>Konferansla kadınların toplumsal kimlikleri ve kadın kimlikleri etrafında örgütlenmesini hedeflediklerini vurgulayan Fatime Baltaca, “Bu konferansla ve konferans sonrasında bütün kadınların toplumsal kimlikleri ve kadın kimlikleri etrafında örgütlenmesini hedefliyoruz. Kadınlar örgütlülük sayesinde kendi kimliklerinin farkına varacak, kadın sevgisi etrafında buluşacak. Cins bilinci etrafında oluşturacağımız örgütlenme alanlarında kadın kendisini yeniden ve yeniden yaratacak. Biz de bu yaratım etrafında yeni bir yaşamı inşa edeceğiz. Çünkü biliyoruz ki kadın özgürleşmeden hiçbir alan özgürleşemez. Kadının özgürleşmediği ve kendisini yaratamadığı hiçbir alan yaratıcı olamaz, kendisini var edemez. Kadının özgür olmadığı bir yerde barış da mümkün değildir. Bizler bu konferansla bunu yaratmak ve inşa etmek istiyoruz. Kadınların konferansa kendi varlıkları, bilinçleri ve öz güçleriyle katılmalarını; kadın bakış açısının ve kadın öncülüğünün konferansa yansımasını istiyoruz” şeklinde konuştu.</div><div></div><div><strong>‘Üniversiteli kadınlar ortak örgütlülükle buluşacak’</strong></div><div></div><div>Fatime Baltaca, üniversiteli genç kadınları konferansa çağırmak için Türkiye ve Kürdistan’daki üniversitelerde çalışma yürüttüklerini söyleyerek, “Şu anda üniversitelerin bulunduğu her alanda, üniversiteli genç kadınların olduğu her yerde yoğun bir konferans çalışması yürütüyoruz. KÖDER bünyesinde stantlarda, sokaklarda ve ulaşabildiğimiz her alanda kadınları konferansa çağırıyoruz. Bu süreçte yalnızca bir çağrı yapmıyoruz; kadınlarda konferansa neden ihtiyaç duyulduğuna ve neden bu konferansta bir araya gelmemiz gerektiğine ilişkin bir bilinç oluşturmaya çalışıyoruz. Uzun süredir daha örgütlü ve kolektif bir çalışmanın eksikliği hissediliyor. Çünkü aramızda bir kopukluk var. İhtiyacımızı ortaya çıkaran temel nedenlerden biri de bu kopukluk ve parçalanmışlık hali. Kampüslerde ortak çalışmaların yürütülemediğini görüyoruz. Türkiye ve Kürdistan’daki bütün üniversitelerden kadınlarla bir araya gelerek bu konferansa doğru ilerliyoruz. Ancak her üniversitede farklı çalışmalar yürütülüyor ve farklı ihtiyaçlar ortaya çıkıyor. Üniversiteler bu ihtiyaçlar doğrultusunda ortak bir bakış açısı geliştiremiyor, ortak bir plan ve eylem oluşturamıyor. Bu durum, temel eksikliklerimizden birini gösteriyor. Oysa ortaklaşmak ve birlikte ses çıkarmak, her birimizin taşıdığı duyguyu, heyecanı ve coşkuyu daha güçlü bir şekilde ifade etmemizi sağlayacak. Bu nedenle önümüzdeki süreçte alanlarda daha fazla yer alacak, çalışmalarımızı daha da güçlendireceğiz” dedi.</div><div></div><div><strong>‘Kadınlara yönelik saldırılar üniversitelerle sınırlı değil’</strong></div><div></div><div>Sistemin gençlere ve özellikle genç kadınlara yönelik saldırılarının toplumsal yaşamın tüm alanlarında etkili olduğunu belirten Fatime Baltaca, “Sistemin gençlere, özellikle de genç kadınlara yönelik saldırıları yalnızca üniversitelerle sınırlı değil. Bu saldırılar üniversitelerde öğrencileri kıskaca alırken toplumun genelinde de etkisini gösteriyor. Ancak bugün üniversitelerle toplum birbirinden koparılmış durumda. Toplumsal yaşamın içinde yer alan kadınlar da bu krizle karşı karşıya kalıyor. Bu nedenle saldırıların en yoğun yaşandığı alanlardan biri olan üniversitelerde mücadelemizi ve pratiğimizi daha güçlü bir şekilde yürütmeye başlayacağız” şeklinde konuştu.</div><div></div><div><strong>Konferansa çağrı</strong></div><div></div><div><p>Fatime Baltaca, yarın Çand Amed’de gerçekleştirecekleri konferansa özellikle kadınların katılımının önemli olduğunun altını çizerek, “Özellikle bütün genç kadın arkadaşlarımızı konferansta söz kurmaya; kadın bakışıyla, kadın rengiyle ve kadın öncülüğünde yeni bir yaşamın inşasına katılmaya çağırıyoruz” dedi.</p><p>(JİNNEWS)</p></div>",
-    "youtube_videos": [
-      {
-        "video_id": "ylPWHcyDU4M",
-        "watch_url": "https://www.youtube.com/watch?v=ylPWHcyDU4M",
-        "embed_url": "https://www.youtube.com/embed/ylPWHcyDU4M",
-        "title": "Konferansa çağrı: Kampüslerdeki kopukluğu örgütlülükle aşacağız"
-      }
-    ]
-  },
+
   {
     "id": 4239,
     "slug": "pore-jine-sehr-u-serpec-yildiz-cibiroglu",
@@ -3161,6 +3150,158 @@ const BEJING_ARTICLES = [
 
 
 const BEJING_VIDEOS = [
+    {
+      "id": "4246_v1",
+      "articleId": 4246,
+      "articleTitle": "Gerçek Özgürlüğe Genel Bir Tanımla Bakmak Gerekir",
+      "lang": "tr",
+      "videoId": "WY9wzZT0YPw",
+      "embedUrl": "https://www.youtube.com/embed/WY9wzZT0YPw",
+      "videoUrl": "https://www.youtube.com/embed/WY9wzZT0YPw",
+      "watchUrl": "https://www.youtube.com/watch?v=WY9wzZT0YPw",
+      "title": "Panela Jinên Ciwan (Kajîn Bergarê)",
+      "desc": "23 Ekim'de Güney Kürdistan'da düzenlenen genç kadınlar panelinde Kajîn Bergarê Bêjîng Medya'ya değerlendirmelerde bulundu.",
+      "categoryId": "genc-kadin-bakisiya",
+      "categoryName": "Genç Kadın Bakışıyla",
+      "date": "24.10.2026",
+      "duration": "4:20",
+      "thumbnail": "https://img.youtube.com/vi/WY9wzZT0YPw/hqdefault.jpg",
+      "image": "https://img.youtube.com/vi/WY9wzZT0YPw/hqdefault.jpg",
+      "views": 2150
+    },
+    {
+      "id": "4247_v1",
+      "articleId": 4247,
+      "articleTitle": "Divê Mirov Bi Pênaseyek Giştî Li Azadiya Rastîn Binêre",
+      "lang": "ku",
+      "videoId": "WY9wzZT0YPw",
+      "embedUrl": "https://www.youtube.com/embed/WY9wzZT0YPw",
+      "videoUrl": "https://www.youtube.com/embed/WY9wzZT0YPw",
+      "watchUrl": "https://www.youtube.com/watch?v=WY9wzZT0YPw",
+      "title": "Panela Jinên Ciwan (Kajîn Bergarê)",
+      "desc": "Di panela jinên ciwan a li Başûrê Kurdistanê de Kajîn Bergarê ji Bêjîng Medyayê re axivî.",
+      "categoryId": "genc-kadin-bakisiya",
+      "categoryName": "Bi Nêrîna Jinên Ciwan",
+      "date": "24.10.2026",
+      "duration": "4:20",
+      "thumbnail": "https://img.youtube.com/vi/WY9wzZT0YPw/hqdefault.jpg",
+      "image": "https://img.youtube.com/vi/WY9wzZT0YPw/hqdefault.jpg",
+      "views": 2150
+    },
+    {
+      "id": "4246_v2",
+      "articleId": 4246,
+      "articleTitle": "Gerçek Özgürlüğe Genel Bir Tanımla Bakmak Gerekir",
+      "lang": "tr",
+      "videoId": "V7J49qZuuCk",
+      "embedUrl": "https://www.youtube.com/embed/V7J49qZuuCk",
+      "videoUrl": "https://www.youtube.com/embed/V7J49qZuuCk",
+      "watchUrl": "https://www.youtube.com/watch?v=V7J49qZuuCk",
+      "title": "Jina ciwan ya bi navê Zina Azad jî peyamên wiha da",
+      "desc": "Genç kadın Zina Azad: 'Eşitlik ve özgürlük arayışımızda, sadece bir kesim için değil; gerçek özgürlüğe genel bir tanımla bakmak gerekir.'",
+      "categoryId": "genc-kadin-bakisiya",
+      "categoryName": "Genç Kadın Bakışıyla",
+      "date": "24.10.2026",
+      "duration": "3:50",
+      "thumbnail": "https://img.youtube.com/vi/V7J49qZuuCk/hqdefault.jpg",
+      "image": "https://img.youtube.com/vi/V7J49qZuuCk/hqdefault.jpg",
+      "views": 1980
+    },
+    {
+      "id": "4247_v2",
+      "articleId": 4247,
+      "articleTitle": "Divê Mirov Bi Pênaseyek Giştî Li Azadiya Rastîn Binêre",
+      "lang": "ku",
+      "videoId": "V7J49qZuuCk",
+      "embedUrl": "https://www.youtube.com/embed/V7J49qZuuCk",
+      "videoUrl": "https://www.youtube.com/embed/V7J49qZuuCk",
+      "watchUrl": "https://www.youtube.com/watch?v=V7J49qZuuCk",
+      "title": "Peyama Zina Azad - Panela Jinên Ciwan",
+      "desc": "Zina Azad: 'Di lêgerîna me ya wekhevî û azadiyê de, divê mirov bi pênaseyek giştî li azadiya rastîn binêre.'",
+      "categoryId": "genc-kadin-bakisiya",
+      "categoryName": "Bi Nêrîna Jinên Ciwan",
+      "date": "24.10.2026",
+      "duration": "3:50",
+      "thumbnail": "https://img.youtube.com/vi/V7J49qZuuCk/hqdefault.jpg",
+      "image": "https://img.youtube.com/vi/V7J49qZuuCk/hqdefault.jpg",
+      "views": 1980
+    },
+    {
+      "id": "4242_v1",
+      "articleId": 4242,
+      "articleTitle": "Güney Kürdistan’da Genç Kadınlar: “Şimdi özgürlük komünlerini kurma zamanı”",
+      "lang": "tr",
+      "videoId": "bEy0UP_WoaU",
+      "embedUrl": "https://www.youtube.com/embed/bEy0UP_WoaU",
+      "videoUrl": "https://www.youtube.com/embed/bEy0UP_WoaU",
+      "watchUrl": "https://www.youtube.com/watch?v=bEy0UP_WoaU",
+      "title": "Güney Kürdistan’da Genç Kadınlar: ‘Şimdi Özgürlük Komünlerini Kurma Zamanı’",
+      "desc": "Güney Kürdistan’da 40 genç kadının katılımıyla gerçekleşen çalıştayın video görüntüleri ve mesajları.",
+      "categoryId": "genc-kadin-bakisiya",
+      "categoryName": "Genç Kadın Bakışıyla",
+      "date": "24.10.2026",
+      "duration": "5:12",
+      "thumbnail": "https://img.youtube.com/vi/bEy0UP_WoaU/hqdefault.jpg",
+      "image": "https://img.youtube.com/vi/bEy0UP_WoaU/hqdefault.jpg",
+      "views": 2420
+    },
+    {
+      "id": "4243_v1",
+      "articleId": 4243,
+      "articleTitle": "Li Başûrê Kurdistanê Jinên Ciwan: “Niha Dema Avakirina Komûnên Azadiyê Ye”",
+      "lang": "ku",
+      "videoId": "bEy0UP_WoaU",
+      "embedUrl": "https://www.youtube.com/embed/bEy0UP_WoaU",
+      "videoUrl": "https://www.youtube.com/embed/bEy0UP_WoaU",
+      "watchUrl": "https://www.youtube.com/watch?v=bEy0UP_WoaU",
+      "title": "Li Başûrê Kurdistanê Jinên Ciwan: ‘Niha Dema Avakirina Komînên Azadiyê ye’",
+      "desc": "Li Başûrê Kurdistanê bi beşdariya 40 jinên ciwan atolyeyeke berfireh hat lidarxistin.",
+      "categoryId": "genc-kadin-bakisiya",
+      "categoryName": "Bi Nêrîna Jinên Ciwan",
+      "date": "24.10.2026",
+      "duration": "5:12",
+      "thumbnail": "https://img.youtube.com/vi/bEy0UP_WoaU/hqdefault.jpg",
+      "image": "https://img.youtube.com/vi/bEy0UP_WoaU/hqdefault.jpg",
+      "views": 2350
+    },
+    {
+      "id": "4240_v1",
+      "articleId": 4240,
+      "articleTitle": "Üniversiteli kadınlar ortak örgütlülükle buluşacak",
+      "lang": "tr",
+      "videoId": "ylPWHcyDU4M",
+      "embedUrl": "https://www.youtube.com/embed/ylPWHcyDU4M",
+      "videoUrl": "https://www.youtube.com/embed/ylPWHcyDU4M",
+      "watchUrl": "https://www.youtube.com/watch?v=ylPWHcyDU4M",
+      "title": "Konferansa Çağrı: Kampüslerdeki Kopukluğu Örgütlülükle Aşacağız",
+      "desc": "Komünalist Öğrenciler ve KÖDER öncülüğünde konferans çağrısı: 'Hiçbir kadın yalnız kalmayacak'.",
+      "categoryId": "genc-kadin-bakisiya",
+      "categoryName": "Genç Kadın Bakışıyla",
+      "date": "23.10.2026",
+      "duration": "6:04",
+      "thumbnail": "https://img.youtube.com/vi/ylPWHcyDU4M/hqdefault.jpg",
+      "image": "https://img.youtube.com/vi/ylPWHcyDU4M/hqdefault.jpg",
+      "views": 2780
+    },
+    {
+      "id": "4241_v1",
+      "articleId": 4241,
+      "articleTitle": "Jinên Ciwan ên Zanîngehê Dê Bi Rêxistiniya Hevpar Werin Ba Hev",
+      "lang": "ku",
+      "videoId": "ylPWHcyDU4M",
+      "embedUrl": "https://www.youtube.com/embed/ylPWHcyDU4M",
+      "videoUrl": "https://www.youtube.com/embed/ylPWHcyDU4M",
+      "watchUrl": "https://www.youtube.com/watch?v=ylPWHcyDU4M",
+      "title": "Banga Konferansê: Em ê Qutbûna Li Kampusan Bi Rêxistinbûnê Derbas Bikin",
+      "desc": "Xwendekar Fatime Baltaca: 'Tu jin bi tenê namîne û em ê parçebûnê bi hêza cewherî ya jinan ji holê rakin.'",
+      "categoryId": "genc-kadin-bakisiya",
+      "categoryName": "Bi Nêrîna Jinên Ciwan",
+      "date": "23.10.2026",
+      "duration": "6:04",
+      "thumbnail": "https://img.youtube.com/vi/ylPWHcyDU4M/hqdefault.jpg",
+      "image": "https://img.youtube.com/vi/ylPWHcyDU4M/hqdefault.jpg",
+      "views": 2690
+    },
     {
       "id": "4235_v1",
       "articleId": 4235,

@@ -1,4 +1,4 @@
-/**
+﻿/**
 
  * Bêjing Medya - Complete Published Archive & Video Store
 
@@ -198,7 +198,7 @@ const BEJING_ARTICLES = [
     "categoryId": "genc-kadin-bakisiya",
     "categoryName": "Genç Kadın Bakışıyla",
     "title": "Üniversiteli kadınlar ortak örgütlülükle buluşacak",
-    "featured_image": "https://img.youtube.com/vi/ylPWHcyDU4M/maxresdefault.jpg",
+    "featured_image": "assets/images/universiteli_kadinlar.jpg",
     "date": "23.10.2026",
     "author": "Bêjîng Medya",
     "readTime": {
@@ -207,13 +207,13 @@ const BEJING_ARTICLES = [
     },
     "views": "2.8K",
     "excerpt": "Amed'de Komünalist Öğrenciler ve KÖDER öncülüğünde 'Komünleşen kampüslerle örgütlenme zamanı' şiarıyla konferans çağrısı yapıldı. Üniversiteli Fatime Baltaca, 'Hiçbir kadın yalnız kalmayacak' diyerek kampüslerdeki kopukluğu ortak mücadeleyle aşacaklarını belirtti.",
-    "content": "<p>“Komünleşen kampüslerle örgütlenme zamanı” şiarıyla düzenlenecek konferansa çağrı yapan öğrenci Fatime Baltaca, kampüslerdeki kopukluğu ortak mücadeleyle aşmayı hedeflediklerini belirterek, “Hiçbir kadın yalnız kalmayacak” dedi.</p><p>Komünalist Öğrenciler öncülüğünde, “Komünleşen kampüslerle örgütlenme zamanı” şiarıyla yarın saat 10.00’da Çand Amed Kongre Merkezi’nde konferans düzenlenecek. Konferansta, üniversitelerde gençlere ve özellikle genç kadınlara yönelik sistem politikaları ile bu politikalara karşı ortak bir mücadele hattının nasıl örüleceği ele alınacak. Ayrıca özgür öğrenci kimliğinin büyütülmesi amacıyla gerçekleştirilecek konferansta örgütlenmenin ve komünleşmenin de önemine vurgu yapılacak.</p><p>Öğrenci Fatime Baltaca, konferansta sistemin özellikle üniversitelerde gençlere yönelik politikalarının ele alınacağını ve bu politikalara karşı ortak bir mücadele hattının nasıl örüleceğinin tartışılacağını belirtti.</p><h3>‘Üniversitelerde gençler sistemin saldırılarıyla karşı karşıya’</h3><p>Fatime Baltaca, kadının tarihsel olarak üretici, toplumsal dilin ve kültürün yaratıcısı olduğunu belirterek, “İnsanı tarihsel ve toplumsal açıdan ele aldığımızda, kadının özünde üretici olduğunu, toplumsal dili ve kültürü yaratan bir kimliğe sahip olduğunu görüyoruz. Ancak diğer taraftan sistemin yaratmak istediği bir kadın kimliği var. Bu, kadını kendi özünden, bilgisinden ve yaratım gücünden uzaklaştıran; bedeninden, emeğinden ve sahip olduğu her şeyden yararlanmak, bilgisini ve bilincini sömürmek isteyen bir sistemin yaratmaya çalıştığı kadın kimliğidir. Üniversitelere gelen genç kadınlar ise tam da bu çatışmanın ortasında yer alıyor. Özellikle arayışlarının ve bu arayışın yarattığı coşkunun yoğun olduğu bir dönemde, üniversitede kendilerini değiştirmek ve dönüştürmek istiyorlar. Ancak bu değişim ve dönüşüm arayışı içerisinde sistemin yoğun saldırılarıyla karşı karşıya kalıyorlar” dedi.</p><h3>‘Üniversitelerde kadınlar kendi gerçekliklerinden uzaklaştırılıyor’</h3><p>Üniversitelerde kadınların sistemin iktidar anlayışına göre şekillendirilmek istendiğini aktaran Fatime Baltaca, “Peki, sistem üniversitelerde kadından ne istiyor? Sistem, kadının, sistemin iktidar anlayışının bir öznesi olmasını istiyor. Bir taraftan kadınlara sanal, gerçek olmayan özgürlük alanları yaratılıyor. Sistem, bu alanlar içerisinde kadının kendi gerçekliğinin ve bilincinin farkına varmasını istemiyor. Diğer taraftan eğitim sistemine baktığımızda, sağlıktan hukuka, müzikten diğer bölümlere kadar kadının varlığını göremiyoruz. Kadın, eğitim sisteminin içerisinde kendi gerçekliğiyle yer bulamıyor. Böyle olunca kadın, aldığı eğitimle kendisini donatırken kendi varlığını unutuyor, kendisinden uzaklaşıyor. Bunu reddeden, kabul etmeyen kadınlar ise sistemin en somut ve yoğun saldırılarıyla karşı karşıya kalıyor. Taciz, tecavüz, fuhuş ve intiharla yüz yüze geliyorlar” ifadelerini kullandı.</p><h3>‘Üniversitelerde kadın yalnızlaştırılarak kendisinden koparılıyor’</h3><p>Fatime Baltaca, üniversitelerde kadınların kimlik çatışması içinde yalnızlaştırıldığını ve kendi varlıklarından uzaklaştırıldığını dile getirerek, “Bugün bunları yalnızca düşünmekle kalmıyor, üniversitelerde bunun somut örneklerini de görüyoruz. Kadınlar intihar ediyor, yaşamı sürdürmek istemiyor. Çünkü burada kendi kimliğini tanımayan, kendi gücünün farkına varmayan ve kendisiyle bağını kaybetmiş bir kadın kimliği söz konusu. Kadınlar, yaşadıkları bu kimlik çatışması içerisinde intihara sürükleniyor; kendilerini var edemedikleri, kendileri olamadıkları alanlara sıkıştırılıyor. Üniversitelerde kadın yalnızlaştırılıyor. Kadının kendisinden koparılması ve saldırıların hedefi haline getirilmesi için yalnız kalması gerekiyor. Böylece kadının kendi varlığından uzaklaştırılması kolaylaşıyor. Bizler kadınların yalnız kalmasını istemiyoruz. ‘Hiçbir kadın yalnız kalmayacak’ diyoruz” diye belirtti.</p><h3>‘Kadın özgürleşmeden hiçbir alan özgürleşemez’</h3><p>Konferansla kadınların toplumsal kimlikleri ve kadın kimlikleri etrafında örgütlenmesini hedeflediklerini vurgulayan Fatime Baltaca, “Bu konferansla ve konferans sonrasında bütün kadınların toplumsal kimlikleri ve kadın kimlikleri etrafında örgütlenmesini hedefliyoruz. Kadınlar örgütlülük sayesinde kendi kimliklerinin farkına varacak, kadın sevgisi etrafında buluşacak. Cins bilinci etrafında oluşturacağımız örgütlenme alanlarında kadın kendisini yeniden ve yeniden yaratacak. Biz de bu yaratım etrafında yeni bir yaşamı inşa edeceğiz. Çünkü biliyoruz ki kadın özgürleşmeden hiçbir alan özgürleşemez. Kadının özgürleşmediği ve kendisini yaratamadığı hiçbir alan yaratıcı olamaz, kendisini var edemez. Kadının özgür olmadığı bir yerde barış da mümkün değildir. Bizler bu konferansla bunu yaratmak ve inşa etmek istiyoruz. Kadınların konferansa kendi varlıkları, bilinçleri ve öz güçleriyle katılmalarını; kadın bakış açısının ve kadın öncülüğünün konferansa yansımasını istiyoruz” şeklinde konuştu.</p><h3>‘Üniversiteli kadınlar ortak örgütlülükle buluşacak’</h3><p>Fatime Baltaca, üniversiteli genç kadınları konferansa çağırmak için Türkiye ve Kürdistan’daki üniversitelerde çalışma yürüttüklerini söyleyerek, “Şu anda üniversitelerin bulunduğu her alanda, üniversiteli genç kadınların olduğu her yerde yoğun bir konferans çalışması yürütüyoruz. KÖDER bünyesinde stantlarda, sokaklarda ve ulaşabildiğimiz her alanda kadınları konferansa çağırıyoruz. Bu süreçte yalnızca bir çağrı yapmıyoruz; kadınlarda konferansa neden ihtiyaç duyulduğuna ve neden bu konferansta bir araya gelmemiz gerektiğine ilişkin bir bilinç oluşturmaya çalışıyoruz. Uzun süredir daha örgütlü ve kolektif bir çalışmanın eksikliği hissediliyor. Çünkü aramızda bir kopukluk var. İhtiyacımızı ortaya çıkaran temel nedenlerden biri de bu kopukluk ve parçalanmışlık hali. Kampüslerde ortak çalışmaların yürütülemediğini görüyoruz. Türkiye ve Kürdistan’daki bütün üniversitelerden kadınlarla bir araya gelerek bu konferansa doğru ilerliyoruz. Ancak her üniversitede farklı çalışmalar yürütülüyor ve farklı ihtiyaçlar ortaya çıkıyor. Üniversiteler bu ihtiyaçlar doğrultusunda ortak bir bakış açısı geliştiremiyor, ortak bir plan ve eylem oluşturamıyor. Bu durum, temel eksikliklerimizden birini gösteriyor. Oysa ortaklaşmak ve birlikte ses çıkarmak, her birimizin taşıdığı duyguyu, heyecanı ve coşkuyu daha güçlü bir şekilde ifade etmemizi sağlayacak. Bu nedenle önümüzdeki süreçte alanlarda daha fazla yer alacak, çalışmalarımızı daha da güçlendireceğiz” dedi.</p><h3>‘Kadınlara yönelik saldırılar üniversitelerle sınırlı değil’</h3><p>Sistemin gençlere ve özellikle genç kadınlara yönelik saldırılarının toplumsal yaşamın tüm alanlarında etkili olduğunu belirten Fatime Baltaca, “Sistemin gençlere, özellikle de genç kadınlara yönelik saldırıları yalnızca üniversitelerle sınırlı değil. Bu saldırılar üniversitelerde öğrencileri kıskaca alırken toplumun genelinde de etkisini gösteriyor. Ancak bugün üniversitelerle toplum birbirinden koparılmış durumda. Toplumsal yaşamın içinde yer alan kadınlar da bu krizle karşı karşıya kalıyor. Bu nedenle saldırıların en yoğun yaşandığı alanlardan biri olan üniversitelerde mücadelemizi ve pratiğimizi daha güçlü bir şekilde yürütmeye başlayacağız” şeklinde konuştu.</p><h3>Konferansa çağrı</h3><p>Fatime Baltaca, yarın Çand Amed’de gerçekleştirecekleri konferansa özellikle kadınların katılımının önemli olduğunun altını çizerek, “Özellikle bütün genç kadın arkadaşlarımızı konferansta söz kurmaya; kadın bakışıyla, kadın rengiyle ve kadın öncülüğünde yeni bir yaşamın inşasına katılmaya çağırıyoruz” dedi.</p><p><em>(Kaynak: JİNNEWS)</em></p>",
+    "content": "<p>“Komünleşen kampüslerle örgütlenme zamanı” şiarıyla düzenlenecek konferansa çağrı yapan öğrenci Fatime Baltaca, kampüslerdeki kopukluğu ortak mücadeleyle aşmayı hedeflediklerini belirterek, “Hiçbir kadın yalnız kalmayacak” dedi.</p><p>Komünalist Öğrenciler öncülüğünde, “Komünleşen kampüslerle örgütlenme zamanı” şiarıyla yarın saat 10.00’da Çand Amed Kongre Merkezi’nde konferans düzenlenecek. Konferansta, üniversitelerde gençlere ve özellikle genç kadınlara yönelik sistem politikaları ile bu politikalara karşı ortak bir mücadele hattının nasıl örüleceği ele alınacak. Ayrıca özgür öğrenci kimliğinin büyütülmesi amacıyla gerçekleştirilecek konferansta örgütlenmenin ve komünleşmenin de önemine vurgu yapılacak.</p><p>Öğrenci Fatime Baltaca, konferansta sistemin özellikle üniversitelerde gençlere yönelik politikalarının ele alınacağını ve bu politikalara karşı ortak bir mücadele hattının nasıl örüleceğinin tartışılacağını belirtti.</p><h3>‘Üniversitelerde gençler sistemin saldırılarıyla karşı karşıya’</h3><p>Fatime Baltaca, kadının tarihsel olarak üretici, toplumsal dilin ve kültürün yaratıcısı olduğunu belirterek, “İnsanı tarihsel ve toplumsal açıdan ele aldığımızda, kadının özünde üretici olduğunu, toplumsal dili ve kültürü yaratan bir kimliğe sahip olduğunu görüyoruz. Ancak diğer taraftan sistemin yaratmak istediği bir kadın kimliği var. Bu, kadını kendi özünden, bilgisinden ve yaratım gücünden uzaklaştıran; bedeninden, emeğinden ve sahip olduğu her şeyden yararlanmak, bilgisini ve bilincini sömürmek isteyen bir sistemin yaratmaya çalıştığı kadın kimliğidir. Üniversitelere gelen genç kadınlar ise tam da bu çatışmanın ortasında yer alıyor. Özellikle arayışlarının ve bu arayışın yarattığı coşkunun yoğun olduğu bir dönemde, üniversitede kendilerini değiştirmek ve dönüştürmek istiyorlar. Ancak bu değişim ve dönüşüm arayışı içerisinde sistemin yoğun saldırılarıyla karşı karşıya kalıyorlar” dedi.</p><h3>‘Üniversitelerde kadınlar kendi gerçekliklerinden uzaklaştırılıyor’</h3><p>Üniversitelerde kadınların sistemin iktidar anlayışına göre şekillendirilmek istendiğini aktaran Fatime Baltaca, “Peki, sistem üniversitelerde kadından ne istiyor? Sistem, kadının, sistemin iktidar anlayışının bir öznesi olmasını istiyor. Bir taraftan kadınlara sanal, gerçek olmayan özgürlük alanları yaratılıyor. Sistem, bu alanlar içerisinde kadının kendi gerçekliğinin ve bilincinin farkına varmasını istemiyor. Diğer taraftan eğitim sistemine baktığımızda, sağlıktan hukuka, müzikten diğer bölümlere kadar kadının varlığını göremiyoruz. Kadın, eğitim sisteminin içerisinde kendi gerçekliğiyle yer bulamıyor. Böyle olunca kadın, aldığı eğitimle kendisini donatırken kendi varlığını unutuyor, kendisinden uzaklaşıyor. Bunu reddeden, kabul etmeyen kadınlar ise sistemin en somut ve yoğun saldırılarıyla karşı karşıya kalıyor. Taciz, tecavüz, fuhuş ve intiharla yüz yüze geliyorlar” ifadelerini kullandı.</p><h3>‘Üniversitelerde kadın yalnızlaştırılarak kendisinden koparılıyor’</h3><p>Fatime Baltaca, üniversitelerde kadınların kimlik çatışması içinde yalnızlaştırıldığını ve kendi varlıklarından uzaklaştırıldığını dile getirerek, “Bugün bunları yalnızca düşünmekle kalmıyor, üniversitelerde bunun somut örneklerini de görüyoruz. Kadınlar intihar ediyor, yaşamı sürdürmek istemiyor. Çünkü burada kendi kimliğini tanımayan, kendi gücünün farkına varmayan ve kendisiyle bağını kaybetmiş bir kadın kimliği söz konusu. Kadınlar, yaşadıkları bu kimlik çatışması içerisinde intihara sürükleniyor; kendilerini var edemedikleri, kendileri olamadıkları alanlara sıkıştırılıyor. Üniversitelerde kadın yalnızlaştırılıyor. Kadının kendisinden koparılması ve saldırıların hedefi haline getirilmesi için yalnız kalması gerekiyor. Böylece kadının kendi varlığından uzaklaştırılması kolaylaşıyor. Bizler kadınların yalnız kalmasını istemiyoruz. ‘Hiçbir kadın yalnız kalmayacak’ diyoruz” diye belirtti.</p><h3>‘Kadın özgürleşmeden hiçbir alan özgürleşemez’</h3><p>Konferansla kadınların toplumsal kimlikleri ve kadın kimlikleri etrafında örgütlenmesini hedeflediklerini vurgulayan Fatime Baltaca, “Bu konferansla ve konferans sonrasında bütün kadınların toplumsal kimlikleri ve kadın kimlikleri etrafında örgütlenmesini hedefliyoruz. Kadınlar örgütlülük sayesinde kendi kimliklerinin farkına varacak, kadın sevgisi etrafında buluşacak. Cins bilinci etrafında oluşturacağımız örgütlenme alanlarında kadın kendisini yeniden ve yeniden yaratacak. Biz de bu yaratım etrafında yeni bir yaşamı inşa edeceğiz. Çünkü biliyoruz ki kadın özgürleşmeden hiçbir alan özgürleşemez. Kadının özgürleşmediği ve kendisini yaratamadığı hiçbir alan yaratıcı olamaz, kendisini var edemez. Kadının özgür olmadığı bir yerde barış da mümkün değildir. Bizler bu konferansla bunu yaratmak ve inşa etmek istiyoruz. Kadınların konferansa kendi varlıkları, bilinçleri ve öz güçleriyle katılmalarını; kadın bakış açısının ve kadın öncülüğünün konferansa yansımasını istiyoruz” şeklinde konuştu.</p><h3>‘Üniversiteli kadınlar ortak örgütlülükle buluşacak’</h3><p>Fatime Baltaca, üniversiteli genç kadınları konferansa çağırmak için Türkiye ve Kürdistan’daki üniversitelerde çalışma yürüttüklerini söyleyerek, “Şu anda üniversitelerin bulunduğu her alanda, üniversiteli genç kadınların olduğu her yerde yoğun bir konferans çalışması yürütüyoruz. KÖDER bünyesinde stantlarda, sokaklarda ve ulaşabildiğimiz her alanda kadınları konferansa çağırıyoruz. Bu süreçte yalnızca bir çağrı yapmıyoruz; kadınlarda konferansa neden ihtiyaç duyulduğuna ve neden bu konferansta bir araya gelmemiz gerektiğine ilişkin bir bilinç oluşturmaya çalışıyoruz. Uzun süredir daha örgütlü ve kolektif bir çalışmanın eksikliği hissediliyor. Çünkü aramızda bir kopukluk var. İhtiyacımızı ortaya çıkaran temel nedenlerden biri de bu kopukluk ve parçalanmışlık hali. Kampüslerde ortak çalışmaların yürütülemediğini görüyoruz. Türkiye ve Kürdistan’daki bütün üniversitelerden kadınlarla bir araya gelerek bu konferansa doğru ilerliyoruz. Ancak her üniversitede farklı çalışmalar yürütülüyor ve farklı ihtiyaçlar ortaya çıkıyor. Üniversiteler bu ihtiyaçlar doğrultusunda ortak bir bakış açısı geliştiremiyor, ortak bir plan ve eylem oluşturamıyor. Bu durum, temel eksikliklerimizden birini gösteriyor. Oysa ortaklaşmak ve birlikte ses çıkarmak, her birimizin taşıdığı duyguyu, heyecanı ve coşkuyu daha güçlü bir şekilde ifade etmemizi sağlayacak. Bu nedenle önümüzdeki süreçte alanlarda daha fazla yer alacak, çalışmalarımızı daha da güçlendireceğiz” dedi.</p><h3>‘Kadınlara yönelik saldırılar üniversitelerle sınırlı değil’</h3><p>Sistemin gençlere ve özellikle genç kadınlara yönelik saldırılarının toplumsal yaşamın tüm alanlarında etkili olduğunu belirten Fatime Baltaca, “Sistemin gençlere, özellikle de genç kadınlara yönelik saldırıları yalnızca üniversitelerle sınırlı değil. Bu saldırılar üniversitelerde öğrencileri kıskaca alırken toplumun genelinde de etkisini gösteriyor. Ancak bugün üniversitelerle toplum birbirinden koparılmış durumda. Toplumsal yaşamın içinde yer alan kadınlar da bu krizle karşı karşıya kalıyor. Bu nedenle saldırıların en yoğun yaşandığı alanlardan biri olan üniversitelerde mücadelemizi ve pratiğimizi daha güçlü bir şekilde yürütmeye başlayacağız” şeklinde konuştu.</p><h3>Konferansa çağrı</h3><p>Fatime Baltaca, yarın Çand Amed’de gerçekleştirecekleri konferansa özellikle kadınların katılımının önemli olduğunun altını çizerek, “Özellikle bütün genç kadın arkadaşlarımızı konferansta söz kurmaya; kadın bakışıyla, kadın rengiyle ve kadın öncülüğünde yeni bir yaşamın inşasına katılmaya çağırıyoruz” dedi.</p>",
     "youtube_videos": [
       {
-        "video_id": "ylPWHcyDU4M",
-        "watch_url": "https://www.youtube.com/watch?v=ylPWHcyDU4M",
-        "embed_url": "https://www.youtube.com/embed/ylPWHcyDU4M",
-        "title": "Konferansa çağrı: Kampüslerdeki kopukluğu örgütlülükle aşacağız"
+        "video_id": "s56b5QkVviE",
+        "watch_url": "https://www.youtube.com/watch?v=s56b5QkVviE",
+        "embed_url": "https://www.youtube.com/embed/s56b5QkVviE",
+        "title": "Üniversiteli kadınlar ortak örgütlülükle buluşacak"
       }
     ]
   },
@@ -224,7 +224,7 @@ const BEJING_ARTICLES = [
     "categoryId": "genc-kadin-bakisiya",
     "categoryName": "Bi Nêrîna Jinên Ciwan",
     "title": "Jinên Ciwan ên Zanîngehê Dê Bi Rêxistiniya Hevpar Werin Ba Hev",
-    "featured_image": "https://img.youtube.com/vi/ylPWHcyDU4M/maxresdefault.jpg",
+    "featured_image": "assets/images/universiteli_kadinlar.jpg",
     "date": "23.10.2026",
     "author": "Bêjîng Medya",
     "readTime": {
@@ -236,9 +236,9 @@ const BEJING_ARTICLES = [
     "content": "<p>Zanîngeh yek ji wan qadan e ku polîtîkayên yekparêz, zayendperest û zordar ên desthilatdariyê herî zêde lê tên ferzkirin. Li kampusan mekanîzmayên tecrîd, bêewlehî, tacîz û zextê yên li ser xwendekarên jin her roj kûrtir dibin; lê jinên ciwan xwe amade dikin ku vê dorpêçê bi têkoşîna hevpar, parastina cewherî û rêxistinbûna komûnal bişkînin.</p><p>Li Amedê di pêşengiya Xwendekarên Komunalîst û Komeleya Xwendekarên Komûn a Dîcleyê (KÖDER) de li Navenda Kongreyê ya Çand Amedê bi dirûşma <em>“Dema rêxistinbûna bi kampusên komûn e”</em> amadekariya konferanseke berfireh tê meşandin. Xwendekarên jin ên zanîngehê li çar aliyê Kurdistan û Tirkiyeyê li kampusan standan vedikin, li kuçeyan belavokan belav dikin û bang li hemû jinên ciwan dikin ku beşdarî vê têkoşîna hevpar bibin.</p><p>Xwendekara zanîngehê <strong>Fatime Baltaca</strong> der barê xebatên konferansê de nirxandin kir û got: <strong>“Polîtîkayên pergalê hewl didin xwendekaran ji hev qut bikin û bêdeng bihêlin. Lê em dibêjin 'Tu jin bi tenê namîne'. Em ê parçebûn û qutbûna li kampusan bi hêza cewherî ya jinan û rêxistiniya komûnal ji holê rakin. Azadiya kampusan di yekîtiya jinan û mezinkirina meclîsan re derbas dibe.”</strong></p><p>Di çarçoveya konferansê de; bêbandorkirina yekeyên pêşîlêgirtina tacîzê (CİTÖB), krîza starê û xaniyan, girêdayîbûna aborî û polîtîkayên zordar ên akademiyê tên nîqaşkirin. Jinên ciwan diyar dikin ku ew ê bi avakirina kooperatîfên hevgirtinê û meclîsên jinan li her kampusê qadên jiyaneke nû û azad ava bikin.</p>",
     "youtube_videos": [
       {
-        "video_id": "ylPWHcyDU4M",
-        "watch_url": "https://www.youtube.com/watch?v=ylPWHcyDU4M",
-        "embed_url": "https://www.youtube.com/embed/ylPWHcyDU4M",
+        "video_id": "s56b5QkVviE",
+        "watch_url": "https://www.youtube.com/watch?v=s56b5QkVviE",
+        "embed_url": "https://www.youtube.com/embed/s56b5QkVviE",
         "title": "Banga konferansê: Em ê qutbûna li kampusan bi rêxistinbûnê derbas bikin"
       }
     ]
@@ -312,7 +312,14 @@ const BEJING_ARTICLES = [
     "views": "1.8K",
     "excerpt": "Li Sûdanê di pêşengiya Rêxistina Pêşxistina Jinên Gundî û Jîngehê (ERD) de civîneke maseya gilover hat lidarxistin. Jinên ciwan di pêvajoyên aştî û biryardanê de rola pêşeng a jinê û tunebûna nûnertiya wan a li ser maseyên siyasî nîqaş kirin.",
     "content": "<p>Li Sûdanê di bin siya şerê navxweyî û krîza mirovî de, rola jinan a di pêvajoya aştiya civakî û ji nû ve avakirinê de rojane girîngtir dibe. Di pêşengiya Rêxistina Pêşxistina Jinên Gundî û Jîngehê (ERD) de, bi beşdariya çalakvanên ji rêxistinên civaka sivîl û însiyatîfên jinên ciwan civîneke maseya gilover pêk hat.</p><p>Di çarçoveya projeya <strong>“Xurtkirina Beşdariya Jinên Ciwan a di Danûstandinên Aştiyê û Pêvajoyên Siyasî de li Sûdanê”</strong> de; tevî ku jin di qadên şer, torên alîkariyê û piştevaniya civakî de rola herî sereke dileyizin, di mekanîzmayên biryardanê yên siyasî de tên paşguhkirin û ev rewş wekî pirsgirêka sereke hat nîqaşkirin.</p><p>Di nirxandinên civînê de sekna wêrek a tevgera jinên Sûdanê ya ji şoreşa 2019’an vir ve (kevneşopiya Kandaka) hat bibîrxistin. Hat destnîşankirin ku avakirina maseyên aştiyê tenê di navbera aliyên çekdar û elîtên mêrsalar de nikare çareseriyeke mayînde bîne; divê dengê jinên ciwan ên gundî û herêmî bigihîje navendên biryardanê.</p><p>Di plana çalakiyê ya hevpar a di encama civînê de; banga avakirina komîteyên aştiyê yên hevpar ên serbixwe ji dabeşbûnên herêmî û etnîkî, misogerkirina kotaya jinên ciwan di pêvajoyên navneteweyî de û xurtkirina torên piştevaniya herêmî hat kirin.</p>",
-    "youtube_videos": []
+    "youtube_videos": [
+      {
+        "video_id": "s56b5QkVviE",
+        "watch_url": "https://www.youtube.com/watch?v=s56b5QkVviE",
+        "embed_url": "https://www.youtube.com/embed/s56b5QkVviE",
+        "title": "Ãœniversiteli kadÄ±nlar ortak Ã¶rgÃ¼tlÃ¼lÃ¼kle buluÅŸacak"
+      }
+    ]
   },
   {
     "id": 4244,
@@ -331,7 +338,14 @@ const BEJING_ARTICLES = [
     "views": "2.0K",
     "excerpt": "Sudan'da Çevre ve Kırsal Kadının Gelişimi Örgütü (ERD) öncülüğünde düzenlenen yuvarlak masa toplantısında genç kadınlar bir araya geldi. Kadınlar, çatışma ve barış süreçlerinde kadın liderliğinin hayati rolünü ve karar mekanizmalarındaki yetersiz temsiliyeti tartıştı.",
     "content": "<p><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">Sudanlı genç kadınlar, yuvarlak masa toplantısında toplumdaki liderlik rolleri, geniş kapsamlı müzakere ve siyasi karar alma bölümündeki yetersiz temsiliyetleri arasındaki üyelerin kapatılmasının bölümlerini seçti.</span></span></p><p><strong><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">Sudan &#8211; </span></span></strong><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\"> Çevre ve Kırsal Kadının Gelişimi Örgütü (ERD), Sudan sivil toplum kuruluşları ve girişimlerinden aktif genç kadınların katılımıyla, &#8220;Sudan&#8217;da Genç Kadınların Barış Müzakerelerine ve Siyasi Süreçlere Katılımının Güçlendirilmesi&#8221; projesi kapsamında bir toplantı toplantısı düzenlendi.</span></span></p><p><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">Yuvarlak masa toplantısı; deneyimlerin ve vizyonların çeşitliliğini yansıtan zengin tartışmalar sahne oldu. Çalışmanın, genç kadınların çatışma ortamında toplumsal düzeyde üstlendikleri liderlik rolleri ile müzakere ve karar alma alanlarındaki sınırlı temsilleri arasındaki görünüra dikkat çekti. Ayrıca, siyasi kutuplaşma ve toplumsal bölünmelerle ilgili olabilecek ve Sudan&#8217;ın geleceğine dair ortak görüşler büyüme adına bölgesel ve etnik farklılıklaraşan diyalog alanlarında inşa hücreleri genişletildi.</span></span></p><p><img fetchpriority=\"high\" decoding=\"async\" class=\"aligncenter\" src=\"https://jinhaagency1.com/uploads/photos//13547/24-10-2026--alswdan-2-mdl-e4d0a1pre.png\" alt=\"\" width=\"588\" height=\"331\" /></p><p><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">Program, genç kadınların birleştirme çabaları ve barışçıl yollarla ayrılmaya yönelik pratik bir adım olarak; listeleri ile Birleşmiş Milletler Genel Sekreteri&#8217;nin Sudan Özel Temsilcileri Ofisi arasında doğrudan bir iletişim buluşmasını da içeriyordu.</span></span></p><p><span dir=\"auto\" style=\"vertical-align: inherit;\"><span dir=\"auto\" style=\"vertical-align: inherit;\">Örgüt; Genç kadınların etkinleşmesinin yalnızca istişarelerde hazır bulunuşlarıyla sağlanamadığı, bu tavsiyelerinin karar vericilerine dağıtılmasının ve gerçek depolama olanaklarına dönüştürülmesinin güvencesinin desteklenmesiyle mümkün kılınmasının mümkün olduğu vurgulandı. Temsiliyetin yalnızca siyasi planlama ve alanlara erişimi en kolay olan elit kesimle sınırlı kalmaması; Bölgenin kapsamının ayrıntılı ayrıntıları ve yıllardan etkilenen topluluklardaki genç kadınlar da genişletilecek şekilde genişletilmesinin önemine dikkat çekildi. Sudanlı genç kadınların barışın inşasında ve geleceğin şekillendirilmesinde temel ortaklarda olduğu, kapsayıcı ve sürdürülebilir bir barışın onların ancak gerçek ve çeşitli katılımlarıyla sağlanabileceği altı çizildi.</span></span><br /><img decoding=\"async\" class=\"aligncenter\" src=\"https://jinhaagency.com/uploads/photos//13546/24-10-2026--alswdan-1-mdl-4da103pre.png\" /></p><p>(Kaynak : <a href=\"https://jinhaagency.com/tr\" target=\"_blank\" rel=\"noopener\">jinhaagency</a>)</p>",
-    "youtube_videos": []
+    "youtube_videos": [
+      {
+        "video_id": "s56b5QkVviE",
+        "watch_url": "https://www.youtube.com/watch?v=s56b5QkVviE",
+        "embed_url": "https://www.youtube.com/embed/s56b5QkVviE",
+        "title": "JinÃªn Ciwan Ãªn ZanÃ®ngehÃª DÃª Bi RÃªxistiniya Hevpar Werin Ba Hev"
+      }
+    ]
   },
   {
     "id": 4243,
@@ -403,7 +417,14 @@ const BEJING_ARTICLES = [
     "views": "2.2K",
     "excerpt": "Yıldız Cıbıroğlu di xebata xwe ya dîrokî de mijara girtina por û serpêçê ji sînorên rojane derdixe û dibe ser koka wê ya 40 hezar salî. Ji dahênana bend, girêk û tevnê ji aliyê jinên cotkar ve heta hêza giyanî ya keziyan; tirsa mêrsalarî û mekanîzmayên girtinê vedikole.",
     "content": "<p>Di cîhana me ya îroyîn de laşê jinê û bi taybetî porê jinê, bûye qada sereke ya pevçûna desthilatdariyên siyasî, paşverûtiya olî û dewleta baviksalar. Lê piraniya van nîqaşan mijarê tenê wek pirsgirêkeke rojane an jî siyasî dinirxînin û koka wê ya dîrokî piştguh dikin. Pirtûka lêkolîner Yıldız Cıbıroğlu ya bi navê <strong>\"Porê Jinê, Sêhr û 'Serpêç'\"</strong> (Weşanên Payel), vê mijarê ji sînorên teng ên îroyîn derdixe û dibe ser rêwîtiyeke 40 hezar salî ya antropolojîk, sembolîk û civakî.</p><p>Cıbıroğlu pirtûka xwe bi dahênana herî mezin a şaristaniyê dest pê dike: Vedîtina bend, girêk, kezî û tevnê. Dema ku jinên cotkar ev amûr afirandin, tenê cil û berg çênekirin; di heman demê de têgihîştina gerdûnê ava kirin. Mirovên kevnar bawer dikirin ku jiyan, demsal û çarenûsa tevahiya hebûnê jî wekî tevn û girêkekê ji aliyê jinê ve tê ristin. Vê yekê desthilatdariyeke bilind a giyanî, sirûştî û heta sêhrî dabû jinê.</p><p>Nîşaneya herî xurt a vê hêza giyanî, bêguman porê jinê bû. Di peykerên Vênûsê yên 30 hezar sal berê de (wek peykerên Willendorf û Brassempouy) dîtina keziyên bi baldarî û huner hatine honandin, vê heqîqetê piştrast dike. Por weke kaniyeke enerjiyê, weke pira navbera jin û xwezayê dihat dîtin. Porê jinê dibû wesîleya bereketê, barîna baranê û di heman demê de hêzek bû ku dikaribû şidet û hovîtiya nêr bi girêkên xwe ve girêbide û bêbandor bike.</p><p>Lê gava ku sîstema serdest a baviksalarî û hiyerarşiya dewletê gav avêt qadê, ev hêza giyanî ya serbixwe ya jinê ji bo mêr bû tirsa herî mezin. Cıbıroğlu destnîşan dike ku pir beriya dînên yekxwedayî, mêrê serdest ji bo ku vê hêza sêhrî ya jinê kontrol bike, berê xwe da girtin, veşartin, girêdan û nixumandina porê jinê. Serpêç û girtina por, di dîrokê de bû sembola fetisandina xweseriya jinê û xistina wê ya bin milkê mêr de.</p><p>Îro dema ku em dibînin jinên ciwan bi dirûşma \"Keziyê me tirsa we ye\" li hemberî sîstema faşîst û zordar a baviksalarî porê xwe dikin ala têkoşînê, em dibînin ku ev felsefe çiqasî zindî ye. <em>Porê Jinê, Sêhr û Serpêç</em>, ne tenê pirtûkeke dîrokî ye; ew manîfestoyeke ronîkirina bîra jinê ye ku nîşan dide çima desthilatdarî ji keziyên jinê ditirse û çawa ew keziyên azad dikarin sîstemên serdest hilweşînin.</p>",
-    "youtube_videos": []
+    "youtube_videos": [
+      {
+        "video_id": "bEy0UP_WoaU",
+        "watch_url": "https://www.youtube.com/watch?v=bEy0UP_WoaU",
+        "embed_url": "https://www.youtube.com/embed/bEy0UP_WoaU",
+        "title": "Ãœniversiteli kadÄ±nlar ortak Ã¶rgÃ¼tlÃ¼lÃ¼kle buluÅŸacak"
+      }
+    ]
   },
   {
     "id": 4238,
@@ -422,7 +443,14 @@ const BEJING_ARTICLES = [
     "views": "2.0K",
     "excerpt": "Berhema lêkolîner-nivîskar Yıldız Cıbıroğlu ya bi navê 'Dîroka Bê Nivîs a Jinê', teza fermî ya ku dîrokê bi nivîsê dest pê dike bi bin ve dike. Ji felsefeya xwedawend-dayikê ya Serdema Neolîtîk heta koka gerdûnî ya dengên 'M' û 'N', şopên kûr ên jinê di ziman û sembolan de derdixe holê.",
     "content": "<p>Nivîsandina dîrokê bi pêvajoyên dewletbûna mêrsalar re bû amûra herî sîstematîk a nedîtina hebûn û bîra jinê. \"Dîroka ku bi nivîsê dest pê dike\", di rastiyê de bû perdeyek li ser çanda afrîner û jiyana komûnal a jinê ya bi hezaran salan. Pirtûka Yıldız Cıbıroğlu ya bi navê <strong>\"Dîroka Bê Nivîs a Jinê: Dengê 'M' û 'N'\"</strong> (Weşanên Payel) vê perdeyê radike û koka herî kûr a mirovahiyê ronî dike.</p><p>Cıbıroğlu bi zanista arkeolojî, zimannasî û mîtolojiyê li ser pirsek sereke radiweste: <em>Çima li seranserê cîhanê peyvên \"Dayik\" (Dayik, Mama, Mother, Mader, Dê) û \"Ez / Min\" hema bêje di hemû zimanan de bi dengên 'M' an jî 'N' dest pê dikin?</em> Nivîskar îspat dike ku ev yek ne tesaduf e; encama têkiliya kûr û felsefî ya jinê bi xweza û jiyanê re ye.</p><p>Di civaka Neolîtîk de xwedawend-dayik ne tenê bawerî bû, bingeha exlaq û hilberînê bû. Dengên heywanên totem ên ku bereketê nîşan didan (pez, bizin, çêlek), ji aliyê jinan ve hatin guhdarîkirin, pîrozkirin û wergerandin dengê mirovî. Dengên 'M' û 'N' bûn mohra pîroz a parastin û baweriyê ya dayikê. Her zarok bi vî dengî hest bi ewlehiyê dikir.</p><p>Pirtûk her wiha destnîşan dike ku di civakên anayanî de mîrasa pîroz, nav û ziman ji dayikê derbasî keçê dibû. Lê bi pêşketina desthilatdariya baviksalar re, qada dewletê û kahînan ev sembol ji heqîqeta wan a jinê qut kirin. Tevî hemû hewldanên helandinê jî, şopên Çatalhoyuk û Zagrosê îspat dikin ku ziman bi destê jinê hatiye hûnandin.</p><p>Ji bo Kûlliyata Jinê û zanista Jineolojiyê, ev pirtûk mîrasek bê hempa ye. Ew tîne bîra me ku jin ne tenê hilberînereke biyolojîk e; damezrênera ziman, çand û nirxên mirovahiyê ye. Şikandina zîhniyeta mêrsalar, berî her tiştî bi xwedîderketina li vî zimanê xwedawend-dayikê pêkan dibe.</p>",
-    "youtube_videos": []
+    "youtube_videos": [
+      {
+        "video_id": "bEy0UP_WoaU",
+        "watch_url": "https://www.youtube.com/watch?v=bEy0UP_WoaU",
+        "embed_url": "https://www.youtube.com/embed/bEy0UP_WoaU",
+        "title": "JinÃªn Ciwan Ãªn ZanÃ®ngehÃª DÃª Bi RÃªxistiniya Hevpar Werin Ba Hev"
+      }
+    ]
   },
   {
     "id": 4237,
@@ -441,7 +469,14 @@ const BEJING_ARTICLES = [
     "views": "2.4K",
     "excerpt": "Yıldız Cıbıroğlu, 'Kadın Saçı, Büyü ve Türban' adlı çığır açıcı eserinde örtünme ve saç olgusunu güncel siyasi tartışmaların kısırlığından kurtarıp 40 bin yıllık kadim köklerine taşıyor. İpin, düğümün ve dokumanın keşfinden saç örgüsünün büyüsel kudretine; ataerkil aklın kadın bedenini ve tinselliğini denetleme refleksine uzanan sarsıcı bir kadın antropolojisi.",
     "content": "<p>Günümüz dünyasında kadın bedeni ve özellikle kadın saçı, siyasal iktidarların, dinci gericiliğin ve ataerkil devlet mekanizmalarının en hararetli çatışma sahası olmaya devam ediyor. Ancak bu tartışmalar çoğu zaman meselenin derindeki antropolojik, mitolojik ve tarihsel boyutunu gözden kaçırıyor. Yıldız Cıbıroğlu’nun kaleme aldığı <strong>\"Kadın Saçı, Büyü ve 'Türban'\"</strong> (Payel Yayınevi), örtünme ve saç olgusunu en az 40 bin yıllık köklerine götürerek okuyucuya sarsıcı bir zihniyet arkeolojisi sunuyor.</p><p>Cıbıroğlu kitabına insanlık tarihinin en devrimci buluşlarından biriyle başlar: İpin, düğümün, örgünün ve dokuma tezgâhının keşfi. Tarımcı kadınlar tarafından geliştirilen bu üretim biçimi, yalnızca giyinmeyi sağlamamış; evrenin varoluşsal dokusunu anlama biçimine dönüşmüştür. Antik insan, gökyüzünün, mevsimlerin ve insan yazgısının da tıpkı bir kumaş gibi kadınlar tarafından dokunduğuna inanıyordu. Bu inanç, kadına doğayla doğrudan bağ kuran tinsel ve büyüsel bir otorite kazandırdı.</p><p>Bu tinsel otoritenin bedenleştiği en güçlü simge ise kadının saçıydı. Otuz bin yıl öncesinin Willendorf ya da Brassempouy Venüs heykellerinde dahi görülen özenle örülmüş saç formları, saçın bereketin, yaşam suyunun ve kozmik enerjinin merkezi olduğunu kanıtlar. Kadın saçı; bolluk getiren, fırtınaları dindiren, gerektiğinde erkek cinselliğini ve şiddetini büyüyle bağlayan, tutsak eden kutsal bir güç alanı olarak algılanmıştır. Kadınların saçlarını örmesi, evrendeki düzeni ve yaşam ağını birbirine bağlama eylemiydi.</p><p>Ne var ki hiyerarşi ve devletçi ataerkilliğin yükselişiyle birlikte, kadının sahip olduğu bu tinsel güç erkek egemen akıl için en büyük tehdit haline geldi. Cıbıroğlu, tek tanrılı dinlerin çok öncesinde başlayan bu dönüşümü inceler: Erkek, baş edemediği ve büyüsel gücünden korktuğu kadın saçını etkisiz kılmak için onu bağlama, örtme, kapatma ve hapsetme yoluna gitmiştir. Saçın örtülmesi, kadının manevi gücünün söndürülmesi ve onun erkeğin özel mülkiyetine hapsedilmesinin simgesel başlangıcıdır.</p><p>Bugün \"keziyê me tirsa we ye\" (örgümüz korkunuzdur) şiarıyla saç örgülerini direniş bayrağı yapan kadınların mücadelesi, tam da Cıbıroğlu’nun çözümlediği bu kadim hakikatin bugünkü yankısıdır. <em>Kadın Saçı, Büyü ve Türban</em>, kadın bedenine yönelik tüm tahakküm ve kapatma politikalarının arkasındaki tarihsel korkuyu ifşa eden; keziyelerin hafızasını yeniden canlandıran temel bir başyapıttır.</p>",
-    "youtube_videos": []
+    "youtube_videos": [
+      {
+        "video_id": "8dsX97YBrvE",
+        "watch_url": "https://www.youtube.com/watch?v=8dsX97YBrvE",
+        "embed_url": "https://www.youtube.com/embed/8dsX97YBrvE",
+        "title": "Ãœniversiteli kadÄ±nlar ortak Ã¶rgÃ¼tlÃ¼lÃ¼kle buluÅŸacak"
+      }
+    ]
   },
   {
     "id": 4236,
@@ -460,7 +495,14 @@ const BEJING_ARTICLES = [
     "views": "2.1K",
     "excerpt": "Yıldız Cıbıroğlu’nun on yıllık titiz bir araştırmaya dayanan eseri 'Kadının Yazısız Tarihi', uygarlığın yazılı belgelerle başlatılan resmi tarih tezini kökünden sarsıyor. Neolitik Çağ’ın tanrı-ana felsefesinden 'M' ve 'N' seslerinin evrensel kökenlerine uzanan bu çalışma; kadın aklının ve kutsallığının dilde, sanatta ve simgeler dünyasında bıraktığı silinmez izleri gözler önüne seriyor.",
     "content": "<p>Tarih yazımı, erkek egemen devletleşme süreçleriyle birlikte kadın varoluşunu ve hafızasını görünmez kılmanın en sistemli aracına dönüştürüldü. \"Yazı ile başlayan tarih\", gerçekte kadının binlerce yıllık yaratıcı kültürünün, komünal yaşam örgütlenmesinin ve tinsel öncülüğünün üzerini örten bir perde işlevi gördü. Araştırmacı-yazar Yıldız Cıbıroğlu’nun on yıllık emeğinin ürünü olan <strong>\"Kadının Yazısız Tarihi: 'M' ve 'N' Sesi\"</strong> (Payel Yayınevi), bu perdeyi cesaretle aralayarak insanlığın en derin köklerine, ana tanrıçalar çağına ışık tutuyor.</p><p>Cıbıroğlu bu eserinde arkeoloji, dil bilimi, antropoloji ve mitolojiyi ustalıkla bir araya getirerek çok temel bir sorunun peşine düşüyor: <em>Neden dünyanın neredeyse tüm dillerinde \"anne\" (mother, mama, mader, da-ye) ve \"ben\" kavramları istisnasız 'M' ya da 'N' sesleriyle başlar?</em> Yazar, bu durumun bir tesadüf olmadığını; Neolitik Çağ'dan da önce kadının doğayla kurduğu sezgisel ve felsefi ilişkinin bir sonucu olduğunu kanıtlıyor.</p><p>Neolitik toplumda tanrı-ana kültü, yalnızca bir inanç biçimi değil; tüm toplumsal organizasyonun, ahlakın ve üretimin can damarıydı. Cıbıroğlu’nun tespitlerine göre, tanrı-ananın bedenleştiği ve bereketi simgeleyen totem hayvanların (koyun, keçi, inek) çıkardığı sesler, kadınlar tarafından dinlenmiş, kutsallaştırılmış ve insan sesine tercüme edilerek ilk hecelere dönüştürülmüştür. 'M' ve 'N' sesleri, tanrı-ananın koruyucu, besleyici ve güven verici aurasını temsil eden birer kutsal mühür; birer tinsel \"marka\" haline gelmiştir.</p><p>Kitap, anayanlı (matriarkal) soy geleneklerinde kutsal sözlerin, seslerin ve nesnelerin anneden kız çocuklarına aktarıldığını; daha sonra ataerkil rahiplik kurumlarının bu kutsal simgeleri devralarak eril tanrılara ve krallıklara yamadığını belgelerle sergiler. Çatalhöyük’ten Hacılar’a, Zagros eteklerinden Akdeniz havzasına kadar uzanan idoller, spiral motifler ve çömlek desenleri, kadının yazısız ama somut felsefesinin günümüze ulaşan çığlıklarıdır.</p><p>Kadın Külliyatı ve Jineolojî araştırmaları için paha biçilmez bir hazine niteliği taşıyan <em>Kadının Yazısız Tarihi</em>, kadınlara unutturulan kadim kimliklerini ve dili kuran ana zekayı hatırlatıyor. Cıbıroğlu’nun satırları, kadının yalnızca bir biyolojik üretkenlik değil; simgeleri, kavramları ve insanlaşmanın ilk ahlaki ilkelerini ören gerçek uygarlık kurucusu olduğunu bir kez daha ilan ediyor.</p>",
-    "youtube_videos": []
+    "youtube_videos": [
+      {
+        "video_id": "8dsX97YBrvE",
+        "watch_url": "https://www.youtube.com/watch?v=8dsX97YBrvE",
+        "embed_url": "https://www.youtube.com/embed/8dsX97YBrvE",
+        "title": "JinÃªn Ciwan Ãªn ZanÃ®ngehÃª DÃª Bi RÃªxistiniya Hevpar Werin Ba Hev"
+      }
+    ]
   },
           {
     "id": 4235,
@@ -553,7 +595,14 @@ const BEJING_ARTICLES = [
     "views": "1.4K",
     "excerpt": "Li parêzgeha Kirmaşanê ya Rojhilatê Kurdistanê, şopên Anahîtayê—xwedawenda kevnar a avê, paqijiyê û parêzvana hemû çavkaniyên jiyanê—piştî sedsalan hê jî di nava bîra kolektîf, kaniyên pîroz û kevneşopiyên gelêrî de zindî ne. Ji Perestgeha Kangavarê heta nîgarên Taqbostanê, çanda pîroziya avê heqîqeta jinê radigihîne.",
     "content": "<p>Li parêzgeha Kirmaşanê ya Rojhilatê Kurdistanê, dîrok ne tenê bi zinar û kevirên rawestiyayî, lê bi dengê zelal ê avên herikbar û çavkaniyên pîroz tê vegotin. Li vir şopên xwedawenda kevnar a av, paqijî û bereketê Anahîtayê (Arədvī Sūrā Anāhitā) heta îro jî bîra dîrokî û çandî ya civakê ronî dike.</p><p>Li bajarokê Kangavarê ku 94 kîlometre li rojhilatê Kirmaşanê ye, bermahiyên mezin ên Perestgeha Anahîtayê radibin. Ev der piştî Persepolîsê wek duyemîn avahiya kevirî ya herî mezin li Îranê tê pejirandin. Dîroka vê avahiyê digihîje zêdetirî 2000-2500 sal berê. Endezyarên kevnar qenal û daxistekên taybet ên avê li ser platformên zinarî çêkirine da ku ava kaniyan ber bi hewza navendî ya perestgehê ve biherike û bibe sembola rûmetdarkirina xwedawenda avê.</p><p>Navê Anahîtayê di pirtûka pîroz Avestayê de, bi taybetî di beşa \"Aban Yaşt\" de, wekî stûneke herî pîroz derbas dibe. Li wir weke xwedawenda bihêz, paqij û parêzvana hemû çavkanî, rûbar û zayîna gerdûnê tê pênasekirin. Nîşan û sembolên wê—wek hinar, kulîlka lotozê, masî û kûzê avê—li ser berhemên kevnar ên Taqbostanê û nîgarên serdema Sasaniyan de bi awayekî berbiçav cih digirin.</p><p>Tevî ku perestgehên kevirî di bin bandora demê û erdhêjan de hilweşiyabin jî, bawerî û rûmeta li hemberî avê nehatiye jibîrkirin. Jinên herêmê û civaka Kirmaşanê di serab û kaniyên pîroz de (wek Seraba Nîlûfer, Seraba Sehneyê) hîn jî kevneşopiyên spasiyê, daxwazkirina bereketê û dermanbûna avê didomînin. Şopên Anahîtayê ne tenê di kavilan de, lê di rih û zindîbûna jinê û herikîna avê de dijîn.</p>",
-    "youtube_videos": []
+    "youtube_videos": [
+      {
+        "video_id": "WY9wzZT0YPw",
+        "watch_url": "https://www.youtube.com/watch?v=WY9wzZT0YPw",
+        "embed_url": "https://www.youtube.com/embed/WY9wzZT0YPw",
+        "title": "Ãœniversiteli kadÄ±nlar ortak Ã¶rgÃ¼tlÃ¼lÃ¼kle buluÅŸacak"
+      }
+    ]
   },
   {
     "id": 4231,
@@ -572,7 +621,14 @@ const BEJING_ARTICLES = [
     "views": "1.3K",
     "excerpt": "İran’ın Kirmanşan kentine bağlı Kengaver ilçesinde bulunan antik Anahita Tapınağı, yıkık sütunları ve zamana direnen kalıntılarıyla binlerce yıllık bir hafızayı barındırıyor. Avesta'dan günümüze suyun, bereketin ve saflığın tanrıçası Anahita'nın izleri, tapınak yıkılsa da halk belleğinde ve kutsal su kaynaklarında yaşamaya devam ediyor.",
     "content": "<p>Kirmanşan toprakları, Zagros Dağları’nın eteklerinden doğan kadim pınarlarıyla yalnızca coğrafi bir zenginliği değil, suyun dişil kutsallığını da bin yıllardır bağrında taşıyor. Bu kutsallığın merkezinde, antik inançların berraklık, arınma ve hayat kaynağı olarak kabul ettiği su tanrıçası Anahita yer alıyor.</p><p>Kirmanşan’ın Kengaver kasabasında yükselen Anahita Tapınağı, yaklaşık 2 bin ila 2 bin 500 yıllık köklü bir geçmişe sahip. Persepolis’in ardından İran’ın en büyük ikinci taş anıtı sayılan bu devasa kompleks, kadim dönem mimarlarının suyu yönlendiren taş kanalları ve sütunlu teraslarıyla inşa edilmişti. Çevredeki kaynak suları tapınağın merkezindeki kutsal havuza ulaştırılarak tanrıçaya şükran sunulurdu.</p><p>Zerdüştlüğün kutsal metni Avesta’nın en görkemli bölümlerinden biri olan Aban Yeşt (Yasht 5), Arədvī Sūrā Anāhitā’ya, yani \"saf, güçlü ve lekesiz suların tanrıçasına\" adanmıştır. Metinlerde o, tüm ırmakları arındıran, toprağa can veren ve kadınların doğurganlığını koruyan bir güç olarak tasvir edilir. Sasani dönemi kaya kabartmalarında, özellikle Tağ-ı Bostan'da (Taq-e Bostan), elindeki su testisi ve nilüfer çiçeğiyle krallara bereket dağıtırken resmedilmiştir.</p><p>Zamanın yıkıcı etkisi, depremler ve istilalar görkemli tapınağın sütunlarını devirmiş, duvarlarını harabeye çevirmiş olabilir; ancak suyun kutsallığı halkın kolektif belleğinden silinmedi. Kirmanşan’ın dört bir yanındaki seraplar (Nilüfer Serabı, Sahne Pınarları) ve şifalı kabul edilen su gözleri etrafında yöre kadınlarının sürdürdüğü adaklar, bereket dilekleri ve temizlik ritüelleri, Anahita'nın mirasının taştan öte insanda ve doğada nefes almaya devam ettiğini kanıtlıyor.</p>",
-    "youtube_videos": []
+    "youtube_videos": [
+      {
+        "video_id": "WY9wzZT0YPw",
+        "watch_url": "https://www.youtube.com/watch?v=WY9wzZT0YPw",
+        "embed_url": "https://www.youtube.com/embed/WY9wzZT0YPw",
+        "title": "JinÃªn Ciwan Ãªn ZanÃ®ngehÃª DÃª Bi RÃªxistiniya Hevpar Werin Ba Hev"
+      }
+    ]
   },
   {
     "id": 4225,
@@ -3151,6 +3207,44 @@ const BEJING_ARTICLES = [
 
 const BEJING_VIDEOS = [
     {
+      "id": "4240_v1",
+      "articleId": 4240,
+      "articleTitle": "Üniversiteli kadınlar ortak örgütlülükle buluşacak",
+      "lang": "tr",
+      "videoId": "s56b5QkVviE",
+      "embedUrl": "https://www.youtube.com/embed/s56b5QkVviE",
+      "videoUrl": "https://www.youtube.com/embed/s56b5QkVviE",
+      "watchUrl": "https://www.youtube.com/watch?v=s56b5QkVviE",
+      "title": "Üniversiteli kadınlar ortak örgütlülükle buluşacak",
+      "desc": "Komünalist Öğrenciler ve KÖDER öncülüğünde Çand Amed'deki konferans çağrısı: 'Hiçbir kadın yalnız kalmayacak'.",
+      "categoryId": "genc-kadin-bakisiya",
+      "categoryName": "Genç Kadın Bakışıyla",
+      "date": "23.10.2026",
+      "duration": "5:30",
+      "thumbnail": "https://img.youtube.com/vi/s56b5QkVviE/hqdefault.jpg",
+      "image": "https://img.youtube.com/vi/s56b5QkVviE/hqdefault.jpg",
+      "views": 2850
+    },
+    {
+      "id": "4241_v1",
+      "articleId": 4241,
+      "articleTitle": "Jinên Ciwan ên Zanîngehê Dê Bi Rêxistiniya Hevpar Werin Ba Hev",
+      "lang": "ku",
+      "videoId": "s56b5QkVviE",
+      "embedUrl": "https://www.youtube.com/embed/s56b5QkVviE",
+      "videoUrl": "https://www.youtube.com/embed/s56b5QkVviE",
+      "watchUrl": "https://www.youtube.com/watch?v=s56b5QkVviE",
+      "title": "Banga Konferansê: Em ê Qutbûna Li Kampusan Bi Rêxistinbûnê Derbas Bikin",
+      "desc": "Xwendekar Fatime Baltaca: 'Tu jin bi tenê namîne û em ê parçebûnê bi hêza cewherî ya jinan ji holê rakin.'",
+      "categoryId": "genc-kadin-bakisiya",
+      "categoryName": "Bi Nêrîna Jinên Ciwan",
+      "date": "23.10.2026",
+      "duration": "5:30",
+      "thumbnail": "https://img.youtube.com/vi/s56b5QkVviE/hqdefault.jpg",
+      "image": "https://img.youtube.com/vi/s56b5QkVviE/hqdefault.jpg",
+      "views": 2720
+    },
+    {
       "id": "4246_v1",
       "articleId": 4246,
       "articleTitle": "Gerçek Özgürlüğe Genel Bir Tanımla Bakmak Gerekir",
@@ -3263,44 +3357,6 @@ const BEJING_VIDEOS = [
       "thumbnail": "https://img.youtube.com/vi/bEy0UP_WoaU/hqdefault.jpg",
       "image": "https://img.youtube.com/vi/bEy0UP_WoaU/hqdefault.jpg",
       "views": 2350
-    },
-    {
-      "id": "4240_v1",
-      "articleId": 4240,
-      "articleTitle": "Üniversiteli kadınlar ortak örgütlülükle buluşacak",
-      "lang": "tr",
-      "videoId": "ylPWHcyDU4M",
-      "embedUrl": "https://www.youtube.com/embed/ylPWHcyDU4M",
-      "videoUrl": "https://www.youtube.com/embed/ylPWHcyDU4M",
-      "watchUrl": "https://www.youtube.com/watch?v=ylPWHcyDU4M",
-      "title": "Konferansa Çağrı: Kampüslerdeki Kopukluğu Örgütlülükle Aşacağız",
-      "desc": "Komünalist Öğrenciler ve KÖDER öncülüğünde konferans çağrısı: 'Hiçbir kadın yalnız kalmayacak'.",
-      "categoryId": "genc-kadin-bakisiya",
-      "categoryName": "Genç Kadın Bakışıyla",
-      "date": "23.10.2026",
-      "duration": "6:04",
-      "thumbnail": "https://img.youtube.com/vi/ylPWHcyDU4M/hqdefault.jpg",
-      "image": "https://img.youtube.com/vi/ylPWHcyDU4M/hqdefault.jpg",
-      "views": 2780
-    },
-    {
-      "id": "4241_v1",
-      "articleId": 4241,
-      "articleTitle": "Jinên Ciwan ên Zanîngehê Dê Bi Rêxistiniya Hevpar Werin Ba Hev",
-      "lang": "ku",
-      "videoId": "ylPWHcyDU4M",
-      "embedUrl": "https://www.youtube.com/embed/ylPWHcyDU4M",
-      "videoUrl": "https://www.youtube.com/embed/ylPWHcyDU4M",
-      "watchUrl": "https://www.youtube.com/watch?v=ylPWHcyDU4M",
-      "title": "Banga Konferansê: Em ê Qutbûna Li Kampusan Bi Rêxistinbûnê Derbas Bikin",
-      "desc": "Xwendekar Fatime Baltaca: 'Tu jin bi tenê namîne û em ê parçebûnê bi hêza cewherî ya jinan ji holê rakin.'",
-      "categoryId": "genc-kadin-bakisiya",
-      "categoryName": "Bi Nêrîna Jinên Ciwan",
-      "date": "23.10.2026",
-      "duration": "6:04",
-      "thumbnail": "https://img.youtube.com/vi/ylPWHcyDU4M/hqdefault.jpg",
-      "image": "https://img.youtube.com/vi/ylPWHcyDU4M/hqdefault.jpg",
-      "views": 2690
     },
     {
       "id": "4235_v1",
